@@ -1,0 +1,17 @@
+1592833101752	Rename type 'LargestSumArray'
+1592843676878	Rename local variable 'numbers'
+1592908883156	Rename compilation unit 'LongestCommonSubsequence.java'
+1592923284445	Rename package 'problems.dynamicPrograming'
+1592923309271	Move compilation units
+1592923327277	Move compilation unit
+1592923344759	Move compilation unit
+1592935249761	Delete element
+1592937713840	Rename package 'java.producerConsumer'
+1592938584107	Rename type 'Producer'
+1592938593401	Delete element
+1593073290230	Delete element
+1593089170912	Rename type 'Singleton'
+1593159938715	Rename method 'selectionSort'
+1593249274267	Rename method 'generateBinaryTreeInLevelOrderTraversal'
+1593255891020	Rename method 'generateTreeInLevelOrderTraversal'
+1593268353957	Rename type 'RedBlackTRee'

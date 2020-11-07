@@ -1,0 +1,9 @@
+package problems.dynamicProgramming.aditya;
+
+public class KnapsackMemoization {
+
+	
+	public static void main(String[] args) {
+		
+	}
+}

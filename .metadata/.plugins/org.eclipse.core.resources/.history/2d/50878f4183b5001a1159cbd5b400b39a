@@ -1,0 +1,39 @@
+package javaproblems.producerConsumer;
+
+import java.util.LinkedList;
+
+public class Consumer {
+
+	LinkedList<Integer> buffer;
+	int bufferSize;
+	Integer lockObj;
+
+	public Consumer(LinkedList<Integer> buffer, int bufferSize,Integer lockObj) {
+
+		this.buffer = buffer;
+		this.bufferSize = bufferSize;
+		this.lockObj = lockObj;
+
+	}
+
+	public void consume() throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		while (true) {
+			Thread.sleep(1000);
+
+			if (buffer.size() > 0) {
+
+				synchronized (lockObj) {
+					System.out.println("Consumed : " + buffer.removeFirst());
+					buffer.notify();
+				}
+
+			} else {
+				buffer.wait();
+			}
+		}
+
+	}
+
+}

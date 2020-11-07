@@ -1,0 +1,22 @@
+package problems.dynamicProgramming.aditya;
+
+public class CountOfSubsetSum {
+
+	public static int[][] t;
+	
+	public static void main(String[] args) {
+		
+		int[] arr = new int[] {2,3,5,8,10};
+		int sum = 10;
+		int[][] t = new int[arr.length+1][sum+1];
+		System.out.println(knapsnack(arr,sum,arr.length));
+	}
+	
+	public static int knapsnack(int[] arr,int sum, int n) {
+		
+	    
+	
+	}
+	
+	
+}

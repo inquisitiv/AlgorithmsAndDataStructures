@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sumfinal&apos; in &apos;problems.dynamicProgramming.aditya.MinSubsetSumDiff.knapsack(...)&apos; to &apos;sum&apos;&#x0A;- Original project: &apos;src&apos;&#x0A;- Original element: &apos;problems.dynamicProgramming.aditya.MinSubsetSumDiff.knapsack(int[], int, int).sumfinal&apos;&#x0A;- Renamed element: &apos;sumfinal&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sumfinal&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/&lt;problems.dynamicProgramming.aditya{MinSubsetSumDiff.java[MinSubsetSumDiff~knapsack~\[I~I~I@sumfinal!462!473!466!473!I!0!true" name="sum" references="true" stamp="1596907677339" version="1.0"/>
+</session>

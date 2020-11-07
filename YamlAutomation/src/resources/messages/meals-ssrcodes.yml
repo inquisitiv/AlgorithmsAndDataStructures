@@ -1,0 +1,238 @@
+MEAL_PREFERENCE:
+  VJML:
+    description: Vegetarian Jain Meal
+  KSML:
+    description: Kosher Meal
+  MOML:
+    description: Moslem Meal
+  BBML:
+    description: Baby Meal
+  HNML:
+    description: Hindu (Non Vegetarian) Meal
+  AVML:
+    description: Vegetarian Hindu Meal
+ssrmap-config:
+  ssrMap:
+    MEALS:
+      6E:
+        NVML :
+          description: Non Vegetariarn Meal
+        VGML :
+          description: Vegetarian Meal
+        TCSW :
+          description: Tomato Cucumber Cheese Lettuce Sandwich Combo
+        CJSW :
+          description: Chicken Junglee Sandwich Combo
+        PTSW :
+          description: Paneer Tikka Sandwich Combo
+        CTSW :
+          description: Chicken Tikka Sandwich Combo
+        POHA :
+          description: Poha Combo
+        UPMA :
+          description: Rawa Upma Combo
+        SACH :
+          description: Sambar Chawal Combo
+        VBIR :
+          description: Veg Biryani Combo
+        DACH :
+          description: Dal Chawal Combo
+        CHFR :
+          description: Veg Chinese Fried Rice
+        CHCH :
+          description: Chole Chawal
+        MASP :
+          description: Makhana Salt & Pepper
+        SMAL :
+          description: Smoked Almonds
+        CHSS :
+          description: Chicken Supreme Salad
+        PITA :
+          description: 2 Dips with Baked Pita
+        VGTR :
+          description: Veg Trio Sandwich
+        CHPS :
+          description: Chicken Pesto Sandwich
+        NVTR :
+          description: Non veg trio sandwich
+        LVWR :
+          description: Lucknowi Veg  kebab wrap
+        VSUB :
+          description: Feta cheese and veg sub with dried fruits
+        CHCT :
+          description: Chicken cucumber tomato sandwich
+        SAUP :
+          description: Sabudana upma
+        COMI :
+          description: Cornflakes with Milk
+        ZCHK :
+          description: Nissin Zesty Chicken Keema Noodle
+        MUYO :
+          description: Muesli with yogurt
+        CKKU :
+          description: Chicken keema with kulcha
+        CHFS :
+          description: Chicken and Feta salad
+        CNKR :
+          description: Chana Kulcha Roll
+        SCSW :
+          description: Spinach corn sandwich
+        APWR :
+          description: Achari Paneer Tikka Wrap
+        MMPA :
+          description: Murg ka Mokul Parantha
+        SAMS :
+          description: Samosa
+        BCCS :
+          description: Banana Chips Classic Salt
+        CLAT :
+          description: Cucumber Cheese lettuce sandwich
+        CTAT :
+          description: Chicken Tikka Sandwich
+        CNWT :
+          description: CASHEW (SALTED) 50 GMS
+        CCWT :
+          description: UNIBIC CHOCOLATE CHIPS COOKIES 50 GMS
+        OLCB :
+          description: Black Forest Pastry with Coffee
+      SG:
+        NVML :
+          description: Non Vegetarian Meal
+        VGML :
+          description: Vegetarian Meal
+        NVSW :
+          description: Chicken Junglee in Marble Bread
+        VGSW :
+          description: Cucumber tomato and cheese in multigrain bread
+        NCC1 :
+          description: Grilled Chicken Breast with Mushroom Sauce Yellow Rice Sauted Carrots & Beans Baton
+        NCC2 :
+          description: Chicken in Red Thai Curry with Steamed Rice
+        NCC4 :
+          description: Tandoori Chicken tangri with chicken haryali tikka & vegetable shami kebab
+        NCC5 :
+          description: Tawa Fish masala on bed of Steamed rice with tadka masoor dal
+        NCC6 :
+          description: Chicken schezwan on bed of fried rice
+        VCC2 :
+          description: Vegtable in Red Thai Curry with Steamed Rice
+        VCC5 :
+          description: Vegetable Pasta in Neapolitan sauce
+        VCC6 :
+          description: Vegtable Daliya
+        BVG :
+          description: Beverage
+      G8:
+        JNML :
+          description: Jain Sandwich
+        SWNV :
+          description: Non Veg Sandwich
+        SWVG :
+          description: Veg Sandwich
+        OLSC :
+          description: Samosa and Chai
+        OLNB :
+          description: Non Veg Sub and Coke
+        OLNS :
+          description: Non Veg Sandwich and Coke
+        OLVB :
+          description: Veg Sub and Coke
+        OLVS :
+          description: Veg Sandwich and Coke
+        PMVG :
+          description: Premium Meal Veg and Coke
+        PMNV :
+          description: Premium Meal Non-Veg + Coke
+        SSNV :
+          description: Smart Snack Non Veg
+        SSVG :
+          description: Smart Snack Veg
+        KDML :
+          description: Smart Kids Bag with Meal
+        CNBF :
+          description: Continental Meal - Muesli with Winkin Cow + Danish Pastry + Muffin
+        CCOB :
+          description: Celebrations Cake
+        CRPX :
+          description: Corporate Meal
+      XW:
+        VGML :
+          description: Description to be added
+      TR:
+        MS01 :
+          description: Chicken Ham and Cheese Croissant
+        CHML :
+          description: Cheese Hotdog + Ribena +Synder
+        MH01 :
+          description: Chicken Biryani
+        MH02 :
+          description: Oriental Treasure Rice
+        MC01 :
+          description: Nasi Lemak with Chicken
+        MC02 :
+          description: Stew Chicken with Chestnut in Hokkien Style
+        VLML :
+          description: Lacto-Ovo Vegetarian Meal (Western)
+        VOML :
+          description: Oriental Vegetarian Meal
+        VJML :
+          description: Indian Vegetarian Meal/Vegetable Biryani
+        ML2M :
+          description: Long Haul Meals (Non-Veg)
+        ML2V :
+          description: Long Haul Meals (Veg)
+        MLPA :
+          description: Singapore Signature Chicken Rice
+        MLPM :
+          description: Premium Meal
+        MH04 :
+          description: Miso Chicken with Pearl Rice
+        MH05 :
+          description: Chicken Fried Rice with Crabstick
+        VGML :
+          description: Vegan Lasagne Delight
+      I5:
+        KFCB:
+          description: Cheddar Cheese Omellete with Beetroot Cutlet
+        KFCM:
+          description: Cheddar Cheese Omellete with Beetroot Cutlet
+        HVCB:
+          description: Hyderabadi Vegetable Biryani with Dal Makhani
+        HVCM:
+          description: Hyderabadi Vegetable Biryani with Dal Makhani
+        SICB:
+          description: South Indian Delight (V)
+        SICM:
+          description: South Indian Delight (V)
+        KPCB:
+          description: Rajwadi Khichdi With Kadhi Pakodi (V)
+        KPCM:
+          description: Rajwadi Khichdi With Kadhi Pakodi (V)
+        LZCB:
+          description: Chicken Laziz with Trikona Paratha
+        LZCM:
+          description: Chicken Laziz with Trikona Paratha
+        JMCB:
+          description: Chicken Junglee Sandwich in Masala Bread
+        JMCM:
+          description: Chicken Junglee Sandwich in Masala Bread
+        APCB:
+          description: Ajwaini Lachcha Paratha with Palak Paneer & Mirch Bajji
+        APCM:
+          description: Ajwaini Lachcha Paratha with Palak Paneer & Mirch Bajji
+        JDCB:
+          description: Jeera Aloo Kulcha with Chole Paneer & Vegetable Croquette
+        JDCM:
+          description: Jeera Aloo Kulcha with Chole Paneer & Vegetable Croquette
+        GACB:
+          description: Grilled Basa Fish with Sauteed Vegetables
+        GACM:
+          description: Grilled Basa Fish with Sauteed Vegetables
+        KACB:
+          description: Chef Kirti's Mastercurry with Raw Mango and Coconut Rice
+        KACM:
+          description: Chef Kirti's Mastercurry with Raw Mango and Coconut Rice
+        PNCB:
+          description: Peri Peri Paneer Sandwich in Marble Bread
+        PNCM:
+          description: Peri Peri Paneer Sandwich in Marble Bread

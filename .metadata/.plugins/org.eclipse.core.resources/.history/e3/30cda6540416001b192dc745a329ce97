@@ -1,0 +1,32 @@
+package com.parser;
+
+public class Data {
+    public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getSubTitle() {
+		return subTitle;
+	}
+	public void setSubTitle(String subTitle) {
+		this.subTitle = subTitle;
+	}
+	public String getSubTitleD() {
+		return subTitleD;
+	}
+	public void setSubTitleD(String subTitleD) {
+		this.subTitleD = subTitleD;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	String title;
+    String subTitle;
+    String subTitleD;
+    String message;
+}

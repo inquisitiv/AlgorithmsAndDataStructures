@@ -1,0 +1,64 @@
+package problems.aditya.recursion;
+
+class WildCards {
+	
+	    public static void main(String[] args) {
+			
+	    	//System.out.println(isMatch("abceb", "*a*b"));
+	    	//System.out.println(isMatch("", "*"));
+	    	System.out.println(isMatch("abced", "*a*b"));
+	    	//System.out.println(isMatch("abceb", "*a*b"));
+	    	//System.out.println(isMatch("abceb", "*a*b"));
+	    	
+		}
+	
+	    public static boolean isMatch(String s, String p) {
+	    	
+	        return firstMatch(s, 0, p, 0);
+	    }
+	    
+	     public static boolean firstMatch(String s,int start, String p, int pstart) {
+	    	 if(p == "*") {
+		    		return true;
+		     }
+	    	 if(start<p.length() && start>=s.length()) {
+	         if((pstart>=p.length())){
+
+	        	 if((start>=s.length())){
+	        		 return true;
+	        	 } else {
+	        		 return false;
+	        	 }
+	        	 
+	         }
+	        
+	        char match = p.charAt(pstart);
+	        if(match=='?' || match==s.charAt(start)){
+	            return firstMatch(s,start+1,p, pstart+1);
+	        } else if(match=='*'){
+	            if(pstart+1>=p.length()){
+	                return true;
+	            }
+	            match = p.charAt(pstart+1);
+	            int k = start;
+	            if(s.charAt(k)==match) {
+	            	
+	            	return firstMatch(s,k+1,p,pstart+2) || firstMatch(s,k+1,p,pstart);
+	            	
+	            }
+	            while(k<s.length() && s.charAt(k)!=match) {
+	            	k++;
+	            }
+	            if(s.charAt(k)==match) {
+	            	return firstMatch(s,k+1,p,pstart+2);
+	            } else {
+	            	return false;
+	            }
+	        } else {
+	            return false;
+	        }
+	        
+	    	 }
+	    	 }
+}
+

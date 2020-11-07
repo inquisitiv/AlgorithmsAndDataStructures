@@ -1,0 +1,54 @@
+
+Corp:
+ messages:
+  approvalPage:
+   expCodeData:
+    cardTitle: "CB_APPROVAL_00001"
+   tabData:
+    selected:
+     title: "CB_APPROVAL_00002"
+     titleD: "CB_APPROVAL_00003"
+     subTitle: "CB_APPROVAL_00004"
+    recommended:
+     title: "CB_APPROVAL_00005"
+     titleD: "CB_APPROVAL_00006"
+     subTitle: "CB_APPROVAL_00007"
+     tooltip:
+      text: "CB_APPROVAL_00008"
+   fareChange:
+    up: "CB_APPROVAL_00009"
+    down: "CB_APPROVAL_00010"
+   resTitle:
+    pending: "CB_APPROVAL_00011"
+    approved: "CB_APPROVAL_00012"
+    other: "CB_APPROVAL_00013"
+   footer:
+    reject:
+     title: "CB_APPROVAL_00014"
+     hint: "CB_APPROVAL_00015"
+     lCtaText: "CB_APPROVAL_00016"
+     rCtaText: "CB_APPROVAL_00017"
+   postApproval:
+    sbDataTitle: "CB_APPROVAL_00018"
+    rcaText: "CB_APPROVAL_00019"
+    msg: "CB_APPROVAL_00020"
+    msgD: "CB_APPROVAL_00021"
+  managerAction:
+   rejected:
+    htmlPrefix: "CB_APPROVAL_00022"
+    sbData:
+     title: "CB_APPROVAL_00023"
+     baseRes: "CB_APPROVAL_00024"
+     subtitleD: "CB_APPROVAL_00025"
+     subtitle: "CB_APPROVAL_00026"
+   approved:
+    sbData:
+     title: "CB_APPROVAL_00027"
+     baseRes: "CB_APPROVAL_00028"
+     subtitleD: "CB_APPROVAL_00029"
+     subtitle: "CB_APPROVAL_00030"
+ auditDetails:
+  b2b:
+   title: "CB_APPROVAL_00031"
+   subTitle: "CB_APPROVAL_00032"
+   errorMsg: "CB_APPROVAL_00033"

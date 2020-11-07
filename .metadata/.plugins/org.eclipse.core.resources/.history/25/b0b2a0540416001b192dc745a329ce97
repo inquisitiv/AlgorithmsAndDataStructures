@@ -1,0 +1,33 @@
+package com.parser;
+
+public class ErrorPojo {
+    public Data getData() {
+		return data;
+	}
+	public void setData(Data data) {
+		this.data = data;
+	}
+	public Cta getLeftCta() {
+		return leftCta;
+	}
+	public void setLeftCta(Cta leftCta) {
+		this.leftCta = leftCta;
+	}
+	public Cta getRightCta() {
+		return rightCta;
+	}
+	public void setRightCta(Cta rightCta) {
+		this.rightCta = rightCta;
+	}
+	public Cta getMiddleCta() {
+		return middleCta;
+	}
+	public void setMiddleCta(Cta middleCta) {
+		this.middleCta = middleCta;
+	}
+	Data data;
+	Cta  leftCta;
+	Cta  rightCta;
+	Cta  middleCta;
+     
+}

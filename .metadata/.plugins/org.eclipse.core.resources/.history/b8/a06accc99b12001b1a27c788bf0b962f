@@ -1,0 +1,573 @@
+digit:
+  benefits:
+    BAG_DAMAGE:
+      name: "Baggage Damage"
+    BAG_DELAY:
+      name: "Baggage Delay"
+    EMERGENCY_LANDING:
+      name: "Diverted Flight"
+    FLIGHT_CANCEL:
+      name: "Flight Cancelled"
+    NO_SHOW:
+      name: "Missed Flight"
+brb:
+  messages:
+    text1: "By adding baggage protection you agree to the"
+    text2: "<br><b>Blue Ribbon Bags Terms & Conditions</b>"
+    title: "Privacy Policy"
+  travellerText: "For {{paxCount}} traveller"
+  priceText: "<font color='#000000'><b>{{price}}</b></font> <small>(18% GST included)</small>"
+  rcaText: "ADD FOR {{price}}"
+  protected:
+    title: "Great! Your baggage is protected<br>at just {{price}}"
+    text: "REMOVE"
+  unprotected:
+    title: "Secure your baggage at just {{price}}<br><b><font color='#249995'>Claim upto {{compensationAmt}}</font></b>"
+    text: "+ADD"
+  title: "Claim upto {{price}}<br><font color='#000000'><b>incase your baggage is delayed or lost</b></font>"
+  text: "CANCEL"
+  benefitInfo: "PLAN BENEFITS"
+impInfo:
+  nearby:
+    from: "Your flight goes from {{fromCityName}} near {{nearbyAirportName}}"
+    to: "Your flight goes to {{toCityName}} near {{nearbyAirportName}}"
+fareService:
+  excudeCommonServices:
+    MAX_TICKETING_TIME:
+      text: "Instant"
+  MAX_TICKETING_TIME:
+    minText: "Ticket will be issued instantly"
+    inc:
+      text: "Issued within {{unit}}"
+    cha:
+      text: "Issued within {{unit}}"
+    nof:
+      text: "Issued within {{unit}}"
+    default:
+      textD: "(Know more)"
+      text: "(<b><font color='#008cff'>Know more</font><b>)"
+    hoverInfo:
+      title: "Delayed Ticketing"
+      text: "Since these are special fares, the tickets will be issued {{unit}} after the payment is made."
+      rcaCta:
+        text: "Okay"
+    text: ""
+  CABIN_BAGGAGE_ALLOWANCE:
+    name: "Cabin bag"
+    inc:
+      text: "{{unit}}"
+    cha:
+      text: "Chargeable"
+    nof:
+      text: "Not allowed"
+    default:
+      text: "Not allowed"
+    text: ""
+  CHECKIN_BAGGAGE_ALLOWANCE:
+    name: "Check-in"
+    inc:
+      text: "{{unit}}"
+    cha:
+      text: "Hand baggage only"
+    nof:
+      text: "Hand baggage only"
+    default:
+      text: "Not allowed"
+  REFUNDABLE:
+    name: "Cancellation"
+    inc:
+      text: "No airline cancellation fee"
+    cha:
+      text: "Cancellation fees apply"
+    nof:
+      text: "Non-refundable fare"
+    default:
+      text: "Non-Refundable"
+    text: ""
+    updatedText : "Fee starting {{amount}}"
+  MEAL:
+    name: "Meal"
+    inc:
+      text: "Complimentary meals"
+    cha:
+      text: "Chargeable"
+    nof:
+      text: "No Meals"
+    default:
+      text: "No Meals"
+    text: ""
+    PEText: "Complimentary Meal"
+  SEAT:
+    name: "Seat"
+    inc:
+      text: "Free seats available"
+    cha:
+      text: "Chargeable"
+    nof:
+      text: "Seat selection not available"
+    default:
+      text: "Seat Pre-selection not allowed"
+    text: ""
+    PEText: "Extra Legroom Seat"
+  PRIORITY_BAGGAGE:
+    name: "Priority Bag"
+    inc:
+      text: "Baggage Delivery on Priority"
+    cha:
+      text: "Priority Baggage Chargeable"
+    nof:
+      text: "Priority Baggage Not Included"
+    default:
+      text: "Priority Baggage Not Included"
+    PEText: "Priority Baggage Handling"
+  PRIORITY_CHECKIN:
+    name: "Priority Check-in"
+    inc:
+      text: "Priority Check-in"
+    cha:
+      text: "Priority Check-in Chargeable"
+    nof:
+      text: "Priority Check-in Not Included"
+    default:
+      text: "Priority Check-in Not Included"
+    PEText: "Priority Check-in & Boarding"
+  PRIORITY_BOARDING:
+    name: "Priority Boarding"
+    inc:
+      text: "Priority Boarding"
+    cha:
+      text: "Priority Boarding Chargeable"
+    nof:
+      text: "Priority Boarding Not Offered"
+    default:
+      text: "Priority Boarding Not Offered"
+  NAME_CHANGE:
+    name: "Name Change"
+    inc:
+      text: "Passenger Name Change Free"
+    cha:
+      text: "Passenger Name Change Chargeable"
+    nof:
+      text: "Passenger Name Change Not allowed"
+    default:
+      text: "Passenger Name Change Not allowed"
+  AMENDABLE:
+    name: "Date Change"
+    inc:
+      text: "Free date change allowed"
+    cha:
+      text: "Chargeable"
+    nof:
+      text: "Not allowed"
+    default:
+      text: "Rescheduling Not Allowed"
+    text: ""
+    updatedText: "Fee starting {{amount}}"
+    PEText: "Priority Check-in & Boarding"
+  INSURANCE:
+    name: "Insurance"
+    inc:
+      text: ""
+    cha:
+      text: ""
+    nof:
+      text: ""
+    default:
+      text: ""
+    text: ""
+  Others:
+    name: "Other"
+messages:
+  #Below is for B2B only
+  itinSelFailure:
+    ctaText: "OKAY"
+    data:
+      msg: "Sorry we couldn't update your traveller selection. Please try again"
+      title: "Traveller Selection Failed"
+      subTitle: "Sorry we couldn't update your traveller selection. Please try again"
+  addTravellerNotAllowed:
+    ctaText: "OKAY"
+    data:
+      msg: "You cannot book travellers of different organisations together"
+  #Above is for B2B only
+  meta:
+    mandatoryError: " {fieldName} is required."
+    upfrontText: "View {val} more "
+  travellerService:
+    subTitle: "Select one or more labs to get contacted for a Covid-19 test. By opting in, I authorize MMT to share my contact details with third party lab partners."
+    title: "Opt for COVID-19 test to skip quarantine"
+  leg:
+    title: "{{fromCityCD}} - {{toCityCD}}"
+    titleD: "<p style='color: #4a4a4a;font-size:18px;margin-bottom: 2px;'><span style='margin-right: 5px;font-family: Lato-Light, Arial, Helvetica, sans-serif;'>{{fromCityCD}} - {{toCityCD}}</span><span style='font-family: Lato-Bold, Arial, Helvetica, sans-serif;'></span></p>"
+  validation:
+    dob:
+      placeholder:
+        adult: "(Age of adult should be 12 or above on the date of travel)"
+        child: "(Age of child should be between 2 and 12 years on the last date of travel)"
+        infant: "(Age of infant should be less than 2 years on the last date of travel)"
+      error:
+        adult: "Age of adult Traveller should be greater than 12 on the date of travel"
+        child: "Age of child Traveller should be between 2 and 12 years on the date of travel"
+        infant: "Age of infant Traveller should be less than 2 years on the date of travel"
+      pwaHolder: "<div><p>Select {{label}}</p><p class='font12 greyTxt LatoRegular'>{{placeholder}}</p></div>"
+    gender:
+      error: "Please select your gender"
+    email:
+      error: "Please enter a valid Email ID."
+    fName:
+      error: "Please enter a valid First and Middle name"
+      tooltip:
+        title: "First Name"
+        subtitle: "Enter as mentioned on your passport"
+    gstNum:
+      error: "Please enter a valid GST Number"
+    issuingCountry:
+      error: "Please select issuing country"
+    lName:
+      error: "Please enter a valid Last name"
+      tooltip:
+        title: "Last Name"
+        subtitle: "Enter as mentioned on your passport"
+    ffairline:
+      error: "Frequent Airline can't be blank"
+    ffnumber:
+      error: "Invalid Frequent Flyer number"
+    importantInfo:
+      CardTitle: "Important Information"
+      Text: "<b>{{title}}</b><br>"
+      label1:
+        DOM: "Enter name as mentioned on your passport or Government approved IDs."
+        INTL: "<b>IMPORTANT:</b> Enter your name as it is mentioned on your passport. For International Travel, passport should be valid for minimum 6 months from the date of travel. If you are travelling to the USA and/or Canada, please ensure that you enter the correct passport details for every passenger. In case you fail to do so, you may not be allowed to enter the USA and/or Canada."
+      label2: "*Meals are subject to availability with the Airlines. Please check with the Airlines before travel"
+    meal:
+      error: "Please Select Meal"
+      warning: "*Meals are subject to availability with the Airlines. Please check with the Airlines before travel"
+    nationality:
+      error: "Please select nationality"
+    orgName:
+      error: "Please enter valid company name"
+    passport:
+      error: "Please recheck your passport and enter a valid passport number."
+      tooltip:
+        title: "Passport Number"
+        subtitle: "Enter as mentioned on your passport"
+    passportExpiry:
+      error: "Your passport should be valid for atleast six months from the date of travel."
+      date:
+        placeholder: "should be more than 6 months from date of travel"
+    phone:
+      error: "Please enter a valid Phone Number"
+  card:
+    adult:
+      addPaxText: "+ ADD ADULT TRAVELER"
+      noPaxText: "You have not added any adults to the list"
+      title: "ADULT (12 yrs+)"
+      titleD: Adult
+    child:
+      addPaxText: "+ ADD CHILD TRAVELER"
+      noPaxText: "You have not added any child to the list"
+      title: "CHILD (2-12 Yrs)"
+      titleD: "Child <span style='font-family:Lato-Light;text-transform:lowercase;margin-left:10px;'>  2-12 years old on the day of travel</span>"
+    infant:
+      addPaxText: "+ ADD INFANT TRAVELER"
+      noPaxText: "You have not added any infants to the list"
+      title: "Infant (< 2 Yrs)"
+      titleD: "Infant <span style='font-family:Lato-Light;margin-left:10px;text-transform: lowercase;'>  0-2 years old on the day of travel</span>"
+  cardTitle: "Traveller Details"
+  consent:
+    msg: "<b>Add these travellers to My Traveller List</b><br>You won’t have to fill traveller info on your next visit."
+    msgD: "<b>Add these travellers to My Traveller List.</b> You won’t have to fill traveller info on your next visit."
+  contact:
+    subTitle: "Your ticket and flights information will be sent here."
+    title: "Contact information"
+  gst:
+    addGst:
+      ctaText: "Add GST"
+      title: "No GST details available, Kindly add."
+    title: "GST number for business travel (Optional)"
+    titleCorp: "GST number for business travel"
+    checkboxText: "To claim credit of GST charged by airlines / MMT, please enter your company’s GST number"
+    gstTitle: "<font color='#000000'>I have a GST number</font> <font color='#9b9b9b'>(Optional)</font>"
+    info:
+      text: "We’ve updated the GST details for this booking according to your primary traveller details."
+  login:
+    buttonText: "LOG-IN"
+    text: "Log in to view your saved traveller list, unlock amazing deals & much more!"
+  tnc:
+    toastMsg: "Please accept terms and conditions."
+    cta:
+      prefix: "I understand and agree with the"
+      separator: " , the"
+      and: " and"
+      suffix: " of MakeMyTrip\n"
+      suffixDom: " of MakeMyTrip"
+      fareRule: " Fare Rules"
+      visaRule: " Visa Rules"
+      privacyPolicy:
+        text: " Privacy Policy"
+        title: "Privacy Policy"
+      userAgreement:
+        text: " User Agreement"
+        title: "User Agreement"
+      termsOfService:
+        text: " Terms of Service"
+        title: "Terms & Conditions"
+    privacyPolicyUrl: "https://www.makemytrip.com/legal/privacy_policy.html"
+    userAgreementUrl: "https://www.makemytrip.com/legal/user_agreement.html"
+    termsOfServiceUrl: "https://www.makemytrip.com/legal/user_agreement.html#tos-flights"
+  tnc-usa:
+    privacyPolicyUrl: "https://www.makemytrip.com/legal/us/privacy_policy.html"
+    userAgreementUrl: "https://www.makemytrip.com/legal/us/user_agreement.html#tos"
+    termsOfServiceUrl: "https://www.makemytrip.com/legal/us/user_agreement.html#1"
+  tnc-uae:
+    privacyPolicyUrl: "https://www.makemytrip.com/legal/ae/privacy_policy.html"
+    userAgreementUrl: "https://www.makemytrip.com/legal/ae/user_agreement.html#tos"
+    termsOfServiceUrl: "https://www.makemytrip.com/legal/ae/user_agreement.html#1"
+  otherInfoAdmin:
+    text:    "You cannot add employee of different organisations from your account."
+  otherInfo:
+    text:    "You have earlier added a traveller from {{companyName}} and so you cannot add employee of different organisations in the same booking."
+progressBar:
+  ITNRY:
+    completiontext: "{{percentage}}% Complete"
+    summary: "Go through the baggage and refund policies for a hassle-free journey."
+    title: "Flight"
+    subtitle: "Policies, inclusions and other flight details"
+    completionPercent:  "{{var1}}"
+  DEALS:
+    completiontext: "{{percentage}}% Complete"
+    summary: "Apply relevant offers to get the best fares."
+    title: "Offers section"
+    subtitle: "Exclusive discounts and benefits"
+    completionPercent:  "{{var1}}"
+  INSRNCE:
+    completiontext: "{{percentage}}% Complete"
+    summary: "Protect your trip against unforeseen circumstances. We highly recommend it!"
+    title: "Insurance"
+    subtitle: "All-round protection for your trip."
+    completionPercent:  "{{var1}}"
+  DIGIT_INSRNCE:
+    completiontext: "{{percentage}}% Complete"
+    summary: "Protect your trip against unforeseen circumstances. We highly recommend it!"
+    title: "Insurance"
+    subtitle: "All-round protection for your trip."
+    completionPercent:  "{{var1}}"
+  ASSURANCE:
+    completiontext: "{{percentage}}% Complete"
+    summary:  "Protect your trip against unforeseen circumstances. We highly recommend it!"
+    title: "Assurance"
+    subtitle: "All-round protection for your trip."
+    completionPercent:  "{{var1}}"
+  Traveller_Details:
+    completiontext: "{{percentage}}% Complete"
+    summary: "Add traveller details and make sure they match with the passport/govt.ID."
+    title: "Traveller details"
+    subtitle: "Fill the details as per your passport/govt.ID"
+    completionPercent:  "{{var1}}"
+  pageCompletionText: "You’re almost done! Click continue to proceed."
+loadingState:
+  refundTag:
+    title: "Refund Policy"
+    errorText: "Refund info not available"
+  baggage:
+    title: "Baggage Policy"
+    errorText: "Baggage info not available"
+  traveller:
+    title: "Traveller Details"
+  charity:
+    title: "Charity"
+farealertrt:
+  popup:
+    disabled:
+      title: "Price Alert Created!"
+      subtitle: "We will notify you every time flight prices on this sector increase or decreas."
+      lca:
+        text: "GOT IT!"
+      rca:
+        text: "REMOVE ALERT"
+      validation:
+        text: "Price Alert Created!"
+    enabled:
+      title:  "Keep track of the prices!"
+      subtitle: "Create an alert for this sector to receive notifications whenever the flight prices increase or decrease."
+      lca:
+        text: "No,thanks!"
+      rca:
+        text:  "ENABLE ALERTS"
+      validation:
+        text: "Price Alert Removed!"
+CPTitleRealTWUtil:
+  StatusNonRefundable:
+    SubTitle: "Since this is a non refundable fare, you will not be allowed to cancel the ticket."
+    Title: "<font color='#ffffff'><b>Non Refundable</b></font>"
+  StatusPartialRefundable:
+    SubTitle: "Cancellation of this ticket is allowed but you may be charged a penalty amount of upto {{amount}} as per airline policies."
+    Title: "<font color='#ffffff'><b>Partially refundable</b></font>"
+  StatusRefundable:
+    SubTitle: ""
+    Title: "<font color='#ffffff'><b>No Airline Cancellation Fee</b></font>"
+FlightDetails:
+  Title: "VIEW FLIGHT DETAILS"
+UpgradeInfo:
+  CtaText: UPGRADE
+  Title: "Upgrade fare to enjoy additional benefits"
+ZcData:
+  ApproxRefundAmountTextCS: "Approx refund"
+  ApproxRefundAmountTextNonCS: "Approx refund"
+  CtaText: "+ADD"
+  Subtitle: "Get maximum refund in case of a cancellation upto 24hrs before departure"
+  Title: "Zero cancellation"
+addon:
+  assurance:
+    selectionTitle: "<font color='#249995'>FlyAssure has been added to protect your trip</font>"
+    selectionSubtitle: "Total {{price}} for {{paxCount}} travellers added to fare"
+    selectionSubtitle2: "Total {{price}} for {{paxCount}} traveller added to fare"
+    ctaText: "REMOVE"
+    assuranceSubtitle: "<font color='#249995'>Get {{benefitType}}</font> <font color='#249995'><b>{{price}}</b></font>"
+    planBenefitText: "PLAN BENEFITS ({{totalBenefits}})"
+    info:
+      title: "FlyAssure"
+      subtitle: "Book this specially crafted travel addons combo and enjoy a stress-free journey!"
+      travellerText: "Per traveller"
+      ctaTitle: "Privacy Policy"
+      ctaText: "Know more"
+  DI:
+    CtaDetail:
+      CtaData:
+        Title: "Privacy Policy"
+      Text: "Know more"
+    OptInText: "<b>Yes</b> <br>Secure my trip."
+    OptOutText: "<b>No</b> <br>I’ll take the risk."
+    PriceStr: "<b>{{amount}}</b> <small>/Traveller (18% GST incl)</small>"
+    priceText: "<font color='#4a4a4a'><b>{{price}}</b></font> <font color='#9b9b9b'><small>(18% GST included)</small></font>"
+    SelectionSubtitle: "Total {{amount}} for {{count}} travellers added to fare"
+    SelectionTitle: "Great! Your trip is now protected!"
+    Title: "Flight Delay Protection"
+    Tnc1:
+      Text: "By adding insurance you agree to the"
+    Tnc2:
+      CtaDetail:
+        CtaData:
+          Title: "Privacy Policy"
+      Text: "Terms & Conditions"
+    Tnc3:
+      Text: "and confirm all passengers are between 2 to 70 years of age"
+  FF:
+    Benefit:
+      Bags:
+        Title: "Bags out first"
+      Priority:
+        Title: "Priority Check-in"
+    CtaTextAdd: +ADD
+    CtaTextRemove: Remove
+    Description: "Skip the queue with priority check-in at dedicated counters, and get your bag(s) before anyone else!"
+    DescriptionAdd: "<font color='#249995'><b>Fast forward added.</b> You can now enjoy priority check-in and bag(s) out first at arrival.</font>"
+    GSTMsg: "<small>(18% GST included)</small>"
+    PlanBenefitText: Benefits
+    Price: "<b>{{amount}}</b>"
+    Title: "Fly Faster with Fast Forward"
+    TravellerText: Total
+  INS:
+    AddonBenefit:
+      Subtitle: "<b>{{planName}}</b>"
+      Title: "Upto <font color='#249995'><big><b>{{sumInsured}}</b></big></font>"
+    InsuranceDeSelectedText: "Insure yourself against unforeseen events."
+    InsuranceSelectionTitle: "Your trip is secured"
+    InsuranceSelectionTitleDay: "Great! Your trip is insured for {{count}} day"
+    InsuranceSelectionTitleDays: "Great! Your trip is insured for {{count}} days"
+    InsuranceSelectionTitleNew: "Great! Your trip is secured"
+    InsuranceSelectionTitleNew2: "Great! Your trip is insured"
+    MoreBenefitText: "{{count}} more benefits"
+    OptInText: "<b>Yes</b><br>secure my trip,"
+    OptOutText: "<b>No</b><br>I’ll take the risk."
+    PlanBenefitText: "PLAN BENEFITS ({{count}})"
+    RemovePopup:
+      Lca:
+        Text: REMOVE
+      Rca:
+        Text: "DON'T REMOVE"
+      Title: "Are you sure you want to remove insurance?"
+    StayPeriodDetails:
+      CtaText: CONFIRM
+      PlaceHolder: "Enter No. of days"
+      Suffix: Days
+      Title: "For how many days would you like to insure your trip"
+      TravellerText: "per traveller/day (18% GST incl.)"
+    SubTitle: "Total  {{totalAmt}} is added to your booking.<br>{{perPaxAmt}} per day per traveller (GST incl.)"
+    SubTitle2: "Total  {{amount}} is added to your booking."
+    Title: "Secure Your Trip"
+    Tnc1:
+      Text: "By adding insurance you agree to the"
+    Tnc2:
+      CtaDetail:
+        CtaData:
+          Title: "Privacy Policy"
+      Text: "Terms & Conditions"
+    Tnc3:
+      Text: "and confirm all passengers are between 2 to 70 years of age"
+    ViewAllText: "VIEW ALL"
+    priceText: "<font color='#000000'><b>{{perPaxAmt}}</b></font><small>/Traveller {{subText}}</small>"
+  TS:
+    Description: "Pick the services you are interested in and we’ll contact you with some amazing deals on the same"
+    Title: "Travel Services"
+  Title: "Get more for less! Exclusive services at fab prices"
+  TitleTag: "ADD ONS"
+journeySummary:
+  CRTitle: "Trip to"
+  CRsubTitle: "{{depCityName}}"
+  MulticityJrny:
+    CRTitle: ""
+    CRsubTitle: "Multi city"
+    Title: "TRIP {{index}} <b>{{origin}}</b> - <b>{{destination}}</b>"
+  OnewayJrny:
+    Title: "<b>{{origin}} - {{destination}}<b>"
+  ReturnJrny:
+    TitleDpt: "DEPART <b>{{origin} - {{destination}<b>"
+    TitleRtn: "RETURN <b>{{origin} - {{destination}<b>"
+  subTitle: "{{depDate}} | {{depTime}} - {{arrTime}} | {{num}} Stop"
+travellerFormDataSource:
+  gender:
+    Female:
+      Display: "FEMALE"
+    Male:
+      Display: "MALE"
+couponData:
+  ctaText: "VIEW MORE"
+  headerTitle: "Offers & Promo Codes"
+  popup:
+    title: "Apply Promo Code"
+    manualCouponText: "Enter promo code here"
+    ctaText: "REMOVE"
+  notLoggedIn:
+    title: "Dont missout on amazing deals & discounts !"
+    subtitle: "Log in to avail offers."
+    ctaText: "LOG-IN"
+contactCard:
+  email:
+    title: "Booking details will be sent to"
+    text: "<font color='#008cff'>Add Email ID</font>"
+  contactNo:
+    title: "Booking details will be sent to"
+    text: "<font color='#008cff'>Add Mobile number</font>"
+travellerInfo:
+  firstname: "{{firstName}}"
+  fullname: "{{firstName}} {{lastName}}"
+  subtitle1: "{{gender}} {{age}}"
+  subtitle2: "{{gender}}"
+  text: "Log in to view your saved traveller list, unlock amazing deals & much more!"
+  buttonText: "LOG-IN"
+baggageData:
+  title: "Baggage Policy"
+  cabinTitle: "Cabin bag"
+  cabinSubTitle: "{{bagAllowance}} {{bagUnit}}"
+  checkinTitle: "Check-in bag"
+  checkinSubTitle: "{{bagAllowance}} {{bagUnit}}"
+  canPenTitle: "Refund Policy"
+  cta1: "+ADD/REMOVE BAGGAGE"
+  cta2: "+ADD BAGGAGE"
+  extraBaggage:
+    title: "Got excess luggage? Don't stress, buy extra check-in baggage allowance at fab rates!"
+    text: "+ADD"
+  removeExtraBaggage:
+    title: "<b>Extra baggage added</b> on your trip!"
+    text: "Remove"

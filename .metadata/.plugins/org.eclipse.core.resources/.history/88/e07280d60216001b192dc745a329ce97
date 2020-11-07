@@ -1,0 +1,589 @@
+cluster:
+  metaData:
+    showOptionsText: "VIEW OPTIONS"
+    hideOptionsText: "HIDE OPTIONS"
+    moreFlightsText: "{COUNT} more flights available"
+    singleFlightsText: "1 more flight available"
+  card:
+    title: ""
+    description:  "Click here to view more flights from the same Airline with similar fare."
+    ctaText: "Okay"
+  tab:
+    title: "Here are some new features!"
+    description: "Introducing flights results sorted according to categories like <b>Popular</b>, <b>Cheapest</b> & <b>Fastest</b> for your convenience. "
+    ctaText: "Okay"
+    heading:
+      recommended: "Flights sorted by Popularity (based on price, duration & convenience)"
+      fastest: "Flights sorted by shortest total journey time"
+      cheapest: "Flights sorted by Lowest fares on this route"
+    subTitle:
+      recommended: "{CURRENCY} | {DURATION}"
+      fastest: "{CURRENCY} | {DURATION}"
+      cheapest: "{CURRENCY} | {DURATION}"
+    option:
+      sameAirline:
+        moreText: "+{moreCount} more options"
+        airlineText: "(from same airline)"
+      multipleAirline:
+        moreText: "+{moreCount} more options"
+        airlineText: "(from multiple airlines)"
+      hideText: "Hide options"
+pafsHtml:
+  applied:
+    simple: "<font color='#1a7971'>Showing Results for <b> {{filters}} Flights </b> for <b>{{fromCity}} to {{toCity}}</b> starting on {{onwardDate}}.</font>"
+    other: "<font color='#1a7971'>Showing Results for <b> {{filters}} Flights </b> for <b>{{fromCity}} to {{toCity}} return journey </b> for the dates {{onwardDate}}-{{returnDate}}.</font>"
+  nonApplied: "<font color='#4a4a4a'><b>Please Note</b> : Not showing {{filters}} Flights.</font>"
+selectedCombo:
+  zcFooterInfo:
+    comboText: "View Benefits"
+    nonComboText: "<font color='#249995'>Zero <strong>Cancellation</strong> @ {{price}}</font>"
+    approxRefund:
+      text: "Approx Refund per pax"
+    penaltyCharges:
+      text: "Airline Penalty Charge"
+    cancellationFee:
+      text: "MMT Cancellation Fee"
+    hvrInfo:
+      text: "20% of our users cancel their flight."
+      ctaText: "Know more"
+      heading: "<strong>ZERO </strong>Cancellation, Benefits"
+  fareSummary:
+    title: "Fare Summary"
+    fareEntity:
+      total:
+        text: "<font style='font-size:16px;'>Total Amount</font>"
+        amt: "<strong><font style='font-size:20px;'>{{amount}}</font></strong>"
+      baseFare:
+        text: "Total base fare"
+      surcharges:
+        text: "Total Surcharges"
+      discount:
+        text: "Return Trip Discount"
+        amt: "<font style='color:#249995'>-{{amount}}</font>"
+  fareBreakup:
+    title: "Fare breakup"
+    fareEntity:
+      total:
+        text: "<font style='font-size:14px; color:#000'>TOTAL</font>"
+        amt: "<font style='font-size:14px; color:#000'>{{amount}}</font>"
+      baseFare:
+        text: "<font style='color:#878787'>Base Fare</font>"
+        amt: "<font style='color:#878787'>{{amount}}</font>"
+      surcharges:
+        text: "<font style='color:#878787'>Surcharges</font>"
+        amt: "<font style='color:#878787'>{{amount}}</font>"
+      discount:
+        text: "<font style='color:#249995'>Instant discount applied</font>"
+        creditSaleText: "<font style='color:#249995'>Airline Credit Voucher</font>"
+        amt: "<font style='color:#249995'>-{{amount}}</font>"
+  comboZcInfo:
+    text: "<font color='#249995'>Zero <strong>Cancellation</strong></font> | Not available for your selected itinerary. Please select flights with Zero Cancellation Tag"
+    canAssrTextPrefix: "Zero <strong>Cancellation</strong> @ {{amount}}"
+  discount:
+    label: "Discount Applied"
+    textPrefix: "Discount Applied "
+    rtText: "Return discount applied"
+    rtTextFont: "<font color='#454545'>Return discount applied:</font>"
+    savingText: "You save"
+  errorText: "Invalid Combination"
+airlineHeading: "<b><font color='#000000'>{{airlineNames}}</font></b> <font color='#4a4a4a' >{{flightNos}}</font>"
+shortlisting:
+  flightsCount: "{{numFlights}} Flights"
+  sectorTitle:
+    owRt: "{{departureAirportName}} to {{arrivalAirportName}}"
+  duration:
+    mins: "{{timeMins}} mins ago"
+    hrs: "{{timeHr} hrs ago"
+    days: "{{days}} days ago"
+durBaseHtml: "<font color='#000000'>{{hour}}</font><font color='#757575'></font>h <font color='#000000'>{{min}}</font><font color='#757575'> m</font>"
+forwardflow:
+  distance:
+    format1: "{{suggestedSPltdCity1}} ({{distance1}} Km from {{orgnlSPltdCity1}}) - {{suggestedSPltdCity2}} ({{distance2}} Km from {{orgnlSPltdCity2}})"
+    format2: "{{suggestedSPltdCity1}} -  {{suggestedSPltdCity2}}({{distance2}} Km from {{orgnlSPltdCity2}})"
+    format3: "{{suggestedSPltdCity1}} ({{distance1}} Km from {{orgnlSPltdCity1}}) - {{suggestedSPltdCity2}}"
+  economy:
+    title: "Only Economy class seats are available"
+    text:  "Available flights do not offer {{class}} class on the selected sector/dates. Showing Economy class flights."
+  nearestAirport:
+    title: "No flights fly on this route"
+    text:  "Sorry, there are no flights from the airport you have selected. You can choose a nearby airport for your journey"
+farecalendar:
+  rtFooterText: "Showing round-trip fare for flights departing on "
+bubble:
+  data:
+    title: "<font color='#6f5600'> Booking for the first time? Download the APP and get up to <b>Rs. 2019 OFF on Domestic Flights!</b> Use Code: <b>MMTALWAYS</b></font>"
+    titleGcc: "<font color='#6f5600'> Download the <b>APP</b> for <b>special deals</b> and a <b>seamless</b> booking experience</font>"
+filters:
+  appliedtext:
+    departure: "Departure {{filterDisplaytext}}"
+    arrival: "Arrival {{filterDisplaytext}}"
+    withCityCode: "{{cityCode}} : {{filterDisplaytext}}"
+  headers:
+    otherFilters: "Other filters"
+    airlines: "Airlines"
+    airline: "Airline"
+    alliances: "Alliances"
+    arrival: "Arrival at {{city}}"
+    departureText: "Departure"
+    departure: "Departure From {{city}}"
+    outOfPolicy: "Fare Type"
+    visa: "Visa & Documents"
+    layover: "Layover Airports"
+    stopsText: "Stops"
+    stops: "Stops From {{city}}"
+    tripText: "Trip"
+    duration: "Duration"
+    layoverDur: "Layover Duration"
+    price: "Price"
+  pretext:
+    duration: "Duration: "
+    layoverDur: "Layover Duration: "
+  quickFilters:
+    DOM:
+      airline:
+        6E:
+          text: Indigo
+        G8:
+          text: "Go Air"
+        SG:
+          text: Spicejet
+        UK:
+          text: Vistara
+        AI:
+          text: "Air India"
+        I5:
+          text: "Air Asia"
+      departure:
+        night:
+          text: "Late Departures"
+        noon:
+          text: "Morning Departures"
+      stop:
+        nonstop:
+          text: "Non Stop"
+        onestop:
+          text: "1 Stop"
+      misc:
+        mmtBlack:
+          text: "MMTBLACK PRIVILEGES"
+    INTL:
+      departure:
+        night:
+          text: "Late Departures"
+        noon:
+          text: 'Morning Departures'
+      stop:
+        nonstop:
+          text: "Non Stop"
+        onestop:
+          text: "1 Stop"
+      misc:
+        shortlist:
+          text: "Shortlisted"
+        mmtBlack:
+          text: "MMTBLACK PRIVILEGES"
+  tripData:
+    stops:
+      headerPrefix: "Stops From "
+      nonStop: "Non Stop"
+      stop: "Stop"
+      stops: "Stops"
+      oneStop: "1 Stop"
+      multiStop: "1+ Stop"
+    arrival:
+      headerPrefix: "Arrival at "
+    departure:
+      headerPrefix: "Departure From "
+    time:
+      mobile:
+        morning: "Before 6AM"
+        noon: "6AM-12 Noon"
+        evening: "12 Noon-6PM"
+        night: "After 6PM"
+      morning: "Before <b>6</b> AM"
+      noon: "<b>6</b> AM - <b>12</b> PM"
+      evening: "<b>12</b> PM - <b>6</b> PM"
+      night: "After <b>6</b> PM"
+    fareTypes:
+      hideNonRefundableFare: "Show Partially Refundable Fare"
+      hideOutofPolicyFare: "Show Flights In Policy"
+      corporateFare: "myBiz Special fare"
+      companyFare: "Special Fare"
+      regularFare: "Regular Fare Available"
+      allSpecialFare: "All Special Fares"
+  multiCityD:
+    priceHeader: "Itinerary Price"
+    prefTitle: "Preference"
+    prefSubtitle: "Applicable on all Trips"
+  misc:
+    hideNonRef: "Hide Non Refundable Fares"
+    hideNearby: "Hide Nearby city flights"
+    shortlist: "Show shortlisted Flights"
+    mmtBlack: "MMTBlack Privilege"
+    ##### Below is For B2B only #####
+    outOfPolicy: "Exclude Out Of Policy"
+    ##### Above is For B2B only #####
+  sortAvailMap:
+    price:
+      grpTitle: "Price"
+      cheapest: "Cheapest First"
+      lowToHigh: "Low to High"
+    duration:
+      grpTitle: "Duration"
+      shortest: "Shortest First"
+    depTime:
+      grpTitle: "Departure Time"
+      depEarly: "Earliest First"
+      depLate: "Latest First"
+    arrTime:
+      grpTitle: "Arrival Time"
+      arrEarly: "Earliest First"
+      arrLate: "Latest First"
+    arrival:
+      grpTitle: "Arrival"
+      early: "Early"
+      late: "Late"
+    departure:
+      grpTitle: "Departure"
+      early: "Early"
+      late: "Late"
+    popularity:
+      grpTitle: "Popularity"
+      popu: "Popularity"
+messages:
+  returnDiscount: "Get a return discount of {{currSymbol}} Amount on this flight"
+  returnMaxDiscount: "Up to {{currSymbol}} Amount off with same airline on return"
+  cabbinBaggage: "Cabin Baggage only flights"
+  freeMeal: "Free Meal Available"
+  nearByAirportFor: "Flight is for a nearby airport: {{city}}"
+  nearByAirportFrom: "Flight is from a nearby airport: {{city}}"
+  okToBoard: "OK to Board required"
+  recheckin: "Re Check-in of Baggage required"
+  transitVisa: "Transit Visa required "
+  moreFares: "<font color='#008cff'>View Prices</font>"
+  moreFaresD: "View Prices"
+  postSearch:
+    ratingDesc: "This rating is according to the comfort, duration and the amenities provided against the price of the ticket"
+    cadFooterMsg: "<font color='#249995'>{{date}}</font>"
+    cadAmenitiesScoreTxt: "<font color='{{color}}'>{{scoreID}}</font><small><font color='#000000'>/10</small>"
+    cadNoCostEmiTxtWithFormat: "<font color='#4a4a4a'>No Cost EMI from </font><font color='#000000'><b>{{amount}}/m</b></font>"
+    cadNoCostEmiTxt: "No Cost EMI from </font><font color='#000000'><b>{{amount}}/m</b>"
+    bottomPersuasion:
+      text: "<font color='#0c6663'>{{date}}</font>"
+  popularity:
+    text: "Popularity based on customer preference, duration & price."
+    title: "Smart Value Flights"
+    cheapestText: "Cheapest Starting at"
+  PE:
+    text: "That’s All For Premium Economy Class!"
+    title: "Here are some Economy Class Flights with Premium Services"
+  NF:
+    text: "Sorry! No Premium Economy fares found for this route"
+    subtext: "Here are some Economy Class Flights with Premium Services that you may like."
+  filterpanel:
+    header: "Filter {{fromCity}} - {{toCity}} Flights"
+  splitHeader:
+    ow: "Departure Flight"
+    rt: "Return Flight"
+    subtext: "{{fromCity}} to {{toCity}} | {{date}}"
+  card:
+    airlineHeading: "<b><font color='#000000' size='' >{{airlineNames}}</font> <font color='#4a4a4a'>{{numFlights}}</font>"
+    farePursuasion:
+      text:
+        def: "<font color='#eb2026'>{{amount}} Deal</font>"
+        markDown: "<font color='#eb2026'>{{amount}} Discount</font>"
+        ic: "<font color='#eb2026'> {{amount}} Instant Discount</font>"
+        instant: "<font color='#eb2026'> {{amount}} Instant Discount</font>"
+        icd: "<font color='#eb2026'>{{amount}} Instant Discount</font>"
+        ctc: "<font color='#eb2026'>{{amount}} Cashback (Card)</font>"
+        ctw: "<font color='#eb2026'>{{amount}} Cashback (Wallet)</font>"
+        manual: "<font color='#eb2026'>{{amount}} Deal</font>"
+        wallet: "<font color='#eb2026'> {{amount}} Reward Bonus</font>"
+      hvrInfo:
+        cdf:
+          disInfo: "<strong>{{discntInfoCD}} Applied</strong>{{discntInfoDisc}}"
+          other: "<strong>{{discntInfoCD}} Applied</strong>"
+        others:
+          disInfo: "<strong>Special Discount</strong> Applied {{discntInfoDisc}}"
+          other: "<strong>Special Discount Applied</strong>"
+        wallet:
+          disInfo: "<strong>Reward Bonus</strong> Applied {{discntInfoDisc}}"
+          other: "<strong>Reward Bonus Applied </strong>"
+      hybridDisc:
+        array:
+          ic: "{{amount}} Instant Discount"
+          ctc: "{{amount}} Cashback (Card)"
+          ctw: "{{amount}} Cashback (Wallet)"
+        final: "<font color='#eb2026'> {{text}} </font>"
+    footerPursuasion:
+      refund:
+        parRef: "<span class='LatoBold text-black'>Partially Refundable</span>"
+        ref: "<span class='LatoBold text-black'>Refundable</span>"
+        nonRef: "<span class='LatoBold text-black'>Non Refundable</span>"
+        font:
+          parRef: "<font color='#249995'><b>Partially Refundable</b></font>"
+          ref: "<font color='#249995'><b>Refundable</b></font>"
+          nonRef: "<font color='#eb2026'><b>Non Refundable</b></font>"
+    headerTag:
+      text: "<font color='#ffffff'>{{sortRnkData}}</font>"
+  ##### Below is For B2B only #####
+  corpData:
+    wPolicy:
+      text: "<font color='#ffffff'>{{text}}</font>"
+      textD: "This fare type is ‘out of policy’ i.e the price exceeds the budget limit set by your company."
+  outOfPolicy:
+    text: "<font color='#ff000d'>{{text}}</font>"
+    blockOoptext : "OUT OF POLICY"
+    blockOopMsg : "Sorry, currently your admin does not allow booking of out of policy flights/fares."
+  ##### Above is For B2B only #####
+#listing:
+fareMap:
+  STU:
+    msg: "hover message"
+    displayName: "Student"
+  AF:
+    msg: "hover message"
+    displayName: "Armed Force"
+  SC:
+    msg: "hover message"
+    displayName: "Senior Citizen"
+  EXS:
+    msg: "hover message"
+    tootTip: "Book multiple seats for one person"
+    tag:
+      text: "NEW"
+    cta:
+      text: "What is this?"
+      data:
+        title: "<font color='#cf8100'><b>Fly Safer with </b></font><font color='#249995'><b>Double-Seat!</b></font>"
+        body: "Step up physical distancing by booking two or three adjacent seats for one traveller. Opt from 'Double/Multi Seat' by Indigo or 'GoMore' service by GoAir - available only for domestic one-way economy class bookings."
+        mca:
+          text: "OKAY, GOT IT"
+specialFare:
+  sBanner:
+    STU:
+      title: "<font color='#4a4a4a'><b>We have displayed Student fares below for your itinerary</b></font>"
+    AF:
+      title: "<font color='#4a4a4a'><b>We have displayed Armed Forces fares below for your itinerary.</b></font>"
+    SC:
+      title: "<font color='#4a4a4a'><b>We have displayed Senior Citizen fares below for your itinerary.</b></font>"
+    subtitle: "<font color='#4a4a4a'>Regular fares are also available, starting from <amount>.</font><font color='#008cff'>View regular fares</font>"
+    subtitleDt: "<font color='#4a4a4a'>Regular fares are also available, starting from <amount>.</font>"
+    subtitleFallback: "<font color='#4a4a4a'>Regular fares are also available.</font>"
+    subtitleFallbackMob: "<font color='#4a4a4a'>Regular fares are also available.</font> <font color='#008cff'>View regular fares</font>"
+  fBanner:
+    STU:
+      title: "<font color='#e53442'>Sorry! Student fares are not available for this itinerary.</font>"
+    AF:
+      title: "<font color='#e53442'>Sorry! Armed Forces fares are not available for this itinerary.</font>"
+    SC:
+      title: "<font color='#e53442'>Sorry! Senior citizen fares are not available for this itinerary.</font>"
+    subtitle: "<font color='#4a4a4a'>We have displayed regular fares below.</font>"
+    subtitleDt: "<font color='#4a4a4a'> We have displayed regular fares below.</font>"
+    subtitleFallback: "<font color='#4a4a4a'>We have displayed regular fares below.</font>"
+  deeplinkText: "View regular fares"
+groupLeftFilters:
+  faretype:
+    groupTitle: "Fare Types"
+  popular:
+    groupTitle: "Popular Filters"
+  price:
+    groupTitle: "Price"
+    dom:
+      ow:
+        groupTitle: "One Way Price"
+      rt:
+        groupTitle: "One Way Price"
+      mc:
+        groupTitle: "Price"
+    intl:
+      ow:
+        groupTitle: "One Way Price"
+      rt:
+        groupTitle: "Round-trip Price"
+      mc:
+        groupTitle: "Price"
+  duration:
+    groupTitle: "Duration"
+  alliancesAndairlines:
+    groupTitle: "Alliances & Airlines"
+  airlines:
+    groupTitle: "Airlines"
+  journey:
+    onward:
+      groupTitle: "ONWARD JOURNEY"
+    return:
+      groupTitle: "RETURN JOURNEY"
+    multicity:
+      groupTitle: "TRIP {{tripIndex}}"
+  visa:
+    groupTitle: "Visa & Documents"
+    displayText : "Hide Transit Visa Required Flights"
+    appliedText : "No Transit Visa"
+  layoverAirports:
+    groupTitle: "Layover Airports"
+  layoverDuration:
+    groupTitle: "Layover Duration"
+  mmtBlack:
+    groupTitle: ""
+    displayText: "MMTBLACK PRIVILEGES"
+    appliedText: "MMTBlack Privileges"
+leftFilters:
+  titleFormat: "<font color='#000000'><b>{{title}}</b></font>"
+  subtitleFormat: "<font color='#4a4a4a'>{{title}}</font>"
+  cardsHeading:
+    OW: "Flights from <b>{{fromCity}}</b> to <b>{{toCity}}</b>"
+    RT: "Flights from <b>{{fromCity}}</b> to <b>{{toCity}}</b>, and back"
+  hideText: "Show less"
+  showText: "+ {{count}} more"
+  bannerPlacement:
+    emi:
+      title: "EMI"
+    wpm:
+      title: "You have {{amount}} in your wallet"
+      subtitle: "Use this to book your flight."
+    zc:
+      title: "Zero Cancellation"
+      subtitle: "Buy Zero Cancellation and get full refund on cancellation penalties."
+    nce:
+      title: "No cost EMI"
+      subtitle: "Savings taking a hit? Use No cost EMI for {{months}} months"
+creditShellMobileBanner:
+  data:
+    title: "<font color='#000000'><b>Credit voucher applied!</b></font>"
+    text: "<font color='#4a4a4a'>You are now seeing the fare adjusted against your available credit amount.</font><br/><font color='#008cff'>Know More</font>"
+    snackbar:
+      title: "Credit voucher"
+      body: "<font color='#4a4a4a'>Upon cancellation of this booking the amount applied from the credit voucher will only be refunded as a credit voucher</font>"
+      cta:
+        text: "GOT IT"
+Corp:
+  rhsBanner:
+    data:
+      title: "Why myBiz?"
+      options:
+        specialFare:
+          title: "Special Fares for Corporates"
+          text: "Get perks such as free seats, meals, reduced modification fee and extra-baggage capacity included within the booking amount."
+        policyCompliance:
+          title: "Policy Compliance"
+          text: "Benefit from linking your company’s travel policies with the myBiz platform."
+        gstInvoice:
+          title: "GST Invoice Guarantee"
+          text: "Receive GST-compliant invoices on flights to claim input tax credit on travel spends."
+        customerSupport:
+          title: "24*7 Customer Support"
+          text: "Enjoy a dedicated customer support unit to address queries in real-time."
+groupBooking:
+  meta:
+    selectedText: "SELECTED"
+    unselectedText: "SELECT"
+    tooltipText:
+      oneFlightSelected:
+        ow: "Your flight is selected. Now send us your contact details & we will get back with best prices."
+        rt: "Your flights are selected. Now send us your contact details & we will get back with best prices."
+      moreFlightsSelected: "{count} flights selected"
+  resp:
+    data:
+      title: "Thank You!<br/>for submitting your query"
+      subtitle: "Our customer care will contact you within 24 to 48 hours."
+      middleCta:
+        text: "GO TO HOMEPAGE"
+  err:
+    data:
+      title: "Oops!"
+      subtitle: "Something went wrong."
+      middleCta:
+        text: "TRY AGAIN"
+broadCastCouponsBanner:
+  multipleCpns:
+    title: "HOT DEALS"
+fphPersuasion :
+  title : "<font color='#4a4a4a'><b>Combo Deal :</b> Book flights and hotels together, and save upto {{amount}} on this trip!</font>"
+extraSeat:
+  categoryData:
+    text: "That’s all for Double Seat options!"
+    title: "Here are some regular (single seat) Economy Class flight options you may wish to explore"
+    nfText: "Sorry, we could not find any Double Seat flight options for this route/ dates!"
+    nfSubText: "Here are some regular (single seat) Economy Class flight options you may wish to explore"
+  goMore:
+    tag:
+      text: "<font color='#ffffff'> GoMore </font>"
+      cta:
+        title: "Go More"
+        text: "Select any window or aisle seat, and middle seat will be left vacant (applicable on first two rows only)."
+  doubleSeat:
+    tag:
+      text: "<font color='#ffffff'> 6E Double Seat </font>"
+      cta:
+        title: "6E Double Seat"
+        text: "Book two adjacent seats for one traveller (one extra seat)."
+  tripleSeat:
+    tag:
+      text: "<font color='#ffffff'> 6E Entire Row </font>"
+      cta:
+        title: "6E Entire Row"
+        text: "Book three adjacent seats for one traveller (two extra seats)."
+charters:
+  airlineName: "Charter flight"
+  category:
+    title: "Explore Charter Flights Offering Premium Services"
+    text: "That’s All For Premium Economy Class!"
+    nfText: "Sorry! No Premium Economy fares found for this route"
+    nfSubText: "Here are some Economy Class Flights with Premium Services that you may like."
+  simpleAirlineHeading:
+    airlineName: "Charter flight"
+  cardInfo:
+    subTitle: "Seat on a {{count}} seater flight."
+  images:
+    subTitle: "{{count}} Photos"
+  mrngDept: "Morning Departure"
+  aftNoonDept: "Afternoon Departure"
+  eveDept: "Evening Departure"
+  nightDept: "Night Departure"
+  sellingPoints:
+    safety:
+      text: "Maximum Safety"
+    convenience:
+      text: "Unlimited Convenience"
+    custom:
+      text: "Customised For You"
+searchHeader:
+  ow:
+    title: "{{fromCity}} - {{toCity}}"
+    subTitle: "{{date}} "
+  rt:
+    title: "{{fromCity}} - {{toCity}}"
+    subTitle: "{{onwardDate}} - {{returnDate}}"
+  mc:
+    title: "{{fromCity}} - {{toCity}}"
+    subTitle: "via {{cityList}}"
+  msg:
+    traveller: "{{paxCount}} Traveller"
+    adult: "{{paxCount}} Adult"
+  subTitle: "{{subtitle}} | {{msg}} | {{cabinClass}}"
+journeyHeader:
+  depart: "Depart - {{airlineNames}}"
+  return: "Return - {{airlineNames}}"
+  trip: "Trip {{tripIndex}}, {{date}} - {{airlineNames}}"
+  pipeformat:
+    depart: "Depart | {{airlineNames}}"
+    return: "Return | {{airlineNames}}"
+    trip: "<strong>{{fromCity}} to {{toCity}} | {{date}}</strong>"
+durationText:
+  layoverInfoWithCity: "<p>{{typeOfStop}} <br>{{layoverCity}} ({{cityCode}}) {{terminalText}} | {{time}} Layover </p>"
+  layoverInfoWithoutCity: "<p>{{typeOfStop}} {{time}} Layover </p>"
+  hrOnly: "{{timeHr}} hr"
+  hrsOnly: "{{timeHr}} hrs"
+  minsOnly: "{{timeMins}} mins"
+  hrAndMins: "{{timeHr}} hr {{timeMins}} mins"
+  hrsAndMins: "{{timeHr}} hrs {{timeMins}} mins"
+flightDetails:
+  departure: "Departure"
+  return: "Return"
+  flight: "Flight"
+  airlineHeading: "{{airlineName}} {{airlineCode}} {{flightNo}}"
+  aircraft: " | {{aircraft}}"
+  operatingAirline: " | Operated By {{operatingAirline}}"
+  formatHeading: "{{airlineHeading}} {{aircraft}} {{operatingAirline}}"
+  headerText: "{{fromCity}} to {{toCity}} , {{duration}}"

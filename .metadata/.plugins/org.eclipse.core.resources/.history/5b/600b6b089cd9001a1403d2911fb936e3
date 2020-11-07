@@ -1,0 +1,28 @@
+package problems.dynamicProgramming.aditya;
+
+public class MinSubsetSumDiff {
+	
+	public static int[][] t;
+
+	public static void main(String[] args) {
+		
+	   	int[] arr = new int[] {};
+	   	long sum = 0;
+	   	for (int i = 0; i < arr.length; i++) {
+			sum = sum + arr[i];
+		}
+	   	int sumfinal = (int)(sum/2);
+	   	t = new int[arr.length+1][];
+	   	System.out.println(knapsack(arr,(int)(sum/2),arr.length));
+	}
+	
+	public static int knapsack(int[] arr, int sumfinal,int n) {
+	
+		if(n==0 || sum==0) {
+			
+		}
+		
+		
+	}
+	
+}

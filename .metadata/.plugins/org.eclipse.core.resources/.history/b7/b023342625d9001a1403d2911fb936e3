@@ -1,0 +1,28 @@
+package problems.dynamicProgramming.aditya;
+
+public class KnapsackMemoization {
+	
+	public static int[][] t;
+
+	public static void main(String[] args) {
+		int[] w = new int[] {1,2,3,4,5,6};
+	    int[] val = new int[] {10,20,30,40,50};
+	    int wt =100;
+	    int n = 5;
+	    t = new int[n+1][wt+1];
+	    System.out.println(knapsack(w,val,wt,n));
+		
+		
+	}
+	
+	public static int knapsack(int[] w, int[] val, int wt,int n) {
+		
+		if(n==0 || wt==0) {
+			return 0
+		}
+		
+		
+	}
+	
+	
+}

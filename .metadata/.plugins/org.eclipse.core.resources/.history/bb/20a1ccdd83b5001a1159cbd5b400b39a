@@ -1,0 +1,59 @@
+package javaproblems.producerConsumer;
+
+import java.util.LinkedList;
+
+public class ProducerConsumer {
+
+	LinkedList<Integer> buffer;
+	int bufferSize;
+
+	public ProducerConsumer(LinkedList<Integer> buffer, int bufferSize) {
+
+		this.buffer = buffer;
+		this.bufferSize = bufferSize;
+	}
+
+	public void produce() throws InterruptedException {
+
+		int count = 1;
+		while (true) {
+			Thread.sleep(1000);
+
+			
+
+				synchronized (this) {
+					while (buffer.size() == bufferSize) {
+						wait();
+					}
+					System.out.println("Produced : " + buffer.add(count));
+					count++;
+					buffer.notify();
+				}
+			} else {
+				buffer.wait();
+			}
+			
+			
+		}
+
+	}
+	
+	public void consume() throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		while (true) {
+			Thread.sleep(1000);
+			synchronized (this) {
+			while (buffer.size() == 0) {
+				wait();
+			}
+
+				
+					System.out.println("Consumed : " + buffer.removeFirst());
+					buffer.notify();
+				
+		     }
+		}
+
+	}
+}

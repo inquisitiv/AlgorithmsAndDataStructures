@@ -1,0 +1,39 @@
+package problems.aditya.recursion;
+
+class Solution {
+	    public boolean isMatch(String s, String p) {
+	        
+	    }
+	    
+	     bool firstMatch(string s,int start, string p, int pstart) {
+	        
+	         if((pstart>p.length-1)){
+	             return true;
+	         }
+	        
+	        char match = p.charAt(pstart);
+	        if(match=='?' || match==s.charAt(start)){
+	            firstMatch(s,start+1,p, pstart+1);
+	        }
+	        if(match=='*'){
+	            if(pstart+1>=p.length){
+	                return true;
+	            }
+	            match = p.charAt(pstart+1);
+	            int k = s.length()-1;
+	            while(k>=0 && s.charAt(k)!=match) {
+	                k--;
+	            }
+	            if(k==-1) {
+	            firstMatch(s,k+1,p,pstart+2);
+	            } else {
+	                return false;
+	            }
+	        }
+	        if(match != s.charAt(start)){
+	            return false;
+	        }
+	        
+	        
+	    }
+}

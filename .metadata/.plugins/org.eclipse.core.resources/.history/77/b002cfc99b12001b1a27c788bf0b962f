@@ -1,0 +1,238 @@
+Cross-Legal:
+  traveller:
+    desktop:
+      text: "You cannot book travellers of different organisations together."
+    primaryTraveller:
+      text: "PRIMARY TRAVELLER"
+    makePrimary:
+      text: "Make Primary"
+loginBanner:
+  banner:
+    login:
+      message: "Add travellers from your <b>saved list</b>"
+fieldOrder:
+  header: "Frequent Traveller No"
+  subHeader: "(Frequent Flyer Number is subject to airline acceptance)"
+needAssistance:
+  title: "Need assistance for your booking ?"
+  subtitle: "Our MMT Agent will help you make this booking offline. Don't worry, we never spam our customers."
+messages:
+  #Below is for B2B only
+  itinSelFailure:
+    ctaText: "OKAY"
+    data:
+      msg: "Sorry we couldn't update your traveller selection. Please try again"
+      title: "Traveller Selection Failed"
+      subTitle: "Sorry we couldn't update your traveller selection. Please try again"
+  addTravellerNotAllowed:
+    ctaText: "OKAY"
+    data:
+      msg: "You cannot book travellers of different organisations together"
+  genderValues:
+    male: "MALE"
+    female: "FEMALE"
+  #Above is for B2B only
+  selection:
+    errors:
+      wrongItemCode: "Traveler Service Selection Failed: Incorrect itemCode"
+  meta:
+    mandatoryError: " {fieldName} is required."
+    upfrontText: "View {val} more "
+  travellerService:
+    subTitle: "<p style='font-size:14px;color:#249995;margin-bottom:12px'>Select one or more labs to get contacted for a test <br>By opting in, I authorize MMT to share my contact details with third party lab partners</p>"
+    title: "<p style='font-family:Lato-Light; font-size:20px;margin-bottom:5px'>Opt for COVID-19 test to skip quarantine</p>"
+    selectText: "Select All"
+    deselectText: "Remove All"
+  leg:
+    title: "{{fromCityCD}} - {{toCityCD}}"
+    titleD: "<p style='color: #4a4a4a;font-size:18px;margin-bottom: 2px;'><span style='margin-right: 5px;font-family: Lato-Light, Arial, Helvetica, sans-serif;'>{{fromCityCD}} - {{toCityCD}}</span><span style='font-family: Lato-Bold, Arial, Helvetica, sans-serif;'></span></p>"
+  validation:
+    countryCode:
+      err:
+        country: "Invalid number"
+        mobile: "Invalid number"
+    dob:
+      placeholder:
+        adult: "(Age of adult should be 12 or above on the date of travel)"
+        child: "(Age of child should be between 2 and 12 years on the last date of travel)"
+        infant: "(Age of infant should be less than 2 years on the last date of travel)"
+      error:
+        adult: "Age of adult Traveller should be greater than 12 on the date of travel"
+        child: "Age of child Traveller should be between 2 and 12 years on the date of travel"
+        infant: "Age of infant Traveller should be less than 2 years on the date of travel"
+      pwaHolder: "<div><p>Select {{label}}</p><p class='font12 greyTxt LatoRegular'>{{text}}</p></div>"
+    gender:
+      error: "Please select your gender"
+    email:
+      error: "Please enter a valid Email ID."
+    fName:
+      error: "Please enter a valid First and Middle name"
+      tooltip:
+        title: "First Name"
+        subtitle: "Enter as mentioned on your passport"
+    gstNum:
+      error: "Please enter a valid GST Number"
+    issuingCountry:
+      error: "Please select issuing country"
+    lName:
+      error: "Please enter a valid Last name"
+      tooltip:
+        title: "Last Name"
+        subtitle: "Enter as mentioned on your passport"
+    ffairline:
+      error: "Frequent Airline can't be blank"
+    ffnumber:
+      error: "Invalid Frequent Flyer number"
+    importantInfo:
+      label1:
+        DOM: "<b>IMPORTANT:</b> Enter your name as it is mentioned on your passport or any government approved ID."
+        INTL: "<b>IMPORTANT:</b> Enter your name as it is mentioned on your passport. For International Travel, passport should be valid for minimum 6 months from the date of travel. If you are travelling to the USA and/or Canada, please ensure that you enter the correct passport details for every passenger. In case you fail to do so, you may not be allowed to enter the USA and/or Canada."
+      label2: "*Meals are subject to availability with the Airlines. Please check with the Airlines before travel"
+      nameChange:
+        DOM: "<b>IMPORTANT:</b> As per the policy, you can change the traveller name for this booking."
+        INTL: "<b>IMPORTANT:</b> As per the policy, you can change the traveller name for this booking.For International Travel, passport should be valid for minimum 6 months from the date of travel."
+      noNameChange:
+        DOM: "<b>IMPORTANT:</b> As per airline policy, traveller names for the new booking have to be the same as in the original booking."
+        INTL: "<b>IMPORTANT:</b> As per airline policy, traveller names for the new booking have to be the same as in the original booking.For International Travel, passport should be valid for minimum 6 months from the date of travel."
+    meal:
+      error: "Please Select Meal"
+      warning: "*Meals are subject to availability with the Airlines. Please check with the Airlines before travel"
+      warningSectors: "*Meals is available for {{sector}} and request is subject to availability with the Airline. Please check with the Airlines before travel"
+      label: "Meal"
+    wheelchair:
+      selected: "Required"
+      notselected: "Not required"
+      error: "Please Select Wheelchair"
+      warning: "*Wheelchair is subject to availability with the Airlines. Please check with the Airlines before travel"
+      warningSectors: "*Wheelchair is available for {{sector}} and request is subject to availability with the Airline. Please check with the Airlines before travel"
+      label: "Wheelchair"
+    nationality:
+      error: "Please select nationality"
+    orgName:
+      error: "Please enter valid company name"
+    passport:
+      error: "Please recheck your passport and enter a valid passport number."
+      tooltip:
+        title: "Passport Number"
+        subtitle: "Enter as mentioned on your passport"
+    passportExpiry:
+      error: "Your passport should be valid for atleast six months from the date of travel."
+      date:
+        placeholder: "should be more than 6 months from date of travel"
+    phone:
+      error: "Please enter a valid Phone Number"
+  card:
+    adult:
+      addPaxText: "+ ADD ADULT"
+      noPaxText: "You have not added any adults to the list"
+      title: Adult
+      titleD: Adult
+    child:
+      addPaxText: "+ ADD CHILD"
+      noPaxText: "You have not added any child to the list"
+      title: "Child 2-12 Years"
+      titleD: "Child <span style='font-family:Lato-Light;text-transform:lowercase;margin-left:10px;'>  2-12 years old on the day of travel</span>"
+    infant:
+      addPaxText: "+ ADD INFANT"
+      noPaxText: "You have not added any infants to the list"
+      title: "Infant less than 2 years"
+      titleD: "Infant <span style='font-family:Lato-Light;margin-left:10px;text-transform: lowercase;'>  0-2 years old on the day of travel</span>"
+  cardTitle: "Traveller Details"
+  consent:
+    msg: "<b>Add these travellers to My Traveller List</b><br>You won’t have to fill traveller info on your next visit."
+    msgD: "<b>Add these travellers to My Traveller List.</b> You won’t have to fill traveller info on your next visit."
+  contact:
+    subTitle: "Your ticket and flights information will be sent here."
+    title: "Contact information"
+  genderData:
+    display:
+      male: "MALE"
+      female: "FEMALE"
+  gst:
+    addGst:
+      ctaText: "Add GST"
+      title: "No GST details available, Kindly add."
+    title: "GST number for business travel (Optional)"
+    titleCorp: "GST number for business travel"
+    checkboxText: "To claim credit of GST charged by airlines / MMT, please enter your company’s GST number"
+    info:
+      text: "We’ve updated the GST details for this booking according to your primary traveller details."
+    srcData:
+      display:
+        withoutState:
+          browser: "<p class='font14'> <strong class='LatoBold'>{{companyName}}, <br/>({{registrationNo}})</p>"
+          app: "<b>{{companyName}}<b> , ({{registrationNo}})"
+        withState:
+          browser: "<p class='font14'> <strong class='LatoBold'>{{companyName}}, </strong>,{{statename}}, ,<br/>({{registrationNo}})</p>"
+          app: "<b>{{companyName}}<b> , {{statename}}, ({{registrationNo}})"
+  login:
+    buttonText: "LOG IN"
+    text: "Add travellers from your <b>saved list</b>"
+  tnc:
+    toastMsg: "Please accept terms and conditions."
+    cta:
+      prefix: "I understand and agree with the"
+      prefixWhenCheckBoxBotShown: "By clicking on the Continue button below to proceed with the booking, I confirm that I have read and I accept the"
+      separator: " , the"
+      and: " and"
+      suffix: " of MakeMyTrip\n"
+      suffixDom: " of MakeMyTrip"
+      fareRule: " Fare Rules"
+      visaRule: " Visa Rules"
+      privacyPolicy:
+        text: " Privacy Policy"
+        title: "Privacy Policy"
+      userAgreement:
+        text: " User Agreement"
+        title: "User Agreement"
+      termsOfService:
+        text: " Terms of Service"
+        title: "Terms & Conditions"
+  otherInfoAdmin:
+    text:    "You cannot add employee of different organisations from your account."
+  otherInfo:
+    text:    "You have earlier added a traveller from {{companyName}} and so you cannot add employee of different organisations in the same booking."
+  jrnyInfo:
+    ow:
+      title: "{{fromCity}} - {{toCity}}"
+      subTitle: "Departure {{depDate}}"
+    rt:
+      title: "{{fromCity}} - {{toCity}}"
+      subTitle: "Departure {{depDate}} - Return {{retDate}}"
+    mc:
+      title: "{{fromCity}} - {{toCity}}"
+      subTitle: "via {{viaList}}"
+  jrnySummary:
+    terminal: ", Terminal {{terminal}}"
+  stops:
+    zero: "Non Stop"
+    one: "1 Stop"
+    many: "{{count}} Stops"
+travellerInfo:
+  footer:
+    titleDefault: "Add your frequent flyer number and earn more miles."
+    titleSingle: "Frequent Flyer added - {{airlineName}} {{ffnNum}}"
+    titleMultiple: "Frequent Flyer of {{airlineCodes}} added"
+    titleRnT: "<font color='#008cff'>Add frequent flyer number</font>"
+    ctaText: "ADD"
+travellerRules:
+  confirmationMessage: "Please ensure that your name is spelled correctly, and matches the name on your passport/govt. ID. These details cannot be changed once sent to the airline, and errors may lead to cancellation penalties."
+nudgeTraveller:
+  title: "Review Details"
+  subTitleDOM: "Please ensure that the spelling of your name and other details match with your travel document/govt. ID, as these cannot be changed later. Errors might lead to cancellation penalties."
+  subTitleINTL: "Please ensure that the spelling of your name and other details match with your passport, as these cannot be changed later. Errors might lead to cancellation penalties."
+  lca:
+    text: "EDIT"
+  rca:
+    text: "CONFIRM"
+  dom:
+    fname: "First & Middle Name"
+    lname: "Last Name"
+    gender: "Gender"
+    DOB: "D.O.B"
+  intl:
+    fname: "Given Name"
+    lname: "Surname"
+    gender: "Gender"
+    DOB: "D.O.B"
+    passportNumber: "Passport Number"

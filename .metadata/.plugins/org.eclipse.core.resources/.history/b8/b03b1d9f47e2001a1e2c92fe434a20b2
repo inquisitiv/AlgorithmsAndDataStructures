@@ -1,0 +1,49 @@
+package algorithms.graphs;
+
+import java.util.*;
+
+public class TopologicalSort {
+	
+	
+	public static void main(String[] args) {
+		
+		Graph<Integer> graph = new Graph<Integer>();
+		
+		graph.addVertex(5);
+		graph.addVertex(4);
+		graph.addVertex(0);
+		graph.addVertex(2);
+		graph.addVertex(1);
+		graph.addVertex(3);
+		
+		graph.addEdge(5, 2, false);
+		graph.addEdge(5, 0, false);
+		graph.addEdge(4, 0, false);
+		graph.addEdge(4, 1, false);
+		graph.addEdge(2, 3, false);
+		graph.addEdge(3, 1, false);
+		
+		topologicalsort(graph);
+		
+	}
+	
+	public static void topologicalsortUtil(Graph<Integer> graph,boolean[] visited, Stack<Integer> stack) {
+	
+	}
+	
+	public static void topologicalsort(Graph<Integer> graph) {
+		
+		int v = graph.getVertexCount();
+		boolean[] visited = new boolean[v];
+		
+		
+		for(Integer vertex : graph.map.keySet()) {
+			topologicalsortUtil(vertex,)
+		}
+		
+		
+		
+	}
+	
+	
+}

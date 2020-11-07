@@ -1,0 +1,11 @@
+package com.parser;
+
+public class ErrorPojo {
+
+	
+	Data data;
+	Cta  leftCta;
+	Cta  rightCta;
+	Cta  middleCta;
+     
+}

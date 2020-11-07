@@ -1,0 +1,48 @@
+package algorithms.graphs;
+
+import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
+
+public class Edge {
+
+	public int src;
+	public int dest;
+	public int weight;
+	
+	public Edge() {
+		this.src = 0;
+		this.dest = 0;
+		this.weight = 0;
+	}
+	
+	public Edge(int src,int dest,int weight) {
+		this.src = src;
+		this.dest = dest;
+		this.weight = weight;
+	}
+	
+	@Override
+	public boolean equals(Object o) {
+		
+		 if (o == this) { 
+	            return true; 
+	     } 
+	  
+		 if(!(o instanceof Edge)) {
+			return false;
+		 }
+		
+		 Edge c = (Edge) o; 
+		 if(this.src == c.src && this.dest == c.dest && this.weight == c.weight) {
+			 return true;
+		 } else {
+			 return false;
+		 }
+	}
+	
+	@Override
+	public int hashCode() {
+		return this.weight*10000+this.dest*100+this.src;
+	}
+	
+
+}

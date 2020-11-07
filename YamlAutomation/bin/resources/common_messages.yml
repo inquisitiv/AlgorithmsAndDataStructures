@@ -1,0 +1,1315 @@
+
+blackDiscountItem:
+ SEAT: "CB_COMMON_00001"
+ AIRPORT_MEAL: "CB_COMMON_00002"
+ CAB: "CB_COMMON_00003"
+Corp:
+ banner:
+  datum:
+   title: "CB_COMMON_00004"
+   subTitle: "CB_COMMON_00005"
+  data:
+   title: "CB_COMMON_00006"
+  benefits:
+   choiceOfFares: "CB_COMMON_00007"
+   gst: "CB_COMMON_00008"
+   policyCompliance: "CB_COMMON_00009"
+   customerSupport: "CB_COMMON_00010"
+  fares:
+   spcl:
+    title: "CB_COMMON_00011"
+    text: "CB_COMMON_00012"
+    subText: "CB_COMMON_00013"
+   regular:
+    title: "CB_COMMON_00014"
+    text: "CB_COMMON_00015"
+    subText: "CB_COMMON_00016"
+   handbag:
+    title: "CB_COMMON_00017"
+    text: "CB_COMMON_00018"
+    subText: "CB_COMMON_00019"
+   contracted:
+    title: "CB_COMMON_00020"
+    text: "CB_COMMON_00021"
+    subText: "CB_COMMON_00022"
+farerule:
+ partialCanNotAllowed:
+  title: "CB_COMMON_00023"
+  subTitleRT: "CB_COMMON_00024"
+  subTitleMC: "CB_COMMON_00025"
+  subTitleRTGoAir: "CB_COMMON_00026"
+ familyFareCanPolicy:
+  title: "CB_COMMON_00027"
+  subTitle: "CB_COMMON_00028"
+  subTitle2: "CB_COMMON_00029"
+ cpFareRules:
+  title:
+   nonRefundable: "CB_COMMON_00030"
+   refundable: "CB_COMMON_00031"
+   partiallyRefundable: "CB_COMMON_00032"
+  ctaText: "CB_COMMON_00033"
+ subtitle: "CB_COMMON_00034"
+ title: "CB_COMMON_00035"
+ depInfo: "CB_COMMON_00036"
+ informationNotAvailable: "CB_COMMON_00037"
+ nonRefundable: "CB_COMMON_00038"
+ nonChangeable: "CB_COMMON_00039"
+ fareDifference: "CB_COMMON_00040"
+ zeroCancellation: "CB_COMMON_00041"
+ tableHeader2:
+  title1: "CB_COMMON_00042"
+  title2: "CB_COMMON_00043"
+  dateChangeTitle: "CB_COMMON_00044"
+  subTitle1: "CB_COMMON_00045"
+  subTitle2: "CB_COMMON_00046"
+ tableHeader3:
+  header1: "CB_COMMON_00047"
+  header2: "CB_COMMON_00048"
+  header3: "CB_COMMON_00049"
+ sectorWise: "CB_COMMON_00050"
+ penaltyInfo: "CB_COMMON_00051"
+ refundableStatus:
+  refundable:
+   subText: "CB_COMMON_00052"
+   data: "CB_COMMON_00053"
+  partiallyRefundable:
+   data: "CB_COMMON_00054"
+  nonRefundable:
+   data: "CB_COMMON_00055"
+ refundableStatusRealTime:
+  refundable:
+   data: "CB_COMMON_00056"
+  partiallyRefundable:
+   data: "CB_COMMON_00057"
+  nonRefundable:
+   data: "CB_COMMON_00058"
+ penalty:
+  info: "CB_COMMON_00059"
+  data:
+   warning: "CB_COMMON_00060"
+   title: "CB_COMMON_00061"
+   subTitle: "CB_COMMON_00062"
+  tableHeader:
+   singlePnrRT:
+    title: "CB_COMMON_00063"
+    subTitle: "CB_COMMON_00064"
+  dateChange:
+   importantInfo: "CB_COMMON_00065"
+   importantInfoIntl: "CB_COMMON_00066"
+   charges:
+    notAllowed: "CB_COMMON_00067"
+    allowed: "CB_COMMON_00068"
+  tripWise:
+   timeRange: "CB_COMMON_00069"
+   cancellationCharges:
+    nonRefundable: "CB_COMMON_00070"
+    zcNotEnabled: "CB_COMMON_00071"
+    other: "CB_COMMON_00072"
+  cancellation:
+   timeRange:
+    fullString: "CB_COMMON_00073"
+    fullStringRnT: "CB_COMMON_00074"
+    startHours: "CB_COMMON_00075"
+    startDays: "CB_COMMON_00076"
+    endHours: "CB_COMMON_00077"
+    endDays: "CB_COMMON_00078"
+   title:
+    nonRefundable: "CB_COMMON_00079"
+    refundable: "CB_COMMON_00080"
+    partiallyRefundable: "CB_COMMON_00081"
+   importantInfo: "CB_COMMON_00082"
+   covidImportantInfo: "CB_COMMON_00083"
+   ctaText: "CB_COMMON_00084"
+   subTextGen: "CB_COMMON_00085"
+   subText: "CB_COMMON_00086"
+ baggage:
+  diffBaggageForDiffSectorsGeneric: "CB_COMMON_00087"
+  diffBaggageForDiffSectorsSpecific: "CB_COMMON_00088"
+  importantInfo: "CB_COMMON_00089"
+  importantInfoDetails:
+   handBaggageFare:
+    multiFlights: "CB_COMMON_00090"
+    other: "CB_COMMON_00091"
+    impInfo:
+     title: "CB_COMMON_00092"
+     descriptionSuffix: "CB_COMMON_00093"
+   diffPaxBaggageFare:
+    impInfo:
+     title: "CB_COMMON_00094"
+     description: "CB_COMMON_00095"
+     descriptionD: "CB_COMMON_00096"
+   diffBaggageForDiffSectors:
+    impInfo:
+     title: "CB_COMMON_00097"
+     descriptionSuffix: "CB_COMMON_00098"
+  text:
+   infoNotAvailable: "CB_COMMON_00099"
+   cabinBagOnly: "CB_COMMON_00100"
+   zeroQty: "CB_COMMON_00101"
+   other: "CB_COMMON_00102"
+  purchased:
+   checkIn:
+    appender: "CB_COMMON_00103"
+    item: "CB_COMMON_00104"
+    itemRnT: "CB_COMMON_00105"
+    multiple: "CB_COMMON_00106"
+flightRules:
+ checkInBagText:
+  inPc: "CB_COMMON_00107"
+  inPcRnT: "CB_COMMON_00108"
+ cabinBagText:
+  inPc: "CB_COMMON_00109"
+  inPcRnT: "CB_COMMON_00110"
+fareChange:
+ noChange:
+  msg: "CB_COMMON_00111"
+ down:
+  subtitle: "CB_COMMON_00112"
+  title: "CB_COMMON_00113"
+  msg: "CB_COMMON_00114"
+ up:
+  subtitle: "CB_COMMON_00115"
+  title: "CB_COMMON_00116"
+  msg: "CB_COMMON_00117"
+fareBreakup:
+ title: "CB_COMMON_00118"
+ totalFare: "CB_COMMON_00119"
+ gdsAdjustment:
+  text: "CB_COMMON_00120"
+  ctaText: "CB_COMMON_00121"
+  ctaTextM: "CB_COMMON_00122"
+ holdBook:
+  thankYou:
+   paid:
+    label: "CB_COMMON_00123"
+    subText: "CB_COMMON_00124"
+   due:
+    label: "CB_COMMON_00125"
+    subText: "CB_COMMON_00126"
+  other:
+   total:
+    label: "CB_COMMON_00127"
+   due:
+    label: "CB_COMMON_00128"
+    subText: "CB_COMMON_00129"
+ fareEntity:
+  meal:
+   text: "CB_COMMON_00130"
+   TextD: "CB_COMMON_00131"
+   amt: "CB_COMMON_00132"
+  baggage:
+   text: "CB_COMMON_00133"
+   TextD: "CB_COMMON_00134"
+   amt: "CB_COMMON_00135"
+  seats:
+   text: "CB_COMMON_00136"
+   TextD: "CB_COMMON_00137"
+   amt: "CB_COMMON_00138"
+  discount:
+   amt: "CB_COMMON_00139"
+   creditVoucher: "CB_COMMON_00140"
+   fareAdjustment: "CB_COMMON_00141"
+  NCEDefault:
+   text: "CB_COMMON_00142"
+   tag:
+    text: "CB_COMMON_00143"
+  NCESelected:
+   title: "CB_COMMON_00144"
+   subTitle: "CB_COMMON_00145"
+   paymentInfo:
+    title: "CB_COMMON_00146"
+    amount: "CB_COMMON_00147"
+    tenure: "CB_COMMON_00148"
+ itemCodeMap:
+  charity:
+   text: "CB_COMMON_00149"
+  zc:
+   text: "CB_COMMON_00150"
+  insurance:
+   text: "CB_COMMON_00151"
+stops:
+ type:
+  airportChange: "CB_COMMON_00152"
+  planeChange: "CB_COMMON_00153"
+  terminalChange: "CB_COMMON_00154"
+ text:
+  nonStop: "CB_COMMON_00155"
+  oneStop: "CB_COMMON_00156"
+  multipleStops: "CB_COMMON_00157"
+  multiStops: "CB_COMMON_00158"
+cabinClass:
+ economy: "CB_COMMON_00159"
+ premiumEconomy: "CB_COMMON_00160"
+ business: "CB_COMMON_00161"
+ first: "CB_COMMON_00162"
+snack:
+ ctaOkay: "CB_COMMON_00163"
+ title: "CB_COMMON_00164"
+flightDetails: "CB_COMMON_00165"
+flightDtlInfo:
+ operatedBy: "CB_COMMON_00166"
+insurance:
+ tncText: "CB_COMMON_00167"
+ tncTextD: "CB_COMMON_00168"
+ toast:
+  text: "CB_COMMON_00169"
+  textDays: "CB_COMMON_00170"
+  InsSelectedText: "CB_COMMON_00171"
+  InsNotSelectedText: "CB_COMMON_00172"
+ tax: "CB_COMMON_00173"
+ validation: "CB_COMMON_00174"
+ amountSubtext:
+  day: "CB_COMMON_00175"
+  fixed: "CB_COMMON_00176"
+ benfitTitle: "CB_COMMON_00177"
+ optOutText: "CB_COMMON_00178"
+ optinText: "CB_COMMON_00179"
+ stayPeriodDetail: "CB_COMMON_00180"
+ stayPeriodSuffix: "CB_COMMON_00181"
+ subtitle: "CB_COMMON_00182"
+ subtitlePerDay: "CB_COMMON_00183"
+ title: "CB_COMMON_00184"
+ titleTraveller: "CB_COMMON_00185"
+ rcaCtaText: "CB_COMMON_00186"
+ placeHolder:
+  Tnc: "CB_COMMON_00187"
+  GoodHealthTerms: "CB_COMMON_00188"
+ placeHolderText:
+  Tnc: "CB_COMMON_00189"
+  GoodHealthTerms: "CB_COMMON_00190"
+ errors:
+  invalidPlan: "CB_COMMON_00191"
+visa:
+ rules:
+  heading: "CB_COMMON_00192"
+  tripTitle: "CB_COMMON_00193"
+ transitVisa:
+  title: "CB_COMMON_00194"
+  Heading: "CB_COMMON_00195"
+ visa:
+  title: "CB_COMMON_00196"
+  descSuffix: "CB_COMMON_00197"
+  capsuleMsg: "CB_COMMON_00198"
+  bodyText: "CB_COMMON_00199"
+  cta:
+   text: "CB_COMMON_00200"
+   title: "CB_COMMON_00201"
+  unit:
+   header: "CB_COMMON_00202"
+   body: "CB_COMMON_00203"
+   banner:
+    text: "CB_COMMON_00204"
+    additionalText: "CB_COMMON_00205"
+bnpl:
+ data:
+  title: "CB_COMMON_00206"
+ cta:
+  text: "CB_COMMON_00207"
+  snackText: "CB_COMMON_00208"
+ lca:
+  text: "CB_COMMON_00209"
+ bloom:
+  header: "CB_COMMON_00210"
+  subHeader: "CB_COMMON_00211"
+  rules:
+   r1: "CB_COMMON_00212"
+   r2: "CB_COMMON_00213"
+   r3: "CB_COMMON_00214"
+ bnpl:
+  header: "CB_COMMON_00215"
+  subHeader: "CB_COMMON_00216"
+  rules:
+   r1: "CB_COMMON_00217"
+   r2: "CB_COMMON_00218"
+   r3: "CB_COMMON_00219"
+emi:
+ cardText:
+  NCE: "CB_COMMON_00220"
+  LCE: "CB_COMMON_00221"
+  FA: "CB_COMMON_00222"
+ data:
+  title: "CB_COMMON_00223"
+ dataD:
+  title: "CB_COMMON_00224"
+ farePersuasionText: "CB_COMMON_00225"
+ subtext:
+  NCE: "CB_COMMON_00226"
+ NCE:
+  selectiontext: "CB_COMMON_00227"
+  selectiontext1: "CB_COMMON_00228"
+  selectiontext2: "CB_COMMON_00229"
+  title: "CB_COMMON_00230"
+  greyedcouponmessage: "CB_COMMON_00231"
+cabs:
+ traveller:
+  title: "CB_COMMON_00232"
+  lowerTitle: "CB_COMMON_00233"
+  persuasion:
+   Text: "CB_COMMON_00234"
+  multiCabUpperTitle: "CB_COMMON_00235"
+  singleCabUpperTitle: "CB_COMMON_00236"
+  selectedCabTitle: "CB_COMMON_00237"
+  addCabText: "CB_COMMON_00238"
+  deselectedCabTitle: "CB_COMMON_00239"
+  termsAndCondition:
+   text: "CB_COMMON_00240"
+   url: "CB_COMMON_00241"
+   title: "CB_COMMON_00242"
+  footerText: "CB_COMMON_00243"
+  rateText: "CB_COMMON_00244"
+  priceInfo: "CB_COMMON_00245"
+  blackCabDiscounted: "CB_COMMON_00246"
+  blackCabFree: "CB_COMMON_00247"
+  selection:
+   text:
+    add: "CB_COMMON_00248"
+    remove: "CB_COMMON_00249"
+   errors:
+    wrongItemCode:
+     sel: "CB_COMMON_00250"
+     desel: "CB_COMMON_00251"
+     gen: "CB_COMMON_00252"
+ payment:
+  cabTransferToMsg: "CB_COMMON_00253"
+  cabTransferFromMsg: "CB_COMMON_00254"
+  cardLevelInfoTransferFrom: "CB_COMMON_00255"
+  cardLevelInfoTransferTo: "CB_COMMON_00256"
+ thankYou:
+  cabCardTitle: "CB_COMMON_00257"
+  cabCardSubtitle: "CB_COMMON_00258"
+  cabCardSchedule: "CB_COMMON_00259"
+  cabCardToCityMsg: "CB_COMMON_00260"
+  cabCardFromCityMsg: "CB_COMMON_00261"
+  ctaDetailsText: "CB_COMMON_00262"
+  cabHoldFailureText: "CB_COMMON_00263"
+cabsV1:
+ title: "CB_COMMON_00264"
+ subTitle: "CB_COMMON_00265"
+ heading: "CB_COMMON_00266"
+ persuationText: "CB_COMMON_00267"
+ termsAndCondition:
+  text: "CB_COMMON_00268"
+ safety:
+  ctaTitle: "CB_COMMON_00269"
+  text: "CB_COMMON_00270"
+ service:
+  showMoreText: "CB_COMMON_00271"
+  hideText: "CB_COMMON_00272"
+  pickUpTitle: "CB_COMMON_00273"
+  dropTitle: "CB_COMMON_00274"
+  dropDown:
+   search: "CB_COMMON_00275"
+   placeHolder: "CB_COMMON_00276"
+  extraFareInfo: "CB_COMMON_00277"
+  toolTip:
+   firstDiscouted: "CB_COMMON_00278"
+   first: "CB_COMMON_00279"
+   second: "CB_COMMON_00280"
+ thankYou:
+  scheduleTitle: "CB_COMMON_00281"
+  cabDeepLinkText: "CB_COMMON_00282"
+6E:
+ fastforward:
+  addText: "CB_COMMON_00283"
+  removeText: "CB_COMMON_00284"
+  text: "CB_COMMON_00285"
+  additionalText: "CB_COMMON_00286"
+  addOn:
+   preselected:
+    title: "CB_COMMON_00287"
+    subtitle:
+     singlePax: "CB_COMMON_00288"
+     multiPax: "CB_COMMON_00289"
+   other:
+    title: "CB_COMMON_00290"
+    subtitle:
+     singlePax: "CB_COMMON_00291"
+     multiPax: "CB_COMMON_00292"
+   thankYou:
+    title: "CB_COMMON_00293"
+    subtitle: "CB_COMMON_00294"
+  overlayInfo:
+   pageTitle: "CB_COMMON_00295"
+   title: "CB_COMMON_00296"
+   subtitle: "CB_COMMON_00297"
+   amtTitle: "CB_COMMON_00298"
+   sectorInfoData:
+    title: "CB_COMMON_00299"
+  benefit1:
+   text: "CB_COMMON_00300"
+   ctaTextD: "CB_COMMON_00301"
+  benefit2:
+   text: "CB_COMMON_00302"
+   ctaTextD: "CB_COMMON_00303"
+ fastforwardCorp:
+  text: "CB_COMMON_00304"
+  additionalText: "CB_COMMON_00305"
+  benefit1:
+   text: "CB_COMMON_00306"
+   ctaTextD: "CB_COMMON_00307"
+  benefit2:
+   text: "CB_COMMON_00308"
+   ctaTextD: "CB_COMMON_00309"
+ DOM:
+  cabinBaggage:
+   text: "CB_COMMON_00310"
+OG:
+ DOM:
+  cabinBaggage:
+   text: "CB_COMMON_00311"
+ctripbanner:
+ cta: "CB_COMMON_00312"
+ textD: "CB_COMMON_00313"
+ text: "CB_COMMON_00314"
+ spMsg: "CB_COMMON_00315"
+ sptitle: "CB_COMMON_00316"
+forex:
+ ctatitle: "CB_COMMON_00317"
+ bDCtaText: "CB_COMMON_00318"
+ title: "CB_COMMON_00319"
+ titleGcc: "CB_COMMON_00320"
+ titleWEGOAE: "CB_COMMON_00321"
+ text: "CB_COMMON_00322"
+ textGcc: "CB_COMMON_00323"
+ textWEGOAE: "CB_COMMON_00324"
+ ctaText: "CB_COMMON_00325"
+peitho:
+ data:
+  title: "CB_COMMON_00326"
+ urlType:
+  data:
+   ctaTitle: "CB_COMMON_00327"
+loyalty:
+ data:
+  title: "CB_COMMON_00328"
+  subTitle: "CB_COMMON_00329"
+recomFlights:
+ heading:
+  title: "CB_COMMON_00330"
+  subTitle: "CB_COMMON_00331"
+  sbTitle: "CB_COMMON_00332"
+ splitHeaders:
+  onward: "CB_COMMON_00333"
+  return: "CB_COMMON_00334"
+  multipleOnward: "CB_COMMON_00335"
+  multipleReturn: "CB_COMMON_00336"
+ cardCheapFareMsg: "CB_COMMON_00337"
+ cardCheapFareMsgMobileRT: "CB_COMMON_00338"
+ cardCheapFareMsgMobileOW: "CB_COMMON_00339"
+ cardCostDiff: "CB_COMMON_00340"
+ cheapFareMsgOW: "CB_COMMON_00341"
+ comboCheapFareMsg: "CB_COMMON_00342"
+ recomReasons:
+  reason1: "CB_COMMON_00343"
+  reason2: "CB_COMMON_00344"
+  reason3: "CB_COMMON_00345"
+ fareDiffMsg:
+  text: "CB_COMMON_00346"
+ recomBanner:
+  text: "CB_COMMON_00347"
+amenties:
+ desc:
+  seat:
+   pitch: "CB_COMMON_00348"
+   width: "CB_COMMON_00349"
+   quality: "CB_COMMON_00350"
+  meal:
+   quality: "CB_COMMON_00351"
+   cost: "CB_COMMON_00352"
+  wifi:
+   performance: "CB_COMMON_00353"
+   cost: "CB_COMMON_00354"
+  entertainment:
+   quality: "CB_COMMON_00355"
+   cost: "CB_COMMON_00356"
+  power:
+   powerOutlet: "CB_COMMON_00357"
+   usbPort: "CB_COMMON_00358"
+  aircraft:
+   cabinPressure: "CB_COMMON_00359"
+   windowSize: "CB_COMMON_00360"
+  layout:
+   aisleAccess: "CB_COMMON_00361"
+messages:
+ importantInfo:
+  covidTravelguidelines:
+   description: "CB_COMMON_00362"
+   descriptionD: "CB_COMMON_00363"
+   title: "CB_COMMON_00364"
+  covidTravelguidelines1:
+   description:
+    desc1: "CB_COMMON_00365"
+    desc2: "CB_COMMON_00366"
+   descriptionD:
+    desc1: "CB_COMMON_00367"
+    desc2: "CB_COMMON_00368"
+   description6E:
+    DOM:
+     desc1: "CB_COMMON_00369"
+     desc2: "CB_COMMON_00370"
+   descriptionD6E:
+    DOM:
+     desc1: "CB_COMMON_00371"
+     desc2: "CB_COMMON_00372"
+   descriptionOG:
+    DOM:
+     desc1: "CB_COMMON_00373"
+     desc2: "CB_COMMON_00374"
+   descriptionDOG:
+    DOM:
+     desc1: "CB_COMMON_00375"
+     desc2: "CB_COMMON_00376"
+   titles:
+    title1: "CB_COMMON_00377"
+    title2: "CB_COMMON_00378"
+  buddyCity:
+   description: "CB_COMMON_00379"
+   descriptionD: "CB_COMMON_00380"
+   title: "CB_COMMON_00381"
+  recheckin:
+   description: "CB_COMMON_00382"
+   descriptionD: "CB_COMMON_00383"
+   title: "CB_COMMON_00384"
+  nearby:
+   from: "CB_COMMON_00385"
+   to: "CB_COMMON_00386"
+   title: "CB_COMMON_00387"
+  eticket:
+   title: "CB_COMMON_00388"
+  creditShellFlow:
+   description: "CB_COMMON_00389"
+   descriptionD: "CB_COMMON_00390"
+   title: "CB_COMMON_00391"
+insuranceSB:
+ titleAdd: "CB_COMMON_00392"
+ titleRemove: "CB_COMMON_00393"
+ addInsuranceHolder:
+  title: "CB_COMMON_00394"
+  titleDom: "CB_COMMON_00395"
+  stayPeriodDetail: "CB_COMMON_00396"
+  maxDayError: "CB_COMMON_00397"
+  ctaText: "CB_COMMON_00398"
+  cta:
+   text: "CB_COMMON_00399"
+ removeInsuranceHolder:
+  title: "CB_COMMON_00400"
+  titleDom: "CB_COMMON_00401"
+  subTitle: "CB_COMMON_00402"
+  subTitleIntlChildren: "CB_COMMON_00403"
+  perDayMsgDom: "CB_COMMON_00404"
+  perDayMsg: "CB_COMMON_00405"
+  ctaText: "CB_COMMON_00406"
+  cta:
+   text: "CB_COMMON_00407"
+ bookMsgAdd: "CB_COMMON_00408"
+ bookMsgRemove: "CB_COMMON_00409"
+digit_insurance:
+ termsAndConditionsText: "CB_COMMON_00410"
+ knowMoreText: "CB_COMMON_00411"
+ preselectedTag: "CB_COMMON_00412"
+ priceText: "CB_COMMON_00413"
+ gstText: "CB_COMMON_00414"
+ subtitle: "CB_COMMON_00415"
+ subtitlePreselected: "CB_COMMON_00416"
+ addText: "CB_COMMON_00417"
+ addTextD: "CB_COMMON_00418"
+ removeText: "CB_COMMON_00419"
+ addComboText: "CB_COMMON_00420"
+ removeComboText: "CB_COMMON_00421"
+ titleFormat: "CB_COMMON_00422"
+ selectedPlanTitleFormat: "CB_COMMON_00423"
+ selectedPlanTitleFormatComboD: "CB_COMMON_00424"
+ selectedPlanTitleFormatCombo: "CB_COMMON_00425"
+ coveredLegFormat: "CB_COMMON_00426"
+ footer:
+  text1: "CB_COMMON_00427"
+  text2: "CB_COMMON_00428"
+  text3: "CB_COMMON_00429"
+ splitBundle:
+  title: "CB_COMMON_00430"
+  addcombotext: "CB_COMMON_00431"
+ singleBundle:
+  title: "CB_COMMON_00432"
+  addcombotext: "CB_COMMON_00433"
+  persuasion:
+   notselected: "CB_COMMON_00434"
+   selected: "CB_COMMON_00435"
+  InsSelectedText: "CB_COMMON_00436"
+  InsNotSelectedText: "CB_COMMON_00437"
+  radio:
+   optInText: "CB_COMMON_00438"
+   optOutText: "CB_COMMON_00439"
+   persuasion:
+    notselected: "CB_COMMON_00440"
+    selected: "CB_COMMON_00441"
+   tncPrefix: "CB_COMMON_00442"
+   tncSuffix: "CB_COMMON_00443"
+   tncText: "CB_COMMON_00444"
+   validationMsg: "CB_COMMON_00445"
+   coveredLeg: "CB_COMMON_00446"
+ sb:
+  title: "CB_COMMON_00447"
+  persuasionText: "CB_COMMON_00448"
+  titleFormat: "CB_COMMON_00449"
+ selection:
+  errors:
+   wrongItemCode: "CB_COMMON_00450"
+ sbData:
+  lcaCtaText: "CB_COMMON_00451"
+  rcaCtaText: "CB_COMMON_00452"
+baggageOnReview:
+ preSelectedTitle: "CB_COMMON_00453"
+ preSelectedSubtitle: "CB_COMMON_00454"
+ notSelectedCabinBagOnlyTitle: "CB_COMMON_00455"
+ notSelectedTitle: "CB_COMMON_00456"
+ notSelectedSubtitle: "CB_COMMON_00457"
+ additionalMessage: "CB_COMMON_00458"
+ addText: "CB_COMMON_00459"
+ removeText: "CB_COMMON_00460"
+defaultinputvalues:
+ defaultcontactforMMT:
+  Value: "CB_COMMON_00461"
+ defaultcontactforMMTUSA:
+  Value: "CB_COMMON_00462"
+ defaultcontactforMMTUAE:
+  Value: "CB_COMMON_00463"
+farealert:
+ title:
+  fadisabled: "CB_COMMON_00464"
+  faenabled: "CB_COMMON_00465"
+ subtitle: "CB_COMMON_00466"
+ selection:
+  errors:
+   failed: "CB_COMMON_00467"
+fareRecoms:
+ paxText: "CB_COMMON_00468"
+ ctaText: "CB_COMMON_00469"
+ departureInfo:
+  stop: "CB_COMMON_00470"
+  stops: "CB_COMMON_00471"
+  stopD: "CB_COMMON_00472"
+  stopsD: "CB_COMMON_00473"
+  nonStop: "CB_COMMON_00474"
+  intlrt:
+   departText: "CB_COMMON_00475"
+   returnText: "CB_COMMON_00476"
+  others:
+   departText: "CB_COMMON_00477"
+   returnText: "CB_COMMON_00478"
+ services:
+  text:
+   show: "CB_COMMON_00479"
+   hide: "CB_COMMON_00480"
+  unit:
+   ticketingTime:
+    mins: "CB_COMMON_00481"
+   baggage:
+    kg: "CB_COMMON_00482"
+    kgs: "CB_COMMON_00483"
+    pc: "CB_COMMON_00484"
+    pcs: "CB_COMMON_00485"
+fareService:
+ excudeCommonServices:
+  MAX_TICKETING_TIME:
+   text: "CB_COMMON_00486"
+ MAX_TICKETING_TIME:
+  minText: "CB_COMMON_00487"
+  inc:
+   text: "CB_COMMON_00488"
+  cha:
+   text: "CB_COMMON_00489"
+  nof:
+   text: "CB_COMMON_00490"
+  default:
+   textD: "CB_COMMON_00491"
+   text: "CB_COMMON_00492"
+  hoverInfo:
+   title: "CB_COMMON_00493"
+   text: "CB_COMMON_00494"
+   rcaCta:
+    text: "CB_COMMON_00495"
+  text: "CB_COMMON_00496"
+ CABIN_BAGGAGE_ALLOWANCE:
+  inc:
+   text: "CB_COMMON_00497"
+  cha:
+   text: "CB_COMMON_00498"
+  nof:
+   text: "CB_COMMON_00499"
+  default:
+   text: "CB_COMMON_00500"
+  text: "CB_COMMON_00501"
+ CHECKIN_BAGGAGE_ALLOWANCE:
+  inc:
+   text: "CB_COMMON_00502"
+  cha:
+   text: "CB_COMMON_00503"
+  nof:
+   text: "CB_COMMON_00504"
+  default:
+   text: "CB_COMMON_00505"
+ REFUNDABLE:
+  inc:
+   text: "CB_COMMON_00506"
+  cha:
+   text: "CB_COMMON_00507"
+  nof:
+   text: "CB_COMMON_00508"
+  default:
+   text: "CB_COMMON_00509"
+  text: "CB_COMMON_00510"
+ MEAL:
+  inc:
+   text: "CB_COMMON_00511"
+  cha:
+   text: "CB_COMMON_00512"
+  nof:
+   text: "CB_COMMON_00513"
+  default:
+   text: "CB_COMMON_00514"
+  text: "CB_COMMON_00515"
+  PEText: "CB_COMMON_00516"
+ SEAT:
+  inc:
+   text: "CB_COMMON_00517"
+  cha:
+   text: "CB_COMMON_00518"
+  nof:
+   text: "CB_COMMON_00519"
+  default:
+   text: "CB_COMMON_00520"
+  text: "CB_COMMON_00521"
+  PEText: "CB_COMMON_00522"
+ PRIORITY_BAGGAGE:
+  inc:
+   text: "CB_COMMON_00523"
+  cha:
+   text: "CB_COMMON_00524"
+  nof:
+   text: "CB_COMMON_00525"
+  default:
+   text: "CB_COMMON_00526"
+  PEText: "CB_COMMON_00527"
+ PRIORITY_CHECKIN:
+  inc:
+   text: "CB_COMMON_00528"
+  cha:
+   text: "CB_COMMON_00529"
+  nof:
+   text: "CB_COMMON_00530"
+  default:
+   text: "CB_COMMON_00531"
+  PEText: "CB_COMMON_00532"
+ PRIORITY_BOARDING:
+  inc:
+   text: "CB_COMMON_00533"
+  cha:
+   text: "CB_COMMON_00534"
+  nof:
+   text: "CB_COMMON_00535"
+  default:
+   text: "CB_COMMON_00536"
+ NAME_CHANGE:
+  inc:
+   text: "CB_COMMON_00537"
+  cha:
+   text: "CB_COMMON_00538"
+  nof:
+   text: "CB_COMMON_00539"
+  default:
+   text: "CB_COMMON_00540"
+ AMENDABLE:
+  inc:
+   text: "CB_COMMON_00541"
+  cha:
+   text: "CB_COMMON_00542"
+  nof:
+   text: "CB_COMMON_00543"
+  default:
+   text: "CB_COMMON_00544"
+  text: "CB_COMMON_00545"
+  PEText: "CB_COMMON_00546"
+ INSURANCE:
+  inc:
+   text: "CB_COMMON_00547"
+  cha:
+   text: "CB_COMMON_00548"
+  nof:
+   text: "CB_COMMON_00549"
+  default:
+   text: "CB_COMMON_00550"
+  text: "CB_COMMON_00551"
+b2bfareService:
+ excudeCommonServices:
+  MAX_TICKETING_TIME:
+   text: "CB_COMMON_00552"
+ MAX_TICKETING_TIME:
+  minText: "CB_COMMON_00553"
+  inc:
+   text: "CB_COMMON_00554"
+  cha:
+   text: "CB_COMMON_00555"
+  nof:
+   text: "CB_COMMON_00556"
+  default:
+   textD: "CB_COMMON_00557"
+   text: "CB_COMMON_00558"
+  hoverInfo:
+   title: "CB_COMMON_00559"
+   text: "CB_COMMON_00560"
+   rcaCta:
+    text: "CB_COMMON_00561"
+  text: "CB_COMMON_00562"
+ CABIN_BAGGAGE_ALLOWANCE:
+  inc:
+   text: "CB_COMMON_00563"
+  cha:
+   text: "CB_COMMON_00564"
+  nof:
+   text: "CB_COMMON_00565"
+  default:
+   text: "CB_COMMON_00566"
+  text: "CB_COMMON_00567"
+ CHECKIN_BAGGAGE_ALLOWANCE:
+  inc:
+   text: "CB_COMMON_00568"
+  cha:
+   text: "CB_COMMON_00569"
+  nof:
+   text: "CB_COMMON_00570"
+  default:
+   text: "CB_COMMON_00571"
+ REFUNDABLE:
+  inc:
+   text: "CB_COMMON_00572"
+  cha:
+   text: "CB_COMMON_00573"
+  nof:
+   text: "CB_COMMON_00574"
+  default:
+   text: "CB_COMMON_00575"
+  text: "CB_COMMON_00576"
+ MEAL:
+  inc:
+   text: "CB_COMMON_00577"
+  cha:
+   text: "CB_COMMON_00578"
+  nof:
+   text: "CB_COMMON_00579"
+  default:
+   text: "CB_COMMON_00580"
+  text: "CB_COMMON_00581"
+  PEText: "CB_COMMON_00582"
+ SEAT:
+  inc:
+   text: "CB_COMMON_00583"
+  cha:
+   text: "CB_COMMON_00584"
+  nof:
+   text: "CB_COMMON_00585"
+  default:
+   text: "CB_COMMON_00586"
+  text: "CB_COMMON_00587"
+  PEText: "CB_COMMON_00588"
+ PRIORITY_BAGGAGE:
+  inc:
+   text: "CB_COMMON_00589"
+  cha:
+   text: "CB_COMMON_00590"
+  nof:
+   text: "CB_COMMON_00591"
+  default:
+   text: "CB_COMMON_00592"
+  PEText: "CB_COMMON_00593"
+ PRIORITY_CHECKIN:
+  inc:
+   text: "CB_COMMON_00594"
+  cha:
+   text: "CB_COMMON_00595"
+  nof:
+   text: "CB_COMMON_00596"
+  default:
+   text: "CB_COMMON_00597"
+  PEText: "CB_COMMON_00598"
+ PRIORITY_BOARDING:
+  inc:
+   text: "CB_COMMON_00599"
+  cha:
+   text: "CB_COMMON_00600"
+  nof:
+   text: "CB_COMMON_00601"
+  default:
+   text: "CB_COMMON_00602"
+ NAME_CHANGE:
+  inc:
+   text: "CB_COMMON_00603"
+  cha:
+   text: "CB_COMMON_00604"
+  nof:
+   text: "CB_COMMON_00605"
+  default:
+   text: "CB_COMMON_00606"
+ AMENDABLE:
+  inc:
+   text: "CB_COMMON_00607"
+  cha:
+   text: "CB_COMMON_00608"
+  nof:
+   text: "CB_COMMON_00609"
+  default:
+   text: "CB_COMMON_00610"
+  text: "CB_COMMON_00611"
+  PEText: "CB_COMMON_00612"
+ INSURANCE:
+  inc:
+   text: "CB_COMMON_00613"
+  cha:
+   text: "CB_COMMON_00614"
+  nof:
+   text: "CB_COMMON_00615"
+  default:
+   text: "CB_COMMON_00616"
+  text: "CB_COMMON_00617"
+popupMultiFare:
+ persuasionText: "CB_COMMON_00618"
+ leg:
+  showText: "CB_COMMON_00619"
+  hideText: "CB_COMMON_00620"
+ titleD: "CB_COMMON_00621"
+ title: "CB_COMMON_00622"
+b2bpopupMultiFare:
+ titleD: "CB_COMMON_00623"
+ title: "CB_COMMON_00624"
+multiFare:
+ Ctrip:
+  title: "CB_COMMON_00625"
+  hvrTitle: "CB_COMMON_00626"
+  text: "CB_COMMON_00627"
+  rcaCta:
+   text: "CB_COMMON_00628"
+ SimpleFare:
+  title: "CB_COMMON_00629"
+  text: "CB_COMMON_00630"
+  textP: "CB_COMMON_00631"
+  rcaCta:
+   text: "CB_COMMON_00632"
+ AirlineFare:
+  title: "CB_COMMON_00633"
+  text: "CB_COMMON_00634"
+  textP: "CB_COMMON_00635"
+  rcaCta:
+   text: "CB_COMMON_00636"
+ Spicemax:
+  title: "CB_COMMON_00637"
+  text: "CB_COMMON_00638"
+  peText: "CB_COMMON_00639"
+  rcaCta:
+   text: "CB_COMMON_00640"
+ Flexi_6E:
+  title: "CB_COMMON_00641"
+  text: "CB_COMMON_00642"
+  rcaCta:
+   text: "CB_COMMON_00643"
+ Flexi Plus_6E:
+  title: "CB_COMMON_00644"
+  text: "CB_COMMON_00645"
+  rcaCta:
+   text: "CB_COMMON_00646"
+ Premium Flex_I5:
+  title: "CB_COMMON_00647"
+  text: "CB_COMMON_00648"
+  rcaCta:
+   text: "CB_COMMON_00649"
+ GoMore:
+  title: "CB_COMMON_00650"
+  text: "CB_COMMON_00651"
+  rcaCta:
+   text: "CB_COMMON_00652"
+ Corporate fare:
+  title: "CB_COMMON_00653"
+  text: "CB_COMMON_00654"
+  textP: "CB_COMMON_00655"
+  rcaCta:
+   text: "CB_COMMON_00656"
+b2bmultiFare:
+ Ctrip:
+  title: "CB_COMMON_00657"
+  hvrTitle: "CB_COMMON_00658"
+  text: "CB_COMMON_00659"
+  rcaCta:
+   text: "CB_COMMON_00660"
+ SimpleFare:
+  title: "CB_COMMON_00661"
+  text: "CB_COMMON_00662"
+  textP: "CB_COMMON_00663"
+  rcaCta:
+   text: "CB_COMMON_00664"
+ AirlineFare:
+  title: "CB_COMMON_00665"
+  text: "CB_COMMON_00666"
+  textP: "CB_COMMON_00667"
+  rcaCta:
+   text: "CB_COMMON_00668"
+ CompanyFare:
+  title: "CB_COMMON_00669"
+  text: "CB_COMMON_00670"
+  textP: "CB_COMMON_00671"
+  rcaCta:
+   text: "CB_COMMON_00672"
+ Spicemax:
+  title: "CB_COMMON_00673"
+  text: "CB_COMMON_00674"
+  peText: "CB_COMMON_00675"
+  rcaCta:
+   text: "CB_COMMON_00676"
+ Flexi_6E:
+  title: "CB_COMMON_00677"
+  text: "CB_COMMON_00678"
+  rcaCta:
+   text: "CB_COMMON_00679"
+ Flexi Plus_6E:
+  title: "CB_COMMON_00680"
+  text: "CB_COMMON_00681"
+  rcaCta:
+   text: "CB_COMMON_00682"
+ Premium Flex_I5:
+  title: "CB_COMMON_00683"
+  text: "CB_COMMON_00684"
+  rcaCta:
+   text: "CB_COMMON_00685"
+ Corporate fare:
+  title: "CB_COMMON_00686"
+  text: "CB_COMMON_00687"
+  textP: "CB_COMMON_00688"
+  rcaCta:
+   text: "CB_COMMON_00689"
+blueribbon:
+ title: "CB_COMMON_00690"
+ termsAndConditionsText: "CB_COMMON_00691"
+ fareBreakUpText: "CB_COMMON_00692"
+ fareBreakUpSubtext: "CB_COMMON_00693"
+ fareBreakUpSubtextD: "CB_COMMON_00694"
+ fareBreakUpSubtextPayment: "CB_COMMON_00695"
+ priceText: "CB_COMMON_00696"
+ priceTextSinglePax: "CB_COMMON_00697"
+ gstText: "CB_COMMON_00698"
+ subtitle: "CB_COMMON_00699"
+ addText: "CB_COMMON_00700"
+ addTextD: "CB_COMMON_00701"
+ removeText: "CB_COMMON_00702"
+ titleFormat: "CB_COMMON_00703"
+ footer:
+  text1: "CB_COMMON_00704"
+  text2: "CB_COMMON_00705"
+ persuasion:
+  selected: "CB_COMMON_00706"
+  selectedD: "CB_COMMON_00707"
+ benefitMap1:
+  titleD: "CB_COMMON_00708"
+  subtitleD: "CB_COMMON_00709"
+  title: "CB_COMMON_00710"
+ benefitMap2:
+  titleD: "CB_COMMON_00711"
+  subtitleD: "CB_COMMON_00712"
+  title: "CB_COMMON_00713"
+ benefitMap3:
+  titleD: "CB_COMMON_00714"
+  subtitleD: "CB_COMMON_00715"
+  title: "CB_COMMON_00716"
+ thankyoucard:
+  title: "CB_COMMON_00717"
+  subtitle: "CB_COMMON_00718"
+ selection:
+  errors:
+   wrongItemCode: "CB_COMMON_00719"
+Covid:
+ GDS:
+  adjustmentV2:
+   title: "CB_COMMON_00720"
+   ctaText: "CB_COMMON_00721"
+   adjustmentInfoV2:
+    title: "CB_COMMON_00722"
+    footer:
+     text: "CB_COMMON_00723"
+     otherInfo:
+      text: "CB_COMMON_00724"
+      amount: "CB_COMMON_00725"
+     paxWise:
+      header:
+       hdr1: "CB_COMMON_00726"
+       hdr2: "CB_COMMON_00727"
+       hdr3: "CB_COMMON_00728"
+      infoItem:
+       baseFare: "CB_COMMON_00729"
+       tax: "CB_COMMON_00730"
+       adult: "CB_COMMON_00731"
+       adults: "CB_COMMON_00732"
+       child: "CB_COMMON_00733"
+       childs: "CB_COMMON_00734"
+       infant: "CB_COMMON_00735"
+       infants: "CB_COMMON_00736"
+ navitaire:
+  adjustment:
+   footer:
+    text: "CB_COMMON_00737"
+   info:
+    selectedFlight:
+     text: "CB_COMMON_00738"
+     amount: "CB_COMMON_00739"
+    creditFlight:
+     text: "CB_COMMON_00740"
+     amount: "CB_COMMON_00741"
+    finalAmount:
+     text: "CB_COMMON_00742"
+     amount: "CB_COMMON_00743"
+    rtDiscount:
+     text: "CB_COMMON_00744"
+  reaminedCreditText: "CB_COMMON_00745"
+  fareBreakUp:
+   totalText: "CB_COMMON_00746"
+   totalAmountToBePaidText: "CB_COMMON_00747"
+ selfdecText: "CB_COMMON_00748"
+ consent:
+  title: "CB_COMMON_00749"
+  rightCtaText: "CB_COMMON_00750"
+covidBanner:
+ name: "CB_COMMON_00751"
+ title: "CB_COMMON_00752"
+ titleGcc: "CB_COMMON_00753"
+ subTitle: "CB_COMMON_00754"
+ subTitleGcc: "CB_COMMON_00755"
+ CTAData:
+  title: "CB_COMMON_00756"
+stateGuidelinesBanner:
+ name: "CB_COMMON_00757"
+ title: "CB_COMMON_00758"
+ titleGcc: "CB_COMMON_00759"
+ subTitle: "CB_COMMON_00760"
+ subTitleGcc: "CB_COMMON_00761"
+ CTAData:
+  title: "CB_COMMON_00762"
+AEbanner:
+ name: "CB_COMMON_00763"
+ title: "CB_COMMON_00764"
+ subTitle: "CB_COMMON_00765"
+ CTAData:
+  title: "CB_COMMON_00766"
+AEINbanner:
+ name: "CB_COMMON_00767"
+ title: "CB_COMMON_00768"
+ subTitle: "CB_COMMON_00769"
+ CTAData:
+  title: "CB_COMMON_00770"
+DEbanner:
+ name: "CB_COMMON_00771"
+ title: "CB_COMMON_00772"
+ subTitle: "CB_COMMON_00773"
+ CTAData:
+  title: "CB_COMMON_00774"
+FRbanner:
+ name: "CB_COMMON_00775"
+ title: "CB_COMMON_00776"
+ subTitle: "CB_COMMON_00777"
+ CTAData:
+  title: "CB_COMMON_00778"
+USbanner:
+ name: "CB_COMMON_00779"
+ title: "CB_COMMON_00780"
+ subTitle: "CB_COMMON_00781"
+ CTAData:
+  title: "CB_COMMON_00782"
+GBbanner:
+ name: "CB_COMMON_00783"
+ title: "CB_COMMON_00784"
+ subTitle: "CB_COMMON_00785"
+ CTAData:
+  title: "CB_COMMON_00786"
+PHbanner:
+ name: "CB_COMMON_00787"
+ title: "CB_COMMON_00788"
+ subTitle: "CB_COMMON_00789"
+ CTAData:
+  title: "CB_COMMON_00790"
+KGbanner:
+ name: "CB_COMMON_00791"
+ title: "CB_COMMON_00792"
+ subTitle: "CB_COMMON_00793"
+ CTAData:
+  title: "CB_COMMON_00794"
+KWbanner:
+ name: "CB_COMMON_00795"
+ title: "CB_COMMON_00796"
+ subTitle: "CB_COMMON_00797"
+ CTAData:
+  title: "CB_COMMON_00798"
+THbanner:
+ name: "CB_COMMON_00799"
+ title: "CB_COMMON_00800"
+ subTitle: "CB_COMMON_00801"
+ CTAData:
+  title: "CB_COMMON_00802"
+QAbanner:
+ name: "CB_COMMON_00803"
+ title: "CB_COMMON_00804"
+ subTitle: "CB_COMMON_00805"
+ CTAData:
+  title: "CB_COMMON_00806"
+BHbanner:
+ name: "CB_COMMON_00807"
+ title: "CB_COMMON_00808"
+ subTitle: "CB_COMMON_00809"
+ CTAData:
+  title: "CB_COMMON_00810"
+CNbanner:
+ name: "CB_COMMON_00811"
+ title: "CB_COMMON_00812"
+ subTitle: "CB_COMMON_00813"
+ CTAData:
+  title: "CB_COMMON_00814"
+CAbanner:
+ name: "CB_COMMON_00815"
+ title: "CB_COMMON_00816"
+ subTitle: "CB_COMMON_00817"
+ CTAData:
+  title: "CB_COMMON_00818"
+vandeBharatSnackBar:
+ data:
+  title: "CB_COMMON_00819"
+  subtitle: "CB_COMMON_00820"
+  subTitleD: "CB_COMMON_00821"
+  middleCta:
+   text: "CB_COMMON_00822"
+vandeBharat:
+ meta:
+  title: "CB_COMMON_00823"
+ about:
+  title: "CB_COMMON_00824"
+  description: "CB_COMMON_00825"
+ importantInfo:
+  title: "CB_COMMON_00826"
+  description: "CB_COMMON_00827"
+vandeBharatErrSnackBar:
+ data:
+  title: "CB_COMMON_00828"
+  subtitle: "CB_COMMON_00829"
+  subTitleD: "CB_COMMON_00830"
+  middleCta:
+   text: "CB_COMMON_00831"
+bankEmiOffers:
+ title: "CB_COMMON_00832"
+ subTitle: "CB_COMMON_00833"
+ tabTitle:
+  creditCards: "CB_COMMON_00834"
+  debitCards: "CB_COMMON_00835"
+ tableHeaders:
+  hdr1: "CB_COMMON_00836"
+  hdr2: "CB_COMMON_00837"
+  hdr3: "CB_COMMON_00838"
+  hdr4: "CB_COMMON_00839"
+ tag:
+  text: "CB_COMMON_00840"
+ paymentOptions:
+  emiValue: "CB_COMMON_00841"
+  interest: "CB_COMMON_00842"
+  tenure: "CB_COMMON_00843"
+fromCityToCityText: "CB_COMMON_00844"

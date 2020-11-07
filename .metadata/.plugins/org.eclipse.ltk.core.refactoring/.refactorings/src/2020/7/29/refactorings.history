@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;test.NextGreatestToRight.java&apos; to &apos;NextGreatestElement.java&apos;&#x0A;- Original project: &apos;src&apos;&#x0A;- Original element: &apos;test.NextGreatestToRight.java&apos;&#x0A;- Renamed element: &apos;test.NextGreatestElement.java&apos;" description="Rename compilation unit &apos;NextGreatestToRight.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/&lt;test{NextGreatestToRight.java" name="NextGreatestElement.java" references="false" stamp="1594628599970" version="1.0"/>
+</session>

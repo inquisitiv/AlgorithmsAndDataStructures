@@ -1,0 +1,39 @@
+package javaproblems.producerConsumer;
+
+import java.util.LinkedList;
+
+public class ProducerConsumer {
+
+	LinkedList<Integer> buffer;
+	int bufferSize;
+	Integer lockObj;
+
+	public ProducerConsumer(LinkedList<Integer> buffer, int bufferSize,Integer lockObj) {
+
+		this.buffer = buffer;
+		this.bufferSize = bufferSize;
+		this.lockObj = lockObj;
+	}
+
+	public void produce() throws InterruptedException {
+
+		int count = 1;
+		while (true) {
+			Thread.sleep(1000);
+
+			if (buffer.size() < bufferSize) {
+
+				synchronized (lockObj) {
+					System.out.println("Produced : " + buffer.add(count));
+					count++;
+					buffer.notify();
+				}
+			} else {
+				buffer.wait();
+			}
+			
+			
+		}
+
+	}
+}

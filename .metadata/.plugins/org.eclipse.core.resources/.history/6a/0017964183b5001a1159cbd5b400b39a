@@ -1,0 +1,21 @@
+package javaproblems.producerConsumer;
+
+import java.util.LinkedList;
+
+public class Consumer {
+
+	LinkedList<Integer> buffer;
+	int bufferSize;
+	Integer lockObj;
+
+	public Consumer(LinkedList<Integer> buffer, int bufferSize,Integer lockObj) {
+
+		this.buffer = buffer;
+		this.bufferSize = bufferSize;
+		this.lockObj = lockObj;
+
+	}
+
+	
+
+}

@@ -1,0 +1,45 @@
+package problems.aditya.dynamicProgramming;
+
+import java.util.Arrays;
+
+// as effective as dp, but you may run into heap space issues
+
+public class KnapsackMemoization {
+
+	public static int[][] t;
+
+	public static void main(String[] args) {
+		int[] w = new int[] {1,2,3,4,5,6,1,2,3,4};
+	    int[] val = new int[] {10,20,30,40,50,5,15,35,45,55};
+	    int wt =10000;
+	    int n = 10;
+		t = new int[n + 1][wt + 1];
+		for (int[] row: t)
+		    Arrays.fill(row, -1);
+		long start = System.currentTimeMillis();
+		System.out.println(knapsack(w, val, wt, n));
+		System.out.println(System.currentTimeMillis()-start);
+
+	}
+
+	public static int knapsack(int[] w, int[] val, int wt, int n) {
+
+		if (n == 0 || wt == 0) {
+			t[n][wt] = 0;
+			return t[n][wt];
+		}
+		if(t[n][wt] != -1) {
+			System.out.println(n + "-" + wt + " : " + t[n][wt]);
+			return t[n][wt];
+		}
+		if (w[n - 1] <= wt) {
+			t[n][wt] = Math.max(knapsack(w, val, wt, n - 1), val[n-1]+knapsack(w, val, wt - w[n - 1], n - 1));
+			return t[n][wt];
+		} else {
+			t[n][wt] = knapsack(w, val, wt, n - 1);
+			return t[n][wt];
+		}
+
+	}
+
+}

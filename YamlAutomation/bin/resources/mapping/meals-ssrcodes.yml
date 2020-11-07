@@ -1,0 +1,239 @@
+
+MEAL_PREFERENCE:
+ VJML:
+  description: "CB_MEALS_SSRCODES_00001"
+ KSML:
+  description: "CB_MEALS_SSRCODES_00002"
+ MOML:
+  description: "CB_MEALS_SSRCODES_00003"
+ BBML:
+  description: "CB_MEALS_SSRCODES_00004"
+ HNML:
+  description: "CB_MEALS_SSRCODES_00005"
+ AVML:
+  description: "CB_MEALS_SSRCODES_00006"
+ssrmap-config:
+ ssrMap:
+  MEALS:
+   6E:
+    NVML:
+     description: "CB_MEALS_SSRCODES_00007"
+    VGML:
+     description: "CB_MEALS_SSRCODES_00008"
+    TCSW:
+     description: "CB_MEALS_SSRCODES_00009"
+    CJSW:
+     description: "CB_MEALS_SSRCODES_00010"
+    PTSW:
+     description: "CB_MEALS_SSRCODES_00011"
+    CTSW:
+     description: "CB_MEALS_SSRCODES_00012"
+    POHA:
+     description: "CB_MEALS_SSRCODES_00013"
+    UPMA:
+     description: "CB_MEALS_SSRCODES_00014"
+    SACH:
+     description: "CB_MEALS_SSRCODES_00015"
+    VBIR:
+     description: "CB_MEALS_SSRCODES_00016"
+    DACH:
+     description: "CB_MEALS_SSRCODES_00017"
+    CHFR:
+     description: "CB_MEALS_SSRCODES_00018"
+    CHCH:
+     description: "CB_MEALS_SSRCODES_00019"
+    MASP:
+     description: "CB_MEALS_SSRCODES_00020"
+    SMAL:
+     description: "CB_MEALS_SSRCODES_00021"
+    CHSS:
+     description: "CB_MEALS_SSRCODES_00022"
+    PITA:
+     description: "CB_MEALS_SSRCODES_00023"
+    VGTR:
+     description: "CB_MEALS_SSRCODES_00024"
+    CHPS:
+     description: "CB_MEALS_SSRCODES_00025"
+    NVTR:
+     description: "CB_MEALS_SSRCODES_00026"
+    LVWR:
+     description: "CB_MEALS_SSRCODES_00027"
+    VSUB:
+     description: "CB_MEALS_SSRCODES_00028"
+    CHCT:
+     description: "CB_MEALS_SSRCODES_00029"
+    SAUP:
+     description: "CB_MEALS_SSRCODES_00030"
+    COMI:
+     description: "CB_MEALS_SSRCODES_00031"
+    ZCHK:
+     description: "CB_MEALS_SSRCODES_00032"
+    MUYO:
+     description: "CB_MEALS_SSRCODES_00033"
+    CKKU:
+     description: "CB_MEALS_SSRCODES_00034"
+    CHFS:
+     description: "CB_MEALS_SSRCODES_00035"
+    CNKR:
+     description: "CB_MEALS_SSRCODES_00036"
+    SCSW:
+     description: "CB_MEALS_SSRCODES_00037"
+    APWR:
+     description: "CB_MEALS_SSRCODES_00038"
+    MMPA:
+     description: "CB_MEALS_SSRCODES_00039"
+    SAMS:
+     description: "CB_MEALS_SSRCODES_00040"
+    BCCS:
+     description: "CB_MEALS_SSRCODES_00041"
+    CLAT:
+     description: "CB_MEALS_SSRCODES_00042"
+    CTAT:
+     description: "CB_MEALS_SSRCODES_00043"
+    CNWT:
+     description: "CB_MEALS_SSRCODES_00044"
+    CCWT:
+     description: "CB_MEALS_SSRCODES_00045"
+    OLCB:
+     description: "CB_MEALS_SSRCODES_00046"
+   SG:
+    NVML:
+     description: "CB_MEALS_SSRCODES_00047"
+    VGML:
+     description: "CB_MEALS_SSRCODES_00048"
+    NVSW:
+     description: "CB_MEALS_SSRCODES_00049"
+    VGSW:
+     description: "CB_MEALS_SSRCODES_00050"
+    NCC1:
+     description: "CB_MEALS_SSRCODES_00051"
+    NCC2:
+     description: "CB_MEALS_SSRCODES_00052"
+    NCC4:
+     description: "CB_MEALS_SSRCODES_00053"
+    NCC5:
+     description: "CB_MEALS_SSRCODES_00054"
+    NCC6:
+     description: "CB_MEALS_SSRCODES_00055"
+    VCC2:
+     description: "CB_MEALS_SSRCODES_00056"
+    VCC5:
+     description: "CB_MEALS_SSRCODES_00057"
+    VCC6:
+     description: "CB_MEALS_SSRCODES_00058"
+    BVG:
+     description: "CB_MEALS_SSRCODES_00059"
+   G8:
+    JNML:
+     description: "CB_MEALS_SSRCODES_00060"
+    SWNV:
+     description: "CB_MEALS_SSRCODES_00061"
+    SWVG:
+     description: "CB_MEALS_SSRCODES_00062"
+    OLSC:
+     description: "CB_MEALS_SSRCODES_00063"
+    OLNB:
+     description: "CB_MEALS_SSRCODES_00064"
+    OLNS:
+     description: "CB_MEALS_SSRCODES_00065"
+    OLVB:
+     description: "CB_MEALS_SSRCODES_00066"
+    OLVS:
+     description: "CB_MEALS_SSRCODES_00067"
+    PMVG:
+     description: "CB_MEALS_SSRCODES_00068"
+    PMNV:
+     description: "CB_MEALS_SSRCODES_00069"
+    SSNV:
+     description: "CB_MEALS_SSRCODES_00070"
+    SSVG:
+     description: "CB_MEALS_SSRCODES_00071"
+    KDML:
+     description: "CB_MEALS_SSRCODES_00072"
+    CNBF:
+     description: "CB_MEALS_SSRCODES_00073"
+    CCOB:
+     description: "CB_MEALS_SSRCODES_00074"
+    CRPX:
+     description: "CB_MEALS_SSRCODES_00075"
+   XW:
+    VGML:
+     description: "CB_MEALS_SSRCODES_00076"
+   TR:
+    MS01:
+     description: "CB_MEALS_SSRCODES_00077"
+    CHML:
+     description: "CB_MEALS_SSRCODES_00078"
+    MH01:
+     description: "CB_MEALS_SSRCODES_00079"
+    MH02:
+     description: "CB_MEALS_SSRCODES_00080"
+    MC01:
+     description: "CB_MEALS_SSRCODES_00081"
+    MC02:
+     description: "CB_MEALS_SSRCODES_00082"
+    VLML:
+     description: "CB_MEALS_SSRCODES_00083"
+    VOML:
+     description: "CB_MEALS_SSRCODES_00084"
+    VJML:
+     description: "CB_MEALS_SSRCODES_00085"
+    ML2M:
+     description: "CB_MEALS_SSRCODES_00086"
+    ML2V:
+     description: "CB_MEALS_SSRCODES_00087"
+    MLPA:
+     description: "CB_MEALS_SSRCODES_00088"
+    MLPM:
+     description: "CB_MEALS_SSRCODES_00089"
+    MH04:
+     description: "CB_MEALS_SSRCODES_00090"
+    MH05:
+     description: "CB_MEALS_SSRCODES_00091"
+    VGML:
+     description: "CB_MEALS_SSRCODES_00092"
+   I5:
+    KFCB:
+     description: "CB_MEALS_SSRCODES_00093"
+    KFCM:
+     description: "CB_MEALS_SSRCODES_00094"
+    HVCB:
+     description: "CB_MEALS_SSRCODES_00095"
+    HVCM:
+     description: "CB_MEALS_SSRCODES_00096"
+    SICB:
+     description: "CB_MEALS_SSRCODES_00097"
+    SICM:
+     description: "CB_MEALS_SSRCODES_00098"
+    KPCB:
+     description: "CB_MEALS_SSRCODES_00099"
+    KPCM:
+     description: "CB_MEALS_SSRCODES_00100"
+    LZCB:
+     description: "CB_MEALS_SSRCODES_00101"
+    LZCM:
+     description: "CB_MEALS_SSRCODES_00102"
+    JMCB:
+     description: "CB_MEALS_SSRCODES_00103"
+    JMCM:
+     description: "CB_MEALS_SSRCODES_00104"
+    APCB:
+     description: "CB_MEALS_SSRCODES_00105"
+    APCM:
+     description: "CB_MEALS_SSRCODES_00106"
+    JDCB:
+     description: "CB_MEALS_SSRCODES_00107"
+    JDCM:
+     description: "CB_MEALS_SSRCODES_00108"
+    GACB:
+     description: "CB_MEALS_SSRCODES_00109"
+    GACM:
+     description: "CB_MEALS_SSRCODES_00110"
+    KACB:
+     description: "CB_MEALS_SSRCODES_00111"
+    KACM:
+     description: "CB_MEALS_SSRCODES_00112"
+    PNCB:
+     description: "CB_MEALS_SSRCODES_00113"
+    PNCM:
+     description: "CB_MEALS_SSRCODES_00114"

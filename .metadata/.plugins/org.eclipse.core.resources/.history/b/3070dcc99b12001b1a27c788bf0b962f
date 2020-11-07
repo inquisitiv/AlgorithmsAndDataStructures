@@ -1,0 +1,581 @@
+brandedFare:
+  msg:
+    warning: "<b><font color='#000000' >No Fare Options Available</font> </b><BR> <BR> <font color='#4a4a4a'> This flight does not have other fare types Kindly proceeed with the booking</font>"
+    warningD: "<b><font>No Fare Options Available</font> </b><BR> <BR> <font > This flight does not have other fare types Kindly proceed with the booking</font>"
+    serviceNotAvailable: "Not Offered"
+impInfoConsent:
+  title: "I have read and understood all the above mentioned information"
+  errMsg: "<font color='#eb2026'>{{warningText}}</font>"
+##### Below is For CTA only #####
+affiliateFee:
+  subTitle: "You can pick one of the following options"
+  title : "Apply Affiliate Fee"
+  add:
+    text: "Add"
+  remove:
+    text: "REMOVE AFFILIATE FEE"
+  dt:
+    rootTitle: "Apply Affiliate Fee"
+    subTitle: "Get up to {{count}} CTA points"
+    title : "Added "
+    add:
+      text: "Add"
+    remove:
+      text: "REMOVE AFFILIATE FEE"
+##### Above is For CTA only #####
+discount:
+  subTitle: "Some of the best deals applicable"
+  titleD: "<span class='LatoBold'>HOT </span><span class='LatoLight'>DEALS</span>"
+  title : "HOT DEALS"
+  titleNoCouponD: "<span class='LatoBold'>COUPON CODE</span>"
+  titleNoCoupon: "COUPON CODE"
+  instant:
+    descText: "Instant Discount"
+  coupon:
+    addOnWarning:
+      notfound:
+        title: "Coupon Not Found"
+      noCostEmi:
+        title: "Cannot apply coupon code"
+        text: "Coupon codes cannot be applied when you have selected 0% EMI. Please change the payment option to use coupons."
+        removedTitle: "Coupon code removed"
+        removedText: "Your coupon code {{couponCode}} has been removed because it cannot be applied when you select 0% EMI"
+    shortMsgPrefix: "Use and save "
+    preselectedCpnMsg: "<font color='#249995'>{{couponMessage}}</font>"
+    tnc:
+      ctaTitleApp: "Terms and Conditions"
+      msg:
+        app: " <br><font color='#008cff'> T&Cs apply</font>"
+        gPay: "<br><a href='{{couponTnC}}' target='_self'>Terms and Conditions</a>"
+        others: "<br><a href='{{couponTnC}}' target='_blank'>Terms and Conditions</a>"
+    type:
+      ctc: "Cashback to Card"
+      ctw: "Cashback to Wallet"
+      manual: "Deal"
+    ERROR: "Sorry, we could not apply the deal. Please try again"
+  wallet:
+    walletDetailTitle: "Use {{amount}} Reward Bonus"
+    data:
+      title: "<font color='#4a4a4a'>You have {{amount}} in your wallet. Use this to book your flight.</font>"
+    dataD:
+      text: "You have {{amount}} in your wallet. Use this to book your flight."
+    myCashTitle: "My Cash"
+    rewardBonusTitle: "Reward Bonus"
+    error: "Sorry, we could not apply the deal. Please try again"
+    wpm:
+      title: "Surprise!"
+      imageText: "MORE DISCOUNT"
+flipkartCodes:
+  title: "HOT DEALS"
+  subTitle: "Some of the best deals applicable"
+share:
+  subject: "Great Flight for {{var1}} on MakeMyTrip."
+  subjectOWRT: "{{itinerary}} flight on MakeMyTrip"
+  subjectMC: "{{itinerary}} flight itinerary on MakeMyTrip"
+  review:
+    shareSubjectReview: "Check out this flight"
+    referralTextReview: "Check out this flight I saw on the MakeMyTrip App!"
+    referralTitleReview: "Check out this flight"
+    shareBodyReview: "Check out this flight I saw on the MakeMyTrip App"
+    msg:
+      ow: "Hi,\n I found a great one-way fare from {{fromCity}} to {{toCity}} departing on {{date}}. Check it out!"
+      rt: "Hi,\n I found a great roundtrip fare from {{fromCity}} to {{toCity}} departing on {{date}}. Check it out!"
+      mc: "Hi,\n I found a great fare for flights from {{fromCity}} to {{toCity}} via {{viaList}} departing on {{date}}. Check it out!"
+  listing:
+    shareBodyListing: "Check out these flight I saw on the MakeMyTrip App"
+    shareSubjectListing: "Check out these flight"
+    referralTextListing: "Check out these flight I saw on the MakeMyTrip App!"
+    referralTitleListing: "Check out these flight"
+    toolTipTextLoggedin: "Share these flight options with your friends and earn MyCash!"
+    toolTipTextLoggedOut: "Share these flight options with your friends"
+  itnry:
+    subject:
+      heading: "MakeMyTrip’s Exclusive Offer for Your Upcoming Trip."
+      ow: " Guess what! I’ve found the perfect flight itinerary for you from {{fromCity}} to {{toCity}}, for the travel date {{depDate}}. Book now!"
+      rt: " Book your return flight from {{fromCity}} to {{toCity}} , for the travel date {{depDate}} before tickets run out!"
+      mc: "Guess what! I’ve made the perfect travel plan for you. This flight itinerary starting on {{depDate}} covers all your selected sectors. Book now!"
+charity:
+  cardTitle: "Contribute to a cause"
+  tnc: "Offset your carbon footprints by contributing to our tree plantation initiative. We have already supported plantation of over a million saplings."
+  description: "Offsetting carbon footprint by planting saplings with MMT Foundation &amp; Promoting responsible &amp; sustainable tourism with local bodies."
+  title:
+    notSelected: "Donate {{amount}} for COVID-19 Relief and Other Charity Initiatives"
+    selected: "Thank You for Donating {{amount}} for COVID-19 Relief and Other Charity Initiatives"
+    notSelectedOldVersion: "Donate {{amount}} for COVID-19 Relief and Other<br>Charity Initiatives"
+    selectedOldVersion: "Thank You for Donating {{amount}} for COVID-19<br>Relief and Other Charity Initiatives"
+  ctaText:
+    title: "Know More"
+    dt: "<a href='{{tnc}}' target='_blank'>Terms & Conditions</a>"
+    mobile: "<font color='#008cff'>T&Cs</font>"
+  details:
+    desc: "{{charityDesc}}<a href='{{tnc}}' target='_blank'> Know More</a>"
+    one:
+      text: "Offset your carbon footprint by contributing to our green initiative."
+    two:
+      text: "Ensure responsible tourism to restore, develop and protect heritage sites and monuments."
+    three:
+      text: "Support <b>COVID-19</b> relief work and safety initiatives.<a href='https://www.makemytrip.com/csr/covid-19-relief-efforts.html' target='_blank'> Know More</a>"
+      textGPay: "Support <b>COVID-19</b> relief work and safety initiatives.<a href='https://www.makemytrip.com/csr/covid-19-relief-efforts.html' target='_self'> Know More</a>"
+      textApp: "Support <b>COVID-19</b> relief work and safety initiatives."
+      ctaText: "{{covidText}}<font color='#008cff'> Know More</font>"
+      ctaTitle: "COVID-19 Relief Work"
+paymentOptions:
+  title: "Payment Options"
+  subTitle: "Choose from flexible payment options"
+  nce:
+    title: "No Cost EMI ({{months}} months)"
+    subTitle: "<font color='#4a4a4a'>Pay in installments, save more money every month.</font>"
+    displayPrice: "/m"
+    nceTag:
+      text: "<font color='#ffffff'>New</font>"
+    CTA:
+      text: "View Details"
+      data:
+        errorText: "Sorry EMI details could not be fetched at this moment"
+    asteriskTxt: "<font color='#4a4a4a' size='10px'>Only selected offers & coupons are applicable</font>"
+layover:
+  multipleLayovers: "Multiple Layovers"
+  stopTextD:
+    stop: " stop via "
+    nonStop: "Non stop"
+  duration:
+    hr: "<b>{{hours}}</b> h "
+    min: "<b>{{mins}}</b> m"
+  durationD:
+    hr: "{{hours}}<font color='#757575'> {{unit}} </font>"
+    min: " {{mins}} <font color='#757575'> {{unit}} </font>"
+  durationDt:
+    hr: "<strong>{{hours}}</strong> hr "
+    min: "<strong>{{mins}}</strong> min "
+    hrs: "<strong>{{hours}}</strong> hrs "
+    mins: "<strong>{{mins}}</strong> mins "
+  techStop:
+    msg: "<b>Technical Stopover</b> | {{duration}} in  <b>{{cityName}}</b>,<br> <font color='#FF0000'> Deboarding may not be allowed</font>"
+    msgD: "<p><b>Technical Stopover</b> | {{duration}} in  <b>{{cityName}}</b>,<br> <font color='#FF0000'> Deboarding may not be allowed</font></p>"
+    legInfo: "<p><b>Technical Stop</b> | {{duration}} in  <b>{{cityName}}</b>,<br> <font color='#FF0000'> Deboarding may not be allowed</font></p>"
+    airportInfo: "<font color='#4a4a4a'>{{terminal}}</font><br><font color='#9b9b9b'>Terminal 2</font>"
+  changeOfPlane:
+    msg: " <b>Change of Planes</b> | <font color='#4a4a4a'>  <b> {{duration}} </b> layover in <b> {{cityName}} </b></font>"
+    msgD: "<p><b>Change of Planes</b> | <b> {{duration}} </b> layover in  <b> {{cityName}}</b></p>"
+    legInfo: "<p><b>Change of Planes</b> | <b> {{duration}} </b> layover in  <b> {{cityName}}</b> <b>({{cityCode}})</b></p>"
+    hoverInfo: " <b>Change of Planes</b>  <br> <font color='#4a4a4a'>  <b> {{duration}} </b> layover at <b> {{cityName}} </b></font>"
+    hoverInfoD: "<p><b>Change of Planes</b> | <b> {{duration}} </b> layover at  <b>{{cityName}}</b></p>"
+  changeOfTerminal:
+    msg: "<b>Change of Terminals </b>(<b>{{prevTerminal}} to {{currTerminal}}</b>) | {{duration}} in <b>{{cityName}}</b>"
+    msgD: "<p><b>Change of Terminals </b>(<b>{{prevTerminal}} to {{currTerminal}}</b>) | {{duration}} in <b>{{cityName}}</b></p>"
+    legInfo: "<p><b>Change of Terminals </b><b>{{terminalText}}</b> | {{duration}} in <b>{{cityName}}</b> <b>({{cityCode}})</b></p>"
+    hoverInfo: "<b>Change of Terminals </b>(<b>{{prevTerminal}} to {{currTerminal}}</b>) | {{duration}} in {{cityName}}}"
+  changeOfAirport:
+    msg: "<b> Change of Airports</b> <br> <font color='#4a4a4a'> <b> {{duration}} </b>layover at <b> {{cityName}} </b></font>"
+    msgD: "<b>Change of Airports</b> | <font color='#4a4a4a'> <b> {{duration}} </b>layover at <b> {{cityName}} </b></font>"
+    legInfo: "<b>Change of Airports</b> | <font color='#4a4a4a'> <b> {{duration}} </b>layover at <b> {{cityName}} </b> <b>({{cityCode}})</b></font>"
+#Below is for Corp only
+fareTag:
+  text: "<font color='#ffffff'>Out of Policy</font>"
+  info:
+    text: "<font color='#ffffff'>Either the price exceeds the budget limit set by your company or booking this close to the travel date is inhibited by your company</font>"
+#Above is for Corp only
+reviewHeader:
+  ow:
+    title: "{{fromCity}} - {{toCity}}"
+    subTitle: "Depart {{depDate}}"
+  rt:
+    title: "{{fromCity}} - {{toCity}}"
+    subTitle: "Depart {{depDate}} - Return {{arrDate}}"
+  mc:
+    title: "{{fromCity}} - {{toCity}}"
+    subTitle: "via {{viaList}}"
+  msg:
+    traveller: "{{num}} Traveller"
+    adult: "{{num}} Adult"
+  subTitle: "<font color='#4a4a4a'>{{subtitle}}</font>"
+postReview:
+  persuasion:
+    review:
+      text: "<font color='#0c6663'>{{persuasion}}</font>"
+    insurance:
+      text: "<font color='#0c6663'>{{persuasion}}</font>"
+    fare:
+      cta:
+        text: "Know More"
+zerocancellation:
+  title: "<font color='#484848'>Zero Cancellation @ {{amount}} only!</font>"
+  text : "<font color='#'>{{var1}}</font>"
+  amtSubText: "Approx Refund"
+  snackbarTitle: "<b>ZERO</b> Cancellation"
+  descriptionSelected: "Great Choice! Zero Cancellation for {{amount}} has been added to your booking which ensures that you get maximum refund for flight cancellations done 24 hours prior to the departure. We have got  you covered!"
+  description: "Buy Zero Cancellation for {{amount}} and get maximum refund in case of cancellation upto 24 Hrs before departure"
+  persuasion: "Did you know? 20% of users cancel their flights. You can save on the airline and MMT cancellation penalties by selecting Zero Cancellation."
+  persuasionD: "Did you know? 20% of users cancel their flights. You can save on the airline and MMT cancellation penalties by selecting Zero Cancellation. To view the penalties,"
+  persuasionDetails:
+    cta:
+      rcaText: "View FareRule"
+      lcaText: "Dismiss"
+    ctaD:
+      text: " click here"
+  benefit1: "Refund Upto"
+  benefit2: "Airline Penalty Charge"
+  benefit3: "MMT Cancellation"
+  zc:
+    footerPursuasionTextD: "<font color='#249995'>Zero <strong>Cancellation</strong></font>"
+    cta: ""
+    subtitle: "<font color='#4a4a4a'>Buy Zero Cancellation and get full refund on cancellation penalties.</font>"
+    title: "<font color='#4a4a4a'><b>Zero Cancellation</b></font>"
+bpg:
+  data:
+    title: "Best Price Guarantee"
+  dataD:
+    title: "Best Price Guarantee"
+    text: "If you find a cheaper fare elsewhere, we will pay you 10x the difference."
+    ctaText: "Know More"
+  ctatitle: BPG
+  subtitle: "Get full refund on cancellation penalties. Buy Zero cancellation @ <amount> only"
+  title: "Zero Cancellation"
+messages:
+  checkIn:
+    msg: "<br> <font color='#FF0000'>Re Check-in of Baggage required</font>"
+    msgD: "<p> <font color='#FF0000'>Re Check-in of Baggage required</font></p>"
+  prereview:
+    desktop:
+      subtitle: "<p style='font-family: Lato-Bold, Arial, Helvetica, sans-serif;font-size:14px'>{{var1}}</p>"
+      title: "<p style='color: #4a4a4a;font-size:18px;margin-bottom: 2px;'><span style='margin-right: 5px;font-family: Lato-Light, Arial, Helvetica, sans-serif;'>{{titleRt}}</span><span style='font-family: Lato-Bold, Arial, Helvetica, sans-serif;'>{{titleOw}}</span></p>"
+    leg:
+      airlineHeading: "<b>{{airlineName}} | <small>{{flightNo}}</small></b>"
+      subtitle: "<b>{{subtitle}}</b>"
+      subtitleD: "<p style='font-family: Lato-Bold, Arial, Helvetica, sans-serif;font-size:14px'>{{subtitle}}</p>"
+      title: "{{titleRt}}<b>{{titleOw}}</b>"
+      titleV1: "<b>{{title}}</b>"
+      titleD: "<p style='color: #4a4a4a;font-size:18px;margin-bottom: 2px;'><span style='margin-right: 5px;font-family: Lato-Light, Arial, Helvetica, sans-serif;'>{{titleRt}}</span><span style='font-family: Lato-Bold, Arial, Helvetica, sans-serif;'>{{titleOw}}</span></p>"
+      titleDV1: "<p style='color: #4a4a4a;font-size:18px;margin-bottom: 2px;'><span style='font-family: Lato-Bold, Arial, Helvetica, sans-serif;'>{{title}}</span></p>"
+      labelView:
+        titleD: "<p style='font-size:18px;margin-bottom: 2px;font-family: Lato-Light, Arial, Helvetica, sans-serif;'>{{title}}</p>"
+  review:
+    airportinfo:
+      title: "<font color='#4a4a4a'>{{airportName}}</font><br><font color='#9b9b9b'>{{terminal}}</font>"
+    fareAdditionalText:
+      singlePax: "FOR 1 ADULT"
+      multiPax: "FOR {{count}} TRAVELLERS"
+      creditSale: " (View Adjustment)"
+    fareBreakUp:
+      baseFareTitle: "Base Fare"
+      feeSurchargesTitle: "Fee & Surcharges"
+      totalFeeSurchargesTitle: "Total fee & surcharges:"
+      totalFeeSurchargesTitleBold: "<b>Total fee & surcharges:</b>"
+      otherServicesTitle: "Other Services"
+      creditShellTitle: "Adjustments"
+      creditShellText: "<font color='#cf8100'>Adjustments</font>"
+      creditShellTextGDS: "<font color='#cf8100'>Airline does not allow adjustment of base fare against taxes. Airline allows only one time use of previous booking amount. Remaining amount (if any), will be forfeited.</font>"
+      affiliateFeeTitle: "Affiliate Fee"
+      convenienceFeeTitle: "Convenience Fee"
+      discountTitle: "Discounts"
+      walletText: "Reward Bonus"
+      otherDiscountText: "Special Discount"
+      serviceFeeText: "Service Fee"
+      otherFeeText: "Other Fee"
+      discountText: "<font color='#249995'><b>{{couponCode}}</b> worth  {{disAmount}} {{couponText}} applied</font>"
+      adultText: "Adult(s) ({{adults}} X {{paxFare}})"
+      childText: "Children ({{children}} X {{paxFare}})"
+      infantText: "Infant ({{infants}} X {{paxFare}})"
+    fareEntity:
+      text: "<span>{{fareText}}</span>"
+      textBoldD: "<span style='font-family:Lato-Bold'>{{fareText}}</span>"
+      meals: "Meals"
+      seats: "Seats"
+      baggage: "Baggage"
+      cabs: "Airport Cabs"
+      d2dBaggage: "DOOR TO DOOR BAGGAGE"
+      fastForward: "Fast Forward"
+    reviewHeaderTitle: "Review your flight"
+    loginPersuasion:
+      title: "Sign up & get <font color='#249995'><b>flat 10% off.</b></font>Use code NEWUSERSPECIAL"
+      coupon:
+        title: "LOGIN NOW"
+    legAdditionalDetail:
+      terminal: "Terminal {{terminal}}"
+    impInfo:
+      title:
+        key: "Fare Detail({{key}})"
+        noKey: "Fare Detail"
+    multifare:
+      fare:
+        titleD: "Fare Type"
+        title: "Fare Type | {{title}}"
+    jrnyList:
+      jrnyTitle:
+        rt: "RETURN "
+        ow: "DEPART "
+        mc: "TRIP {{index}} "
+      jrnyHeader:
+        labelViewTitle:
+          rt: "RETURN"
+          ow: "DEPART"
+          mc: "TRIP {{index}}"
+          intlrt: "ROUNDTRIP"
+  review-submit:
+    ErrorMessage:
+      insurance: "<font color='#eb2026'><b>NOTE: Please select Yes or No above to continue.</b></font>"
+      holdbooking: "<font color='#eb2026'>Please select either Yes or No above to continue your booking</font>"
+      specialfare: "<font color='#eb2026'>Please accept this to continue your booking</font>"
+MultiFareFooter:
+  Title: "<b>Upgrade fare to enjoy additional benefits.</b>"
+  CTA:
+    Text: "VIEW FARES"
+holdBooking:
+  benifits :
+    b1: "Fare guaranteed till midnight"
+    b2: "Get confirmed seats"
+    b3: "Pay back in the next 72 hours"
+  title : "<font color='#000000'><strong>Hold</strong> this booking for zero fees</font>"
+  subtitle : "Now hold a booking for zero fees"
+  validity : "<font color='#cf8100'>Your booking is on hold you need to make the payment by  "
+  bookingstatus : "<p class='LatoBold font22 append_bottom15'>Your seats have been successfully reserved!</p>"
+  bookingstatusmsg : "Your hold booking confirmation has been sent to {{var1}}."
+  bookingstatuspaymentdate : "You need to make the payment by {{date}} to get this booking confirmed."
+  termsandcondition:
+    title : "Hold my booking. I agree to the"
+    toastmsg: "Please accept terms and conditions."
+    titletnc : "Terms & Conditions"
+    error : "Select Terms & Condition"
+  persuasion :
+    text : "<font color='#cf8100' size='18px'>You can hold this booking for free for the next {{hourDiff}} hours.</font>"
+  payment :
+    title : "Hold booking for FREE"
+    subtitle :
+      selected : "<font color='#cf8100'>Coupons, insurance and charity is not available with Hold Booking. You can avail them later while making payment.</font'>"
+      notselected : "<font color='#9b9b9b'>Coupons, insurance and charity is not available with Hold Booking. You can avail them later while making payment.</font'>"
+mmtBlack :
+  title : "<font color='#000000'>MMTBLACK PRIVILEGES</font>"
+  consumedTitle : "<font color='#ffffff'>Sorry! You have availed all your benefits.</font>"
+  subTitle : "<font color='#ffffff'>Welcome to </font><font color='{{var1}}'>{{var2}}!</font>"
+  viewDetails : "<font color='#008cff'><br> Know More</font>"
+  cardHeader : "<font color='#ffffff'>Welcome to MMTBLACK</font><font color='{{tierColor}}'> {{tierName}}</font>"
+  listingBanner :
+    title: "<font color='#FFFFFF'>As an MMTBLACK</font><font color='#eed5a2'> {{var1}} </font><font color='#ffffff'> member, you are entitled to a host of MMTBLACK Privileges.</font>"
+  mmtBlackLegData :
+    msg : "Enjoy MMTBLACK privileges like meals, seats & more. "
+    msgD: "<font color='#ffffff'>Enjoy MMTBLACK privileges like seats,cabs & more. </font>"
+  mmtBlackInfo :
+    titleD : "<font color='#ffffff'>You have {{benefitsLeft}} out of {{totalBenefits}} benefits left to avail! </font>"
+    title : "You have {{benefitsLeft}} out of {{totalBenefits}} benefits left to avail! "
+    subTitle : "<font color='#ffffff'>You are entitled to one benefit per booking. Take your pick! </font>"
+    headerTitleList :
+      title1: "<font color='#ffffff'>How to avail?</font>"
+      title2: "<font color='#ffffff'>Terms & conditions</font>"
+    headerSubTitleList :
+      subtitle1: "<font color='#9b9b9b'>Choose any one of these benefits before making the payment.</font>"
+      subtitle2: "<font color='#9b9b9b'>Choose any one of these benefits with every domestic flight booking up to 4 times in a year. Only 1 benefit per booking is allowed.</font>"
+  mmtBlackCard :
+    subTitle : "<font color='#ffffff'>You are entitled to one benefit per booking. Take your pick!</font>"
+  benetsTypeMap :
+    SEATS :
+      title : "<font color='#ffffff'>Free Seat Selection</font>"
+      subTitle : "<font color='#cdcdcd'>Pick your free seat from the select options available.</font>"
+      titleDiscount: "<font color='#ffffff'>Discounted Seat Selection</font>"
+      subTitleDiscount: "<font color='#cdcdcd'>Discounted seat selection from a given range of seat options on select flights .</font>"
+    CABS:
+      title: "<font color='#ffffff'>Free Airport Cabs</font>"
+      subTitle: "<font color='#cdcdcd'>Get Amazing deals on your airport pickup and drop (available only in select cities).</font>"
+      titleDiscount: "<font color='#ffffff'>Discounted Airport Transfers</font>"
+      subTitleDiscount: "<font color='#cdcdcd'>Get amazing deals on your airport pickup and drop (available only in select cities).</font>"
+    AIRPORT_MEALS :
+      title: "<font color='#ffffff'>Free Meals @ Airports</font>"
+      subTitle: "<font color='#cdcdcd'>Grab your favourite bite before boarding your flight (available only in select airports).</font>"
+      titleDiscount: "<font color='#ffffff'>Discounted Meal @ Airports</font>"
+      subTitleDiscount: "<font color='#cdcdcd'>Grab your favourite bite before boarding your flight (available only in select airports).</font>"
+d2dBaggage:
+  shipmentTypeTitle: "<font color='#000000'>{{shipmentType}}</font>"
+  shipmentTypeTitleD: "<font color='#9b9b9b'><b>{{shipmentType}}</b></font>"
+  shipmentTypeSubTitle: "<font color='#000000'>{{deliveryMinTime}}-{{deliveryMaxTime}} {{unit}} by {{shipmentMode}}</font>"
+  shipmentTypeSubTitleD: "<font color='#000000'>{{deliveryMinTime}}-{{deliveryMaxTime}} {{unit}} by {{shipmentMode}}</font>"
+  shipmentTypeSubTitleHours: "<font color='#000000'>In {{deliveryMaxTime}} hrs by {{shipmentMode}}</font>"
+  shipmentTypeSubTitleHoursD: "<font color='#000000'>In {{deliveryMaxTime}} hrs by {{shipmentMode}}</font>"
+  shipmentTypeTitleApp: "{{shipmentType}}"
+  shipmentTypeSubTitleApp: "{{deliveryMinTime}}-{{deliveryMaxTime}} {{unit}} by {{shipmentMode}}"
+  shipmentTypeSubTitleHoursApp: "In {{deliveryMaxTime}} hrs by {{shipmentMode}}"
+  planOptionText: "<font color='#9b9b9b'>{{sectorId}}</font>"
+  planOptionTitle: "<font color='#000000'>{{amount}} for {{bagTotal}} Bag</font>"
+  planOptionTitleMultiple: "<font color='#000000'>{{amount}} for {{bagTotal}} Bags</font>"
+  planOptionTitleSelected:  "<font color='#000000'>{{weight}} {{unit}} X {{bagTotal}} Bag</font>"
+  planOptionTitleSelectedMultiple:  "<font color='#000000'>{{weight}} {{unit}} X {{bagTotal}} Bags</font>"
+  planOptionWeightText: "<font color='#008aff'>{{weight}} {{unit}}</font>"
+  viewBreakUp : "View Breakup"
+  planOptionHeader:
+    title: "Edit Baggage"
+    subTitle: "Select bags to be shipped"
+  banner:
+    text: "<font>Have excess baggage? Send it <b>separately</b> via our logistic partner at <b>affordable rates</b> & travel baggage-free!</font><font color ='#008cff'><b> Know more</b></font>"
+  features:
+    featureList:
+      safety: "<font color=''>Safe: Helps skip queues at baggage pickup & drop</font>"
+      convenience: "<font color=''>Convenient: Many bags can be transported at one go</font>"
+      affordable: "<font color=''>Affordable: Pricing options available for every budget</font>"
+  featuresNew:
+    featureList:
+      f1: "<font color='#000000'>Have excess baggage? Send it <b>separately</b> via our logistic partner at <b>affordable rates</b> & travel baggage-free!</font>"
+      f2: "<font color='#008cff'> Know more</font>"
+  header:
+    title: "<font color='#000000'>Courier Your Bags & Travel Baggage Free</font>"
+    titleD: "<font color='#000000'>Courier Your Bags & Travel Baggage Free</font>"
+  importantInfo:
+    title: "<font color='#4a4a4a'>Important</font>"
+    messages:
+      msg1: "<font color='#eb2026'>Baggage will be transported separately via road/rail/air cargo, and NOT in the flight booked.</font>"
+      msg2: "Pickup & drop addresses will be collected post booking."
+    tncTitle: "Terms and Conditions"
+    tncMessage:
+      part1: "<font>By opting in, you agree to the </font>"
+      part2: "<font>T&Cs </font>"
+      part3: "<font> of this service.</font>"
+    tncMessageApp:
+      part1: "By opting in, you agree to the  "
+      part2: " T&Cs "
+      part3: " of this service."
+    knowMore: "<font color='#008aff'>Know more</font>"
+  faq:
+    title: "<font color='#4a4a4a'>TOP FAQs</font>"
+    dataTitle: "<font color='#008aff'>View all FAQs</font>"
+    dataSubTitle: "FAQ"
+    que:
+      q1: "<font color='#4a4a4a'>+  What is Door-to-Door Luggage Delivery Service? </font>"
+      q2: "<font color='#4a4a4a'>+  Will my bags be transported in the same flight?</font>"
+    queD:
+      q1: "<font color='#008aff'>What is Door-to-Door Luggage Delivery Service? </font>"
+      q2: "<font color='#008aff'>Will my bags be transported in the same flight?</font>"
+  thankyouSubtitle: "<font color='#4a4a4a'>Transfer in {{deliveryMinTime}}-{{deliveryMaxTime}} days by {{shipmentMode}}</font>"
+  thankyouSubtitleHours: "<font color='#4a4a4a'>Transfer in {{deliveryMinTime}}-{{deliveryMaxTime}} hours by {{shipmentMode}}</font>"
+  toolTip:
+    maxweight: "<font color='#ffffff'>Max Weight:<b>{{maxWeight}} {{unit}}</b></font>"
+    maxdimentions : "<font color='#ffffff'>Max Dimensions:<b>{{maxDimensions}} {{unit}}</b>(L+W+H)</font>"
+  selection:
+    errors:
+      invalid: "Invalid Selection for Door to Door Baggage"
+      invalid1: "Invalid Selection of D2D Baggage"
+fph :
+  header :
+    title : "<font color='#000000'><b>YAY! You have unlocked an exclusive flight + hotel combo deal.</b></font>"
+    titleReturn: "<font color='#000000'><b>YAY! You have unlocked an exclusive return flight + hotel combo deal.</b></font>"
+    subTitle : "<font color='#4a4a4a'>These top-selling hotels come at heavily discounted prices with your flight. Take your pick!</font>"
+    subTitleReturn: "<font color='#4a4a4a'>These top-selling hotels come at heavily discounted prices with your return flight. Take your pick!</font>"
+  hotelCardInfo :
+   packageNights : "<font color='#000000'>{{count}} Nights |</font>"
+   packageGuest :  "<font color='#000000'> {{count}} Guests</font>"
+   packageSingleGuest: "<font color='#000000'> 1 Guest</font>"
+   packageSingleNight: "<font color='#000000'>1 Night | </font>"
+   ctaTitle : "BOOK NOW"
+   hotelLocation : "<font color='#4a4a4a'>{{city}}</font>"
+   hotelName : "<font color='#000000'>{{hotelName}}</font>"
+   userReview :
+     title : "<font color='#ffffff'>({{count}} Reviews)</font>"
+   footer :
+     text : "<font color='#03403e'><b>You Save Flat {{amount}}</b> on this Return flights + Hotel combo</font>"
+   amenities:
+     text : "<font color='#249995'>{{amenity}}</font>"
+   prices :
+     regular : "<font color='#9b9b9b'>Regular Price</font>"
+     combo : "<font color='#9b9b9b'>Combo deal price</font>"
+     slashPrice : "<font color='#4a4a4a'>{{amount}}</font>"
+extraSeat:
+  importantInfo:
+    doubleSeat:
+      title: "Indigo Double Seat Fare Rules"
+      titleApps: "<b>Indigo Double Seat Fare Rules</b><br>"
+      description: "<b>1. </b>10Kg additional baggage allowance per extra seat.<br/><b>2. </b>Reschedule is not permitted for Double Seat bookings.<br/><b>3. </b>Partial cancellation is not permitted for double seat bookings. Cancellation charges for both seats will apply."
+      descriptionD: "<br/><b>1. </b>10Kg additional baggage allowance per extra seat.<br/><b>2. </b>Reschedule is not permitted for Double Seat bookings.<br/><b>3. </b>Partial cancellation is not permitted for double seat bookings. Cancellation charges for both seats will apply."
+    tripleSeat:
+      title: "Indigo Entire Row Fare Rules"
+      titleApps: "<b>Indigo Entire Row Fare Rules</b><br>"
+      description: "<b>1. </b>10Kg additional baggage allowance per extra seat.<br/><b>2. </b>Reschedule is not permitted for Entire Row bookings.<br/><b>3. </b>Partial cancellation is not permitted for Entire Row bookings. Cancellation charges for all seats will apply."
+      descriptionD: "<br/><b>1. </b>10Kg additional baggage allowance per extra seat.<br/><b>2. </b>Reschedule is not permitted for Entire Row bookings.<br/><b>3. </b>Partial cancellation is not permitted for Entire Row bookings. Cancellation charges for all seats will apply."
+charters:
+  impInfo1: "Please note, this is a seat on a charter flight and the aircraft type is {{aircraftType}}."
+  impInfo2: "Hot meals are typically not served onboard as per current Government guidelines, however, some charters may serve dry snacks and tea and coffee."
+  timingOptText: "Select your preferred departure time"
+  timingErrMsg: "<font color='#eb2026'>Please select timing option</font>"
+  postJrnyAddData:
+    cardLeftLabel:
+      text: "Charter Flight"
+    flightInfo:
+      subTitle: "{{seatCount}} seater {{aircraftType}}"
+      images:
+        moreText: "{{count}} Photos"
+      amenities:
+        title: "AMENITIES"
+        ambulance:
+          text: "Air Ambulance"
+          unavailableText: "Air Ambulance Unavailable"
+        bed:
+          text: "Beds"
+          unavailableText: "Beds Unavailable"
+        entertainment:
+          text: "In-flight Entertainment"
+          unavailableText: "No In-flight Entertainment"
+        pilots:
+          text: "{{count}} Pilot(s)"
+        luggage:
+          text: "{{count}} Kgs per seat"
+        lavatory:
+          text: "{{count}} Lavatory"
+        catering:
+          text: "Catering Available"
+          unavailableText: "Catering Unavailable"
+        attendants:
+          text: "{{count}} Attendant(s)"
+        wifi:
+          text: "Wifi available"
+          unavailableText: "Wifi Unavailable"
+        reclinerSeats:
+          text: "Recliner Seats"
+          unavailableText: "Recliner Seats Unavailable"
+        pets:
+          text: "Pets Allowed"
+          unavailableText: "Pets Not Allowed"
+        cabinHeight:
+          text: "{{count}} cabin height"
+      timingInfo:
+        title: "<b>TIMING CHANGES</b> :"
+        text: "Since this is a private flight, the flight timings might change. You will receive the final itinerary details along with your booking confirmation."
+      cancellationInfo:
+        title: "<b>CANCELLATION</b> :"
+        text: "In case this flight is cancelled, you will get a 100% refund on the fare."
+      benefits:
+        ben1:
+          title: "Maximum Safety"
+          text: "Fly solo or with your group to ensure zero crowd & max safety!"
+        ben2:
+          title: "Unlimited Convenience "
+          text: "Skip airport queues & baggage hassles & enjoy comfortable seats!"
+        ben3:
+          title: "Customised For You"
+          text: "Define itineraries on your terms. Flexible & time saving!"
+  faqs:
+    title: "FAQs"
+    faq1:
+      title: "What is a charter flight?"
+      desc: "A charter flight is a non-scheduled commercial flight that can be utilized for personal or business travel. These flights can accommodate individual passengers or small groups, making them extremely safe and comfortable. Charter flights also include premium on-board services and luxurious seating, to further enhance your flying experience."
+    faq2:
+      title: "What is the process of booking a charter flight? (applicable only to a full charter flight booking, not for booking individual seats on a charter plane)"
+      desc: "You simply have to get in touch with us, and our representative will guide you through every step of the process. We will understand your requirement and help you select the best option from the wide range of aircrafts available. Once you have made a selection, you will be directed to the payment process to confirm your booking."
+    faq3:
+      title: "Where will I board my charter flight from?"
+      desc: "While some airports have dedicated terminals for charter flights, most operate charter flights from general aviation terminals. Once you have confirmed your booking with us, you will receive detailed information regarding your private charter journey. For detailed information on boarding points, please <a href='https://promos.makemytrip.com/aviation-terminal-information.html' target='_blank'>click here</a>."
+    faq4:
+      title: "Is flying in a charter flight safe?"
+      desc: "Private charter aircrafts are designed to maximize safety and comfort. These are personalized flights which ensure minimum waiting time at the airport, hygienic surroundings and a controlled environment. The crew is properly trained in safety and hygiene practices, and the pilots are duly certified, with most of them having more than 8000 hours of flying experience."
+    faq5:
+      title: "What is an ‘empty leg’? (applicable only to a full charter flight booking, not for booking individual seats on a charter plane)"
+      desc: "All private charter flights begin their journey from a base location and return to the same location after completing the journey. In case you book a one-way flight, your aircraft will return to its base location without any passengers. This is known as an ‘empty leg’, and the cost for this is added to your one-way trip."
+    faq6:
+      title: "What are crew handling charges? (applicable only to a full charter flight booking, not for booking individual seats on a charter plane)"
+      desc: "In case the aircraft crew assigned to your aircraft is required to wait for 4 hours or more, a crew handling charge will be levied, which will be added to your total charter cost."
+    faq7:
+      title: "What is the baggage allowance on charter flights?"
+      desc: "The baggage allowance on charter flights usually varies between 15-30 KGs depending on the type of aircraft."
+    faq8:
+      title: "Will meals be available on-board?"
+      desc: "As per the guidelines issued by the Ministry of Civil Aviation in light of the COVID-19 pandemic, no meals will be served on the aircraft. Passengers are however, welcome to carry their own food. Please note, some charter flights may have light snacks and tea and coffee on board. Please check your booking details for more information."
+    faq9:
+      title: "Are any items prohibited on the aircraft?"
+      desc: "Yes, the following items are not permitted:<br/>In hand baggage: liquids (more than 100 ml), liquor, knives, scissors and batteries (including lithium-ion batteries).<br/>In any baggage: Dangerous items such as  explosives, flammable gases, flammable liquids, flammable solids, oxidizing agents, toxic/ infectious/radioactive/corrosive materials, arms and ammunition."
+    faq10:
+      title: "What if I want to reschedule my flight?"
+      desc: "We are always there to assist you for all your needs. You can call us, in case you want to reschedule your flight. However please note that rescheduling the flight to any day other than the scheduled day of departure might incur additional charges."

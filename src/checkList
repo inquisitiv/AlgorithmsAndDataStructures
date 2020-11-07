@@ -1,0 +1,214 @@
+HashTable vs HashMap
+HashSet when no payload
+
+Coding :
+
+1. Communication and Collaboration
+   - Understanding a problem
+   - Designing a solution
+   - Writing a code
+   - Think out loud how you arrived at the solution
+   - there are multiple valid problems.. 
+   tell them how you want to solve these problems
+2. Algorithms and Data Structures
+   - Strong understanding of commonly used 
+     algorithms and data structures 
+     - it helps you build fast systems for planet scale data
+       while also making efficient use of the resources
+   - Outline the algo and discuss it with the interviewer before coding
+     - gives opportunity to refine and improve your solution collaboratively
+       with interviewer
+   - Understand the computational complexity of the solution
+   - You don't have to some with optimal solution at one go, and 
+     iterating to get one can be valuable part of process
+   - Use appropriate algorithms and data structures.
+     Strong Understanding of DS and Algos like :
+     * Arrays
+     * Linked lists
+     * Stacks
+     * Queues
+     * Sets
+     * Maps
+     * Binary Trees
+     * Heaps
+     * Graphs
+   - Essential to know which algorithms tend to go along with each DS
+     Algorithms that are typically used :
+     * Sorting, searching and binary search
+     * Divide-and-conquer
+     * Dynamic programming and memorization
+     * Greedy Algorithms
+     * Recursion
+     * Graph Traversal, breadth and depth-first
+   - While working out the requirements of algorithm, 
+     this is the perfect time to think of good test inputs.  
+3. Clean and structured code
+   - Write idiomatic code in lang comfortable
+   - Dont worry too much about sytanx and punctation
+   - Substance of the code should shine through
+4. Testing and Error Checking
+   - Run through one/two test cases to check your work
+   - Good test input - should access boundary conditions in your input and algorithm
+   - Use simple and compact sample inputs first to ensure that code is correct
+   - Then discuss malformed inputs and how your code handles them.
+5. Best Practices
+   - Explain 
+   - Clarify
+   - Improve
+   - Practice writing on paper/whiteboard
+   
+
+Example of Coding/Engineering Interview :
+
+1. A collection of numbers is given. Find a matching pair that is equal to a given sum.
+eg. [1,2,3,9] sum : 8
+eg. [1,2,4,4] sum : 8
+
+Notes:
+
+
+
+
+Systems Design :
+
+1. Communication
+   - understand and design solution
+   - think out loud - how you arrived at it
+   - solving big ambiguous problem
+   - that can have multiple valid solutions
+   - tell them how you plan to solve those problems
+   - be sure to ask questions
+   - questions will be deliberately under specified
+     and open ended, because real problems require you to dig deeper
+   - ask clarifying questions
+2. Designing to Scale
+   - you are to work with planet scale data and compute systems everyday
+   - solution must be :
+     * scalable - enough to reach wide/global audience
+     * reliable - enough to meet our users' needs
+     * efficient - enough to make best and efficient use of our resources
+   - how can we tell that the system is working ?
+   - is there a bottleneck in the design ?
+   - how do the components work together ?  
+   - how do we provide great service to everyone ?
+   - how can a large data set be sharded into multiple worker machines ?
+   - may be presented with a request which can be answered by any one of a pool
+     of machines and ask you to identify the fastest machine and discard the rest
+   - System component properties :
+     * latency
+     * throughput
+     * storage
+     Numeric estimated for those properties..such as :
+     * how many requests per second the system can handle?
+     * Provide clear justification of how the design backs up these numbers?      
+3. Concrete and Quantitative Solutions
+   - consider reality and laws of physics
+   - general idea of costs and latencies of various operations
+     * read from disk
+     * read from memory
+     * Local Area Network (LAN) round trip
+     * Cross- Continental network
+   - use whiteboard to estimate the resources needed to run your system
+     or to diagram your proposed design
+   - Industry Solution Patterns
+     * Sharding Data
+     * Replication Types
+     * Write-Ahead Logging
+     * Separating Data and Metadata Storage
+     * Basic Kinds of load distribution
+4. Trade-offs and Compromises
+      
+- No coding
+- Time constraints -
+  Gather requirements and come to initial solution
+  in first 20 mins
+- please use your time wisely
+
+   - Identify systematic shortcomings
+   - describe how the system responds to various failures
+   - layout the trade-offs and compromised you made
+   - and explain your reasoning
+     e.g.: Do you store data on a rotating disk and pay less money 
+     for storage at the cost of increased latency? or do you put
+     the data on a flash drive where you are able to retrieve it quickly
+     but pay more money? 
+   - designers that can consider multiple solutions, commit to one, 
+     and then iterate on it.  
+5. Best Practices
+   - Explain your thought process during the interview
+   - Technical ability + how you solve problems
+   - Many questions will be deliberately open ended 
+     to give us an idea on how you solve problems
+   - Ask for clarification - first solution may not be the best one
+   - Think about ways to improve upon your answer.. 
+     and let the interviewer know.. what you are thinking
+   - Practice on paper or white board
+
+
+Leadership :
+
+1. Communication and Leadership Style
+   - illustrate your communication skills and style as a leader
+   - with examples from the past
+   - authentic, transparent, humble and technically knowledge
+   - no matter ur role or level
+   - "why" behind every decision making
+   - will challenge on some of ur choices
+   - open to leading and working with diverse teams 
+     whose views may be very different from urs
+   - navigate to the person who is best suited to help you make a decision
+2. Navigating Complexity and Ambiguity
+   - open mind
+   - larger picture
+   - goes out of their way to communicate those big decisions
+   - makes sure no one is left in the dark
+   - able to identify and manage the needs of internal and 
+   external stake holders while keep your own teams project in mind
+3. Working with Teams
+   - teams that are inspired to innovate
+   - tell them about the time that you have shown team members that you 
+   value their prespectives even when they are different from ur own
+   - and avoided esclating the issue?
+4. Vision
+   - people here work because they have a vision of changing the world
+   - as a leader its your job to help shape that vision
+   - have you formulated your team mission?
+   - who are the users of your product?
+   - what re you solving for?
+   - challenging the status quo and rethinking how we do things
+   - be prepared to think outside of the box and share examples 
+   of your vision and product thinking
+5. Delivering Results
+   - define clear goals
+   - develop a plan
+   - delegate tasks
+   - manage progress
+   - maintain focus
+  Process overhead should be minimized for result-driven enviornment
+  Finding the right balance between process and flexibility
+  - remain adaptable and ensure enough space for creativity
+  - but measurable results and consistent tracking is required
+  - how would you balance process and getting the results that you need..
+6. Best Practices
+  -  Explain - to show how you think and what is your thought process
+  -  Ask for clarification
+  - How you have improved as a leader over time?
+  - what you learnt and how you have grown..
+  
+  
+Tips from Engineers :
+
+1. Ask Clarification questions.
+2. Call out assumptions.
+3. Explain thoughts clearly before jumping to coding
+
+    - what are ur edge cases
+    - is anything gonna be null
+    - what kind of inputs are you getting, 
+    so that system does not break half way through 
+    - think out aloud
+    - come up with some solution and then optimize
+    - "Google Tech Dev Guide"
+    - get used to coding on whiteboard
+    - 
+    

@@ -1,0 +1,27 @@
+package problems.dynamicProgramming.aditya;
+
+public class SubsetSumProblem {
+
+	public static boolean[][] t;
+	
+	public static void main(String[] args) {
+		int[] arr =  new int[] {1,2,3,5,7,8,9};
+		int n = 7;
+		int sum = 11;
+		t = new int[n+1][sum+1];
+		System.out.println(isSubsetsumPresent(arr,sum,n));
+		
+		
+		
+	}
+	
+	public static void isSubsetsumPresent(int[] arr, int sum, int n) {
+		
+		// intialize table t
+		for(int j=1;j<sum+1;j++) {
+			t[0][j]= false; 
+		}
+		
+		
+	}
+}

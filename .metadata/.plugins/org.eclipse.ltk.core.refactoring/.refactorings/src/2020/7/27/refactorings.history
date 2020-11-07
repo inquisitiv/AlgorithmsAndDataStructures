@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;src/interviewCheckList&apos; to &apos;checkList&apos;" description="Rename resource &apos;interviewCheckList&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="interviewCheckList" name="checkList" stamp="1593625941345" updateReferences="true"/>
+</session>

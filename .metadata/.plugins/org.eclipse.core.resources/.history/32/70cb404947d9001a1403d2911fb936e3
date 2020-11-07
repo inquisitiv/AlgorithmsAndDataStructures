@@ -1,0 +1,14 @@
+package problems.dynamicProgramming.aditya;
+
+public class SubsetSumProblem {
+
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	private void isSubsetsumPresent() {
+		// TODO Auto-generated method stub
+
+	}
+}

@@ -1,0 +1,64 @@
+package topicwise.practice.backtracking;
+
+public class BoardGame {
+
+	// Main class should be named 'Solution'
+	/**
+	Given a 2D board and a word, find if the word exists in the grid.
+
+	The word can be constructed from letters of sequentially adjacent cells, where "adjacent" cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
+	Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
+
+	ABCE
+	SFCS
+	ADEE
+
+	// O(n^2)
+	Output: true
+
+	*/
+	    public static void main(String[] args) {
+	        System.out.println("Hello, World");
+	        String[][] board  = new String[][]{{"A","B","C","E"},{"S","F","C","S"},{"A","D","E","E"}};
+	        System.out.println(boardGame(board,"ABCCED"));
+	        
+	        /*String[][] board  = new String[][]{{"A","B","C","E"}};
+	        System.out.println(boardGame(board,"AB"));*/
+	    }
+	    
+	    public static boolean boardGame(String[][] board, String str) {
+	        HashSet<Integer> visited = new HashSet<>();
+	        return boardGameUtil(board,0,0, str, 0,visited);
+	        
+	    }
+	    public static boolean boardGameUtil(String[][] board, int i, int j, String str, int pos,HashSet<Integer> visited) {
+	        
+	        if(i<0 || i>=board.length || j<0 || j>=board[0].length) {
+	            return false;
+	        }
+	        
+	        if(pos==str.length()-1){
+	            if(board[i][j]==Character.toString(str.charAt(pos))){
+	                return true;
+	            } else {
+	                return false;
+	            }
+	        }
+	        int node = i*10+j;
+	        if(visited.contains(node)){
+	            return false;
+	        }
+	        visited.add(node);
+	        if(board[i][j]==Character.toString(str.charAt(pos))){
+	           
+	           return (boardGameUtil(board,i+1,j,str,pos+1,new HashSet<Integer>(visited)) || boardGameUtil(board,i,j+1,str,pos+1,new HashSet<Integer>(visited)) ||  boardGameUtil(board,i-1,j,str,pos+1,new HashSet<Integer>(visited)) ||   boardGameUtil(board,i,j-1,str,pos+1,new HashSet<Integer>(visited)));
+	        } else {
+	            return (boardGameUtil(board,i+1,j,str,pos,new HashSet<Integer>(visited)) || boardGameUtil(board,i,j+1,str,pos,new HashSet<Integer>(visited)) ||  boardGameUtil(board,i-1,j,str,pos,new HashSet<Integer>(visited)) ||   boardGameUtil(board,i,j-1,str,pos,new HashSet<Integer>(visited)));
+	        }
+	        
+	        
+	    }
+	
+
+}

@@ -1,0 +1,206 @@
+Graphs:
+
+Introduction :
+
+1. Problem as a set of points
+2. Made of edges/connections and vertices/points.
+3. Directed/Undirected edges
+4. Edges with weights
+5. Path : set of edges that connect two nodes.
+6. Cycle : path starts-end at same vertex
+7. Hamiltonian Path : a path that visits each node exactly once.
+
+Useful Patterns/Properties :
+
+1. Tree is a Graph  where connection b/w nodes is only top down
+2. Directed/Undirected graphs
+3. Bipartite Graph - when nodes can be seperated into two groups
+   and all the edges only connect nodes from one group to another
+4. Complete Graph : every vertex is connected to every other vertex
+5. Acyclic graph : does not contain a cycle
+6. Non-Acylic graph : contains atleast one cycle     
+7. Directed Acyclic Graph (DAG)
+8. Sparse Graph/ Dense Graph : Has a small number of edges/ Has lot of edges
+
+
+// Points to take care while deciding the DS/storage structure
+// Not too heavy on memory
+// Fast to perform operations
+
+Data Structures :
+
+1. Adjacency Matrix
+2. Adjacency List
+3. Incidence Matrix
+
+
+Adjacency Matrix :
+
+1. 2D array of nodes, value in matrix (true/false) 
+   tells whether its connected /not
+2. For undirected graphs - it becomes a symmetric adjacency matrix
+3. Basically keeping track in adjacent nodes in matrix
+
+Pros/Cons :
+
+1. 0(1) time to know if two nodes are connected M[x][y] == true
+2. O(n) All nodes connected to particular node 
+3. Uses a LOT of memory   
+
+Adjacency List :
+
+1. Compresses Adjacency matrix into single column
+2. Associates each node to a list of nodes, which in turn are neighbours
+3. Basically is a list of adjacencies 
+4. Memory improvemnt over Matrix.
+
+Pros/Cons :
+
+1. 0(k) time to know if two nodes are connected  iterated through list in L[x]
+2. O(1) All nodes connected to particular node 
+3. Memory improvement over Matrix. 
+
+Incidence Matrix :
+
+1. Matrix of nodes and edges 
+
+Pros/Cons :
+
+1. Addition of new node leads resizing of matrix
+   -non-trival and slow  
+   
+Breadth First Search :
+
+1. Trivia : mimic Level Order Traversal of Trees
+2. Keep track of visited nodes.
+3. Way to visit every single node in the process
+4. BFS generated a spanning tree.
+ 
+
+Depth First Search : 
+
+1. Uses a stack instead of a queue
+2. Delays the marking as visited to later point
+3. Check if poped is visited, if not, mark as visited and do the computation
+4. Lot of redundancy! since lot of visited nodes get added to stack
+5. improve : Push only unvisited nodes
+6. Spanning tree for this is elongated and branches out less
+also : 
+7. Can be done recursively (recursion is done on stack as well)
+   - 
+
+
+DFS/BFS Algorithm :
+
+1. Can be done recursively (recursion is done on stack as well)
+2. Spanning Tree is not unique
+3. TimeComplexity : O(V+E) In complete graph E=V(V-1)
+
+
+Minimum Spanning Trees :
+
+-Prim's Algorithm :
+(Minimum spanning tree in undirected weighted graph)
+
+1. Intutive flow : Use the flow as DFS and BFS .. Not very efficient
+2. Use priority queue : All elements in queue are associated with priority
+   - looks like a queue which keeps resorting itself as the priorities change.
+3. Complexity : O(V+E.(time to update prioirity))
+4. Time to update priority is dependent on how priority
+   queue is implemented (eg. heaps)
+
+
+-Krushkal's Algorithm :
+
+1. No starting point
+2. Looks at all the edges together,
+   and picks and choose the best one
+3. Store edge weights in sorted order
+4. Store all vertices as independent trees
+   (create a forest)
+3. Go through the weights, and join if edge
+   connects two different trees
+4. DS : disjoint set DataStructure
+5. Time Complexity :
+   - sort the edges
+   - E x (check if two vertices are in same set)
+   - E x (join operations)
+     O(elogv) = O(vloge)   since e = fn(v)
+     
+-Boruvka's Algorithm
+
+-Reverse Delete Algorithm 
+
+Path Finding Algorithms :
+
+-Dijkstra's Algorithm
+1. Single source Shortest Path First Algorithm for undirected graph 
+2. computes Shortest path between one node to all other nodes.
+3. does that in one pass through the graph
+4. Order of visiting vertices is important  (looks at vertex with min dist first)
+5. Is a tree, spanning tree, but not minimum spanning tree
+
+Cannot be used with -ve edge weights
+Time complexity : 
+v iterations of while loop x extract min operations
++
+2E iterations of for loop x decrease key
+
+= 0(vTex+eTdk) = 
+Priority Queue Impl :
+Linked List : O(E+V^2) = O(V^2) (for connected graphs e=v-1)
+BInary Heap : O((E+V) X log V) = O(ElogV)
+Fibonacci Heap : O(E+VlogV)
+
+-Bellman-Ford Algorithm
+ingle source Shortest Path First Algorithm 
+on directed weighted graph
+
+1. Can handle -ve weight edges
+2. Slower than Djikstra's algorithm
+3. Searches exhaustively.. Goes to graph multiple times.
+4. Order of visiting vertices is NOT important  
+
+
+Topological sort 
+1. a node can be visited only after all nodes that leads to it has been visited
+2. can be performed only on DAGs - Directed Acylic Graphs
+
+Travelling Salesman Problem
+1. finding the Hamilton cycle
+2. Naive approach complexity : O(n!)
+3. Held-Karp Algorithm - uses dynamic programming
+   - Bottom-up approach leads to less overlapping subproblems.
+   - Generate powerset of func calls..
+     which is as many power sets as there are cities
+     O(n^2+2^n)
+     
+   
+Power set of  {1,2,3} => every possible combination
+{},{1},{2},{3},{1,2},{2,3},{1,3},{1,2,3} => size : 2^3 
+size of power set of n elements => 2^n
+
+
+Flood Fill Algorithm
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+

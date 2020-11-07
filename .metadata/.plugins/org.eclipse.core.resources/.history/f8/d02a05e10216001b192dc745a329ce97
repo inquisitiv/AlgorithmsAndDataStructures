@@ -1,0 +1,21 @@
+
+messages:
+ airportInfo: "CB_SEARCH_DETAILS_00001"
+ airportInfoWithTerminal: "CB_SEARCH_DETAILS_00002"
+ layover: "CB_SEARCH_DETAILS_00003"
+ owTabHeader: "CB_SEARCH_DETAILS_00004"
+ rtTabHeader: "CB_SEARCH_DETAILS_00005"
+ tabSubtitle: "CB_SEARCH_DETAILS_00006"
+ multifare:
+  title: "CB_SEARCH_DETAILS_00007"
+  hideText: "CB_SEARCH_DETAILS_00008"
+  moreText: "CB_SEARCH_DETAILS_00009"
+  owSubtitle: "CB_SEARCH_DETAILS_00010"
+  rtSubtitle: "CB_SEARCH_DETAILS_00011"
+  owrtSubtitle: "CB_SEARCH_DETAILS_00012"
+  mcSubtitle: "CB_SEARCH_DETAILS_00013"
+ airline:
+  heading: "CB_SEARCH_DETAILS_00014"
+layoverInfo:
+ Text1: "CB_SEARCH_DETAILS_00015"
+ Text2: "CB_SEARCH_DETAILS_00016"

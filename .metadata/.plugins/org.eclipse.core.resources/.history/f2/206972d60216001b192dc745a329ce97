@@ -1,0 +1,87 @@
+scheduleChange:
+  airlineMessage: "{{airlineName}} has changed the departure time for flight {{airlineCode}} {{flightNo}} from {{fromCity}} to {{toCity}}. The flight will now be departing on {{date}} at {{time}}."
+  errorMessage: "You may continue to book the flight for the revised departure time or go back and select a different flight."
+msgs:
+  paymentInfo:
+    mainText: "Convenience Fee*"
+  fareDesc:
+    baseFareText: "Total Fare"
+    services:
+      zcSubText: "Cancel free anytime"
+    subText:
+      suffix: "{{text}} Included"
+fareDecrease:
+  popUp:
+    title: "<b><font color='#0c6663'>YAY! <BR> The airline has decreased the fare by {{amount}}</font></b>"
+    subtitle: "Amount Due  <b>{{payableAmt}}</b>"
+    body: "Redirecting to payments"
+fareIncrease:
+  sbData:
+    title: ""
+    body: "<b><font color='#F1A525'>The airfare has increased by {{amount}}.</font></b> <BR>Please note that fares are subject to seat availability <BR><BR> Amount Due  <b>{{payableAmt}}</b>"
+    lca:
+      text: "CHANGE FLIGHT"
+    rca:
+      text: "Continue to Pay"
+##### Below is For B2B only #####
+Corp:
+  msgs:
+    bookingReason: "Reason for Booking"
+    requestDetails:
+      title: "Request Details"
+      subTitle: "Request Details"
+      refundText: "<font color='#eb2026'>{{refundStatus}}</font>"
+      statusLabel: "<span> Request status </span>"
+      sentOnLabel: "<span> Request Sent on </span>"
+    impInfo:
+      desc: "Your baggage allowance may vary for different sectors Before booking kindly check the details"
+      descD: "Your baggage allowance may vary for different sectors Before booking kindly check the details"
+    gst:
+      title: "GST Details"
+      subTitle: "Your ticket and flight info will be sent here"
+      gstNum: "GST NUMBER"
+      compName: "COMPANY NAME"
+      billAdd: "BILLING ADDRESS"
+    fareInfo:
+      cardTitle: "Total Amount"
+      refundDtls:
+        text:
+          nonRef: "Non-Refundable"
+          partRef: "Partially-Refundable"
+          ref: "Refundable"
+    footer:
+      recomFooterData:
+        dsText: "Recommend this itinerary"
+      approvalReq:
+        dsText: "Continue"
+        sbDsTitle: "Reason For Booking"
+        sbDsHint: "Please enter your reason for making this booking"
+        dsLeftText: "Skip Approval"
+        dsRightText: "Request Approval"
+        fareChangeTitleD: "Cheaper Tickets Available We found cheaper tickets for your travel dates. View Now"
+        recomReasonTitle: "Reason for selecting this flight & discarding cheaper one"
+        recomReasonHint: "Please enter your reason for making this booking"
+      recomTrue:
+        dsText: "Continue"
+      other:
+        dsText: "Continue"
+  images:
+    prebook:
+      meal:
+        persuasionText: "We've pre-selected free meals for you"
+      manager:
+        title: "Approving Manager"
+        alert:
+          text: "This request has been deleted by the employee"
+      outofpolicy:
+        text: "Out of Policy"
+      expcode:
+        cardtitle: "Expense Code"
+        cardsubtitle: "Got an expense code for your booking?"
+        hint: "Enter expense code"
+      ancillary:
+        cardtitle: "Ancillaries Added"
+        cardsubtitle: "All the addons you selected are displayed here"
+      fare:
+        RefundMsg: "Your payment has been sent for refund processing and you will recieve it back in 3 working days."
+##### Above is For B2B only #####

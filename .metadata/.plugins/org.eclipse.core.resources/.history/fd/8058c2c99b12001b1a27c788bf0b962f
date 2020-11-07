@@ -1,0 +1,568 @@
+bookingSummary:
+  btnText: "MANAGE BOOKING"
+Anchor:
+  thankyou:
+    text: "Complete your cab booking"
+whatsapp:
+  whatsAppTitle: "Whatsapp opt in"
+  WhatsAppSubTitle: "Do you wish to get tickets and booking updates on your WhatsApp no. <b>{{wpNo}}<b> ?"
+  lca:
+    text: "MAYBE LATER"
+  rca:
+    text: "YES, I’M IN"
+bdb:
+  optInBDB:
+    optInText: "Enroll me to the MMT {{bannerName}} for free."
+    text:
+      successtitle: "Congratulations!"
+      failuretitle: "Sorry"
+      failuretext: "we are experiencing some issues with your MMTBLACK registration. Please send an Email, with your booking ID, to mmtblack-help@makemytrip.com and we will register you shortly."
+      successtext: "You have successfully enrolled with MMTBLACK. Unlock up to 25,000 Wallet+ Cash with MMTBLACK. Use 100 percent Wallet+ Cash UNRESTRICTED on flight and hotel bookings."
+needHelpFloat:
+  b2c:
+    data:
+      call:
+        title: "Booking Support"
+      chat:
+        cta:
+          text: "Live Chat"
+needHelp:
+  b2c:
+    title: "Need Help?"
+    data:
+      call:
+        title: "For booking help"
+      chat:
+        cta:
+          text: "Live Chat"
+  corp:
+    title: "Need Help?"
+    data:
+      call:
+        title: "For booking help"
+      chat:
+        cta:
+          text: "Live Chat"
+helpline:
+  card:
+    title: "Need Help?"
+    subTitle: "Please quote your Booking ID when corresponding with us."
+    infoData:
+      callTitle: "Call Us"
+      emailTitle: "Email"
+snackbar:
+  lca:
+    text: "Maybe Later"
+  rca:
+    text: "YES I'm In"
+tripCard:
+  title: "Customer Support"
+  subTitle: "Please quote "
+  desc: "Have Queries. Go To My Trip"
+  ctaText: "Go To MyTrips"
+seatFail:
+  cta: ""
+  title: ""
+  text: "<b>SEATS</b></br>Sorry! There was a problem in booking the seat(s) you chose for your <sector> flight. The payment amount deducted will be refunded back to you in 3 to 5 working days. We regret the inconvenience caused."
+  additionalText: "<b>SEATS</b></br>Sorry! There was a problem in booking the seat(s) you chose for your <sector> flight. The payment amount deducted will be refunded back to you in 3 to 5 working days. We regret the inconvenience caused."
+travellerInfo:
+  cardTitle: "Travellers"
+  cardTitle2: "Traveller Details"
+  subTitle:
+    adult:
+      one: "{{count}} Adult "
+      many: "{{count}} Adults "
+    child:
+      one: "{{count}} Child "
+      many: "{{count}} Children "
+    infant:
+      one: "{{count}} Infant"
+      many: "{{count}} Infants"
+flightSummary:
+  cardTitle: "Flight Summary"
+  subTitle:
+    mc: "<b>Multicity Trip</b>"
+  trips:
+    subTitle:
+      dataTiming: "<b>{{depDate}} - {{arrDate}}</b>"
+    title:
+      mc: "Trip {{index}} <b>{{title}} </b>"
+      other: "Depart <b>{{title}}</b>"
+      rt: "Return <b>{{title}}</b>"
+statusCard:
+  bkngIdSuffix: "Booking ID "
+  subTitle: "Your booking is in progress…"
+  bookingState:
+    done: "<span style=color:#249995;>Payment Received</span>"
+    failed: "<span style=color:#e53442;>Payment Failed</span>"
+    airlineStatus: "<span style=color:#9b9b9b;>Confirming itinerary with airlines</span>"
+  dt:
+    cfmd:
+      data: "<p class='success-info-msg append_bottom10'>Your e-ticket has been sent to {{email}}</p>"
+      delay:
+        data: "<p class='success-info-msg append_bottom10'>You will receive your e-ticket within <b>{{time}}</b>.Your e-ticket will be sent to <b>{{email}} </b>once it is generated.</p>"
+        content: "<p class='LatoBold font22 append_bottom15'>Your payment was successful and your ticket is being issued</p>"
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Your tickets have been booked!</p>"
+        text2: "<p> Visit manage booking to track, edit or share your itinerary and book addon’s like seats, bags and meals.</p>"
+        text3: "<p class='append_bottom20 appendTop10'><strong>BOOKING ID</strong>: {{bookingId}} </p>"
+        btnTxt: "<span class='text-uppercase'>Manage Bookings</span>"
+    failed:
+      content:
+        text1: "<p class='LatoBold font20 append_bottom15'>Sorry, Your Booking Could Not Be Completed</p>"
+        text2: "<p> The booking did not go through but a payment was charged.</p>"
+        text3: "<p class='append_bottom20 appendTop10'><strong>BOOKING ID</strong>: {{bookingId}} </p>"
+    failed-holdbook:
+      content:
+        text1: "<p class='LatoBold font20 append_bottom15'><b>Uh-oh. Something went wrong!</b></p>"
+        text2: "<p class='success-info-msg append_bottom10'> Due to a technical error, we could not hold your booking.<br>Please try again by selecting a different flight.</p>'"
+        text3: "<p class='append_bottom20'><strong>BOOKING ID</strong>: {{bookingId}} </p>"
+        text4: "<p class='success-info-msg'>We apologize for the inconvenience caused.</p>"
+        text5: "<p class='success-info-msg'>Note: No payment has been charged from your account.</p> <p className='LatoBold success-info-msg'>Team MakeMyTrip</p>"
+        btnTxt: "<span class='append_bottom15 text-uppercase'>search flights</span>'"
+    void:
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Your booking is confirmed</p>"
+        text2: "<p class='success-info-msg append_bottom10'><strong>But we have kept your seats & fare on hold.<strong></p>"
+        text3: "<p class='append_bottom15'><strong>BOOKING ID</strong>: {{bookingId}}</p>"
+        text4: "<p class='success-info-msg append_bottom10'><strong>We haven’t received your payment, but we are holding your seats and fare for the next few hours.</strong></p>"
+        text5: "<p class='success-info-msg append_bottom10'><strong>Please note, in case we do not receive your complete payment by {{voidCutoff}}, {{today}},<strong> we will release your booking </strong> & you will have to make a fresh booking.</strong></p>"
+        text6: "<p class='success-info-msg append_bottom15'>Please use the button below to make the payment. The Payment link has also been mailed on your<br/>email id at {{email}}.</p>"
+        text7: "<p class='LatoBold font20 append_bottom15'>Amount payable: <strong>{{amount}}</strong></p>"
+        btnTxt: "<span class='text-uppercase'>RETRY PAYMENT</span>"
+    partial:
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Your Booking Was Only Partially Completed</p>"
+        text2: "<p> We have sent the confirmed tickets to your e-mail and WhatsApp</p>"
+        text3: "<p class='append_bottom15 appendTop10'><strong>BOOKING ID</strong>: {{bookingId}}</p>"
+        btnTxt: "<span class='text-uppercase'>Manage Bookings</span>"
+    partialRetry:
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Your Booking Was Only Partially Completed</p>"
+        text2: "<p> One or more PNR/s in your itinerary are still pending confirmation. Your booking should be confirmed within {{mins}} min.</p>"
+        text3: "<p class='append_bottom15 appendTop10'><strong>BOOKING ID</strong>: {{bookingId}}</p>"
+    partialRetryTimeOut:
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Looks Like One of the Booking PNR Is Taking Longer Than Usual!</p>"
+        text2: "<p> Please visit My Trips for confirmation updates, and do not re-book your tickets right now.</p>"
+        text3: "<p class='append_bottom15 appendTop10'><strong>BOOKING ID</strong>: {{bookingId}}</p>"
+        btnTxt: "<span class='text-uppercase'>GO TO MY TRIPS</span>"
+    inprocess:
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Your Booking is Underway</p>"
+        text2: "<p> We are awaiting confirmation from the airline. Your booking should be confirmed within {{mins}} min.</p>"
+        text3: "<p class='append_bottom15 appendTop10'><strong>BOOKING ID</strong>: {{bookingId}}</p>"
+    inprocessTimeOut:
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Looks Like This Booking Is Taking Longer Than Usual!</p>"
+        text2: "<p> Please visit My Trips for confirmation updates, and do not re-book your tickets right now.</p>"
+        text3: "<p class='append_bottom15 appendTop10'><strong>BOOKING ID</strong>: {{bookingId}}</p>"
+        btnTxt: "<span class='text-uppercase'>GO TO MY TRIPS</span>"
+    error:
+      content:
+        text1: "<p class='LatoBold font22 append_bottom15'>Your booking is under progress</p>"
+        text2: "<p class='success-info-msg append_bottom10'>We are sorry, It’s taking longer than usual but don’t worry we have received your payment and your booking is under process.</p>"
+        text3: "<p class='append_bottom15'><strong>BOOKING ID</strong>: {{bookingId}}</p>"
+        text4: "<p class='success-info-msg append_bottom10'><strong>We’ll notify you as soon as it’s confirmed. You can also track the status via manage booking.</strong></p>"
+        btnTxt: "<span class='text-uppercase'>Manage Booking</span>"
+  mob:
+    cfmd:
+      data:
+        email: "<p style=font-size:14px;><span style=opacity:0.8;>Tickets also sent to </span><b>{{email}}</b><br><span style=opacity:0.8;>"
+        mob: "and whatsapp no </span><b>{{wpNo}}</b></p>"
+      delay:
+        data: "<p style=font-size:14px;><span style=opacity:0.8;>You will receive your e-ticket within <b>{{time}}</b> .Your e-ticket will be sent to <b> {{email}} </b> once it is generated.</span><br><span style=opacity:0.8;>"
+        content: "<big><b><p style=opacity:0.8;>Your payment was successful and your ticket is being issued.</p></b></big>"
+      content:
+        text1: "<b><p style=font-size:24px;>Congratulations!</p></b><p style=opacity:0.8;>Your booking is confirmed successfully!</p>"
+        text2: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+        bookingId: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: "
+      cHeaderText: "<b>Congratulations!</b><br><span style=opacity:0.8;font-size:12px;>Your booking is confirmed successfully!</span>"
+      cHeaderTextDelay: "<span style=opacity:0.8;font-size:12px;>Your payment was successful and your ticket is being issued.</span>"
+    failed:
+      content:
+        text1: "<span style=font-size:24px;><b>Your Booking has Failed!</b></span><br><span style=opacity:0.8>We are sorry, your booking has failed however your card has been charged</span>"
+        text2: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+      cHeaderText: "<b>Your Booking has Failed!</b><br><span style=opacity:0.8;font-size:12px;>You may restart your search and try again</span>"
+    failed-holdbook:
+      content:
+        text1: "<span style=font-size:24px;><b>Uh-oh. Something went wrong!</b></span>"
+        text2: "<span> Due to a technical error, we could not hold your booking. Please try again by selecting a different airline.</span>"
+        text3: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+        text4: "<span>We apologize for the inconvenience caused.</span>"
+        text5: "<span>Note: No payment has been charged from your account.</span>"
+      cHeaderText: "<b>Uh-oh. Something went wrong!</b><br><span style=opacity:0.8;font-size:12px;>You may restart your search and try again</span>"
+    void:
+      data: "<span>Please use the button below to make the payment. The Payment link has also been mailed on your email id at {{email}}</span>"
+      content:
+        text1: "<span style=font-size:24px;><b>Your booking is confirmed</b></span><br><span style=opacity:0.8>But we have kept your seats & fare on hold.</span>"
+        text2: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+        text3: "<span> We haven’t received your payment, but we are holding your seats and fare for the next few hours.</span>"
+        text4: "<span> Please note, in case we do not receive your complete payment by {{voidCutoff}}, {{today}}, <b>we will release your booking</b> & a you will have to make a fresh booking.</span>"
+        btnText: "PAY {{amount}} NOW"
+      cHeaderText: "<b>Your booking is confirmed</b><br><span style=opacity:0.8;font-size:12px;>But we have kept your seats & fare on hold.</span></br>"
+    partial:
+      content:
+        text1: "<span style=font-size:24px;><b>Your Booking Was Only Partially Completed</span>"
+        text2: "<span> We have sent the confirmed tickets to your e-mail and WhatsApp</span>"
+        text3: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+        text4: "<span> We have refunded amount against your failed bookings. Please visit “My Trips” for more details </span>"
+      cHeaderText: "<b>Your Booking Was Only Partially Completed</b><br><span style=opacity:0.8;font-size:12px;>We have sent the confirmed tickets to your e-mail and WhatsApp</span></br>"
+    partialRetry:
+      content:
+        text1: "<span style=font-size:24px;><b>Your Booking Was Only Partially Completed</span>"
+        text2: "<span> One or more PNR/s in your itinerary are still pending confirmation. Your booking should be confirmed within {{mins}} min.</span>"
+        text3: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+      cHeaderText: "<b>Your Booking Was Only Partially Completed</b><br><span style=opacity:0.8;font-size:12px;>One or more PNR/s in your itinerary are still pending confirmation. Your booking should be confirmed within {{mins}} min.</span></br>"
+    partialRetryTimeOut:
+      content:
+        text1: "<span style=font-size:24px;><b>Looks Like One of the Booking PNR Is Taking Longer Than Usual!</span>"
+        text2: "<span> Please visit My Trips for confirmation updates, and do not re-book your tickets right now.</span>"
+        text3: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+      cHeaderText: "<b>Looks Like One of the Booking PNR Is Taking Longer Than Usual!</b><br><span style=opacity:0.8;font-size:12px;>Please visit My Trips for confirmation updates, and do not re-book your tickets right now.</span></br>"
+    inprocess:
+      content:
+        text1: "<span style=font-size:24px;><b>Your Booking is Underway</span>"
+        text2: "<span>We are awaiting confirmation from the airline. Your booking should be confirmed within {{mins}} min.</span>"
+        text3: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+      cHeaderText: "<b>Your Booking is Underway</b><br><span style=opacity:0.8;font-size:12px;>We are awaiting confirmation from the airline. Your booking should be confirmed within {{mins}} min.</span></br>"
+    inprocessTimeOut:
+      content:
+        text1: "<span style=font-size:24px;><b>Looks Like This Booking Is Taking Longer Than Usual!</span>"
+        text2: "<span>Please visit My Trips for confirmation updates, and do not re-book your tickets right now.</span>"
+        text3: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+      cHeaderText: "<b>Looks Like This Booking Is Taking Longer Than Usual!</b><br><span style=opacity:0.8;font-size:12px;>Please visit My Trips for confirmation updates, and do not re-book your tickets right now.</span></br>"
+    failedNew:
+      content:
+        text1: "<span style=font-size:24px;><b>Sorry, Your Booking Could Not Be Completed</span>"
+        text2: "<span>The booking did not go through but a payment was charged.</span>"
+        text3: "<p style=opacity: 0.8;letter-spacing:0.7px;font-size: 14px;>Booking ID: {{bookingId}}"
+      cHeaderText: "<b>Your Booking has Failed!</b><br><span style=opacity:0.8;font-size:12px;>You may restart your search and try again</span>"
+    error:
+      content:
+        text1: "<span><b><big>Your booking is under progress</big></b></span><br>"
+        text2: "<span style=font-size:16px;><b>We are sorry, It’s taking longer than usual but don’t worry we have received your payment and your booking is under process.</b></span><br><span style=opacity:0.8></span>"
+        text3: "<span style=font-size:16px;><b>We’ll notify you as soon as it’s confirmed. You can also track the status via manage booking.</b></span><br><span style=opacity:0.8></span>"
+        text4: "` 14px;>Booking ID: {{bookingId}}"
+fareInfoCard:
+  cardTitle: "Total Amount"
+  refundMsg: "Your payment has been sent for refund processing and you will receive it back in 3 working days."
+  convenienceFee: "Convenience Fee"
+  text: "Flight fares"
+  textD: "Flight fares"
+  fareEntity:
+    disc:
+      title: "Discounts"
+  impInfo: "Fare Details({{key}})"
+baggageCancellationCard:
+  textList:
+    text1: "<font color='#000000'>For <b>Baggage details</b> & <b>Cancellation Policy</b> for this trip </font>"
+    text2: "Go To My Trips"
+commonHeader:
+  bookingConfirmed:
+    header: "Booking Successful"
+    subHeader: "Confirmation and E-Tickets sent to <font color='#000000'><b>{{email}}</b></font> and <font color='#000000'><b>{{mobileNo}}</b></font>"
+  bookingFailed:
+    header: "Booking Failed"
+    subHeader: "Uh oh! It looks like your booking failed but a payment was charged."
+  bookingPartial:
+    header: "Booking Partially Successful"
+    subHeader: "confirmation and E-Tickets sent to <font color='#000000'><b>{{email}}</b></font> and <font color='#000000'><b>{{mobileNo}}</b></font>"
+  bookingInprocess:
+    pollingReq:
+      header: "Booking in Progress"
+      subHeader: "Payment Received."
+    header: "Booking taking longer than usual"
+  bookingPnrPending:
+    pollingReq:
+      header: "Your Booking is Underway"
+      subHeader: "confirmation and E-Tickets sent to <font color='#000000'><b>{{email}}</b></font> and <font color='#000000'><b>{{mobileNo}}</b></font>"
+    header: "Booking taking longer than usual"
+  bookingRetry:
+    pollingReq:
+      header: "Booking Partially Completed"
+      subHeader: "confirmation and E-Tickets sent to <font color='#000000'><b>{{email}}</b></font> and <font color='#000000'><b>{{mobileNo}}</b></font>"
+    header: "Booking taking longer than usual"
+summaryCard:
+  title:
+    multiCity: "MULTICITY FLIGHT"
+    roundTrip: "ROUND TRIP FLIGHT"
+    oneWay: "ONE WAY FLIGHT"
+  text: "More Detail"
+refundFareBreakup:
+  cardTitle: "Total Refund Amount"
+  text: "View Refund Breakup"
+messages:
+  addOns:
+    card:
+      title: "Add-ons Purchased"
+      subTitle: "TODO"
+    brb:
+      title: "Blue Ribbon Baggage"
+      refundAmtZero:
+        subtitle: ""
+        description: "You are protected against loss of baggage at the airport"
+        learnMoreLink:
+          title: "Learn More"
+          text: "Learn More"
+      refundAmtNonZero:
+        subtitle: "Purchase Failed"
+        description: "An amount of {{amount}} will be refunded to you within 3 working days. We regret any inconvenience caused"
+        fareBreakupLink:
+          text: "View Fare Breakup"
+    zcAddon:
+      title: "Zero Cancellation"
+      refundAmtZero:
+        subtitle: ""
+        description: "You are entitled to maximum refund on cancellation"
+        learnMoreLink:
+          title: "Learn More"
+          text: "Learn More"
+      refundAmtNonZero:
+        subtitle: "Purchase Failed"
+        description: "An amount of {{amount}} will be refunded to you within 3 working days. We regret any inconvenience caused"
+        fareBreakupLink:
+          text: "View Fare Breakup"
+    insuranceAddon:
+      title: "Insurance"
+      refundAmtZero:
+        subtitle: ""
+        description: "Your trip is secure and you are eligible for all benefits covered under this insurance policy."
+        learnMoreLink:
+          title: "Learn More"
+          text: "Learn More"
+      refundAmtNonZero:
+        subtitle: "Purchase Failed"
+        description: "An amount of {{amount}} will be refunded to you within 3 working days. We regret any inconvenience caused"
+        fareBreakupLink:
+          text: "View Fare Breakup"
+    insurance:
+      title: "Insurance"
+      subTitle: "Your trip is secured and you are eligible for all the benefits covered under this insurance policy."
+    zc:
+      title: "Zero Cancellation"
+      subTitle: "You are entitled to a maximum refund on cancellation."
+      knowMore: "<font color='#008cff'> Know more</font>"
+      fullRefund: "Full Refund"
+  addOnItemMap:
+    charity: "Charity"
+    zc: "Zero Cancellation"
+    insurance: "Insurance"
+    digit: "Digit Insurance"
+    meals: "Meal"
+    seats: "Seat"
+    baggage: "Baggage"
+    fastForward: "Fast Forward"
+    cabs: "Airport Cabs"
+  importantInfo:
+    cardTitle: "IMPORTANT INFORMATION"
+    fraudAlert:
+      b2c:
+        description: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>0124 4628747,0124 5045105 & 0124 2898000</b>"
+        descriptionD: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>0124 4628747,0124 5045105 & 0124 2898000</b>"
+        descriptionUSA: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>80001 80004</b>"
+        descriptionDUSA: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>80001 80004</b>"
+        descriptionUAE: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>80001 80004</b>"
+        descriptionDUAE: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>80001 80004</b>"
+        title: "KIND ATTENTION"
+      b2b:
+        description: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>0124478194</b>"
+        descriptionD: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>0124478194</b>"
+        title: "KIND ATTENTION"
+      cta:
+        description: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>0124 4628747,0124 5045105 & 0124 2898000</b>"
+        descriptionD: "We wish to remind you that MakeMyTrip never asks for your personal banking and security details like passwords, OTP etc., or requests you to install third-party apps to view your screen. For any queries, please reach-out to us via the Help section on our mobile app or call on our official toll-free customer support numbers: <b>0124 4628747,0124 5045105 & 0124 2898000</b>"
+        title: "KIND ATTENTION"
+  downloadInfo:
+    title: "DOWNLOAD E-TICKET"
+  discountSubtitle:
+    subtitle: "<font color='#00a19c'>You saved {{amount}}</font>"
+WEB_CHECK_IN:
+  cardTitle: "Government has mandated web check-in for all domestic air travel"
+  cardSubTitle: "Web check-in for your flight(s) is not yet open. Click below for web check-in schedules and manage other aspects of your booking."
+  cardSubTitleAvl: "Web check-in for your {{sectorList}} flight is now open."
+  cardData:
+    messages:
+      msg1: "Web check-in is compulsory as per govt. regulations."
+      msg2: "Web check-in now for a hassle-free trip."
+    tag:
+      text: "Open Now"
+    nudge:
+      title: "Web check-in is compulsory as per Govt. mandate"
+      lca:
+        text: "GO TO HOME"
+      data:
+        msg: "As per Govt. mandate, web-check in is compulsory. Do it now to avoid any hassle at the airport."
+    reminder:
+      msg: "<b>Web check-in is required for all domestic air travel as per govt. regulations.</b> We will remind you once the web check-in opens for your trip."
+  progressBarData:
+    states:
+      state1: "Flight Booked"
+      state2: "Web Check-in Pending"
+  ctaDetail:
+    textAvl: "WEB CHECK-IN NOW"
+    text: "KNOW MORE"
+flightsInfos:
+  coulmn1: "Airlines"
+  coulmn2: "Entry Gates"
+  coulmn3: "Check-in Row"
+  gate:
+    avl: "Gate {{gateNo}}"
+  tripDetails:
+    ow:
+      title: "Departure -  {{origin}} to {{destination}}"
+      subTitle: "Terminal {{terminal}}, {{depAirportName}}"
+    rt:
+      title: "Return -  {{origin}} to {{destination}}"
+      subTitle: "Terminal {{terminal}}, {{depAirportName}}"
+    mc:
+      title: "Trip {{index}} - {{origin}} to {{destination}}"
+      subTitle: "Terminal {{terminal}}, {{depAirportName}}"
+flightsInfosDT:
+  coulmn1: "Trip & Airport"
+  coulmn2: "Airlines"
+  coulmn3: "Entry Gates"
+  coulmn4: "Check-in Row"
+  gate:
+    avl: "Gate {{gateNo}}"
+  tripDetails:
+    ow: "<b><font color='#000000'>Departure - {{origin}} to {{destination}}</font></b><br/><font color='#4a4a4a'>Terminal {{terminal}}, {{depAirportName}}</font>"
+    rt: "<b><font color='#000000'>Return - {{origin}} to {{destination}}</font></b><br/><font color='#4a4a4a'>Terminal {{terminal}}, {{depAirportName}}</font>"
+    mc: "<b><font color='#000000'>Trip {{index}} - {{origin}} to {{destination}}</font></b><br/><font color='#4a4a4a'>Terminal {{terminal}}, {{depAirportName}}</font>"
+safetyInfoCard:
+  cardTitle: "Airport information"
+  cardSubTitle: "Important Notice for Entry Gates"
+  cardDesc: "To promote social distancing, certain airports have allocated specific entry gates & check-in counters for each airline."
+safetyInfoBanner:
+  textDT: "<b>Airports & Airlines are Stepping Up. To ensure a safe trip for you!&nbsp;&nbsp;&nbsp;</b>"
+  subTitle: "<b>Airports & Airlines are Stepping Up. To ensure a safe trip for you!</b><br><font color='#008cff'>KNOW MORE</font>"
+  ctaText: "KNOW MORE"
+  ctaMobTitle: "My Safety"
+autoRefund:
+  title: "Instant auto-refund to wallet"
+  titlePayMode: "Instant auto-refund to paymode"
+  subTitleWallet: "Payment against your failed booking(s) has been auto-refunded to your wallet. You can use this instantly to rebook your flights."
+  subTitleOriginalPayMode: "Payment against your failed booking(s) has been auto-refunded to your original paymode."
+  refundTextWallet1: "<font color='#454545'>Wallet amount does not expire & can be applied completely on any booking such as Flights, Hotels, Holidays, Hotels & Bus.</font>"
+  refundTextWallet2: "<font color='#454545'>You can take your refund money back from <a href='//www.makemytrip.com/myWallet' target='_blank'> My Wallet </a> to the original pay mode anytime.</font>"
+  refundTextWallet3: "<font color='#454545'>You can take your refund money back from <a href='//www.makemytrip.com/myWallet' target='_self'> My Wallet </a> to the original pay mode anytime.</font>"
+  refundTextOriginalMode1: "Your refund will soon reflect back in your account, till then try re-booking your flights again."
+  refundTextViewRefund: "<font color='#008cff'>View Refund Estimate</font>"
+  estimatedAmountText: "<b>Estimated refund amount</b>"
+  cta:
+    text: "RE-BOOK FLIGHTS"
+  refundBreakup:
+    title: "Refund breakup"
+    disc:
+      text: "Discounts"
+      textD: "Discounts"
+  refundFlightFare:
+    Text: "Flight fares"
+    TextD: "Flight fares"
+  refundableConvFee:
+    Text: "Convenience Fee"
+    TextD: "Convenience Fee"
+  refundCTA:
+    Text: "RE-BOOK FLIGHTS"
+statusTag:
+  confirmed:
+    text: "CONFIRMED"
+  failed:
+    text: "FAILED"
+  pending:
+    text: "PENDING"
+newthankyou:
+  card:
+    fareinfo:
+      youpaid: "You Paid"
+      viewfb: "View Fare Breakup"
+ancillaryList:
+  meal:
+    one: "{{count}} Meal"
+    many: "{{count}} Meals"
+  seat:
+    one: "{{count}} Seat"
+    many: "{{count}} Seats"
+  baggage:
+    one: "{{count}} Baggage"
+    many: "{count}} Baggages"
+errV1:
+  commonHeader:
+    header: "We are experiencing some issue"
+    subHeader: "Uh oh! It looks like we are facing trouble in getting your booking status"
+  mima:
+    text: "<b>Go to My Trips</b>"
+  failed:
+    text: "Due to some connectivity issue, we are currently unable to fetch your booking status. <br/><br/>You may go to <b>My Trips</b> section of the app to get further updates on the status of your booking."
+d2dBaggage :
+  title : "<span class='text-black font18 LatoBold'>{{amount}}</span> for {{bagQty}} | {{bagWeight}} Kgs"
+  subtitle: "<font color='#4a4a4a'>{{fromCity}}-{{toCity}}</font>"
+addAncillaryFF:
+  title: "Indigo Fast Forward"
+addAncillaryFailed:
+  title: "{{addOnList}} Confirmation Failed"
+addAncillary:
+  single:
+    title: "{{count}} {{ancillaryType}}"
+  multiple:
+    title: "{{count}} {{ancillaryType}}s"
+postSale:
+  title: "Get all the booking-related assistance in My Trips."
+  getVoucherCta:
+    text: "<font color='#008cff'>Download Voucher</font>"
+  getWebCheckInCTA:
+    text: "<font color='#008cff'>Web Check In</font>"
+  getSeatOrMealCTA:
+    text: "<font color='#008cff'>Add Seat or Meal</font>"
+  getModifyCTA:
+    text: "<font color='#008cff'>Modify Dates</font>"
+  getCancelAllTcksCTA:
+    text: "<font color='#008cff'>Cancel All Tickets</font>"
+  getMoreCTA:
+    text: "<font color='#ffffff'>More in my trips</font>"
+status:
+  text: "<font color='#1a7971'>Don’t Worry!</font>"
+  text2: "Try Booking Again"
+  pnrPendingText:
+    text1: "One or more PNR(s) in your itinerary is(are) still pending confirmation."
+    text2: "<br/>Please wait while we confirm your booking<br/><b>(do not press back or leave this page)</b>"
+    text3: "One or more PNR(s) in your itinerary is(are) still pending confirmation."
+    text4: "You may visit My Trips for updates on booking confirmation.<b> Please do not re-book your tickets until further update.</b>"
+  addonText:
+    text1: "One or more add-ons selected by you could not be confirmed.The amount "
+    text2: "charged will be refunded to you within 3 working days.We regret any inconvenience caused."
+  pendingText:
+    text1: "We are awaiting confirmation from the airlines"
+    text2: "<br/>Please wait while we confirm your booking<br/><b>(do not press back or leave this page)</b>"
+    text3: "You may visit My Trips for updates on booking confirmation.<b> Please do not re-book your tickets until further update.</b>"
+    text4: "Go to My Trips "
+  failedText:
+    paymentReceived:
+      original:
+        text1: "We have already initiated a refund "
+        text2: "for your booking. It should reflect in your <b>Original Paymode</b> within <b>3 working days.</b> "
+        text3: "<br/>To track your refund status please <br/>"
+        text4: "Go to My Trips "
+      wallet:
+        text1: "We have already initiated a refund "
+        text2: "to your <b>wallet</b>. You may re-book same flights instantly <br/><br/>"
+        text3: "See T&C’s"
+    paymentNotReceived:
+      text1: "We have not deducted any amount from your payment mode. "
+      text2: "<br/><b>For more details on this booking </b> "
+      text3: "Go to My Trips"
+  tnc:
+    title: "Terms and Conditions"
+  partialText: "You can re-book this flight to avoid any increase in flight fare."
+cabAddon:
+  title: "Cab"
+  subtitle: ""
+  description:
+    title: "{{seatCapacity}} {{luggageCapacity}}"
+extraSeat:
+  placeHolder:
+    double: "Double"
+    triple: "Triple"
+charters:
+  jrnyLabel:
+    text: "Charter Flight"

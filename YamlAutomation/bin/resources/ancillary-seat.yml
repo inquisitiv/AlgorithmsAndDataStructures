@@ -1,0 +1,76 @@
+seatAttributeCodeDetailsMap:
+  1A:
+    lbl: "Seat not allowed for infant."
+    diTxt: ""
+  1B:
+    lbl: "Seat not allowed for medical."
+    diTxt: ""
+  B:
+    lbl: "Seat with bassinet facility"
+    diTxt: "Since there is an infant travelling with you only infant friendly seats can be chosen for this booking !You can also choose seats at the airport directly."
+  E:
+    lbl: "Exit Row Seat"
+    diTxt: "Emergency row seats are allowed only for travelers between 15 and 65 years of age. These seats are not allowed for guests with reduced mobility visually/speech impared guests expectant mothers."
+  NV_ST:
+    lbl: "Standard seat"
+    diTxt: ""
+  NV_EP:
+    lbl: "Extra space premium seat"
+    diTxt: ""
+  NV_WORA:
+    lbl: "Window or Aisle seat"
+    diTxt: ""
+  NV_EL:
+    lbl: " Extra leg room seat"
+    diTxt: ""
+  NV_PC:
+    lbl: "Priority check-in"
+    diTxt: ""
+  NV_CM:
+    lbl: "Complimentary meals and beverage"
+    diTxt: ""
+  NV_PB:
+    lbl: "Priority Boarding"
+    diTxt: ""
+  NV_PBH:
+    lbl: "Priority baggage handling"
+    diTxt: ""
+  NV_ELS:
+    lbl: "Extra leg-room seats."
+    diTxt: ""
+  NV_DNR:
+    lbl: "Do not recline"
+    diTxt: ""
+  NV_EE:
+    lbl: "Emergency Exit Seats"
+    diTxt: ""
+  NV_NA:
+    lbl: "NA"
+    diTxt: ""
+  M:
+    lbl: "Middle Seat"
+    diTxt: ""
+  A:
+    lbl: "Aisle Seat"
+    diTxt: ""
+  W:
+    lbl: "Window Seat"
+    diTxt: ""
+  EL:
+    lbl: "Extra Legroom Seat"
+    diTxt: ""
+  IN:
+    lbl: "Available for Infant Seat"
+    diTxt: ""
+  NR:
+    lbl: "Non reclining Seat"
+    diTxt: ""
+  RSRVD:
+    lbl: "Reserved"
+    diTxt: "Sorry! This seat is taken"
+spicemax :
+  benefits : ["Extra Legroom" , "Priority Check-in" , "Priority Baggage Handling" , "Priority Boarding"]
+  imgUrlMsg : "spicemax info image url"
+  title     : "Maximise your experience with SpiceMax"
+mmtblack:
+  lbl: "MMTBLACK Seat"

@@ -1,0 +1,47 @@
+package algorithms.trees;
+
+
+/*
+ * AVL Tree nothing but self balancing BinarySearchTree
+ * 
+ * If the tree is balanced, its guaranteed that every insertion takes log(n) time
+ * For every new insertion we only need to balance once.. everything else should remain 
+ * balanced.
+ * 
+ * height of tree =  max(height of left subtree, height of right subtree) + 1
+ * 
+ * height of empty tree = -1
+ * height of tree with one node = 0
+ * 
+ * Balance factor of any node = | height of left subtree - height of right subtree | < = 1
+ *   
+ * Balancing a Subtree :
+ * 1. Get the balance factor of the subtree
+ * 2. Decide which child is taller
+ * 3. Get balance factor of the taller child
+ * 4. Perform necessary rotations (left rotation or right rotation)
+ * 
+ * Cases :
+ * 1. Left - Left case : Left subtree is taller (bf = -2,2)and left subtree of left is taller (bf = -1,1)
+ *    : Perform right rotation on root of subtree
+ * 2. Left - right case : Left subtree is taller and right subtree of left is taller
+ *    : Make it a left - left case - by performing a left rotation on left child node
+ * 3. Right - Right case : Right subtree is taller and right subtree of right is taller
+ *    : Perform left rotation on root of subtree
+ * 4. Right - left case : Right subtree is taller and left subtree of right is taller
+ *    : Make it a  right-right case - by performing a right rotation on right child node
+ *    
+ *    
+ *    
+ * 
+ * 
+ */
+public class AVLTree {
+	
+	// AVL Tree is a self balancing BinarySearchTree
+	// there are other self balancing BinarySearchTrees 
+	// like RedBlackTrees
+	
+	// code in BinarySearchTree Class
+
+}

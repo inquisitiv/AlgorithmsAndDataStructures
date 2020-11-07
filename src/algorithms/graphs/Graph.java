@@ -1,0 +1,151 @@
+package algorithms.graphs;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+
+public class Graph<T> {
+
+	// We use Hashmap to store the edges in the graph 
+	int v;
+	public Map<T, List<T>> map = new HashMap<>();
+	
+	public void addVertex(T s) {
+		map.put(s, new LinkedList<T>());
+		v++;
+	}
+	
+	public void addEdge(T source, T destination, boolean isBidirectional) {
+
+		if(!map.containsKey(source)) {
+			addVertex(source);
+			v++;
+		}
+		if(!map.containsKey(destination)) {
+			addVertex(destination);
+			v++;
+		}
+		
+		map.get(source).add(destination);
+		if(isBidirectional == true) {
+			map.get(destination).add(source);
+		}
+		
+	}
+	
+	public int getVertexCount() {
+		return map.keySet().size();
+	}
+	
+	public int getEdgesCount(boolean bidirection) {
+		
+		int count = 0;
+		for(T v : map.keySet()) {
+			count = count + map.get(v).size();
+		}
+		if(bidirection == true)
+		 count = count/2;
+		return count;
+	}
+	
+	public boolean hasVertex(T s) {
+		return map.containsKey(s);
+	}
+	
+	public boolean hasEdge(T s, T d) {
+		if(map.containsKey(s)) {
+			return map.get(s).contains(d);
+		}
+		return false;
+	}
+	
+	public String toString() {
+		
+		StringBuilder builder = new StringBuilder();
+		for(T v : map.keySet()) {
+			builder.append(v.toString() + ": ");
+			for(T w : map.get(v)) {
+				builder.append(w.toString() + " ");
+			}
+			builder.append("\n");
+		}
+		
+		return (builder.toString());
+		
+	}
+	
+	public void DFSUtil(int s, boolean[] visited) {
+		
+		visited[s] = true;
+		System.out.print(s+" ");
+		for(T vertex : map.get(s)) {
+			int ver = (int)vertex;
+			if(visited[ver] == false) {
+			  visited[s] = true;
+		      DFSUtil(ver,visited);
+			}
+		}
+		
+	}
+	
+	public void DFS(int start) {
+	
+		System.out.println("DFS: ");
+		boolean[] visited = new boolean[v];
+		DFSUtil(start,visited);
+		System.out.println();
+		
+	}
+	
+	public void BFS(int start) {
+		
+		System.out.println("BFS: ");
+		boolean[] visited = new boolean[v];
+		Queue<Integer> queue = new LinkedList<Integer>();
+		
+		visited[start] = true;
+		queue.add(start);
+		
+		Integer s;
+		
+		while(!queue.isEmpty()) {
+			
+			s = queue.poll();
+			System.out.print(s + " , ");
+			
+			for(T vertex : map.get(s)) {
+				
+				int ver = (int)vertex;
+				if(visited[ver]==false) {
+					visited[ver] = true;
+					queue.add(ver);
+				}	
+			}		
+			
+		}
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		
+		Graph<Integer> g = new Graph<Integer>();
+		
+		g.addEdge(0, 1, true); 
+        g.addEdge(0, 4, true); 
+        g.addEdge(1, 2, true); 
+        g.addEdge(1, 3, true); 
+        g.addEdge(1, 4, true); 
+        g.addEdge(2, 3, true); 
+        g.addEdge(3, 4, true); 
+        
+        System.out.println(g.toString());
+        
+        g.BFS(4);
+        g.DFS(4);
+		
+		
+	}
+	
+}

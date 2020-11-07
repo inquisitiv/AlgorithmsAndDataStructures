@@ -1,0 +1,578 @@
+
+brandedFare:
+ msg:
+  warning: "CB_REVIEW_00001"
+  warningD: "CB_REVIEW_00002"
+  serviceNotAvailable: "CB_REVIEW_00003"
+impInfoConsent:
+ title: "CB_REVIEW_00004"
+ errMsg: "CB_REVIEW_00005"
+affiliateFee:
+ subTitle: "CB_REVIEW_00006"
+ title: "CB_REVIEW_00007"
+ add:
+  text: "CB_REVIEW_00008"
+ remove:
+  text: "CB_REVIEW_00009"
+ dt:
+  rootTitle: "CB_REVIEW_00010"
+  subTitle: "CB_REVIEW_00011"
+  title: "CB_REVIEW_00012"
+  add:
+   text: "CB_REVIEW_00013"
+  remove:
+   text: "CB_REVIEW_00014"
+discount:
+ subTitle: "CB_REVIEW_00015"
+ titleD: "CB_REVIEW_00016"
+ title: "CB_REVIEW_00017"
+ titleNoCouponD: "CB_REVIEW_00018"
+ titleNoCoupon: "CB_REVIEW_00019"
+ instant:
+  descText: "CB_REVIEW_00020"
+ coupon:
+  addOnWarning:
+   notfound:
+    title: "CB_REVIEW_00021"
+   noCostEmi:
+    title: "CB_REVIEW_00022"
+    text: "CB_REVIEW_00023"
+    removedTitle: "CB_REVIEW_00024"
+    removedText: "CB_REVIEW_00025"
+  shortMsgPrefix: "CB_REVIEW_00026"
+  preselectedCpnMsg: "CB_REVIEW_00027"
+  tnc:
+   ctaTitleApp: "CB_REVIEW_00028"
+   msg:
+    app: "CB_REVIEW_00029"
+    gPay: "CB_REVIEW_00030"
+    others: "CB_REVIEW_00031"
+  type:
+   ctc: "CB_REVIEW_00032"
+   ctw: "CB_REVIEW_00033"
+   manual: "CB_REVIEW_00034"
+  ERROR: "CB_REVIEW_00035"
+ wallet:
+  walletDetailTitle: "CB_REVIEW_00036"
+  data:
+   title: "CB_REVIEW_00037"
+  dataD:
+   text: "CB_REVIEW_00038"
+  myCashTitle: "CB_REVIEW_00039"
+  rewardBonusTitle: "CB_REVIEW_00040"
+  error: "CB_REVIEW_00041"
+  wpm:
+   title: "CB_REVIEW_00042"
+   imageText: "CB_REVIEW_00043"
+flipkartCodes:
+ title: "CB_REVIEW_00044"
+ subTitle: "CB_REVIEW_00045"
+share:
+ subject: "CB_REVIEW_00046"
+ subjectOWRT: "CB_REVIEW_00047"
+ subjectMC: "CB_REVIEW_00048"
+ review:
+  shareSubjectReview: "CB_REVIEW_00049"
+  referralTextReview: "CB_REVIEW_00050"
+  referralTitleReview: "CB_REVIEW_00051"
+  shareBodyReview: "CB_REVIEW_00052"
+  msg:
+   ow: "CB_REVIEW_00053"
+   rt: "CB_REVIEW_00054"
+   mc: "CB_REVIEW_00055"
+ listing:
+  shareBodyListing: "CB_REVIEW_00056"
+  shareSubjectListing: "CB_REVIEW_00057"
+  referralTextListing: "CB_REVIEW_00058"
+  referralTitleListing: "CB_REVIEW_00059"
+  toolTipTextLoggedin: "CB_REVIEW_00060"
+  toolTipTextLoggedOut: "CB_REVIEW_00061"
+ itnry:
+  subject:
+   heading: "CB_REVIEW_00062"
+   ow: "CB_REVIEW_00063"
+   rt: "CB_REVIEW_00064"
+   mc: "CB_REVIEW_00065"
+charity:
+ cardTitle: "CB_REVIEW_00066"
+ tnc: "CB_REVIEW_00067"
+ description: "CB_REVIEW_00068"
+ title:
+  notSelected: "CB_REVIEW_00069"
+  selected: "CB_REVIEW_00070"
+  notSelectedOldVersion: "CB_REVIEW_00071"
+  selectedOldVersion: "CB_REVIEW_00072"
+ ctaText:
+  title: "CB_REVIEW_00073"
+  dt: "CB_REVIEW_00074"
+  mobile: "CB_REVIEW_00075"
+ details:
+  desc: "CB_REVIEW_00076"
+  one:
+   text: "CB_REVIEW_00077"
+  two:
+   text: "CB_REVIEW_00078"
+  three:
+   text: "CB_REVIEW_00079"
+   textGPay: "CB_REVIEW_00080"
+   textApp: "CB_REVIEW_00081"
+   ctaText: "CB_REVIEW_00082"
+   ctaTitle: "CB_REVIEW_00083"
+paymentOptions:
+ title: "CB_REVIEW_00084"
+ subTitle: "CB_REVIEW_00085"
+ nce:
+  title: "CB_REVIEW_00086"
+  subTitle: "CB_REVIEW_00087"
+  displayPrice: "CB_REVIEW_00088"
+  nceTag:
+   text: "CB_REVIEW_00089"
+  CTA:
+   text: "CB_REVIEW_00090"
+   data:
+    errorText: "CB_REVIEW_00091"
+  asteriskTxt: "CB_REVIEW_00092"
+layover:
+ multipleLayovers: "CB_REVIEW_00093"
+ stopTextD:
+  stop: "CB_REVIEW_00094"
+  nonStop: "CB_REVIEW_00095"
+ duration:
+  hr: "CB_REVIEW_00096"
+  min: "CB_REVIEW_00097"
+ durationD:
+  hr: "CB_REVIEW_00098"
+  min: "CB_REVIEW_00099"
+ durationDt:
+  hr: "CB_REVIEW_00100"
+  min: "CB_REVIEW_00101"
+  hrs: "CB_REVIEW_00102"
+  mins: "CB_REVIEW_00103"
+ techStop:
+  msg: "CB_REVIEW_00104"
+  msgD: "CB_REVIEW_00105"
+  legInfo: "CB_REVIEW_00106"
+  airportInfo: "CB_REVIEW_00107"
+ changeOfPlane:
+  msg: "CB_REVIEW_00108"
+  msgD: "CB_REVIEW_00109"
+  legInfo: "CB_REVIEW_00110"
+  hoverInfo: "CB_REVIEW_00111"
+  hoverInfoD: "CB_REVIEW_00112"
+ changeOfTerminal:
+  msg: "CB_REVIEW_00113"
+  msgD: "CB_REVIEW_00114"
+  legInfo: "CB_REVIEW_00115"
+  hoverInfo: "CB_REVIEW_00116"
+ changeOfAirport:
+  msg: "CB_REVIEW_00117"
+  msgD: "CB_REVIEW_00118"
+  legInfo: "CB_REVIEW_00119"
+fareTag:
+ text: "CB_REVIEW_00120"
+ info:
+  text: "CB_REVIEW_00121"
+reviewHeader:
+ ow:
+  title: "CB_REVIEW_00122"
+  subTitle: "CB_REVIEW_00123"
+ rt:
+  title: "CB_REVIEW_00124"
+  subTitle: "CB_REVIEW_00125"
+ mc:
+  title: "CB_REVIEW_00126"
+  subTitle: "CB_REVIEW_00127"
+ msg:
+  traveller: "CB_REVIEW_00128"
+  adult: "CB_REVIEW_00129"
+ subTitle: "CB_REVIEW_00130"
+postReview:
+ persuasion:
+  review:
+   text: "CB_REVIEW_00131"
+  insurance:
+   text: "CB_REVIEW_00132"
+  fare:
+   cta:
+    text: "CB_REVIEW_00133"
+zerocancellation:
+ title: "CB_REVIEW_00134"
+ text: "CB_REVIEW_00135"
+ amtSubText: "CB_REVIEW_00136"
+ snackbarTitle: "CB_REVIEW_00137"
+ descriptionSelected: "CB_REVIEW_00138"
+ description: "CB_REVIEW_00139"
+ persuasion: "CB_REVIEW_00140"
+ persuasionD: "CB_REVIEW_00141"
+ persuasionDetails:
+  cta:
+   rcaText: "CB_REVIEW_00142"
+   lcaText: "CB_REVIEW_00143"
+  ctaD:
+   text: "CB_REVIEW_00144"
+ benefit1: "CB_REVIEW_00145"
+ benefit2: "CB_REVIEW_00146"
+ benefit3: "CB_REVIEW_00147"
+ zc:
+  footerPursuasionTextD: "CB_REVIEW_00148"
+  cta: "CB_REVIEW_00149"
+  subtitle: "CB_REVIEW_00150"
+  title: "CB_REVIEW_00151"
+bpg:
+ data:
+  title: "CB_REVIEW_00152"
+ dataD:
+  title: "CB_REVIEW_00153"
+  text: "CB_REVIEW_00154"
+  ctaText: "CB_REVIEW_00155"
+ ctatitle: "CB_REVIEW_00156"
+ subtitle: "CB_REVIEW_00157"
+ title: "CB_REVIEW_00158"
+messages:
+ checkIn:
+  msg: "CB_REVIEW_00159"
+  msgD: "CB_REVIEW_00160"
+ prereview:
+  desktop:
+   subtitle: "CB_REVIEW_00161"
+   title: "CB_REVIEW_00162"
+  leg:
+   airlineHeading: "CB_REVIEW_00163"
+   subtitle: "CB_REVIEW_00164"
+   subtitleD: "CB_REVIEW_00165"
+   title: "CB_REVIEW_00166"
+   titleV1: "CB_REVIEW_00167"
+   titleD: "CB_REVIEW_00168"
+   titleDV1: "CB_REVIEW_00169"
+   labelView:
+    titleD: "CB_REVIEW_00170"
+ review:
+  airportinfo:
+   title: "CB_REVIEW_00171"
+  fareAdditionalText:
+   singlePax: "CB_REVIEW_00172"
+   multiPax: "CB_REVIEW_00173"
+   creditSale: "CB_REVIEW_00174"
+  fareBreakUp:
+   baseFareTitle: "CB_REVIEW_00175"
+   feeSurchargesTitle: "CB_REVIEW_00176"
+   totalFeeSurchargesTitle: "CB_REVIEW_00177"
+   totalFeeSurchargesTitleBold: "CB_REVIEW_00178"
+   otherServicesTitle: "CB_REVIEW_00179"
+   creditShellTitle: "CB_REVIEW_00180"
+   creditShellText: "CB_REVIEW_00181"
+   creditShellTextGDS: "CB_REVIEW_00182"
+   affiliateFeeTitle: "CB_REVIEW_00183"
+   convenienceFeeTitle: "CB_REVIEW_00184"
+   discountTitle: "CB_REVIEW_00185"
+   walletText: "CB_REVIEW_00186"
+   otherDiscountText: "CB_REVIEW_00187"
+   serviceFeeText: "CB_REVIEW_00188"
+   otherFeeText: "CB_REVIEW_00189"
+   discountText: "CB_REVIEW_00190"
+   adultText: "CB_REVIEW_00191"
+   childText: "CB_REVIEW_00192"
+   infantText: "CB_REVIEW_00193"
+  fareEntity:
+   text: "CB_REVIEW_00194"
+   textBoldD: "CB_REVIEW_00195"
+   meals: "CB_REVIEW_00196"
+   seats: "CB_REVIEW_00197"
+   baggage: "CB_REVIEW_00198"
+   cabs: "CB_REVIEW_00199"
+   d2dBaggage: "CB_REVIEW_00200"
+   fastForward: "CB_REVIEW_00201"
+  reviewHeaderTitle: "CB_REVIEW_00202"
+  loginPersuasion:
+   title: "CB_REVIEW_00203"
+   coupon:
+    title: "CB_REVIEW_00204"
+  legAdditionalDetail:
+   terminal: "CB_REVIEW_00205"
+  impInfo:
+   title:
+    key: "CB_REVIEW_00206"
+    noKey: "CB_REVIEW_00207"
+  multifare:
+   fare:
+    titleD: "CB_REVIEW_00208"
+    title: "CB_REVIEW_00209"
+  jrnyList:
+   jrnyTitle:
+    rt: "CB_REVIEW_00210"
+    ow: "CB_REVIEW_00211"
+    mc: "CB_REVIEW_00212"
+   jrnyHeader:
+    labelViewTitle:
+     rt: "CB_REVIEW_00213"
+     ow: "CB_REVIEW_00214"
+     mc: "CB_REVIEW_00215"
+     intlrt: "CB_REVIEW_00216"
+ review-submit:
+  ErrorMessage:
+   insurance: "CB_REVIEW_00217"
+   holdbooking: "CB_REVIEW_00218"
+   specialfare: "CB_REVIEW_00219"
+MultiFareFooter:
+ Title: "CB_REVIEW_00220"
+ CTA:
+  Text: "CB_REVIEW_00221"
+holdBooking:
+ benifits:
+  b1: "CB_REVIEW_00222"
+  b2: "CB_REVIEW_00223"
+  b3: "CB_REVIEW_00224"
+ title: "CB_REVIEW_00225"
+ subtitle: "CB_REVIEW_00226"
+ validity: "CB_REVIEW_00227"
+ bookingstatus: "CB_REVIEW_00228"
+ bookingstatusmsg: "CB_REVIEW_00229"
+ bookingstatuspaymentdate: "CB_REVIEW_00230"
+ termsandcondition:
+  title: "CB_REVIEW_00231"
+  toastmsg: "CB_REVIEW_00232"
+  titletnc: "CB_REVIEW_00233"
+  error: "CB_REVIEW_00234"
+ persuasion:
+  text: "CB_REVIEW_00235"
+ payment:
+  title: "CB_REVIEW_00236"
+  subtitle:
+   selected: "CB_REVIEW_00237"
+   notselected: "CB_REVIEW_00238"
+mmtBlack:
+ title: "CB_REVIEW_00239"
+ consumedTitle: "CB_REVIEW_00240"
+ subTitle: "CB_REVIEW_00241"
+ viewDetails: "CB_REVIEW_00242"
+ cardHeader: "CB_REVIEW_00243"
+ listingBanner:
+  title: "CB_REVIEW_00244"
+ mmtBlackLegData:
+  msg: "CB_REVIEW_00245"
+  msgD: "CB_REVIEW_00246"
+ mmtBlackInfo:
+  titleD: "CB_REVIEW_00247"
+  title: "CB_REVIEW_00248"
+  subTitle: "CB_REVIEW_00249"
+  headerTitleList:
+   title1: "CB_REVIEW_00250"
+   title2: "CB_REVIEW_00251"
+  headerSubTitleList:
+   subtitle1: "CB_REVIEW_00252"
+   subtitle2: "CB_REVIEW_00253"
+ mmtBlackCard:
+  subTitle: "CB_REVIEW_00254"
+ benetsTypeMap:
+  SEATS:
+   title: "CB_REVIEW_00255"
+   subTitle: "CB_REVIEW_00256"
+   titleDiscount: "CB_REVIEW_00257"
+   subTitleDiscount: "CB_REVIEW_00258"
+  CABS:
+   title: "CB_REVIEW_00259"
+   subTitle: "CB_REVIEW_00260"
+   titleDiscount: "CB_REVIEW_00261"
+   subTitleDiscount: "CB_REVIEW_00262"
+  AIRPORT_MEALS:
+   title: "CB_REVIEW_00263"
+   subTitle: "CB_REVIEW_00264"
+   titleDiscount: "CB_REVIEW_00265"
+   subTitleDiscount: "CB_REVIEW_00266"
+d2dBaggage:
+ shipmentTypeTitle: "CB_REVIEW_00267"
+ shipmentTypeTitleD: "CB_REVIEW_00268"
+ shipmentTypeSubTitle: "CB_REVIEW_00269"
+ shipmentTypeSubTitleD: "CB_REVIEW_00270"
+ shipmentTypeSubTitleHours: "CB_REVIEW_00271"
+ shipmentTypeSubTitleHoursD: "CB_REVIEW_00272"
+ shipmentTypeTitleApp: "CB_REVIEW_00273"
+ shipmentTypeSubTitleApp: "CB_REVIEW_00274"
+ shipmentTypeSubTitleHoursApp: "CB_REVIEW_00275"
+ planOptionText: "CB_REVIEW_00276"
+ planOptionTitle: "CB_REVIEW_00277"
+ planOptionTitleMultiple: "CB_REVIEW_00278"
+ planOptionTitleSelected: "CB_REVIEW_00279"
+ planOptionTitleSelectedMultiple: "CB_REVIEW_00280"
+ planOptionWeightText: "CB_REVIEW_00281"
+ viewBreakUp: "CB_REVIEW_00282"
+ planOptionHeader:
+  title: "CB_REVIEW_00283"
+  subTitle: "CB_REVIEW_00284"
+ banner:
+  text: "CB_REVIEW_00285"
+ features:
+  featureList:
+   safety: "CB_REVIEW_00286"
+   convenience: "CB_REVIEW_00287"
+   affordable: "CB_REVIEW_00288"
+ featuresNew:
+  featureList:
+   f1: "CB_REVIEW_00289"
+   f2: "CB_REVIEW_00290"
+ header:
+  title: "CB_REVIEW_00291"
+  titleD: "CB_REVIEW_00292"
+ importantInfo:
+  title: "CB_REVIEW_00293"
+  messages:
+   msg1: "CB_REVIEW_00294"
+   msg2: "CB_REVIEW_00295"
+  tncTitle: "CB_REVIEW_00296"
+  tncMessage:
+   part1: "CB_REVIEW_00297"
+   part2: "CB_REVIEW_00298"
+   part3: "CB_REVIEW_00299"
+  tncMessageApp:
+   part1: "CB_REVIEW_00300"
+   part2: "CB_REVIEW_00301"
+   part3: "CB_REVIEW_00302"
+  knowMore: "CB_REVIEW_00303"
+ faq:
+  title: "CB_REVIEW_00304"
+  dataTitle: "CB_REVIEW_00305"
+  dataSubTitle: "CB_REVIEW_00306"
+  que:
+   q1: "CB_REVIEW_00307"
+   q2: "CB_REVIEW_00308"
+  queD:
+   q1: "CB_REVIEW_00309"
+   q2: "CB_REVIEW_00310"
+ thankyouSubtitle: "CB_REVIEW_00311"
+ thankyouSubtitleHours: "CB_REVIEW_00312"
+ toolTip:
+  maxweight: "CB_REVIEW_00313"
+  maxdimentions: "CB_REVIEW_00314"
+ selection:
+  errors:
+   invalid: "CB_REVIEW_00315"
+   invalid1: "CB_REVIEW_00316"
+fph:
+ header:
+  title: "CB_REVIEW_00317"
+  titleReturn: "CB_REVIEW_00318"
+  subTitle: "CB_REVIEW_00319"
+  subTitleReturn: "CB_REVIEW_00320"
+ hotelCardInfo:
+  packageNights: "CB_REVIEW_00321"
+  packageGuest: "CB_REVIEW_00322"
+  packageSingleGuest: "CB_REVIEW_00323"
+  packageSingleNight: "CB_REVIEW_00324"
+  ctaTitle: "CB_REVIEW_00325"
+  hotelLocation: "CB_REVIEW_00326"
+  hotelName: "CB_REVIEW_00327"
+  userReview:
+   title: "CB_REVIEW_00328"
+  footer:
+   text: "CB_REVIEW_00329"
+  amenities:
+   text: "CB_REVIEW_00330"
+  prices:
+   regular: "CB_REVIEW_00331"
+   combo: "CB_REVIEW_00332"
+   slashPrice: "CB_REVIEW_00333"
+extraSeat:
+ importantInfo:
+  doubleSeat:
+   title: "CB_REVIEW_00334"
+   titleApps: "CB_REVIEW_00335"
+   description: "CB_REVIEW_00336"
+   descriptionD: "CB_REVIEW_00337"
+  tripleSeat:
+   title: "CB_REVIEW_00338"
+   titleApps: "CB_REVIEW_00339"
+   description: "CB_REVIEW_00340"
+   descriptionD: "CB_REVIEW_00341"
+charters:
+ impInfo1: "CB_REVIEW_00342"
+ impInfo2: "CB_REVIEW_00343"
+ timingOptText: "CB_REVIEW_00344"
+ timingErrMsg: "CB_REVIEW_00345"
+ postJrnyAddData:
+  cardLeftLabel:
+   text: "CB_REVIEW_00346"
+  flightInfo:
+   subTitle: "CB_REVIEW_00347"
+   images:
+    moreText: "CB_REVIEW_00348"
+   amenities:
+    title: "CB_REVIEW_00349"
+    ambulance:
+     text: "CB_REVIEW_00350"
+     unavailableText: "CB_REVIEW_00351"
+    bed:
+     text: "CB_REVIEW_00352"
+     unavailableText: "CB_REVIEW_00353"
+    entertainment:
+     text: "CB_REVIEW_00354"
+     unavailableText: "CB_REVIEW_00355"
+    pilots:
+     text: "CB_REVIEW_00356"
+    luggage:
+     text: "CB_REVIEW_00357"
+    lavatory:
+     text: "CB_REVIEW_00358"
+    catering:
+     text: "CB_REVIEW_00359"
+     unavailableText: "CB_REVIEW_00360"
+    attendants:
+     text: "CB_REVIEW_00361"
+    wifi:
+     text: "CB_REVIEW_00362"
+     unavailableText: "CB_REVIEW_00363"
+    reclinerSeats:
+     text: "CB_REVIEW_00364"
+     unavailableText: "CB_REVIEW_00365"
+    pets:
+     text: "CB_REVIEW_00366"
+     unavailableText: "CB_REVIEW_00367"
+    cabinHeight:
+     text: "CB_REVIEW_00368"
+   timingInfo:
+    title: "CB_REVIEW_00369"
+    text: "CB_REVIEW_00370"
+   cancellationInfo:
+    title: "CB_REVIEW_00371"
+    text: "CB_REVIEW_00372"
+   benefits:
+    ben1:
+     title: "CB_REVIEW_00373"
+     text: "CB_REVIEW_00374"
+    ben2:
+     title: "CB_REVIEW_00375"
+     text: "CB_REVIEW_00376"
+    ben3:
+     title: "CB_REVIEW_00377"
+     text: "CB_REVIEW_00378"
+ faqs:
+  title: "CB_REVIEW_00379"
+  faq1:
+   title: "CB_REVIEW_00380"
+   desc: "CB_REVIEW_00381"
+  faq2:
+   title: "CB_REVIEW_00382"
+   desc: "CB_REVIEW_00383"
+  faq3:
+   title: "CB_REVIEW_00384"
+   desc: "CB_REVIEW_00385"
+  faq4:
+   title: "CB_REVIEW_00386"
+   desc: "CB_REVIEW_00387"
+  faq5:
+   title: "CB_REVIEW_00388"
+   desc: "CB_REVIEW_00389"
+  faq6:
+   title: "CB_REVIEW_00390"
+   desc: "CB_REVIEW_00391"
+  faq7:
+   title: "CB_REVIEW_00392"
+   desc: "CB_REVIEW_00393"
+  faq8:
+   title: "CB_REVIEW_00394"
+   desc: "CB_REVIEW_00395"
+  faq9:
+   title: "CB_REVIEW_00396"
+   desc: "CB_REVIEW_00397"
+  faq10:
+   title: "CB_REVIEW_00398"
+   desc: "CB_REVIEW_00399"

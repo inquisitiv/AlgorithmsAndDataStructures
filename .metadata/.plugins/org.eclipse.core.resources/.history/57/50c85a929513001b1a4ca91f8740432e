@@ -1,0 +1,98 @@
+
+b2b:
+ specialFare:
+  title: "CB_BANNER_00001"
+  text: "CB_BANNER_00002"
+  subtitle: "CB_BANNER_00003"
+ policyCompliance:
+  title: "CB_BANNER_00004"
+  text: "CB_BANNER_00005"
+ gstInvoice:
+  title: "CB_BANNER_00006"
+  text: "CB_BANNER_00007"
+ customerSupport:
+  title: "CB_BANNER_00008"
+  text: "CB_BANNER_00009"
+ mybiz:
+  title: "CB_BANNER_00010"
+  text: "CB_BANNER_00011"
+ stateGuidelinesBanner:
+  title: "CB_BANNER_00012"
+  titleGcc: "CB_BANNER_00013"
+  text: "CB_BANNER_00014"
+  textGcc: "CB_BANNER_00015"
+  ctadetail:
+   text: "CB_BANNER_00016"
+ covidSafetyBanner:
+  title: "CB_BANNER_00017"
+  titleGcc: "CB_BANNER_00018"
+  text: "CB_BANNER_00019"
+  textGcc: "CB_BANNER_00020"
+  ctadetail:
+   text: "CB_BANNER_00021"
+  AEINbannerDT:
+   title: "CB_BANNER_00022"
+   text: "CB_BANNER_00023"
+   ctadetail:
+    text: "CB_BANNER_00024"
+  INAEbannerDT:
+   title: "CB_BANNER_00025"
+   text: "CB_BANNER_00026"
+   ctadetail:
+    text: "CB_BANNER_00027"
+b2c:
+ broadCastCouponsBanner:
+  multipleCpns:
+   title: "CB_BANNER_00028"
+ airlineCreditBanner:
+  title: "CB_BANNER_00029"
+  text: "CB_BANNER_00030"
+ stateGuidelinesBanner:
+  title: "CB_BANNER_00031"
+  titleGcc: "CB_BANNER_00032"
+  text: "CB_BANNER_00033"
+  textGcc: "CB_BANNER_00034"
+  ctaText: "CB_BANNER_00035"
+ covidSafetyBanner:
+  title: "CB_BANNER_00036"
+  titleGcc: "CB_BANNER_00037"
+  text: "CB_BANNER_00038"
+  textGcc: "CB_BANNER_00039"
+  ctaText: "CB_BANNER_00040"
+ mmtBlack:
+  title: "CB_BANNER_00041"
+  ctadetail:
+   title: "CB_BANNER_00042"
+ wpm:
+  title: "CB_BANNER_00043"
+ holidayBanner:
+  header:
+   title: "CB_BANNER_00044"
+  footer:
+   title: "CB_BANNER_00045"
+   titleD: "CB_BANNER_00046"
+   des: "CB_BANNER_00047"
+   desNew: "CB_BANNER_00048"
+   desD: "CB_BANNER_00049"
+   slashT: "CB_BANNER_00050"
+   slashTD: "CB_BANNER_00051"
+   finalT: "CB_BANNER_00052"
+   finalTD: "CB_BANNER_00053"
+  ctadetail:
+   text: "CB_BANNER_00054"
+  package:
+   title: "CB_BANNER_00055"
+   subTitleOW: "CB_BANNER_00056"
+   subTitleRT: "CB_BANNER_00057"
+   subTitleNight: "CB_BANNER_00058"
+   subTitleNights: "CB_BANNER_00059"
+   titleD: "CB_BANNER_00060"
+   subTitleOWD: "CB_BANNER_00061"
+   subTitleRTD: "CB_BANNER_00062"
+   subTitleNightD: "CB_BANNER_00063"
+   subTitleNightsD: "CB_BANNER_00064"
+ chartersBanner:
+  title: "CB_BANNER_00065"
+  text: "CB_BANNER_00066"
+  cta:
+   title: "CB_BANNER_00067"

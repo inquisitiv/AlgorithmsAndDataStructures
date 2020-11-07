@@ -1,0 +1,9 @@
+package problems.list;
+
+public class SubstringByTwo {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+webcheckin:
+ mysafety:
+  text: "cb.webcheckin.mysafety.text"
+ header:
+  title: "cb.webcheckin.mysafety.header.title"
+  subTitle: "cb.webcheckin.mysafety.header.title.subTitle"
+  rightCtaText: "cb.webcheckin.mysafety.header.title.subTitle.rightCtaText"
+ messageList: "cb.webcheckin.mysafety.header.messageList"
+ seatSelectMsg: "cb.webcheckin.mysafety.header.messageList.seatSelectMsg"
+ skipSeatMsg: "cb.webcheckin.mysafety.header.messageList.seatSelectMsg.skipSeatMsg"blackToastMsg:
+ first: "cb.blackToastMsg.first"
+ second: "cb.blackToastMsg.first.second"
+ notify:
+  ctaText: "cb.blackToastMsg.first.second.notify.ctaText"

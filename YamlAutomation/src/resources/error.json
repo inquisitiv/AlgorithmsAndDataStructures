@@ -1,0 +1,1960 @@
+{
+  "0000": {
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "RKEY-EXPIRE": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Oops, Your Session Has Expired!",
+      "subTitle": "To continue booking your flight, please click on the link below. This will initiate your search again.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Refresh My Search",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "INVALID_SESSION": {
+    "identify": "INVALID_SESSION",
+    "type": "FULLPAGE",
+    "tracking": {
+      "omnitureID": ""
+    },
+    "data": {
+      "title": "Oops, Seems you are hitting old session!",
+      "subTitle": "To continue booking your flight, please click on the link below. This will initiate your search again.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Refresh My Search",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "INVALID_PNR": {
+    "type": "FULLPAGE",
+    "identify": "Credit-Sale-Failure-Invalid-PNR",
+    "data": {
+      "title": "Invalid PNR Combination",
+      "subTitle": "Airline is not offering Return Fare on this, so please make your booking as two one-ways if you'd like to book these flights.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Refresh My Search",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "PAX_MISMATCH": {
+    "type": "FULLPAGE",
+    "identify": "Credit-Sale-Failure",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Refresh My Search",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Credit-Sale-Failed": {
+    "type": "FULLPAGE",
+    "identify": "Credit-Sale-Failure",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Refresh My Search",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "REVIEW-TIMEOUT": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Sorry, the airline is taking a bit too long to respond.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "Duplicate-Booking": {
+    "identify": "Duplicate-Booking",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : "snackbar_duplicate_booking_shown"
+    },
+    "data": {
+      "title": "Duplicate Booking",
+      "subTitle": "We have seen that you have already made the same booking. Do you want to continue?",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "USERCONSENT",
+        "text": "Yes, continue",
+        "data": {
+          "url": "/api/user-consent/duplicate"
+        },
+        "tracking": {
+          "omnitureID": "duplicate_booking_accept"
+        }
+      },
+      "rightCta": {
+        "type": "DISMISS",
+        "text": "Dismiss",
+        "tracking": {
+          "omnitureID": "duplicate_booking_decline"
+        },
+        "data": {
+          "url": ""
+        }
+      }
+    }
+  },
+  "AcmeMeal-Failed": {
+    "identify": "AcmeMeal-Failed",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Airport Meals Attachment Failed",
+      "subTitle": "Airport Meals are not attached. Do you want to continue without airport Meals ?",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Dismiss"
+      },
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "Yes, continue",
+        "data": {
+          "url": "/api/user-consent/acme-not-attached"
+        }
+      }
+    }
+  },
+  "DUPLICATE_BOOKING_PREPAY": {
+    "identify": "DUPLICATE_BOOKING_PREPAY",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID": "snackbar_duplicate_booking_shown"
+    },
+    "data": {
+      "title": "Duplicate Booking",
+      "subTitle": "We have seen that you have already made the same booking.",
+      "icon": "",
+      "message": "",
+      "rightCta": {
+        "type": "DEEPLINK",
+        "text": "Continue",
+        "deepLink" : "https://supportz.makemytrip.com/Mima/Flight/?bookingId=",
+        "data": {
+          "url": "https://supportz.makemytrip.com/Mima/Flight/?bookingId="
+        }
+      }
+    }
+  },
+  "SEAT_HOLD_FAILED_CORP": {
+    "identify": "SEAT_HOLD_FAILED_CORP",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Sold Out",
+      "subTitle": "The flight is sold out for choosen fare type and booking class.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DEEPLINK",
+        "text": "Go to Homepage",
+        "deepLink" : "https://www.makemytrip.com",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "FLIGHT_DEPARTURE_DATE_PASSED": {
+    "identify": "FLIGHT_DEPARTURE_DATE_PASSED",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Invalid date",
+      "subTitle": "The booking departure date is already passed. Please create a fresh request",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "deepLink" : "https://www.makemytrip.com",
+        "type": "DEEPLINK",
+        "text": "Go to Homepage",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "PRIMARY_TRAVELLER_ERROR": {
+    "identify": "PRIMARY_TRAVELLER_ERROR",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Choose Primary",
+      "subTitle": "Please choose a primary traveller.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!"
+      }
+    }
+  },
+  "BLOCKED_BOOKING_ERROR": {
+    "identify": "OOP_BLOCKED_BOOKING",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Alert",
+      "subTitle": "Seems like the selected primary traveller isn’t eligible for this booking. Please add or choose another primary traveller eligible for this policy.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!"
+      }
+    }
+  },
+  "FLIGHT_ITINERARY_EXPIRED": {
+    "identify": "FLIGHT_ITINERARY_EXPIRED",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : ""
+    },
+    "data": {
+      "title": "Request Expired",
+      "subTitle": "The booking request was raised 7+ days ago and is expired. Please raise a fresh travel request",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "deepLink" : "https://www.makemytrip.com",
+        "type": "DEEPLINK",
+        "text": "Go to Homepage",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "B2B-ITINERARY-FREEZED": {
+    "identify": "Modification Not Allowed",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : ""
+    },
+    "data": {
+      "title": "Request cannot be modified",
+      "subTitle": "This request has already been raised and cannot be modified. To raise another request, please search for the flight again.",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "LISTING",
+        "text": "Raise another request",
+        "tracking": {
+          "omnitureID": ""
+        }
+      }
+    }
+  },
+  "ScheduleChange": {
+    "identify": "Schedule-Change",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : "snackbar_scheduleChange_shown"
+    },
+    "data": {
+      "title": "Alert! Change in Your Flight Schedule",
+      "subTitle": "We have seen that you have already made the same booking. Do you want to continue?",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "USERCONSENT",
+        "text": "Continue booking",
+        "data": {
+          "url": "/api/user-consent/sc"
+        },
+        "tracking": {
+          "omnitureID": "scheduleChange_accept"
+        }
+      },
+      "rightCta": {
+        "type": "LISTING",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "scheduleChange_decline"
+        }
+      }
+    }
+  },
+  "B2B-MULTI-CITY-ERROR": {
+    "identify": "NO_ERROR_MAPPING_FOR_CLIENT",
+    "type": "FULLPAGE",
+    "tracking": {
+      "omnitureID": "Unknown_error"
+    },
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "This page is unavailable. You'll be forwarded to the homepage by clicking the link below.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "rightCta": {
+        "type": "LISTING",
+        "text": "Go to Homepage"
+      }
+    }
+  },
+  "Corp-Fraud": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Uh oh! Something went wrong",
+      "subTitle": "We detected a possible fraud. Please login again!",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "LOGIN",
+        "text": "Login"
+      }
+    }
+  },
+  "Timed-out": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Uh oh!",
+      "subTitle": "Your request has timed out. Please try again!",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "REFRESH",
+        "text": "Try Again"
+      }
+    }
+  },
+  "Booking-Failed-Airline-Issue": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Booking Failed",
+      "subTitle": "Due to an error with the airlines, your booking has failed. Request you to please restart your search.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Ancillary-selection": {
+    "type": "TOAST",
+    "data": {
+      "title": "Oops!",
+      "subTitle": "Sorry we couldn't update your ancillary selection. Please try again",
+      "message": "Sorry we couldn't update your ancillary selection. Please try again",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!"
+      }
+    }
+  },
+  "Add-GST": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Oops!",
+      "subTitle": "Sorry we couldn't update your GST information. Please try again",
+      "message": "Sorry we couldn't update your GST information. Please try again",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!"
+      }
+    }
+  },
+  "Review-selection": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Oops!",
+      "subTitle": "Sorry we couldn't update your selection. Please try again",
+      "message": "Sorry we couldn't update your selection. Please try again",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!"
+      }
+    }
+  },
+  "Traveller-selection": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Oops!",
+      "subTitle": "Sorry we couldn't submit your traveller information. Please try again",
+      "message": "Sorry we couldn't submit your traveller information. Please try again",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!"
+      }
+    }
+  },
+  "ApprovalWithAuth-failed": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Oops!",
+      "subTitle": "Something went wrong. Please try again.",
+      "message": "Something went wrong. Please try again.",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!",
+        "data": {
+          "url": ""
+        }
+      }
+    }
+  },
+  "Approval-failed": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "Homeapproval-failed": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "Managerapproval-failed": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Oops!",
+      "subTitle": "Something went wrong. Please try again.",
+      "message": "Something went wrong. Please try again.",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!",
+        "data": {
+          "url": ""
+        }
+      }
+    }
+  },
+  "GetAncillay-failed": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "Prebook-failure": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Sorry!",
+      "subTitle": "Something went wrong. You will be redirected to the flights listing page.",
+      "message": "Something went wrong. You will be redirected to the flights listing page.",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "back"
+        }
+
+      }
+    }
+  },
+  "Summary-submit-failure": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Sorry!",
+      "subTitle": "Something went wrong. You will be redirected to the flights listing page.",
+      "message": "Something went wrong. You will be redirected to the flights listing page.",
+      "middleCta": {
+        "type": "GEM_LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "summary_submit_failed"
+        }
+      }
+    }
+  },
+  "Summary-submit-token-validation-failure": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Sorry!",
+      "subTitle": "Something went wrong. You will be redirected to Government e-Marketplace homepage.",
+      "message": "Something went wrong. You will be redirected to Government e-Marketplace homepage.",
+      "middleCta": {
+        "data": {
+          "url": ""
+        },
+        "type": "GEM_LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "token_validation_failed"
+        }
+      }
+    }
+  },
+  "Meta-token-validation-failure": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Oops! Page cannot be loaded",
+      "subTitle": "Something went wrong. You will be redirected to Government e-Marketplace homepage.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "Something went wrong. You will be redirected to Government e-Marketplace homepage.",
+      "rightCta": {
+        "data": {
+          "url": ""
+        },
+        "type": "GEM_LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "token_validation_failed"
+        }
+      }
+    }
+  },
+  "Seat-hold-failed": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Booking Failed",
+      "subTitle": "Due to a technical error on the airline's front, your booking could not be processed further. Please try booking again.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    },
+    "tracking": {
+      "omnitureID": "snackbar_seathold_fail_shown"
+    }
+
+  },
+  "MandatorySeat": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "You haven’t selected your seats!",
+      "subTitle": "Fare selected by you for your %s lets you keep the middle seat vacant at no additional cost. Please select your seats to proceed.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Got it",
+        "tracking": {
+          "omnitureID": "mandatory_seat"
+        }
+      }
+    },
+    "tracking": {
+      "omnitureID": "snackbar_seathold_fail_shown"
+    }
+  },
+  "DuplicatePaxName": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Uh Oh!",
+      "subTitle": "Airlines don’t allow two travellers with the same name in a single booking. Please remove one traveller to proceed.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Got it",
+        "tracking": {
+          "omnitureID": "duplicate_pax_name"
+        }
+      }
+    },
+    "tracking": {
+      "omnitureID": "snackbar_duplicate_pax_name_shown"
+    }
+  },
+  "FARE-SOLD-OUT": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Flight Sold Out!",
+      "subTitle": "Please select another flight and complete your booking.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "PrebookCorp-failure": {
+    "type": "FULLPAGE",
+    "tracking": {
+      "omnitureID": "Unknown_error"
+    },
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "Prepmt-failure": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Sorry!",
+      "subTitle": "Something went wrong. You will be redirected to the flights listing page.",
+      "message": "Something went wrong. You will be redirected to the flights listing page.",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Booking-Failed": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Booking Failed",
+      "subTitle": "Due to an error at our end, your booking has failed. Request you to please restart your search.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "LISTING",
+        "text": "Okay",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Zero-Cancellation-Error": {
+    "identify": "Zero-Cancellation-Error",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Sorry",
+      "subTitle": "We are unable to provide Zero Cancellation on your booking due to an error at our end.",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Dismiss"
+	  },"tracking": {
+          "omnitureID": "zc_mismatch_decline"
+        }
+      },
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "Continue",
+        "data": {
+          "url": "/api/user-consent/zc"
+        },"tracking": {
+          "omnitureID": "zc_mismatch_accept"
+        }
+      },
+    "tracking": {
+      "omnitureID": "snackbar_zc_mismatch_shown"
+    }
+  },
+  "BDB-Approval-Error": {
+    "identify" : "BDB-Approval-Error",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "",
+      "subTitle": "",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "bdb_dismiss"
+        }
+      },
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "Continue",
+        "data": {
+          "url": "/api/user-consent/bdb"
+        },
+        "tracking": {
+          "omnitureID": "bdb_user_consent"
+        }
+      }
+    }
+  },
+  "Page-cannot-be-loaded": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "Our systems seem to be experiencing an issue. We are working on resolving it asap. Please refresh the page or go back to the earlier page",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "Invalid-origin-city": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Sorry, No Flights for this Search",
+      "subTitle": "We cannnot find any flights for the departure city of your search. Please modify your search criteria and try again. We recommend you look for a nearby airport.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Invalid-destination-city": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Sorry, No Flights for this Search",
+      "subTitle": "We cannnot find any flights for the arrival city of your search. Please modify your search criteria and try again. We recommend you look for a nearby airport.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Invalid-date": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Sorry, No Flights for this Search",
+      "subTitle": "We cannnot find any flights for the journey dates of your search. Please modify your search criteria and try again.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "CABIN_CLASS_NOT_SUPPORTED": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Sorry, No Flights for this Search",
+      "subTitle": "We cannnot find any flights for the cabin class of your search. Please modify your search criteria and try again.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "CABIN_CLASS_NOT_SUPPORTED"
+        }
+      }
+    }
+  },
+  "No-Flights-Found": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "No flights found",
+      "subTitle": "No flights found on this route for the requested date.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Covid-Restrictions": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "No flights found",
+      "subTitle": "No flight is operating on this route due to the Govt travel advisory ",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/covid.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/covid.png",
+      "message": "",
+      "middleCta": {
+        "type": "BACK",
+        "text": "SEARCH NEW DATES",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Post-search": {
+    "type": "NO_CLIENT_ERROR"
+  },
+  "Post-review": {
+    "type": "NO_CLIENT_ERROR"
+  },
+  "NO_CLIENT_ERROR": {
+    "type": "NO_CLIENT_ERROR"
+  },
+  "Add-shortlist": {
+    "type": "TOAST",
+    "data": {
+      "subTitle": "Sorry we couldn't shortlist this flight. Please try again",
+      "message": "Sorry we couldn't shortlist this flight. Please try again",
+      "middleCta": {
+        "type": "BACK",
+        "text": "Okay, Got it"
+      }
+    }
+  },
+  "Try-Again": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Oops!",
+      "subTitle": "Something went wrong. Please try again.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "REFRESH",
+        "text": "Try again."
+      }
+    }
+  },
+  "Delete-shortlist": {
+    "type": "TOAST",
+    "data": {
+      "subTitle": "Sorry we couldn't deselect this shortlisted flight. Please try again",
+      "message": "Sorry we couldn't deselect this shortlisted flight. Please try again",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it"
+      }
+    }
+  },
+  "Max-shortlist": {
+    "identify": "Max-shortlist",
+    "type": "TOAST",
+    "data": {
+      "title": "Add shortlist failed",
+      "subTitle": "You have reached the maximum limit. Please remove a flight from your shorltlist and try again.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it"
+      }
+    }
+  },
+  "No-shortlist": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "No shortlisted flights found",
+      "subTitle": "Looks like you have not shortlisted any flights yet. Simply search and tap on heart icon to shortlist it",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "middleCta": {
+        "type": "BACK",
+        "text": "Okay, Got it",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Get-shortlist": {
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "We could not load your shortlisted flights. We are working to resolve this asap. Please refresh the page or go back",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "Fare-calendar": {
+    "type": "NO_CLIENT_ERROR"
+  },
+  "Branded-fare-search": {
+    "identify" : "Branded-fare",
+    "type": "NO_CLIENT_ERROR"
+  },
+  "Branded-fare-review": {
+    "identify" : "Branded-fare",
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Page cannot be loaded",
+      "subTitle": "We are having issues loading fare options for this itinerary. Please refresh the page or go back.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message": "",
+      "leftCta": {
+        "type": "BACK",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      },
+      "rightCta": {
+        "type": "REFRESH",
+        "text": "Refresh",
+        "tracking": {
+          "omnitureID": "refresh_page"
+        }
+      }
+    }
+  },
+  "No-mybizz-account-for-this-email-address": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Sorry!",
+      "subTitle": "There is no mybiz account for this email. Please log in with another user.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "LOGIN",
+        "text": "Login"
+      }
+    }
+  },
+  "Booking-already-approved": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Hey!",
+      "subTitle": "This booking is already approved.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it"
+      }
+    }
+  },
+  "Approval-rejected": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Approval Status Update",
+      "subTitle": "Your request for approval is rejected!",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it"
+      }
+    }
+  },
+  "Skip-Approval-not-allowed": {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Approval Status Update",
+      "subTitle":"Your booking is already approved! You can proceed without skipping approval for this.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"REFRESH",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Approval-status-update-failed": {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Please retry",
+      "subTitle":"We're unable to update the approval action",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Approval-required": {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Approval Status Update",
+      "subTitle":"Your approval is not in valid state!",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Add-employee-error": {
+    "type":"TOAST",
+    "data":{
+      "title":"Oops!",
+      "subTitle":"Unable to add employee. Please Try Again.",
+      "icon":"",
+      "message":"Unable to add employee. Please Try Again.",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Employee-already-exist": {
+    "identify": "Employee-already-exist",
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Oops!",
+      "subTitle":"Employee already exists",
+      "icon":"",
+      "message":"Employee already exists",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "EMPLOYEE_NOT_FOUND": {
+    "identify": "EMPLOYEE_NOT_FOUND",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Issue in fetching Employee Details",
+      "subTitle": "Employee details could not be fetched due to some technical issue. Please try again after some time.",
+      "icon": "",
+      "message": "Employee details could not be fetched due to some technical issue. Please try again after some time.",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it"
+      }
+    }
+  },
+  "Logged-In-User-Not-verified-employee" : {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Please login",
+      "subTitle":"This user is not a verified employee. Please login with another user.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"LOGIN",
+        "text":"Login"
+      }
+    }
+  },
+  "Please-login" : {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Please login",
+      "subTitle":"You are not logged in. Please login to continue.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"LOGIN",
+        "text":"Login"
+      }
+    }
+  },
+  "Unable-to-login" : {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Login failed",
+      "subTitle":"Your login attempt has failed. Please try again.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"LOGIN",
+        "text":"Login",
+        "data": {
+          "url" : ""
+        }
+      }
+    }
+  },
+  "Meal-Selection" : {
+    "type":"TOAST",
+    "data":{
+      "title":"Oops!",
+      "subTitle":"Sorry your meal selection failed. Please try again.",
+      "icon":"",
+      "message":"Sorry your meal selection failed. Please try again.",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it",
+        "data": {
+          "url" : ""
+        }
+      }
+    }
+  },
+  "Seat-Selection" : {
+    "type":"TOAST",
+    "data":{
+      "title":"Oops!",
+      "subTitle":"Sorry your seat selection failed. Please try again.",
+      "icon":"",
+      "message":"Sorry your seat selection failed. Please try again.",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it",
+        "data": {
+          "url" : ""
+        }
+      }
+    }
+  },
+  "Baggage-Selection" : {
+    "type":"TOAST",
+    "data":{
+      "title":"Oops!",
+      "subTitle":"Sorry your baggage selection failed. Please try again.",
+      "message":"Sorry your baggage selection failed. Please try again.",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it",
+        "data": {
+          "url" : ""
+        }
+      }
+    }
+  },
+  "Coupon-not-valid": {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Oops!",
+      "subTitle":"This coupon is not a valid myBiz coupon",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Flight-booking-not-allowed-as-per-policy": {
+    "identify":"Branded-fare",
+    "type":"FULLPAGE",
+    "data":{
+      "title":"Invalid Policy!",
+      "subTitle":"This service is not available under your company policy",
+      "message":"",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Fares-Out-Of-Policy-Branded-Fare": {
+    "identify":"Branded-fare",
+    "type":"FULLPAGE",
+    "data":{
+      "title":"Oops!",
+      "subTitle":"All the fares for this flight are out of policy.",
+      "iconD":"http://imgak.mmtcdn.com/flights/assets/media/dt/listing/sannaata.png",
+      "icon":"http://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/sannaata.png",
+      "message":"",
+      "leftCta":{
+        "type":"BACK",
+        "text":"Go Back"
+      },
+      "rightCta":{
+        "type":"REFRESH",
+        "text":"Refresh"
+      }
+    }
+  },
+  "Fares-Out-Of-Policy" : {
+    "identify":"Branded-fare",
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Out of Policy booking not allowed",
+      "subTitle":"Sorry, this flight's price is more than the policy limit set by the administrators of your company",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"LISTING",
+        "text":"Okay, Got it",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "BrandedCorp-failure-desktop" : {
+    "type": "DRAWER",
+    "data": {
+      "title": "Unable to fetch more fares",
+      "subTitle": "However, you may continue with the selected fare",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "BOOK",
+        "text": "Book Now"
+      }
+    }
+  },
+  "BrandedCorp-failure" : {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Out of Policy booking not allowed",
+      "subTitle":"Sorry, policy set by the administrators of your company prohibits you from booking flights above Rs. XXX.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"LISTING",
+        "text":"Okay, Got it",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "Invalid-Email": {
+    "type": "SNACKBAR",
+    "identify" : "InvalidEmail",
+    "data": {
+      "title": "Invalid Email",
+      "subTitle": "Either you have entered the email id of other domain outside your organisation Or you have entered an incorrect email id. Please correct the same.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it"
+      }
+    }
+  },
+  "Invalid-Traveller" : {
+    "type":"SNACKBAR",
+    "identify" : "InvalidName",
+    "data":{
+      "title":"Invalid Traveller Name",
+      "subTitle":"Please add a valid traveller name.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Invalid-Contact" : {
+    "type":"SNACKBAR",
+    "identify" : "InvalidContact",
+    "data":{
+      "title":"Invalid Contact",
+      "subTitle":"Your Contact number is not valid.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Unable-To-Fetch-Policy" : {
+    "type":"SNACKBAR",
+    "identify" : "Unable-To-Fetch-Policy",
+    "data":{
+      "title":"Unable to fetch Policy details.",
+      "subTitle":"Your Organisation Policies could not be fetched due to some technical Issue. Please refresh the page or try searching again.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"DISMISS",
+        "text":"Okay, Got it"
+      }
+    }
+  },
+  "Booking-Details-not-found" : {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Sorry your session has expired",
+      "subTitle":"You can start your search again and complete your booking.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"LISTING",
+        "text":"Okay, Got it",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  },
+  "BDB-Approval-TechError": {
+    "identify" : "BDB-Approval-TechError",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Your double black booking",
+      "subTitle": "Due to an error, we cannot confirm if your booking is eligible for Double Black. You can send an email to our support team after your booking to confirm the same.",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "bdb_dismiss"
+        }
+      },
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "Continue",
+        "data": {
+          "url": "/api/user-consent/bdb"
+        },
+        "tracking": {
+          "omnitureID": "bdb_user_consent"
+        }
+      }
+    }
+  },
+  "INVALID_CHILD_INFANT_COUNT_SPECIAL_FARE": {
+    "identify" : "INVALID_CHILD_INFANT_COUNT_SPECIAL_FARE",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Special Fare",
+      "subTitleD": "Only adult passengers can avail of Student fares. You may continue to book a regular fare or de-select all child/infant passengers to book the Student fare.",
+      "subTitle": "Only adult passengers can avail of Student fares. You may continue to book a regular fare or de-select all child/infant passengers to book the Student fare.",
+      "icon": "",
+      "messageD": "Student fares are available for adult passengers only. Please de-select any child/infant passengers to continue.",
+      "message": "<font color='#e53442'>Student fares are available for adult passengers only. Please de-select any child/infant passengers to continue.</font>",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "special_fare_dismiss_clicked"
+        }
+      },
+      "rightCta": {
+        "type": "PAX_PAGE",
+        "text": "Okay, Got it",
+        "tracking": {
+          "omnitureID": "special_fare_traveller_error"
+        }
+      }
+    }
+  },
+  "INVALID_CHILD_INFANT_COUNT_SENIOR_CITIZEN_FARE": {
+    "identify" : "INVALID_CHILD_INFANT_COUNT_SENIOR_CITIZEN_FARE",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Special Fare",
+      "subTitleD": "Only adult passengers can avail of Senior Citizen fares. You may continue to book a regular fare or de-select all child/infant passengers to book the Senior Citizen fare",
+      "subTitle": "Only adult passengers can avail of Senior Citizen fares. You may continue to book a regular fare or de-select all child/infant passengers to book the Senior Citizen fare",
+      "icon": "",
+      "messageD": "Senior Citizen fares are available for adult passengers only. Please de-select any child/infant passengers to continue.",
+      "message": "<font color='#e53442'>Senior Citizen fares are available for adult passengers only. Please de-select any child/infant passengers to continue.</font>",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "special_fare_dismiss_clicked"
+        }
+      },
+      "rightCta": {
+        "type": "PAX_PAGE",
+        "text": "Okay, Got it",
+        "tracking": {
+          "omnitureID": "special_fare_traveller_error"
+        }
+      }
+    }
+  },
+  "SPECIAL_FARE_STUDENT": {
+    "identify" : "SPECIAL_FARE_STUDENT",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Special Fare",
+      "subTitle": "Students above 12 years of age are eligible for special fares and/or additional baggage allowances on certain airline bookings. Carrying valid student ID cards and student visas (where applicable) is mandatory.",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "student_imp_info_dismiss_clicked"
+        }
+      },
+      "rightCta": {
+        "type": "LISTING",
+        "text": "Okay, Got it",
+        "tracking": {
+          "omnitureID": "student_imp_info_ok_clicked"
+        }
+      }
+    }
+  },
+  "SPECIAL_FARE_ARMED_FORCES": {
+    "identify" : "SPECIAL_FARE_ARMED_FORCES",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Special Fare",
+      "subTitle": "Serving and retired armed forces personnel, along with their dependents, can avail discounted fares on select airlines. Carrying an Armed Forces ID or a Dependent Card is mandatory.",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "armed_forces_info_dismiss_clicked"
+        }
+      },
+      "rightCta": {
+        "type": "LISTING",
+        "text": "Okay, Got it",
+        "tracking": {
+          "omnitureID": "armed_forces_imp_info_ok_clicked"
+        }
+      }
+    }
+  },
+  "SPECIAL_FARE_SENIOR_CITIZEN": {
+    "identify" : "SPECIAL_FARE_SENIOR_CITIZEN",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Special Fare",
+      "subTitle": "Senior citizens (>58 yrs for women & >60 yrs for men) can claim discounted fares on certain airline bookings. Carrying valid ID proofs showing the DOB is mandatory.",
+      "icon": "",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Go Back",
+        "tracking": {
+          "omnitureID": "senior_citizen_imp_info_ok_clicked"
+        }
+      },
+      "rightCta": {
+        "type": "LISTING",
+        "text": "Okay, Got it",
+        "tracking": {
+          "omnitureID": "senior_citizen_imp_info_ok_clicked"
+        }
+      }
+    }
+  },
+  "ITINERARY_LINK_EXPIRED": {
+    "identify" : "ITINERARY_LINK_EXPIRED",
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Oops! The Link Expired",
+      "subTitle": "Please ask your agent to create a Fresh itinerary",
+      "icon": "https://imgak.mmtcdn.com/flights/assets/media/mobile/common/{density}/errorBigCta.png?v=1",
+      "message": "",
+      "middleCta": {
+        "type": "LINK",
+        "text": "Go to makemytrip.com",
+        "data": {
+          "url": "http://www.makemytrip.com"
+        },
+        "tracking": {
+          "omnitureID": "itid_link_exp"
+        }
+      }
+    }
+  },
+  "FARE_REVIEW_ERROR": {
+    "identify": "FARE_REVIEW_ERROR",
+    "type": "FULLPAGE",
+    "data": {
+      "title": "Flight Unavailable",
+      "subTitle": "This flight is  no longer available on your dates. Please refresh or try again later",
+      "icon": "https://imgak.mmtcdn.com/flights/assets/media/mobile/common/{density}/errorBigCta.png?v=1",
+      "message": "",
+      "middleCta": {
+        "type": "LINK",
+        "text": "Go to makemytrip.com",
+        "data": {
+          "url": "http://www.makemytrip.com"
+        },
+        "tracking": {
+          "omnitureID": "fare_review_cta"
+        }
+      }
+    }
+  },
+  "Cabs-Not-Attached": {
+    "identify" : "Cabs-Not-Attached",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Cabs Selection Failed",
+      "subTitle": "We could not book the cab you selected. Please continue your flight booking without the cab selection.",
+      "icon": "",
+      "message": "",
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "OK, GOT IT",
+        "data": {
+          "url": "/api/user-consent/cabs-not-attached"
+        },
+        "tracking": {
+          "omnitureID": "cabs_not_attached"
+        }
+      }
+    }
+  },
+  "ZERO_CHARGEABLE": {
+    "identify" : "ZERO_CHARGEABLE",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "We’re Almost Done!",
+      "subTitle": "Once you click “Confirm New Booking”, your airline credit amount will be debited to generate a new booking..",
+      "icon": "",
+      "message": "",
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "Confirm New Booking",
+        "data": {
+          "url": "/api/user-consent/zero-chargeable"
+        },
+        "tracking": {
+          "omnitureID": "zero_chargeable_booking"
+        }
+      }
+    }
+  },
+  "Add-traveller-selection": {
+  "type": "SNACKBAR",
+  "data": {
+    "title": "Traveller Selection Failed",
+    "subTitle": "Sorry we couldn't update your traveller selection. Please try again",
+    "message": "Sorry we couldn't update your traveller selection. Please try again",
+    "middleCta": {
+      "type": "DISMISS",
+      "text": "OKAY"
+      }
+    }
+  },
+  "Add-traveller-selection-Not-Allowed": {
+    "type": "TOAST",
+    "data": {
+      "message": "You cannot book travellers of different organisations together",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "OKAY"
+      }
+    }
+  },
+  "Primary-traveller-not-present": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Primary Traveller Not Added",
+      "subTitle": "Please add/make Primary Traveller",
+      "message": "Please add/make Primary Traveller",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "OKAY"
+      }
+    }
+  },
+  "Uac-minor-found-warning": {
+    "identify": "Uac-minor-found-warning",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : "Uac_minor_found_shown"
+    },
+    "data": {
+      "title": "Traveller is Minor",
+      "subTitle": "This Will be overridden by Aggregator error node.",
+      "icon": "",
+      "message": "This Will be overridden by Aggregator error node.",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "Dismiss",
+        "data": {
+          "url": ""
+        },
+        "tracking": {
+          "omnitureID": "Uac_minor_found_decline"
+        }
+      },
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "Yes, continue",
+        "tracking": {
+          "omnitureID": "Uac_minor_found_accept"
+        },
+        "data": {
+          "url": "/api/user-consent/unaccompanied-minor"
+        }
+      }
+    }
+  },
+  "Uac-minor-found-error": {
+    "identify": "Uac-minor-found-error",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : "Uac_minor_found_shown"
+    },
+    "data": {
+      "title": "Traveller is Minor",
+      "subTitle": "This Will be overridden by Aggregator error node.",
+      "icon": "",
+      "message": "This Will be overridden by Aggregator error node.",
+      "rightCta": {
+        "type": "DISMISS",
+        "text": "Dismiss",
+        "tracking": {
+          "omnitureID": "Uac_minor_found_decline"
+        },
+        "data": {
+          "url": ""
+        }
+      }
+    }
+  },
+  "Cross-Org-Booking": {
+    "identify": "Cross-Org-Booking",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID": "CrossOrgBooking_snackbar_shown"
+    },
+    "data": {
+      "title": "Travelers from Different Organisations Not Allowed",
+      "subTitle": "Cross Organisation booking is not allowed. So please change the traveler and proceed.",
+      "icon": "",
+      "message": "Cross Organisation booking is not allowed. So please change the traveler and proceed.",
+      "rightCta": {
+        "type": "DISMISS",
+        "text": "Dismiss",
+        "tracking": {
+          "omnitureID": "CrossOrgBooking"
+        },
+        "data": {
+          "url": ""
+        }
+      }
+    }
+  },
+  "Uac-minor-child-error": {
+    "identify": "Uac-minor-found-error",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : "Uac_minor_found_shown"
+    },
+    "data": {
+      "title": "Traveller is Minor",
+      "subTitle": "This Will be overridden by Aggregator error node.",
+      "icon": "",
+      "message": "This Will be overridden by Aggregator error node.",
+      "rightCta": {
+        "type": "DISMISS",
+        "text": "Dismiss",
+        "tracking": {
+          "omnitureID": "Uac_minor_found_decline"
+        },
+        "data": {
+          "url": ""
+        }
+      }
+    }
+  },
+  "Uac-adult-less-than-infant": {
+    "identify": "Uac-adult-less-than-infant",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID" : "Uac_adult_less_than_infant"
+    },
+    "data": {
+      "title": "Traveller is Minor",
+      "subTitle": "This Will be overridden by Aggregator error node.",
+      "icon": "",
+      "message": "This Will be overridden by Aggregator error node.",
+      "rightCta": {
+        "type": "DISMISS",
+        "text": "Dismiss",
+        "tracking": {
+          "omnitureID": "Uac_adult_less_than_infant_decline"
+        },
+        "data": {
+          "url": ""
+        }
+      }
+    }
+  },
+  "TRAVELLER_CUSTOM_VALIDATION_ERROR": {
+    "identify": "TRAVELLER_CUSTOM_VALIDATION_ERROR",
+    "type": "SNACKBAR",
+    "data": {
+      "title": "Alert",
+      "subTitle": "You cannot make a booking without entering mobile & email ID for at least one passenger.",
+      "icon": "",
+      "message": "",
+      "middleCta": {
+        "type": "DISMISS",
+        "text": "Okay, Got it!"
+      }
+    }
+  },
+  "Seat-Attach-Failed": {
+    "identify": "Seat-Attach-Failed",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID": "snackbar_seats_unavailable_before_payment_shown"
+    },
+    "data": {
+      "title": "",
+      "subTitle": "<b>Oh no!</b><br><br><font color='#F1A525'><b>The seats selected by you got sold out at the last moment.</b></font> You may continue booking without seat selection, or go back to select different seats.",
+      "subTitleD": "<b>Oh no!</b><br><br><font color='#F1A525'><b>The seats selected by you got sold out at the last moment.</b></font> You may continue booking without seat selection, or go back to select different seats.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/common/fare-change/seat-failure-snackbar.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/common/fare-change/{density}/seat-failure-snackbar.png",
+      "message": "",
+      "leftCta": {
+        "type": "REFRESH_ANCILLARY",
+        "text": "CHANGE SEATS",
+        "data": {
+          "url": "/api/user-consent/remove-seats-ancillary",
+          "method": "PUT"
+        },
+        "tracking": {
+          "omnitureID": "seats_unavailable_before_payment_seats_selection"
+        }
+      },
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "CONTINUE TO PAY",
+        "data": {
+          "url": "/api/user-consent/remove-seats-payment",
+          "method": "PUT"
+        },
+        "tracking": {
+          "omnitureID": "seats_unavailable_before_payment_continue"
+        }
+      }
+    }
+  },
+  "Seat-Attach-Failed-Corp": {
+    "identify": "Seat-Attach-Failed",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID": "snackbar_seats_unavailable_before_payment_shown"
+    },
+    "data": {
+      "title": "",
+      "subTitle": "<b>Oh no!</b><br><br><font color='#F1A525'><b>The seats selected by you got sold out at the last moment.</b></font> You may continue booking without seat selection, or go back to select different seats.",
+      "subTitleD": "<b>Oh no!</b><br><br><font color='#F1A525'><b>The seats selected by you got sold out at the last moment.</b></font> You may continue booking without seat selection, or go back to select different seats.",
+      "iconD": "http://imgak.mmtcdn.com/flights/assets/media/dt/common/fare-change/seat-failure-snackbar.png",
+      "icon": "http://imgak.mmtcdn.com/flights/assets/media/mobile/common/fare-change/{density}/seat-failure-snackbar.png",
+      "message": "",
+      "leftCta": {
+        "type": "DISMISS",
+        "text": "DISMISS",
+        "tracking": {
+          "omnitureID": "seats_unavailable_before_payment_dismiss_clicked"
+        }
+      },
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "CONTINUE TO PAY",
+        "data": {
+          "url": "/api/user-consent/remove-seats-payment",
+          "method": "PUT"
+        },
+        "tracking": {
+          "omnitureID": "seats_unavailable_before_payment_continue"
+        }
+      }
+    }
+  },
+  "Streaming-Error": {
+    "identify": "Streaming-Error",
+    "type": "SNACKBAR",
+    "tracking": {
+      "omnitureID": "lazy_load_error_popup_shown"
+    },
+    "data": {
+      "title": "Something went wrong!",
+      "subTitle": "We are having trouble in completing your request. Please reload this page.",
+      "subTitleD": "We are having trouble in completing your request. Please reload this page.",
+      "middleCta": {
+        "type": "REFRESH",
+        "text": "Refresh My Search",
+        "tracking": {
+          "omnitureID": "lazy_load_error_popup_clicked"
+        }
+      }
+    }
+  },
+  "Black-RewardFailed": {
+    "type": "SNACKBAR",
+    "data": {
+      "title": "",
+      "subTitle": "Due to some technical issues, the MMTBLACK privilege could not be applied.",
+      "message": "",
+      "rightCta": {
+        "type": "USERCONSENT",
+        "text": "Yes, continue",
+        "data": {
+          "url": "/api/user-consent/blackOptOut"
+        }
+      }
+    }
+  },
+  "LOB_SRC_VALIDATION_FAIL" : {
+    "type":"SNACKBAR",
+    "data":{
+      "title":"Sorry your session has expired",
+      "subTitle":"You can start your search again and complete your booking.",
+      "icon":"",
+      "message":"",
+      "middleCta":{
+        "type":"LISTING",
+        "text":"Okay, Got it",
+        "tracking": {
+          "omnitureID": "back"
+        }
+      }
+    }
+  }
+}

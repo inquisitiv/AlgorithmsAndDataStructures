@@ -1,0 +1,14 @@
+package test;
+
+public class Interview {
+
+	public static void main(String[] args) {
+		
+		String a = new Integer(8).toString();
+		String b = "8";
+		System.out.println(a==b);
+		
+	}
+	
+	
+}

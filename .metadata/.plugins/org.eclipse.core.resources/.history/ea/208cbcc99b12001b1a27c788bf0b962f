@@ -1,0 +1,97 @@
+b2b:
+  specialFare:
+    title: "Special Corporate Fares"
+    text: "Get perks such as free seats, meals, reduced modification fee."
+    subtitle: "NOT NOW"
+  policyCompliance:
+    title: "Policy Compliance"
+    text: "Benefit by linking your company’s travel policies with myBiz."
+  gstInvoice:
+    title: "GST Invoice Guarantee"
+    text: "Receive GST invoices to claim input tax credit on travel spends."
+  customerSupport:
+    title: "24*7 Customer Support"
+    text: "Enjoy a dedicated customer support unit to address queries in real-time."
+  mybiz:
+    title: "Why My Biz Flights ?"
+    text: "Special Fares for Corporates | Policy Compliance | GST Invoice Guarantee | 24*7 Customer Support"
+  stateGuidelinesBanner:
+    title: "<font color='#000000'><b>Important: State-Wise Travel Guidelines</b></font>"
+    titleGcc: "<font color='#000000'><b>Important: Country-Wise Travel Guidelines</b></font>"
+    text: "<font color='#4a4a4a'>Select Indian states & UTs have enforced specific entry & exit guidelines. Do check applicable rules of the departure & arrival city/state before travelling.</font>"
+    textGcc: "<font color='#4a4a4a'>Each Country has enforced specific entry & exit guidelines. Do check applicable rules of the departure & arrival port before travelling.</font>"
+    ctadetail:
+      text: "KNOW MORE"
+  covidSafetyBanner:
+    title: "<font color='#000000'><b>Important Advisories & State Guidelines</b></font>"
+    titleGcc: "<font color='#000000'><b>Important Travel Updates</b></font>"
+    text: "<font color='#4a4a4a'>With travel opening up, govt. advisories and state/UT guidelines are constantly evolving. Please check the latest updates before travelling.</font>"
+    textGcc: "<font color='#4a4a4a'>Please read the latest health and safety policies set by Airlines before travelling.</font>"
+    ctadetail:
+      text: "KNOW MORE"
+    AEINbannerDT:
+      title:  "<b>Repatriation Flights from UAE to India</b>"
+      text:   "Returning Indian Nationals must fulfil entry conditions and register with the Embassy of India/Abu Dhabi or Consulate General of India for travel effective 03rd July 2020. &nbsp"
+      ctadetail:
+        text: "KNOW MORE"
+    INAEbannerDT:
+      title:  "<b>India to UAE Flight Bookings Open!</b>"
+      text:   "Only passengers with Resident Permit and valid ICA/GDRFA approvals are eligible to book.<br><br>COVID-19 negative test result (not more than 96 hours old), COVID-19 – DXB Smart App, Health Declaration Form & Quarantine Undertaking Form are essential for travel. &nbsp"
+      ctadetail:
+        text: "KNOW MORE"
+b2c:
+  broadCastCouponsBanner:
+    multipleCpns:
+      title: "HOT DEALS"
+  airlineCreditBanner:
+    title: "<font color='#000000'><b>Credit voucher applied!</b></font>"
+    text: "<font color='#4a4a4a'>You are now seeing the fare adjusted against your available credit amount. Click ‘View Adjustment’ for details.<br/>Note: Upon cancellation of this booking, the amount applied from the credit voucher will only be refunded as a credit voucher.</font>"
+  stateGuidelinesBanner:
+    title: "<b>Important: State-Wise Travel Guidelines</b>"
+    titleGcc: "<b>Important: Country-Wise Travel Guidelines</b>"
+    text: "Select Indian states & UTs have enforced specific entry & exit guidelines. Do check applicable rules of the departure & arrival city/state before travelling."
+    textGcc: "Each Country has enforced specific entry & exit guidelines. Do check applicable rules of the departure & arrival port before travelling."
+    ctaText: "KNOW MORE"
+  covidSafetyBanner:
+    title: "<b>Important Advisories & State Guidelines</b>"
+    titleGcc: "<b>Important Travel Updates</b>"
+    text: "With travel opening up, govt. advisories and state/UT guidelines are constantly evolving. Please check the latest updates before travelling."
+    textGcc: "Please read the latest health and safety policies set by Airlines before travelling."
+    ctaText: "KNOW MORE"
+  mmtBlack:
+    title: "<font color='#FFFFFF'>As an MMTBLACK</font><font color='#eed5a2'> {{var1}} </font><font color='#ffffff'> member, you are entitled to a host of MMTBLACK Privileges.</font>"
+    ctadetail:
+      title : "<font color='#008cff'><br> Know More</font>"
+  wpm:
+    title:  "Surprise!"
+  holidayBanner :
+    header:
+      title : "<font color='#ffffff'>FLIGHT + HOTEL DEAL</font>"
+    footer :
+      title : "<font color='#d9000000'>Starts at</font>"
+      titleD: "<font color='#000000'>Starts at</font>"
+      des : "<font color='#d9000000'> Including {{packageType}} flights + {{noOfDays}} night stay</font>"
+      desNew: "<font color='#d9000000'> Including {{packageType}} flights + {{noOfDays}} night stay (per traveller)</font>"
+      desD: "<font color='#000000'> Including {{packageType}} flights + {{noOfDays}} night stay (per traveller)</font>"
+      slashT : "<font color='#d9000000'> {{mrp}}</font>"
+      slashTD: "<font color='#000000'> {{mrp}}</font>"
+      finalT: "<font color='#d9000000'> <b>{{sellPrice}}</b></font>"
+      finalTD: "<font color='#000000'> <b>{{sellPrice}}</b></font>"
+    ctadetail :
+      text : "<font color='#0091ff'>BOOK NOW</font>"
+    package :
+      title : "<font color='#d9000000'><b>{{fromCity}}-{{toCity}}</b></font>"
+      subTitleOW : "<font color='#d9000000'>{{packageType}}{{packageTypeL}} Flight ({{depDate}})</font>"
+      subTitleRT : "<font color='#d9000000'>{{packageType}}{{packageTypeL}} Flight ({{depDate-retDate}})</font>"
+      subTitleNight : "<font color='#d9000000'>{{count}} Night</font>"
+      subTitleNights : "<font color='#d9000000'>{{count}} Nights</font>"
+      titleD: "<font color='#000000'><b>{{fromCity}}-{{toCity}}</b></font>"
+      subTitleOWD: "<font color='#000000'>{{packageType}}{{packageTypeL}} Flight ({{depDate}})</font>"
+      subTitleRTD: "<font color='#000000'>{{packageType}}{{packageTypeL}} Flight ({{depDate-retDate}})</font>"
+      subTitleNightD: "<font color='#d9000000'>{{count}} Night</font>"
+      subTitleNightsD : "<font color='#d9000000'>{{count}} Nights</font>"
+  chartersBanner:
+    title: "Introducing<br/><font size='3'><b>Charter</b> Seats</font>"
+    text: "Looking for luxury, safety and convenience? Book a seat on a charter flight at unbelievable prices."
+    cta:
+      title: "VIEW FLIGHTS"

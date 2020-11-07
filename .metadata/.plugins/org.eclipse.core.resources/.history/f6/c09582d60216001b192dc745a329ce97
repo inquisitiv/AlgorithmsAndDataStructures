@@ -1,0 +1,53 @@
+Corp:
+  messages:
+    approvalPage:
+      expCodeData:
+        cardTitle: "Expense Code"
+      tabData:
+        selected:
+          title: "Itinerary"
+          titleD: "Selected Itinerary"
+          subTitle: "Selected"
+        recommended:
+          title: "Itinerary"
+          titleD: "Recommended Itinerary"
+          subTitle: "Recommended"
+          tooltip:
+            text: "Cheaper option available with savings of time and money"
+      fareChange:
+        up: "Airline has increased the fare by {{amount}}. Seats are filling fast."
+        down: "Airline has decreased the fare by {{amount}}. Seats are filling fast."
+      resTitle:
+        pending: "Pending Approval"
+        approved: "Request Approved"
+        other: "Booking Details"
+      footer:
+        reject:
+          title: "Reason for Rejection"
+          hint: "Please enter your reason for rejection"
+          lCtaText: "Cancel"
+          rCtaText: "Submit"
+      postApproval:
+        sbDataTitle: "Request Sent"
+        rcaText: "OK"
+        msg: "Your travel request has been sent to the approver. You will get notified via SMS/email once an action is taken on it."
+        msgD: "<span class='blackTxt block prepend_top20 append_bottom5'>Your travel request has been sent to the approver. You will get notified via SMS/email once an action is taken on it.</span>"
+    managerAction:
+      rejected:
+        htmlPrefix: "\n<b>Reason:</b>"
+        sbData:
+          title: "Request Rejected"
+          baseRes: "<span class='blackTxt block prepend_top20 append_bottom5'> You have rejected the travel request for {{trvlName}}</span>"
+          subtitleD: "<span class='blackTxt block prepend_top20 append_bottom5'> You have rejected the travel request for {{trvlName}}</span><span class='block blackTxt'> <b>Reason: </b>{{reason}}</span>"
+          subtitle: "You have rejected the travel request for {{trvlName}}<br>{{htmlContent}}"
+      approved:
+        sbData:
+          title: "Request Approved"
+          baseRes: "<span class='blackTxt block prepend_top20 append_bottom5'> You have approved the travel request for {{trvlName}}</span>"
+          subtitleD: "<span class='blackTxt block prepend_top20 append_bottom5'> You have approved the travel request for {{trvlName}}</span><span class='block blackTxt'> <b>Reason: </b>{{reason}}</span>"
+          subtitle: "You have successfully approved the travel request for {{trvlName}}"
+  auditDetails:
+    b2b:
+      title: "Travel related details"
+      subTitle: "Your company requires the following information to process your request."
+      errorMsg: "This is a mandatory information"

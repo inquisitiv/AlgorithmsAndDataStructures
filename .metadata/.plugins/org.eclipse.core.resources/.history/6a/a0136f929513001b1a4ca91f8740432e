@@ -1,0 +1,585 @@
+
+cluster:
+ metaData:
+  showOptionsText: "CB_SEARCH_00001"
+  hideOptionsText: "CB_SEARCH_00002"
+  moreFlightsText: "CB_SEARCH_00003"
+  singleFlightsText: "CB_SEARCH_00004"
+ card:
+  title: "CB_SEARCH_00005"
+  description: "CB_SEARCH_00006"
+  ctaText: "CB_SEARCH_00007"
+ tab:
+  title: "CB_SEARCH_00008"
+  description: "CB_SEARCH_00009"
+  ctaText: "CB_SEARCH_00010"
+  heading:
+   recommended: "CB_SEARCH_00011"
+   fastest: "CB_SEARCH_00012"
+   cheapest: "CB_SEARCH_00013"
+  subTitle:
+   recommended: "CB_SEARCH_00014"
+   fastest: "CB_SEARCH_00015"
+   cheapest: "CB_SEARCH_00016"
+  option:
+   sameAirline:
+    moreText: "CB_SEARCH_00017"
+    airlineText: "CB_SEARCH_00018"
+   multipleAirline:
+    moreText: "CB_SEARCH_00019"
+    airlineText: "CB_SEARCH_00020"
+   hideText: "CB_SEARCH_00021"
+pafsHtml:
+ applied:
+  simple: "CB_SEARCH_00022"
+  other: "CB_SEARCH_00023"
+ nonApplied: "CB_SEARCH_00024"
+selectedCombo:
+ zcFooterInfo:
+  comboText: "CB_SEARCH_00025"
+  nonComboText: "CB_SEARCH_00026"
+  approxRefund:
+   text: "CB_SEARCH_00027"
+  penaltyCharges:
+   text: "CB_SEARCH_00028"
+  cancellationFee:
+   text: "CB_SEARCH_00029"
+  hvrInfo:
+   text: "CB_SEARCH_00030"
+   ctaText: "CB_SEARCH_00031"
+   heading: "CB_SEARCH_00032"
+ fareSummary:
+  title: "CB_SEARCH_00033"
+  fareEntity:
+   total:
+    text: "CB_SEARCH_00034"
+    amt: "CB_SEARCH_00035"
+   baseFare:
+    text: "CB_SEARCH_00036"
+   surcharges:
+    text: "CB_SEARCH_00037"
+   discount:
+    text: "CB_SEARCH_00038"
+    amt: "CB_SEARCH_00039"
+ fareBreakup:
+  title: "CB_SEARCH_00040"
+  fareEntity:
+   total:
+    text: "CB_SEARCH_00041"
+    amt: "CB_SEARCH_00042"
+   baseFare:
+    text: "CB_SEARCH_00043"
+    amt: "CB_SEARCH_00044"
+   surcharges:
+    text: "CB_SEARCH_00045"
+    amt: "CB_SEARCH_00046"
+   discount:
+    text: "CB_SEARCH_00047"
+    creditSaleText: "CB_SEARCH_00048"
+    amt: "CB_SEARCH_00049"
+ comboZcInfo:
+  text: "CB_SEARCH_00050"
+  canAssrTextPrefix: "CB_SEARCH_00051"
+ discount:
+  label: "CB_SEARCH_00052"
+  textPrefix: "CB_SEARCH_00053"
+  rtText: "CB_SEARCH_00054"
+  rtTextFont: "CB_SEARCH_00055"
+  savingText: "CB_SEARCH_00056"
+ errorText: "CB_SEARCH_00057"
+airlineHeading: "CB_SEARCH_00058"
+shortlisting:
+ flightsCount: "CB_SEARCH_00059"
+ sectorTitle:
+  owRt: "CB_SEARCH_00060"
+ duration:
+  mins: "CB_SEARCH_00061"
+  hrs: "CB_SEARCH_00062"
+  days: "CB_SEARCH_00063"
+durBaseHtml: "CB_SEARCH_00064"
+forwardflow:
+ distance:
+  format1: "CB_SEARCH_00065"
+  format2: "CB_SEARCH_00066"
+  format3: "CB_SEARCH_00067"
+ economy:
+  title: "CB_SEARCH_00068"
+  text: "CB_SEARCH_00069"
+ nearestAirport:
+  title: "CB_SEARCH_00070"
+  text: "CB_SEARCH_00071"
+farecalendar:
+ rtFooterText: "CB_SEARCH_00072"
+bubble:
+ data:
+  title: "CB_SEARCH_00073"
+  titleGcc: "CB_SEARCH_00074"
+filters:
+ appliedtext:
+  departure: "CB_SEARCH_00075"
+  arrival: "CB_SEARCH_00076"
+  withCityCode: "CB_SEARCH_00077"
+ headers:
+  otherFilters: "CB_SEARCH_00078"
+  airlines: "CB_SEARCH_00079"
+  airline: "CB_SEARCH_00080"
+  alliances: "CB_SEARCH_00081"
+  arrival: "CB_SEARCH_00082"
+  departureText: "CB_SEARCH_00083"
+  departure: "CB_SEARCH_00084"
+  outOfPolicy: "CB_SEARCH_00085"
+  visa: "CB_SEARCH_00086"
+  layover: "CB_SEARCH_00087"
+  stopsText: "CB_SEARCH_00088"
+  stops: "CB_SEARCH_00089"
+  tripText: "CB_SEARCH_00090"
+  duration: "CB_SEARCH_00091"
+  layoverDur: "CB_SEARCH_00092"
+  price: "CB_SEARCH_00093"
+ pretext:
+  duration: "CB_SEARCH_00094"
+  layoverDur: "CB_SEARCH_00095"
+ quickFilters:
+  DOM:
+   airline:
+    6E:
+     text: "CB_SEARCH_00096"
+    G8:
+     text: "CB_SEARCH_00097"
+    SG:
+     text: "CB_SEARCH_00098"
+    UK:
+     text: "CB_SEARCH_00099"
+    AI:
+     text: "CB_SEARCH_00100"
+    I5:
+     text: "CB_SEARCH_00101"
+   departure:
+    night:
+     text: "CB_SEARCH_00102"
+    noon:
+     text: "CB_SEARCH_00103"
+   stop:
+    nonstop:
+     text: "CB_SEARCH_00104"
+    onestop:
+     text: "CB_SEARCH_00105"
+   misc:
+    mmtBlack:
+     text: "CB_SEARCH_00106"
+  INTL:
+   departure:
+    night:
+     text: "CB_SEARCH_00107"
+    noon:
+     text: "CB_SEARCH_00108"
+   stop:
+    nonstop:
+     text: "CB_SEARCH_00109"
+    onestop:
+     text: "CB_SEARCH_00110"
+   misc:
+    shortlist:
+     text: "CB_SEARCH_00111"
+    mmtBlack:
+     text: "CB_SEARCH_00112"
+ tripData:
+  stops:
+   headerPrefix: "CB_SEARCH_00113"
+   nonStop: "CB_SEARCH_00114"
+   stop: "CB_SEARCH_00115"
+   stops: "CB_SEARCH_00116"
+   oneStop: "CB_SEARCH_00117"
+   multiStop: "CB_SEARCH_00118"
+  arrival:
+   headerPrefix: "CB_SEARCH_00119"
+  departure:
+   headerPrefix: "CB_SEARCH_00120"
+  time:
+   mobile:
+    morning: "CB_SEARCH_00121"
+    noon: "CB_SEARCH_00122"
+    evening: "CB_SEARCH_00123"
+    night: "CB_SEARCH_00124"
+   morning: "CB_SEARCH_00125"
+   noon: "CB_SEARCH_00126"
+   evening: "CB_SEARCH_00127"
+   night: "CB_SEARCH_00128"
+  fareTypes:
+   hideNonRefundableFare: "CB_SEARCH_00129"
+   hideOutofPolicyFare: "CB_SEARCH_00130"
+   corporateFare: "CB_SEARCH_00131"
+   companyFare: "CB_SEARCH_00132"
+   regularFare: "CB_SEARCH_00133"
+   allSpecialFare: "CB_SEARCH_00134"
+ multiCityD:
+  priceHeader: "CB_SEARCH_00135"
+  prefTitle: "CB_SEARCH_00136"
+  prefSubtitle: "CB_SEARCH_00137"
+ misc:
+  hideNonRef: "CB_SEARCH_00138"
+  hideNearby: "CB_SEARCH_00139"
+  shortlist: "CB_SEARCH_00140"
+  mmtBlack: "CB_SEARCH_00141"
+  outOfPolicy: "CB_SEARCH_00142"
+ sortAvailMap:
+  price:
+   grpTitle: "CB_SEARCH_00143"
+   cheapest: "CB_SEARCH_00144"
+   lowToHigh: "CB_SEARCH_00145"
+  duration:
+   grpTitle: "CB_SEARCH_00146"
+   shortest: "CB_SEARCH_00147"
+  depTime:
+   grpTitle: "CB_SEARCH_00148"
+   depEarly: "CB_SEARCH_00149"
+   depLate: "CB_SEARCH_00150"
+  arrTime:
+   grpTitle: "CB_SEARCH_00151"
+   arrEarly: "CB_SEARCH_00152"
+   arrLate: "CB_SEARCH_00153"
+  arrival:
+   grpTitle: "CB_SEARCH_00154"
+   early: "CB_SEARCH_00155"
+   late: "CB_SEARCH_00156"
+  departure:
+   grpTitle: "CB_SEARCH_00157"
+   early: "CB_SEARCH_00158"
+   late: "CB_SEARCH_00159"
+  popularity:
+   grpTitle: "CB_SEARCH_00160"
+   popu: "CB_SEARCH_00161"
+messages:
+ returnDiscount: "CB_SEARCH_00162"
+ returnMaxDiscount: "CB_SEARCH_00163"
+ cabbinBaggage: "CB_SEARCH_00164"
+ freeMeal: "CB_SEARCH_00165"
+ nearByAirportFor: "CB_SEARCH_00166"
+ nearByAirportFrom: "CB_SEARCH_00167"
+ okToBoard: "CB_SEARCH_00168"
+ recheckin: "CB_SEARCH_00169"
+ transitVisa: "CB_SEARCH_00170"
+ moreFares: "CB_SEARCH_00171"
+ moreFaresD: "CB_SEARCH_00172"
+ postSearch:
+  ratingDesc: "CB_SEARCH_00173"
+  cadFooterMsg: "CB_SEARCH_00174"
+  cadAmenitiesScoreTxt: "CB_SEARCH_00175"
+  cadNoCostEmiTxtWithFormat: "CB_SEARCH_00176"
+  cadNoCostEmiTxt: "CB_SEARCH_00177"
+  bottomPersuasion:
+   text: "CB_SEARCH_00178"
+ popularity:
+  text: "CB_SEARCH_00179"
+  title: "CB_SEARCH_00180"
+  cheapestText: "CB_SEARCH_00181"
+ PE:
+  text: "CB_SEARCH_00182"
+  title: "CB_SEARCH_00183"
+ NF:
+  text: "CB_SEARCH_00184"
+  subtext: "CB_SEARCH_00185"
+ filterpanel:
+  header: "CB_SEARCH_00186"
+ splitHeader:
+  ow: "CB_SEARCH_00187"
+  rt: "CB_SEARCH_00188"
+  subtext: "CB_SEARCH_00189"
+ card:
+  airlineHeading: "CB_SEARCH_00190"
+  farePursuasion:
+   text:
+    def: "CB_SEARCH_00191"
+    markDown: "CB_SEARCH_00192"
+    ic: "CB_SEARCH_00193"
+    instant: "CB_SEARCH_00194"
+    icd: "CB_SEARCH_00195"
+    ctc: "CB_SEARCH_00196"
+    ctw: "CB_SEARCH_00197"
+    manual: "CB_SEARCH_00198"
+    wallet: "CB_SEARCH_00199"
+   hvrInfo:
+    cdf:
+     disInfo: "CB_SEARCH_00200"
+     other: "CB_SEARCH_00201"
+    others:
+     disInfo: "CB_SEARCH_00202"
+     other: "CB_SEARCH_00203"
+    wallet:
+     disInfo: "CB_SEARCH_00204"
+     other: "CB_SEARCH_00205"
+   hybridDisc:
+    array:
+     ic: "CB_SEARCH_00206"
+     ctc: "CB_SEARCH_00207"
+     ctw: "CB_SEARCH_00208"
+    final: "CB_SEARCH_00209"
+  footerPursuasion:
+   refund:
+    parRef: "CB_SEARCH_00210"
+    ref: "CB_SEARCH_00211"
+    nonRef: "CB_SEARCH_00212"
+    font:
+     parRef: "CB_SEARCH_00213"
+     ref: "CB_SEARCH_00214"
+     nonRef: "CB_SEARCH_00215"
+  headerTag:
+   text: "CB_SEARCH_00216"
+ corpData:
+  wPolicy:
+   text: "CB_SEARCH_00217"
+   textD: "CB_SEARCH_00218"
+ outOfPolicy:
+  text: "CB_SEARCH_00219"
+  blockOoptext: "CB_SEARCH_00220"
+  blockOopMsg: "CB_SEARCH_00221"
+fareMap:
+ STU:
+  msg: "CB_SEARCH_00222"
+  displayName: "CB_SEARCH_00223"
+ AF:
+  msg: "CB_SEARCH_00224"
+  displayName: "CB_SEARCH_00225"
+ SC:
+  msg: "CB_SEARCH_00226"
+  displayName: "CB_SEARCH_00227"
+ EXS:
+  msg: "CB_SEARCH_00228"
+  tootTip: "CB_SEARCH_00229"
+  tag:
+   text: "CB_SEARCH_00230"
+  cta:
+   text: "CB_SEARCH_00231"
+   data:
+    title: "CB_SEARCH_00232"
+    body: "CB_SEARCH_00233"
+    mca:
+     text: "CB_SEARCH_00234"
+specialFare:
+ sBanner:
+  STU:
+   title: "CB_SEARCH_00235"
+  AF:
+   title: "CB_SEARCH_00236"
+  SC:
+   title: "CB_SEARCH_00237"
+  subtitle: "CB_SEARCH_00238"
+  subtitleDt: "CB_SEARCH_00239"
+  subtitleFallback: "CB_SEARCH_00240"
+  subtitleFallbackMob: "CB_SEARCH_00241"
+ fBanner:
+  STU:
+   title: "CB_SEARCH_00242"
+  AF:
+   title: "CB_SEARCH_00243"
+  SC:
+   title: "CB_SEARCH_00244"
+  subtitle: "CB_SEARCH_00245"
+  subtitleDt: "CB_SEARCH_00246"
+  subtitleFallback: "CB_SEARCH_00247"
+ deeplinkText: "CB_SEARCH_00248"
+groupLeftFilters:
+ faretype:
+  groupTitle: "CB_SEARCH_00249"
+ popular:
+  groupTitle: "CB_SEARCH_00250"
+ price:
+  groupTitle: "CB_SEARCH_00251"
+  dom:
+   ow:
+    groupTitle: "CB_SEARCH_00252"
+   rt:
+    groupTitle: "CB_SEARCH_00253"
+   mc:
+    groupTitle: "CB_SEARCH_00254"
+  intl:
+   ow:
+    groupTitle: "CB_SEARCH_00255"
+   rt:
+    groupTitle: "CB_SEARCH_00256"
+   mc:
+    groupTitle: "CB_SEARCH_00257"
+ duration:
+  groupTitle: "CB_SEARCH_00258"
+ alliancesAndairlines:
+  groupTitle: "CB_SEARCH_00259"
+ airlines:
+  groupTitle: "CB_SEARCH_00260"
+ journey:
+  onward:
+   groupTitle: "CB_SEARCH_00261"
+  return:
+   groupTitle: "CB_SEARCH_00262"
+  multicity:
+   groupTitle: "CB_SEARCH_00263"
+ visa:
+  groupTitle: "CB_SEARCH_00264"
+  displayText: "CB_SEARCH_00265"
+  appliedText: "CB_SEARCH_00266"
+ layoverAirports:
+  groupTitle: "CB_SEARCH_00267"
+ layoverDuration:
+  groupTitle: "CB_SEARCH_00268"
+ mmtBlack:
+  groupTitle: "CB_SEARCH_00269"
+  displayText: "CB_SEARCH_00270"
+  appliedText: "CB_SEARCH_00271"
+leftFilters:
+ titleFormat: "CB_SEARCH_00272"
+ subtitleFormat: "CB_SEARCH_00273"
+ cardsHeading:
+  OW: "CB_SEARCH_00274"
+  RT: "CB_SEARCH_00275"
+ hideText: "CB_SEARCH_00276"
+ showText: "CB_SEARCH_00277"
+ bannerPlacement:
+  emi:
+   title: "CB_SEARCH_00278"
+  wpm:
+   title: "CB_SEARCH_00279"
+   subtitle: "CB_SEARCH_00280"
+  zc:
+   title: "CB_SEARCH_00281"
+   subtitle: "CB_SEARCH_00282"
+  nce:
+   title: "CB_SEARCH_00283"
+   subtitle: "CB_SEARCH_00284"
+creditShellMobileBanner:
+ data:
+  title: "CB_SEARCH_00285"
+  text: "CB_SEARCH_00286"
+  snackbar:
+   title: "CB_SEARCH_00287"
+   body: "CB_SEARCH_00288"
+   cta:
+    text: "CB_SEARCH_00289"
+Corp:
+ rhsBanner:
+  data:
+   title: "CB_SEARCH_00290"
+   options:
+    specialFare:
+     title: "CB_SEARCH_00291"
+     text: "CB_SEARCH_00292"
+    policyCompliance:
+     title: "CB_SEARCH_00293"
+     text: "CB_SEARCH_00294"
+    gstInvoice:
+     title: "CB_SEARCH_00295"
+     text: "CB_SEARCH_00296"
+    customerSupport:
+     title: "CB_SEARCH_00297"
+     text: "CB_SEARCH_00298"
+groupBooking:
+ meta:
+  selectedText: "CB_SEARCH_00299"
+  unselectedText: "CB_SEARCH_00300"
+  tooltipText:
+   oneFlightSelected:
+    ow: "CB_SEARCH_00301"
+    rt: "CB_SEARCH_00302"
+   moreFlightsSelected: "CB_SEARCH_00303"
+ resp:
+  data:
+   title: "CB_SEARCH_00304"
+   subtitle: "CB_SEARCH_00305"
+   middleCta:
+    text: "CB_SEARCH_00306"
+ err:
+  data:
+   title: "CB_SEARCH_00307"
+   subtitle: "CB_SEARCH_00308"
+   middleCta:
+    text: "CB_SEARCH_00309"
+broadCastCouponsBanner:
+ multipleCpns:
+  title: "CB_SEARCH_00310"
+fphPersuasion:
+ title: "CB_SEARCH_00311"
+extraSeat:
+ categoryData:
+  text: "CB_SEARCH_00312"
+  title: "CB_SEARCH_00313"
+  nfText: "CB_SEARCH_00314"
+  nfSubText: "CB_SEARCH_00315"
+ goMore:
+  tag:
+   text: "CB_SEARCH_00316"
+   cta:
+    title: "CB_SEARCH_00317"
+    text: "CB_SEARCH_00318"
+ doubleSeat:
+  tag:
+   text: "CB_SEARCH_00319"
+   cta:
+    title: "CB_SEARCH_00320"
+    text: "CB_SEARCH_00321"
+ tripleSeat:
+  tag:
+   text: "CB_SEARCH_00322"
+   cta:
+    title: "CB_SEARCH_00323"
+    text: "CB_SEARCH_00324"
+charters:
+ airlineName: "CB_SEARCH_00325"
+ category:
+  title: "CB_SEARCH_00326"
+  text: "CB_SEARCH_00327"
+  nfText: "CB_SEARCH_00328"
+  nfSubText: "CB_SEARCH_00329"
+ simpleAirlineHeading:
+  airlineName: "CB_SEARCH_00330"
+ cardInfo:
+  subTitle: "CB_SEARCH_00331"
+ images:
+  subTitle: "CB_SEARCH_00332"
+ mrngDept: "CB_SEARCH_00333"
+ aftNoonDept: "CB_SEARCH_00334"
+ eveDept: "CB_SEARCH_00335"
+ nightDept: "CB_SEARCH_00336"
+ sellingPoints:
+  safety:
+   text: "CB_SEARCH_00337"
+  convenience:
+   text: "CB_SEARCH_00338"
+  custom:
+   text: "CB_SEARCH_00339"
+searchHeader:
+ ow:
+  title: "CB_SEARCH_00340"
+  subTitle: "CB_SEARCH_00341"
+ rt:
+  title: "CB_SEARCH_00342"
+  subTitle: "CB_SEARCH_00343"
+ mc:
+  title: "CB_SEARCH_00344"
+  subTitle: "CB_SEARCH_00345"
+ msg:
+  traveller: "CB_SEARCH_00346"
+  adult: "CB_SEARCH_00347"
+ subTitle: "CB_SEARCH_00348"
+journeyHeader:
+ depart: "CB_SEARCH_00349"
+ return: "CB_SEARCH_00350"
+ trip: "CB_SEARCH_00351"
+ pipeformat:
+  depart: "CB_SEARCH_00352"
+  return: "CB_SEARCH_00353"
+  trip: "CB_SEARCH_00354"
+durationText:
+ layoverInfoWithCity: "CB_SEARCH_00355"
+ layoverInfoWithoutCity: "CB_SEARCH_00356"
+ hrOnly: "CB_SEARCH_00357"
+ hrsOnly: "CB_SEARCH_00358"
+ minsOnly: "CB_SEARCH_00359"
+ hrAndMins: "CB_SEARCH_00360"
+ hrsAndMins: "CB_SEARCH_00361"
+flightDetails:
+ departure: "CB_SEARCH_00362"
+ return: "CB_SEARCH_00363"
+ flight: "CB_SEARCH_00364"
+ airlineHeading: "CB_SEARCH_00365"
+ aircraft: "CB_SEARCH_00366"
+ operatingAirline: "CB_SEARCH_00367"
+ formatHeading: "CB_SEARCH_00368"
+ headerText: "CB_SEARCH_00369"

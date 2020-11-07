@@ -1,0 +1,20 @@
+messages:
+  airportInfo: "<font color='#4a4a4a'>{{airportName}}</font><br>"
+  airportInfoWithTerminal: "<font color='#4a4a4a'>{{airportName}}</font><br><font color='#9b9b9b'>Terminal {{terminal}}</font>"
+  layover: "<font color='#144480'>{{layoverTime}}Layover at {{city}}</font>"
+  owTabHeader: "ONWARD"
+  rtTabHeader: "RETURN"
+  tabSubtitle: "TRIP {{tripIndex}}"
+  multifare:
+    title: "Fare Type & Inclusion"
+    hideText: "HIDE OPTIONS"
+    moreText: "VIEW MORE OPTIONS"
+    owSubtitle: "valid for your onward journey"
+    rtSubtitle: "valid for your return journey"
+    owrtSubtitle: "valid for your onward & return journey"
+    mcSubtitle: "valid for all journeys"
+  airline:
+    heading: "<b>{{airlineName}} | <small>{{airlineCode}} {{flightNo}}</small></b>"
+layoverInfo:
+  Text1: "Technical stopover at {{city}}"
+  Text2: "Deboarding may not be allowed"

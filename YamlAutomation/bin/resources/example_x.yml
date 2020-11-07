@@ -1,0 +1,10 @@
+cb.webcheckin.mysafety.text : "<font color='#4a4a4a'>To enable better social distancing,<b> web check-in</b> is <b>NOW mandatory</b> for domestic air travel</font>"
+cb.webcheckin.mysafety.header.title : "Web Check-In"
+cb.webcheckin.mysafety.header.title.subTitle : "<font color = '#249995' >#AllYouNeedToKnow </font>"
+cb.webcheckin.mysafety.header.title.subTitle.rightCtaText : "OKAY"
+cb.webcheckin.mysafety.header.messageList : ["<font color='#4a4a4a'><b>Seat selection</b> is a <b>MUST</b> for web check-in.<br>Avoid the middle seat, pre-book your seat(s) NOW!</font>""<font color='#4a4a4a'> On <b>booking confirmation</b>, tap on <b>‘Web Check-in Now’</b> & complete your web check-in.</font>""<font color='4a4a4a'>Upon successful web check-in, your <b>boarding pass will be sent to your WhatsApp & email.</b></font>"]
+cb.webcheckin.mysafety.header.messageList.seatSelectMsg : "SELECT SEATS"
+cb.webcheckin.mysafety.header.messageList.seatSelectMsg.skipSeatMsg : "I’ll do it later"
+cb.blackToastMsg.first : "Add-on will be included in your MMTBLACK Privileges."
+cb.blackToastMsg.first.second : "Only 1 add-on will be discounted."
+cb.blackToastMsg.first.second.notify.ctaText : "Got It"

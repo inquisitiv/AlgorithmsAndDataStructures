@@ -1,0 +1,1308 @@
+blackDiscountItem:
+  SEAT: "MMTBLACK seat privilege"
+  AIRPORT_MEAL: "MMTBLACK meal privilege"
+  CAB: "MMTBLACK meal privilege"
+##### Below is For B2B only #####
+Corp:
+  banner:
+    datum:
+      title: "<font color='{{color}}'>Why myBiz Flights?</font>"
+      subTitle: "<font color='#ffffff'>Choice of fares, Assured GST Benefits, Policy compliance and Dedicated customer support</font>"
+    data:
+      title: "Why Flights on myBiz ?"
+    benefits:
+      choiceOfFares: "Choice of fares"
+      gst: "Assured GST Benefits"
+      policyCompliance: "Policy Compliance"
+      customerSupport: "Dedicated Customer Support"
+    fares:
+      spcl:
+        title: "<font color='{{color}}'>SPECIAL CORPORATE FARES</font>"
+        text: "<font color='{{color}}'>Get perks such as free seats, meals, reduced modification fee.</font>"
+        subText: "<font color='#757575'>To avail, update GST numbers on myBiz admin.</font>"
+      regular:
+        title: "<font color='{{color}}'>POLICY COMPLIANCE</font>"
+        text: "<font color='{{color}}'>Benefit from linking your company's travel policies with the myBiz platform.</font>"
+        subText: "<font color='#757575'>No free meals, date change or reduced cancellation fee.</font>"
+      handbag:
+        title: "<font color='{{color}}'>GST INVOICE GUARANTEE</font>"
+        text: "<font color='{{color}}'>Receive GST-compliant invoices to claim input tax credit on travel spends.</font>"
+        subText: "<font color='#757575'>*No free meals, date change or reduced cancellation fee.</font>"
+      contracted:
+        title: "<font color='{{color}}'>24*7 CUSTOMER SUPPORT</font>"
+        text: "<font color='{{color}}'>Enjoy a dedicated customer support unit to address queries in real-time.</font>"
+        subText: "<font color='#757575'>*Get in touch with your myBiz account manager to know more.</font>"
+##### Above is For B2B only #####
+farerule:
+  partialCanNotAllowed:
+    title: "<font color='#cf8100'><b>Partial Cancellation Not Allowed</b></font>"
+    subTitleRT: "This airline does not allow partial cancellation of round trip bookings. You can cancel the return trip only if onward trip has been travelled."
+    subTitleMC: "Partial cancellation of your {{onwardJourney}}, {{returnJourney}} booking is not allowed by the airline. You can cancel {{returnJourney}} only if {{onwardJourney}} has been travelled."
+    subTitleRTGoAir : "This airline does not allow partial cancellation of onward or return journeys. You can only cancel the complete booking."
+  familyFareCanPolicy:
+    title: "<font color='#cf8100'><b>Family Fare Cancellation Policy</b></font>"
+    subTitle: "Since this is a family fare booking, you will not be allowed to cancel more than {{paxCount}} travellers."
+    subTitle2: "Since this is a family fare booking, no partial passenger cancellation is allowed."
+  cpFareRules:
+    title:
+      nonRefundable: "<font color='#eb2026'><b>Non Refundable</b></font>"
+      refundable: "<font color='#249995'><b>No Airline Cancellation Fee</b></font>"
+      partiallyRefundable: "<font color='#249995'><b>Cancellation Fees Apply</b></font>"
+    ctaText: "VIEW POLICY"
+  subtitle: "Cancellation & Date change charges"
+  title: "Fare Rules"
+  depInfo: "<b>*</b> From the Date of Departure"
+  informationNotAvailable: "<font color='#e53442'> Information not available </font>"
+  nonRefundable: "Non Refundable"
+  nonChangeable: "Non Changeable"
+  fareDifference: "Fare difference"
+  zeroCancellation: "<br><font color='#9b9b9b' size='2'>(With Zero Cancellation)</font><br></p>"
+  tableHeader2:
+    title1: "Time frame"
+    title2: "Airline Fee + MMT Fee"
+    dateChangeTitle: "Airline Fee + MMT Fee + Fare difference"
+    subTitle1: "(From Scheduled flight departure)"
+    subTitle2: "(Per passenger)"
+  tableHeader3:
+    header1: "TIME"
+    header2: "CANCELLATION FEE \u003cbr/\u003e(Airline Fee + MMT Fee)"
+    header3: "DATE CHANGE FEES \u003cbr/\u003e(Airline Fee + MMT Fee + Fare Difference )"
+  penaltyInfo: "*From the Date of Departure"
+  refundableStatus:
+    refundable:
+      subText: "Approx refund"
+      data: "Refundable"
+    partiallyRefundable:
+      data: "Partially Refundable"
+    nonRefundable:
+      data: "Non Refundable"
+  refundableStatusRealTime:
+    refundable:
+      data: "<font color='#00A19C'>No Airline Cancellation Fee</font>"
+    partiallyRefundable:
+      data: "<font color='#00A19C'>Cancellation Fees Apply</font>"
+    nonRefundable:
+      data: "<font color='#EB2026'>Non Refundable</font>"
+  penalty:
+    info: "*Time to scheduled flight departure"
+    data:
+      warning: "<font color='#ff0000'>Info not available. Please check with the airlines</font>"
+      title: "{{fromAirportCode}}-{{toAirportCode}}"
+      subTitle: "(Onward & Return)"
+    tableHeader:
+      singlePnrRT:
+        title: "{{owFrom}}-{{rtFrom}}"
+        subTitle: "(Onward and Return)"
+    dateChange:
+      importantInfo: "<b>*Important:</b> The airline fee is indicative. MakeMyTrip does not guarantee the accuracy of this information. All fees mentioned are per passenger. Date change charges are applicable only on selecting the same airline on a new date. The difference in fares between the old and the new booking will also be payable by the user."
+      importantInfoIntl: " <b>Free cancellation within 24 hours of booking</b>."
+      charges:
+        notAllowed: "<p>{{paxType}} : <b>Non Changeable</b><br></p>"
+        allowed: "<p>{{paxType}} : <b>{{airlineFee}} + {{mmtFee}} + Fare difference</b><br></p>"
+    tripWise:
+      timeRange: "{{timeValue1}} {{timeUnit1}} to {{timeValue2}} {{timeUnit2}}*"
+      cancellationCharges:
+        nonRefundable: "<p>{{paxType}} : <b>Non Refundable </b><br></p>"
+        zcNotEnabled: "<p>{{paxType}} : <b>{{airlineFee}} + {{mmtFee}}</b><br></p>"
+        other: "<p>{{paxType}} : <strike>{{airlineFee}} + {{mmtFee}}</strike>  {{amount}}<br><font color='#9b9b9b' size='2'>(With Zero Cancellation)</font></br></p>"
+    cancellation:
+      timeRange:
+        fullString: "{{startTime}}{{endTime}}*"
+        fullStringRnT: "<b>{{startTime}}{{endTime}}*</b>"
+        startHours: "{{count}} hours to "
+        startDays: "{{count}} days to "
+        endHours: "{{count}} hours"
+        endDays: "{{count}} days"
+      title:
+        nonRefundable: "<font color='#eb2026'><b>Non Refundable Fare</b></font>"
+        refundable: "<font color='#249995'><b>Refundable Fare</b></font>"
+        partiallyRefundable: "<font color='#249995'><b>Partially Refundable Fare</b></font>"
+      importantInfo: "<b>*Important:</b> The airline fee is indicative. MakeMyTrip does not guarantee the accuracy of this information. All fees mentioned are per passenger. "
+      covidImportantInfo: "<b>*Important:</b> Upon cancellation of the fresh booking, the amount applied from the credit voucher will only be refunded as a credit voucher.<br/>The airline fee is indicative. MakeMyTrip does not guarantee the accuracy of this information. All fees mentioned are per passenger.<br/>As per airline rules, if the cancellation penalty is different for your old and new bookings, the higher among the two will be applicable upon rebooking."
+      ctaText: "VIEW FARE RULES"
+      subTextGen: "Penalty may be charged by the airline & by MMT based on how close to departure date you cancel. View fare rules to know more."
+      subText: "A penalty of upto {{amount}} will be charged by the airline & by MMT based on how close to the departure date you cancel."
+  baggage:
+    diffBaggageForDiffSectorsGeneric: "Checkin baggage allowances may vary across different sectors in this itinerary. Please ensure that you carry the minimum allowed baggage to avoid penalties or purchase extra baggage"
+    diffBaggageForDiffSectorsSpecific: "The baggage allowances for your trip are different for your {{sector}} legs."
+    importantInfo: "<b>Important:</b> The Baggage info is indicative, MakeMyTrip does not guarantee the the accuracy of the information. Kindly check with airline website for accurate cancellation information. The baggage allowance may vary according to stop-overs, connecting flights and changes in airline rules."
+    importantInfoDetails:
+      handBaggageFare:
+        multiFlights: "Flight numbers {{flightDetails}} are cabin baggage only fare. You will have to pay for baggage that you want to check-in at the airport. "
+        other: "Flight number {{flightDetails}} is cabin baggage only fare. You will have to pay for baggage that you want to check-in at the airport. "
+        impInfo:
+          title: "Cabin baggage fare"
+          descriptionSuffix: "To view the baggage allowances, <font color='#008cff'>click here</font>"
+      diffPaxBaggageFare:
+        impInfo:
+          title: "Baggage"
+          description: "The baggage allowances for your trip are different for Adults, Children and Infants. To view the baggage allowances, <font color='#008cff'>click here</font>"
+          descriptionD: "The baggage allowances for your trip are different for Adults, Children and Infants."
+      diffBaggageForDiffSectors:
+        impInfo:
+          title: "Baggage"
+          descriptionSuffix: " To view the baggage allowance <font color='#008cff'>click here</font>"
+    text:
+      infoNotAvailable: "<font color='#e53442'> Information not available </font>"
+      cabinBagOnly: "<font color='#e53442'><b>Cabin bag only</b></font>"
+      zeroQty: "<font color='#e53442'>{{bagQty}} {{bagUnit}} </font>"
+      other: "{{bagQty}} {{bagUnit}}"
+    purchased:
+      checkIn:
+        appender: " + "
+        item: "{{title}} purchased"
+        itemRnT: "{{title}} Extra added"
+        multiple: " + {{count}} more"
+flightRules:
+  checkInBagText:
+    inPc: "{{bagTotal}} Kgs ({{bagAllowance}} {{bagUnit}} x {{bagRate}} Kgs) each"
+    inPcRnT: "<b>{{bagTotal}} Kgs</b> ({{bagAllowance}} {{bagUnit}} x {{bagRate}} Kgs) each"
+  cabinBagText:
+    inPc: "<b>{{bagTotal}} Kgs</b> ({{bagAllowance}} {{bagUnit}} x {{bagRate}} Kgs) each"
+    inPcRnT: "{{bagTotal}} Kgs ({{bagAllowance}} {{bagUnit}} x {{bagRate}} Kgs) each"
+fareChange:
+  noChange:
+    msg: "No fare change"
+  down:
+    subtitle: "Grab this fare right now!"
+    title: "Wow! Prices for this itinerary have dropped by {{amount}}."
+    msg: "Awesome!  The fare has gone down by {{amount}}. Good time to buy."
+  up:
+    subtitle: "Grab this fare right now!"
+    title: "Prices for this itinerary have been increased by {{amount}} by the airline"
+    msg: "Woops!  The fare has gone up by {{amount}}. Book before it further goes up."
+fareBreakup:
+  title: "Additional Charge"
+  totalFare: "<span style='font-size:20px;text-align: right;line-height: normal;''><span>{{amount}}</span></span>"
+  gdsAdjustment:
+    text: "Adjustments"
+    ctaText: "(View)"
+    ctaTextM: "Show"
+  holdBook:
+    thankYou:
+      paid:
+        label: "Amount Paid:"
+        subText: "Hold booking charges"
+      due:
+        label: "Total Due:"
+        subText: ""
+    other:
+      total:
+        label: "Total Amount:"
+      due:
+        label: "Amount Due Now:"
+        subText: "Hold booking charges"
+  fareEntity:
+    meal:
+      text: "Meals"
+      TextD: "<span>Meals</span>"
+      amt: "<span>{{amount}}</span>"
+    baggage:
+      text: "Baggage"
+      TextD: "<span>Baggage</span>"
+      amt: "<span>{{amount}}</span>"
+    seats:
+      text: "Seats"
+      TextD: "<span>Seats</span>"
+      amt: "<span>{{amount}}</span>"
+    discount:
+      amt: "<font color='#249995'>- {{amount}}</font>"
+      creditVoucher: "Airline Credit Voucher"
+      fareAdjustment: "Fare adjustments"
+    NCEDefault:
+      text: "No Cost EMI Available @  <font color='#008cff'>{{amount}}/m</font>"
+      tag:
+        text: "<font color='#ffffff'>New</font>"
+    NCESelected:
+      title: "Smart choice"
+      subTitle: "Choosing No Cost EMI as your payment mode was a brilliant move."
+      paymentInfo:
+        title: "You will be paying"
+        amount: "<font size='20px' color='#008cff'>{{amount}}/m</font>"
+        tenure: " Month Tenure"
+  itemCodeMap:
+    charity:
+      text: "Charity"
+    zc:
+      text: "Zero Cancellation"
+    insurance:
+      text: "Insurance"
+stops:
+  type:
+    airportChange: "Airport change"
+    planeChange: "Plane change"
+    terminalChange: "Terminal change"
+  text:
+    nonStop: "Non stop"
+    oneStop: "{{count}} stop"
+    multipleStops: "{{count}} stop(s)"
+    multiStops: "{{count}} stops"
+cabinClass:
+  economy: "Economy"
+  premiumEconomy: "Premium Economy"
+  business: "Business"
+  first: "First"
+snack:
+  ctaOkay: "Okay, Got it"
+  title: "Sorry!"
+flightDetails: "{{flightNo}} from {{fromCity}} to {{toCity}}"
+flightDtlInfo:
+  operatedBy: "Operated By {{airlineName}}"
+insurance:
+  tncText: "I agree to the <font color='#008CFF'>Terms & Conditions</font> and confirm all passengers are between 2 to 70 years of age"
+  tncTextD: "I agree to the <a href='https://flights.makemytrip.com/makemytrip/jsp/FeaturesNBenefitsInsurance.html' target='_blank'><font color='#008CFF'>Terms & Conditions</font></a> and confirm all passengers are between 2 to 70 years of age"
+  toast:
+    text: "Insurance has been selected for your booking"
+    textDays: "Insurance has been selected for {{count}} days"
+    InsSelectedText: "<font color='#249995'>Your trip is secured.</font>"
+    InsNotSelectedText: "<font color='#4A4A4A'>Secure your trip</font>"
+  tax: " (18% GST included)"
+  validation: "Stay duration can not be greater than 30 days."
+  amountSubtext:
+    day: "  Per Day Per Person"
+    fixed: "Per Person"
+  benfitTitle: "Insurance Plan Benefits"
+  optOutText: "No, I do not wish to secure my trip"
+  optinText: "Yes, secure my trip"
+  stayPeriodDetail: "Rs. {{amount}} per day (per traveller), max {{count}} days"
+  stayPeriodSuffix: Days
+  subtitle: "See all the benefits you get for just Rs. {{amount}}"
+  subtitlePerDay: "See all the benefits you get for just Rs. {{amount}} per day"
+  title: "Secure your trip"
+  titleTraveller: "Reconsider Buying Insurance"
+  rcaCtaText: "Ok, Got it"
+  placeHolder:
+    Tnc: "{$tnc}"
+    GoodHealthTerms: "{$goodHealthTerms}"
+  placeHolderText:
+    Tnc: "Terms & Conditions"
+    GoodHealthTerms: "Good Health terms"
+  errors:
+    invalidPlan: "Invalid input days in insurance plan"
+visa:
+  rules:
+    heading: "{{depCountryCode}} - {{arrCountryCode}}"
+    tripTitle: "{{depCountryName}} to {{arrCountryName}}"
+  transitVisa:
+    title: "You will require a transit visa for this trip!"
+    Heading: "Have queries about Visa?"
+  visa:
+    title: "VISA"
+    descSuffix: " <font color='#008cff'> Know more</font>"
+    capsuleMsg: "<font color='#e53442'>Transit Visa Required </font>"
+    bodyText: " <font color='#008cff'>Know more</font>"
+    cta:
+      text: "Know More"
+      title: "Visa Rules"
+    unit:
+      header: 'Visa Requirements'
+      body: 'We recommend that you check the Visa rules for this itinerary before you book'
+      banner:
+        text: "Your passport should be valid for at least six months from the date of your first departure. Transit and destination visa conditions vary according to nationality and passport type. MakeMyTrip shall not be liable for any claims related to non-travel due to lack of destination/transit visa/other mandatory travel/visa document(s)"
+        additionalText: "These visa rules are only indicative & are updated on best effort basis. Please refer to the respective country's official website to know the complete and accurate requirements. Please also check any transit visa requirements from the transit country's official website."
+bnpl:
+  data:
+    title: "<font color='#0c6663'>{{msg}}</font> <font color='#008cff'>Know more</font>"
+  cta:
+    text: "Know More"
+    snackText: "OKAY"
+  lca:
+    text: "VIEW T&Cs"
+  bloom:
+    header: 'Pay Later @ \u20B9 0'
+    subHeader: 'Book your ticket at just \u20B9 0'
+    rules:
+      r1: "Complete your booking @ \u20B9 0 and pay the full amount on the due date."
+      r2: "Your ticket will be confirmed and you will receive a link to complete your payment on the due date."
+      r3: "You will be charged as per the airline cancellation penalties + MMT cancellation charges in case of cancellations or no show"
+  bnpl:
+    header: 'Book Now, Pay Later!'
+    subHeader: 'Pay a minimum cost now and book your ticket'
+    rules:
+      r1: "Complete your booking by paying partially now."
+      r2: "The remaining amount will be automatically deducted on the due date."
+      r3: "In case of cancellations or no show, you will be charged the cancellation penalty as charged by the airline + the MMT cancellation charges"
+emi:
+  cardText:
+    NCE: "No Cost EMI ({{months}} months tenure)"
+    LCE: "Low Cost EMI ({{months}} months tenure)"
+    FA: "Pay Full amount now"
+  data:
+    title: "<b><font color='#4a4a4a'>{{msg}}</font></b>"
+  dataD:
+    title: "EMI"
+  farePersuasionText: "<font color='#0c6663'><b>{{amount}}, </b>{{text}}</font>"
+  subtext:
+    NCE: "<font color='#006400'>Only select offers and coupons are applicable with No Cost EMI option.</font>"
+  NCE:
+    selectiontext: "Since the pre-applied coupon has been removed, please check the ‘HOT DEALS’ section for offers and coupons applicable with No Cost EMI."
+    selectiontext1: "We have chosen {{months}} months as the best No Cost EMI plan for you. You can change the tenure on the payments page. We have removed your pre-applied coupon as it is not applicable with No Cost EMI"
+    selectiontext2: "We have chosen {{months}} months as the best No Cost EMI plan for you. You can change the tenure on the payments page."
+    title: "Great Choice!"
+    greyedcouponmessage: "Sorry! This promo coupon is not available on the selected pay mode."
+cabs:
+  traveller:
+    title: "Pre-Book a Cab"
+    lowerTitle: "for {{count}}Kms*"
+    persuasion:
+      Text: "Book combo fare for better savings!"
+    multiCabUpperTitle: "Lowest fare starting from"
+    singleCabUpperTitle: "All inclusive flat fare"
+    selectedCabTitle: "Great! Cab Scheduled for the trip!"
+    addCabText: "Location details will be collected after booking!"
+    deselectedCabTitle: "Schedule a Cab ride now!"
+    termsAndCondition:
+      text: "View T&C"
+      url: "Kaushik will tell"
+      title: "Terms and Conditions"
+    footerText: "*{{amount}}/Km beyond set km limit"
+    rateText: "{{amount}}/ for upto {{count}}Kms*"
+    priceInfo: "{{amount}}/Kms after {{count}}Kms limit"
+    blackCabDiscounted: "<font color='#FFFFFF'>MMT Black Cab - Flat {{amount}} OFF!</font>"
+    blackCabFree: "<font color='#FFFFFF'>MMTBLACK Cab - Free below {{amount}}</font>"
+    selection:
+      text:
+        add: "+ADD"
+        remove: "REMOVE"
+      errors:
+        wrongItemCode:
+          sel: "Wrong ItemCode for cab selection"
+          desel: "Wrong ItemCode for cab Deselection"
+          gen: "Wrong Item Code"
+  payment:
+    cabTransferToMsg: "+ Cab transfer to {{cityName}} Airport "
+    cabTransferFromMsg: "+ Cab transfer from {{cityName}} Airport to city "
+    cardLevelInfoTransferFrom: "AirPort Cab -  Transfer in "
+    cardLevelInfoTransferTo: "AirPort Cab - Transfer to "
+  thankYou:
+    cabCardTitle: "Cab pick up/drop details"
+    cabCardSubtitle: "Enter the address & time for your cab pick up"
+    cabCardSchedule: "Cab scheduled for"
+    cabCardToCityMsg: "Airport to city"
+    cabCardFromCityMsg: "City to Airport"
+    ctaDetailsText: "ENTER PICK UP DETAILS"
+    cabHoldFailureText: "You will be receiving a notification soon to complete your cab booking by entering your address details."
+cabsV1:
+  title: "Airport Pick & Drop"
+  subTitle: "{{cabCategory}} | {{seatCapacity}} | {{luggageCapacity}}"
+  heading: "Select cabs for {{fromCity}} to {{toCity}} Trip"
+  persuationText: "<font color='#249995'>Pre-book airport cabs at great prices. Now available in city near you.</font>"
+  termsAndCondition:
+    text: "View T&Cs"
+  safety:
+    ctaTitle: "Know More"
+    text: "<b><font color='#008cff'>My</font>Safety</b> - {{text}}"
+  service:
+    showMoreText: "View cabs on return date"
+    hideText: "View less options"
+    pickUpTitle: "Pick-up:"
+    dropTitle: "Drop:"
+    dropDown:
+      search: "Select your location"
+      placeHolder: "Select the city"
+    extraFareInfo: "; {{amount}}/km thereafter"
+    toolTip:
+      firstDiscouted: "MMTBLACK discounted cab - discount will be applied after completing add-on selections"
+      first: "MMTBLACK Free cab - discount will be applied after completing add-on selections"
+      second: "Only 1 add-on will be discounted."
+  thankYou:
+    scheduleTitle: "Cabs Scheduled For:"
+    cabDeepLinkText: "ADD PICK UP DETAILS"
+6E:
+  fastforward:
+    addText: "+ ADD"
+    removeText: "REMOVE"
+    text: "<b>INDIGO FAST FORWARD</b></br>Sorry! There was a problem in adding the Fast Forward option that you selected for your <sector> flight. The payment amount deducted will be refunded back to you in 3 to 5 working days. We regret the inconvenience caused."
+    additionalText: "<b>INDIGO FAST FORWARD</b></br>Sorry! There was a problem in adding the Fast Forward option that you selected for your <sector> flight. The payment amount deducted will be refunded back to you in 3 to 5 working days. We regret the inconvenience caused."
+    addOn:
+      preselected:
+        title: "<font color='#249995'>Fast Forward added for this flight: {{price}}</font>"
+        subtitle:
+          singlePax: "You can now avail <b>priority check-in & bag(s) out first</b> at airport."
+          multiPax: "All passengers can now avail <b>priority check-in & bag(s) out first</b> at airport."
+      other:
+        title: "Fly Faster with Fast Forward"
+        subtitle:
+          singlePax: "Check-in at dedicated priority counters and get your bag(s) out before anyone else."
+          multiPax: "All passengers can check-in at dedicated priority counters and get bag(s) out before anyone else."
+      thankYou:
+        title: "IndiGo Fast Forward"
+        subtitle: "You can now avail priority check-in & bag(s) out first at the airport."
+    overlayInfo:
+      pageTitle: "Indigo Fast Forward"
+      title: "Fast Forward"
+      subtitle: "A service that provides you a <b>hassle free and comfortable check-in</b> experience at the airport with our <b>priority check-in counter.</b>"
+      amtTitle: "For only"
+      sectorInfoData:
+        title: "Select flights to add Fast Forward"
+    benefit1:
+      text: "Priority Check-in"
+      ctaTextD: "Skip the queue & Check-in at dedicated priority check-in counters at the airport"
+    benefit2:
+      text: "Bags out first"
+      ctaTextD: "Skip the queue & get bags out first at the airport"
+  fastforwardCorp:
+    text: "<b>INDIGO FAST FORWARD</b></br>Sorry! There was a problem in adding the Fast Forward option that you selected for your <sector> flight. The payment amount deducted will be refunded back to you in 3 to 5 working days. We regret the inconvenience caused."
+    additionalText: "<b>INDIGO FAST FORWARD</b></br>Sorry! There was a problem in adding the Fast Forward option that you selected for your <sector> flight. The payment amount deducted will be refunded back to you in 3 to 5 working days. We regret the inconvenience caused."
+    benefit1:
+      text: "Priority Check-in"
+      ctaTextD: "Skip the queue & Check-in at dedicated priority check-in counters at the airport"
+    benefit2:
+      text: "Bags out first"
+      ctaTextD: "Skip the queue & get bags out first at the airport"
+ctripbanner:
+  cta: ""
+  textD: "<font color='#ffffff'>Great choice! This is a special fare. Note that your ticket will be generated <b> {{time}} </b> after payment.</font>"
+  text: "Great choice! This is a special fare. Note that your ticket will be generated <b> {{time}} </b> after payment."
+  spMsg: "As you are booking this flight at a special fare, your ticket will get generated within the next {{time}} after payment."
+  sptitle: "SPECIAL FARE"
+forex:
+  ctatitle: "Forex"
+  bDCtaText: "Know More"
+  title: "Makemytrip HDFC Forex Plus Card"
+  titleGcc: "Makemytrip HDFC Forex Plus Card"
+  titleWEGOAE: "We support all your payment options and cards."
+  text: "Use your Flight Booking ID to get your forex card at <b>₹ 0 </b> issuance fee."
+  textGcc: "Use your Flight Booking ID to get your forex card at <b>₹ 0 </b> issuance fee."
+  textWEGOAE: "Pay securely and easily via Makemytrip."
+  ctaText: "Apply Now"
+peitho:
+  data:
+    title: "<font color='#0c6663'>{{text}}</font>"
+  urlType:
+    data:
+      ctaTitle: "Peitho Banner"
+loyalty:
+  data:
+    title: "<font color='#ffffff'>{{text}}</font>"
+    subTitle: "<font color='#ffffff'>{{text}}</font>"
+##### Below is For B2B only #####
+recomFlights:
+  heading:
+    title: "Flexible with time?"
+    subTitle: "We have some cheaper flights options available for you."
+    sbTitle: "Cheaper flights found"
+  splitHeaders:
+    onward: "DEPARTURE - {{count}} flight option"
+    return: "RETURN - {{count}} flight option"
+    multipleOnward: "DEPARTURE - {{count}} flight options"
+    multipleReturn: "RETURN - {{count}} flight options"
+  cardCheapFareMsg: "This flight is <b><font color='#249995'>{{amount}} cheaper</font></b> than your selection"
+  cardCheapFareMsgMobileRT: "{{identifier}} <b>Option {{count}}</b><font color='#249995'> {{amount}} cheaper</font>"
+  cardCheapFareMsgMobileOW: "<b>Option {{count}}</b><font color='#249995'> {{amount}} cheaper</font>"
+  cardCostDiff: "<font color='#249995'>{{amount}} cheaper</font>"
+  cheapFareMsgOW: "The recommended flight combination is $cardCostDiff than your selection"
+  comboCheapFareMsg: "The recommended flight combination is <b><font color='#249995'>{{amount}} cheaper</font></b> than your selection"
+  recomReasons:
+    reason1: "Better time option"
+    reason2: "Travelling with others"
+    reason3: "Other"
+  fareDiffMsg:
+    text: "({{amount}} cheaper than the user selected flight without addOns)"
+  recomBanner:
+    text: "<font color='#cf8100'>This recommended itinerary has savings of {{amount}}</font>"
+##### Above is For B2B only #####
+amenties:
+  desc:
+    seat:
+      pitch: "Pitch: {{value}}"
+      width: "| Width: {{value}}"
+      quality: "| Quality: {{value}}"
+    meal:
+      quality: "Quality: {{value}}"
+      cost: "| Cost: {{value}}"
+    wifi:
+      performance: "Performance: {{value}}"
+      cost: "| Cost: {{value}}"
+    entertainment:
+      quality: "Quality: {{value}}"
+      cost: "| Cost: {{value}}"
+    power:
+      powerOutlet: " Power Outlet: {{value}}"
+      usbPort: "|  USB Outlet: {{value}}"
+    aircraft:
+      cabinPressure: " Cabin Pressure: {{value}}"
+      windowSize: "| Window Size:  {{value}}"
+    layout:
+      aisleAccess: "Aisle Access: {{value}}"
+messages:
+  importantInfo:
+    covidTravelguidelines:
+      description: "<b>1.</b> Download Aarogya Setu app on your phone.<br/><b>2.</b> Certify your health status through Aarogya Setu app or self-declaration form.<br/><b>3.</b> Complete web check-in before arriving at the airport.<br/><b>4.</b> Reach at least 2 hours prior to flight departure.<br/><b>5.</b> Face masks are compulsory. Carry your own.<br/><b>6.</b> Carry no more than 1 check-in and 1 cabin baggage.<br/><b>7.</b> Print and paste the baggage tag attached to your booking confirmation. Else, write your name, PNR and flight number on an A4 sheet and affix on your bag."
+      descriptionD: "<br/><b>1.</b> Download and activate Aarogya Setu app on your phone.<br/><b>2.</b> Certify your health status through Aarogya Setu app or self-declaration form.<br/><b>3.</b> Complete web check-in before arriving at the airport.<br/><b>4.</b> Reach at least 2 hours prior to flight departure.<br/><b>5.</b> Face masks are compulsory. Carry your own.<br/><b>6.</b> Carry no more than 1 check-in and 1 cabin baggage.<br/><b>7.</b> Print and paste the baggage tag attached to your booking confirmation. Else, write your name, PNR and flight number on an A4 sheet and affix on your bag."
+      title: "Mandatory check-list for passengers"
+    covidTravelguidelines1:
+      description:
+        desc1: "1. Please download and activate the Aarogya Setu app on your phone.<br/>2. Certify your health status through the Aarogya Setu app or the self-declaration form.<br/>3. Remember to do web check-in before arriving at the airport. Please do carry an e-boarding pass on your mobile. Alternatively, you can carry the printout of the boarding pass.<br/>4. Please reach at least 2 hours prior to flight departure.<br/>5.No meal service will be available on-board.<br/>6. Face masks are compulsory. We urge you to carry your own.<br/>7. You are requested to print and paste the baggage tag attached to your booking confirmation. Alternatively, you can write your name, PNR and flight number on an A4 sheet and affix on your bag."
+        desc2: "Carry no more than 1 check-in baggage and 1 hand baggage per passenger. The free check-in baggage allowance is 20 kgs, effective 25th May-24th August."
+      descriptionD:
+        desc1: "<br/>1. Please download and activate the Aarogya Setu app on your phone.<br/>2. Certify your health status through the Aarogya Setu app or the self-declaration form.<br/>3. Remember to do web check-in before arriving at the airport. Please do carry an e-boarding pass on your mobile. Alternatively, you can carry the printout of the boarding pass.<br/>4. Please reach at least 2 hours prior to flight departure.<br/>5.No meal service will be available on-board.<br/>6. Face masks are compulsory. We urge you to carry your own.<br/>7. You are requested to print and paste the baggage tag attached to your booking confirmation. Alternatively, you can write your name, PNR and flight number on an A4 sheet and affix on your bag."
+        desc2: "Carry no more than 1 check-in baggage and 1 hand baggage per passenger. The free check-in baggage allowance is 20 kgs, effective 25th May-24th August."
+      description6E:
+        DOM:
+          desc1: "1. Please download and activate the Aarogya Setu app on your phone.<br/>2. Certify your health status through the Aarogya Setu app or the self-declaration form.<br/>3. Remember to do web check-in before arriving at the airport. Please do carry an e-boarding pass on your mobile. Alternatively, you can carry the printout of the boarding pass.<br/>4. Please reach at least 2 hours prior to flight departure.<br/>5.No meal service will be available on-board.<br/>6. Face masks are compulsory. We urge you to carry your own.<br/>7. You are requested to print and paste the baggage tag attached to your booking confirmation. Alternatively, you can write your name, PNR and flight number on an A4 sheet and affix on your bag."
+          desc2: "Carry no more than 1 check-in baggage and 1 hand baggage per passenger. The free check-in baggage allowance is 20 kgs, effective 25th May-24th August. For your Indigo flight, make sure your hand baggage is small enough to fit under the seat."
+      descriptionD6E:
+        DOM:
+          desc1: "<br/>1. Please download and activate the Aarogya Setu app on your phone.<br/>2. Certify your health status through the Aarogya Setu app or the self-declaration form.<br/>3. Remember to do web check-in before arriving at the airport. Please do carry an e-boarding pass on your mobile. Alternatively, you can carry the printout of the boarding pass.<br/>4. Please reach at least 2 hours prior to flight departure.<br/>5.No meal service will be available on-board.<br/>6. Face masks are compulsory. We urge you to carry your own.<br/>7. You are requested to print and paste the baggage tag attached to your booking confirmation. Alternatively, you can write your name, PNR and flight number on an A4 sheet and affix on your bag."
+          desc2: "Carry no more than 1 check-in baggage and 1 hand baggage per passenger. The free check-in baggage allowance is 20 kgs, effective 25th May-24th August. For your Indigo flight, make sure your hand baggage is small enough to fit under the seat."
+      descriptionOG:
+        DOM:
+          desc1: "1. Please download and activate the Aarogya Setu app on your phone.<br/>2. Certify your health status through the Aarogya Setu app or the self-declaration form.<br/>3. Remember to do web check-in before arriving at the airport. Please do carry an e-boarding pass on your mobile. Alternatively, you can carry the printout of the boarding pass.<br/>4. Please reach at least 2 hours prior to flight departure.<br/>5.No meal service will be available on-board.<br/>6. Face masks are compulsory. We urge you to carry your own.<br/>7. You are requested to print and paste the baggage tag attached to your booking confirmation. Alternatively, you can write your name, PNR and flight number on an A4 sheet and affix on your bag."
+          desc2: "Carry no more than 1 check-in baggage and 1 hand baggage per passenger. The free check-in baggage allowance is 20 kgs, effective 25th May-24th August."
+      descriptionDOG:
+        DOM:
+          desc1: "<br/>1. Please download and activate the Aarogya Setu app on your phone.<br/>2. Certify your health status through the Aarogya Setu app or the self-declaration form.<br/>3. Remember to do web check-in before arriving at the airport. Please do carry an e-boarding pass on your mobile. Alternatively, you can carry the printout of the boarding pass.<br/>4. Please reach at least 2 hours prior to flight departure.<br/>5.No meal service will be available on-board.<br/>6. Face masks are compulsory. We urge you to carry your own.<br/>7. You are requested to print and paste the baggage tag attached to your booking confirmation. Alternatively, you can write your name, PNR and flight number on an A4 sheet and affix on your bag."
+          desc2: "Carry no more than 1 check-in baggage and 1 hand baggage per passenger. The free check-in baggage allowance is 20 kgs, effective 25th May-24th August."
+      titles:
+        title1: "Mandatory check-list for passengers"
+        title2: "Baggage Information"
+    buddyCity:
+      description: "This itinerary has been created by Makemytrip. Neither the Airline nor Makemytrip will be responsible for arranging a new flight in case of any delays or cancellations."
+      descriptionD: "This itinerary has been created by Makemytrip. Neither the Airline nor Makemytrip will be responsible for arranging a new flight in case of any delays or cancellations."
+      title: "Custom Combination"
+    recheckin:
+      description: "Your ticket is a multi-ticket itinerary. You may be required to collect and check-in your baggage again at the stopover location"
+      descriptionD: "Your ticket is a multi-ticket itinerary. You may be required to collect and check-in your baggage again at the stopover location"
+      title: "Multi ticket itinerary"
+    nearby:
+      from: "The selected flight will be departing from {{fromCity}} which is close to {{city}}"
+      to: "The selected flight will be landing at {{toCity}} which is close to {{city}}"
+      title: "Nearby Airport"
+    eticket:
+      title: "E-Ticket Info"
+    creditShellFlow:
+      description: "Note: As per airline rules, if the cancellation penalty is different for your old and new bookings, the higher among the two will be applicable upon rebooking."
+      descriptionD: "Note: As per airline rules, if the cancellation penalty is different for your old and new bookings, the higher among the two will be applicable upon rebooking."
+      title: "Cancellation information"
+insuranceSB:
+  titleAdd: "Trip not insured ?<br>Oh no!"
+  titleRemove: "That’s great! <br>Proceed to book"
+  addInsuranceHolder:
+    title: "You can insure this trip with as little as<br> <b>{{amount}} </b> {{text}} per traveller per day."
+    titleDom: "You can insure this trip with as little as<br> <b>{{amount}} </b> {{text}} per traveller."
+    stayPeriodDetail: "No. of days to be insured"
+    maxDayError: "Please enter a number between 1 and {{count}}"
+    ctaText: "ADD INSURANCE"
+    cta:
+      text: "SKIP"
+  removeInsuranceHolder:
+    title: "You trip is insured for {{count}} days."
+    titleDom: "You trip is now insured"
+    subTitle: "An amount of  <b>{{amount}} </b>is added to your booking. "
+    subTitleIntlChildren: "An amount of  <b>{{amount}} </b>is added to your booking for {{paxCount}} travellers. "
+    perDayMsgDom: "<b>{{amount}} </b> {{text}} per traveller."
+    perDayMsg: "<b>{{amount}} </b> {{text}} per traveller per day."
+    ctaText: "REMOVE"
+    cta:
+      text: "PROCEED TO BOOK"
+  bookMsgAdd: ""
+  bookMsgRemove: "Total amount to be paid for this booking: <big><b>{{amount}}</b></big>"
+digit_insurance:
+  termsAndConditionsText: "Terms and Conditions"
+  knowMoreText: "Know more"
+  preselectedTag: "<font color='#249995'>Pre-selected</font>"
+  priceText: "Per traveler"
+  gstText: "(18% GST included)"
+  subtitle: "<font color='#02a19c'>35% of MakeMyTrip users opt for trip protection plans.</font>"
+  subtitlePreselected: "<font color='#02a19c'>We have pre-selected the highly beneficial trip protection plans for you!</font> <font color='#9b9b9b'>(These are optional & you can remove them)</font>"
+  addText: "+ ADD"
+  addTextD: "ADD"
+  removeText: "REMOVE"
+  addComboText: "ADD COMBO"
+  removeComboText: "REMOVE"
+  titleFormat: "{{text}}"
+  selectedPlanTitleFormat: "<font color='#00a19c'>{{text}}</font>"
+  selectedPlanTitleFormatComboD: "<font color='#00a19c'>Great Choice! {{text}}</font>"
+  selectedPlanTitleFormatCombo: "<font color='#00a19c'>{{text}}</font>"
+  coveredLegFormat: "<font color='#9b9b9b'>Valid for : {{text}}</font>"
+  footer:
+    text1: "By adding any of the above, you agree to the respective"
+    text2: "Terms & Conditions"
+    text3: "of each of the offerings and confirm all passengers are over 2 years of age."
+  splitBundle:
+    title: "Trip Protection Plans"
+    addcombotext: "ADD COMBO"
+  singleBundle:
+    title: "Trip Protection Plans"
+    addcombotext: "ADD"
+    persuasion:
+      notselected: "Protect your trip against unexpected last minute mishaps"
+      selected: "<font color='#24995'>Great! Your trip is now protected against last minute mishaps</font>"
+    InsSelectedText: "<font color='#249995'>Your trip is secured.</font>"
+    InsNotSelectedText: "<font color='#4A4A4A'>Secure your trip</font>"
+    radio:
+      optInText: "Yes, secure my trip,"
+      optOutText: "No, I do not wish to secure my trip"
+      persuasion:
+        notselected: "Get all the benefits for just {{amount}} per traveller (18%% GST included)"
+        selected: "<font color='#24995'>Great! Your trip is now protected, at just {{amount}} per traveller (18%% GST included)</font>"
+      tncPrefix: "I agree to the "
+      tncSuffix: ", and confirm that all passengers are above 2 years of age"
+      tncText: "Terms & Conditions"
+      validationMsg: "<b>Note:</b> Kindly select `Yes` or `No` above to continue"
+      coveredLeg: "<font color='#9b9b9b'>Valid for: {{text}}</font>"
+  sb:
+    title: "It seems you have not opted for trip protection plans!"
+    persuasionText: "<font color='#cf8100'>35% of MakeMyTrip users opt for trip protection plans.</font>"
+    titleFormat: "<b>{{title}}</b> | {{text}}"
+  selection:
+    errors:
+      wrongItemCode: "Digit Selection Failed: Incorrect itemCode"
+  sbData:
+    lcaCtaText: "SKIP"
+    rcaCtaText: "Add & Continue"
+baggageOnReview:
+  preSelectedTitle: "<font color='#249995'>Extra check-in baggage Added</font>"
+  preSelectedSubtitle: "You have added {{title}} for {{amount}}!"
+  notSelectedCabinBagOnlyTitle: "<font color='#eb2026'>As you have selected a cabinbag only fare, check-in baggage is not allowed!</font>"
+  notSelectedTitle: "<font color='#eb2026'>Add Extra check-in baggage</font>"
+  notSelectedSubtitle: "Add Extra check-in baggage to this trip at a discounted price"
+  additionalMessage: " + {{count}} more"
+  addText: "+ ADD"
+  removeText: "REMOVE"
+farealert:
+  title:
+    fadisabled: "Set a price alert for this flight."
+    faenabled: "Price tracking enabled. We will notify you when prices change."
+  subtitle : ""
+  selection:
+    errors:
+      failed: "Fare Alert Selection Failed"
+fareRecoms:
+  paxText: "FOR 1 ADULT"
+  ctaText: "Continue"
+  departureInfo:
+    stop: "{{noOfStop}} Stop | Layover at {{layovers}}"
+    stops: "{{noOfStop}} Stops | Layover at {{layovers}}"
+    stopD: "{{noOfStop}} Stop <br/>Layover at {{layovers}}"
+    stopsD: "{{noOfStop}} Stops <br/>Layover at {{layovers}}"
+    nonStop: "Non Stop"
+    intlrt:
+      departText: "Depart | {{time}}"
+      returnText: "Return | {{time}}"
+    others:
+      departText: "Onward Departure | {{time}}"
+      returnText: "Return Departure | {{time}}"
+  services:
+    text:
+      show: "Show more"
+      hide: "Hide"
+    unit:
+      ticketingTime:
+        mins: "{{count}} Mins"
+      baggage:
+        kg: "{{count}} Kg"
+        kgs: "{{count}} Kgs"
+        pc: "{{count}} Pc"
+        pcs: "{{count}} Pcs"
+fareService:
+  excudeCommonServices:
+    MAX_TICKETING_TIME:
+      text: "Ticket will be issued instantly"
+  MAX_TICKETING_TIME:
+    minText: "Ticket will be issued instantly"
+    inc:
+      text: "Ticket will be issued within {{unit}}"
+    cha:
+      text: "Ticket will be issued within {{unit}}"
+    nof:
+      text: "Ticket will be issued within {{unit}}"
+    default:
+      textD: "(Know more)"
+      text: "(<b><font color='#008cff'>Know more</font><b>)"
+    hoverInfo:
+      title: "Delayed Ticketing"
+      text: "Since these are special fares, the tickets will be issued {{unit}} after the payment is made."
+      rcaCta:
+        text: "Okay"
+    text: ""
+  CABIN_BAGGAGE_ALLOWANCE:
+    inc:
+      text: "Cabin baggage {{unit}}"
+    cha:
+      text: "Cabin baggage chargeable"
+    nof:
+      text: "No Cabin baggage allowed"
+    default:
+      text: "No Cabin baggage allowed"
+    text: ""
+  CHECKIN_BAGGAGE_ALLOWANCE:
+    inc:
+      text: "Check-in baggage included"
+    cha:
+      text: "Hand baggage only"
+    nof:
+      text: "Hand baggage only"
+    default:
+      text: "No Check-in baggage allowed"
+  REFUNDABLE:
+    inc:
+      text: "No airline cancellation fee"
+    cha:
+      text: "Cancellation fees apply"
+    nof:
+      text: "Non-refundable fare"
+    default:
+      text: "Non-Refundable"
+    text: ""
+    updatedText : "Fee starting {{amount}}"
+    updatedTextD : "Cancellation fee starting {{amount}}"
+  MEAL:
+    inc:
+      text: "Complimentary meals"
+    cha:
+      text: "Meals chargeable"
+    nof:
+      text: "No Meals"
+    default:
+      text: "No Meals"
+    text: ""
+    PEText: "Complimentary Meal"
+  SEAT:
+    inc:
+      text: "Free seats available"
+    cha:
+      text: "Seat selection chargeable"
+    nof:
+      text: "Seat selection not available"
+    default:
+      text: "Seat Pre-selection not allowed"
+    text: ""
+    PEText: "Extra Legroom Seat"
+  PRIORITY_BAGGAGE:
+    inc:
+      text: "Baggage Delivery on Priority"
+    cha:
+      text: "Priorty Baggage Chargable"
+    nof:
+      text: "Priority Baggage Not Included"
+    default:
+      text: "Priority Baggage Not Included"
+    PEText: "Priority Baggage Handling"
+  PRIORITY_CHECKIN:
+    inc:
+      text: "Priority Check-in"
+    cha:
+      text: "Priority Check-in Chargable"
+    nof:
+      text: "Priority Check-in Not Included"
+    default:
+      text: "Priority Check-in Not Included"
+    PEText: "Priority Check-in & Boarding"
+  PRIORITY_BOARDING:
+    inc:
+      text: "Priority Boarding"
+    cha:
+      text: "Priority Boarding Chargable"
+    nof:
+      text: "Priority Boarding Not Offered"
+    default:
+      text: "Priority Boarding Not Offered"
+  NAME_CHANGE:
+    inc:
+      text: "Passenger Name Change Free"
+    cha:
+      text: "Passenger Name Change Chargable"
+    nof:
+      text: "Passenger Name Change Not allowed"
+    default:
+      text: "Passenger Name Change Not allowed"
+  AMENDABLE:
+    inc:
+      text: "Free date change allowed"
+    cha:
+      text: "Date change chargeable"
+    nof:
+      text: "Date change not allowed"
+    default:
+      text: "Rescheduling Not Allowed"
+    text: ""
+    PEText: "Priority Check-in & Boarding"
+    updatedText: "Fee starting {{amount}}"
+    updatedTextD: "Date change fee starting {{amount}}"
+  INSURANCE:
+    inc:
+      text: ""
+    cha:
+      text: ""
+    nof:
+      text: ""
+    default:
+      text: ""
+    text: ""
+b2bfareService:
+  excudeCommonServices:
+    MAX_TICKETING_TIME:
+      text: "Ticket will be issued instantly"
+  MAX_TICKETING_TIME:
+    minText: "Ticket will be issued instantly"
+    inc:
+      text: "Ticket will be issued within {{unit}}"
+    cha:
+      text: "Ticket will be issued within {{unit}}"
+    nof:
+      text: "Ticket will be issued within {{unit}}"
+    default:
+      textD: "(Know more)"
+      text: "(<b><font color='#008cff'>Know more</font><b>)"
+    hoverInfo:
+      title: "Delayed Ticketing"
+      text: "Since these are special fares, the tickets will be issued {{unit}} after the payment is made."
+      rcaCta:
+        text: "Okay"
+    text: ""
+  CABIN_BAGGAGE_ALLOWANCE:
+    inc:
+      text: "Cabin baggage {{unit}}"
+    cha:
+      text: "Cabin baggage chargeable"
+    nof:
+      text: "No Cabin baggage allowed"
+    default:
+      text: "No Cabin baggage allowed"
+    text: ""
+  CHECKIN_BAGGAGE_ALLOWANCE:
+    inc:
+      text: "Check-in baggage included"
+    cha:
+      text: "Hand baggage only"
+    nof:
+      text: "Hand baggage only"
+    default:
+      text: "No Check-in baggage allowed"
+  REFUNDABLE:
+    inc:
+      text: "No airline cancellation fee"
+    cha:
+      text: "Cancellation fees apply"
+    nof:
+      text: "Non-refundable fare"
+    default:
+      text: "Non-Refundable"
+    text: ""
+  MEAL:
+    inc:
+      text: "Complimentary meals"
+    cha:
+      text: "Meals chargeable"
+    nof:
+      text: "No Meals"
+    default:
+      text: "No Meals"
+    text: ""
+    PEText: "Complimentary Meal"
+  SEAT:
+    inc:
+      text: "Free seats available"
+    cha:
+      text: "Seat selection chargeable"
+    nof:
+      text: "Seat selection not available"
+    default:
+      text: "Seat Pre-selection not allowed"
+    text: ""
+    PEText: "Extra Legroom Seat"
+  PRIORITY_BAGGAGE:
+    inc:
+      text: "Baggage Delivery on Priority"
+    cha:
+      text: "Priorty Baggage Chargable"
+    nof:
+      text: "Priority Baggage Not Included"
+    default:
+      text: "Priority Baggage Not Included"
+    PEText: "Priority Baggage Handling"
+  PRIORITY_CHECKIN:
+    inc:
+      text: "Priority Check-in"
+    cha:
+      text: "Priority Check-in Chargable"
+    nof:
+      text: "Priority Check-in Not Included"
+    default:
+      text: "Priority Check-in Not Included"
+    PEText: "Priority Check-in & Boarding"
+  PRIORITY_BOARDING:
+    inc:
+      text: "Priority Boarding"
+    cha:
+      text: "Priority Boarding Chargable"
+    nof:
+      text: "Priority Boarding Not Offered"
+    default:
+      text: "Priority Boarding Not Offered"
+  NAME_CHANGE:
+    inc:
+      text: "Passenger Name Change Free"
+    cha:
+      text: "Passenger Name Change Chargable"
+    nof:
+      text: "Passenger Name Change Not allowed"
+    default:
+      text: "Passenger Name Change Not allowed"
+  AMENDABLE:
+    inc:
+      text: "Free date change allowed"
+    cha:
+      text: "Date change chargeable"
+    nof:
+      text: "Date change not allowed"
+    default:
+      text: "Rescheduling Not Allowed"
+    text: ""
+    PEText: "Priority Check-in & Boarding"
+  INSURANCE:
+    inc:
+      text: ""
+    cha:
+      text: ""
+    nof:
+      text: ""
+    default:
+      text: ""
+    text: ""
+popupMultiFare:
+  persuasionText: "<font color='#249995'>MMT Super Saver</font>"
+  leg:
+    showText: "VIEW MORE FARES"
+    hideText: "HIDE FARES"
+  titleD: "You have <b>more fares</b> to select from"
+  title: "Fare options for your flight"
+b2bpopupMultiFare:
+  titleD: "You have <b>more fares</b> to select from"
+  title: "Fare options for your flight"
+multiFare:
+  Ctrip:
+    title: "<font color='#39a088'>MMT Super Saver </font>"
+    hvrTitle: "MMT Super Saver"
+    text: "<font color='#39a088'>Special fare by MakeMyTrip.</font>"
+    rcaCta:
+      text: "Okay"
+  SimpleFare:
+    title: "Fare Option "
+    text: "Fare offered by airline."
+    textP: "Fare offered by airlines."
+    rcaCta:
+      text: "Okay"
+  AirlineFare:
+    title: ""
+    text: "Fare offered by airline."
+    textP: "Fare offered by airlines."
+    rcaCta:
+      text: "Okay"
+  Spicemax:
+    title: "SpiceMax Fare"
+    text: "Extra legroom, priority services."
+    peText: "Choose SpiceMax, and enjoy: Extra Legroom Seats, Priority Check-in, Priority Boarding and Priority Baggage Handling."
+    rcaCta:
+      text: "Okay"
+  Flexi_6E:
+    title: "Flexi"
+    text: "Free rescheduling, pay only fare difference."
+    rcaCta:
+      text: "Okay"
+  Flexi Plus_6E:
+    title: "Flexi Plus"
+    text: "Lower cancellation fee, discount on XL seats."
+    rcaCta:
+      text: "Okay"
+  Premium Flex_I5:
+    title: "Premium Flex"
+    text: "Priority Services, Dedicated Check-In Counters."
+    rcaCta:
+      text: "Okay"
+  GoMore:
+    title: "GoMore"
+    text: "Fly stress free! Keep the middle seat vacant with GoMore."
+    rcaCta:
+      text: "Okay"
+  Corporate fare:
+    title: "CORPORATE FARE"
+    text: "Special fare curated for corporates"
+    textP: "Special fare curated for corporates."
+    rcaCta:
+      text: "Okay"
+b2bmultiFare:
+  Ctrip:
+    title: "<font color='#39a088'>MMT Super Saver </font>"
+    hvrTitle: "MMT Super Saver"
+    text: "<font color='#39a088'>Special fare by MakeMyTrip.</font>"
+    rcaCta:
+      text: "Okay"
+  SimpleFare:
+    title: "Fare Option "
+    text: "Fare offered by airline."
+    textP: "Fare offered by airlines."
+    rcaCta:
+      text: "Okay"
+  AirlineFare:
+    title: ""
+    text: "Fare offered by airline."
+    textP: "Fare offered by airlines."
+    rcaCta:
+      text: "Okay"
+  CompanyFare:
+    title: "<font color='#20B2AA'>{{title}} {{nameList}}</font>"
+    text: "Special fare provided by the airline to {{title}}"
+    textP: ""
+    rcaCta:
+      text: "Okay"
+  Spicemax:
+    title: "SpiceMax Fare"
+    text: "Extra legroom, priority services."
+    peText: "Choose SpiceMax, and enjoy: Extra Legroom Seats, Priority Check-in, Priority Boarding and Priority Baggage Handling."
+    rcaCta:
+      text: "Okay"
+  Flexi_6E:
+    title: "Flexi"
+    text: "Free rescheduling, pay only fare difference."
+    rcaCta:
+      text: "Okay"
+  Flexi Plus_6E:
+    title: "Flexi Plus"
+    text: "Lower cancellation fee, discount on XL seats."
+    rcaCta:
+      text: "Okay"
+  Premium Flex_I5:
+    title: "Premium Flex"
+    text: "Priority Services, Dedicated Check-In Counters."
+    rcaCta:
+      text: "Okay"
+  Corporate fare:
+    title: "CORPORATE FARE"
+    text: "Special fare curated for corporates"
+    textP: "Special fare curated for corporates."
+    rcaCta:
+      text: "Okay"
+blueribbon:
+  title: "Lost Baggage Protection"
+  termsAndConditionsText: "Blue Ribbon Bags Terms & Conditions"
+  fareBreakUpText: "Lost Baggage Protection"
+  fareBreakUpSubtext: "<br/>(incl. MMT Service Fee of {{amount}})"
+  fareBreakUpSubtextD: "<br/><span style='font-size: 10px;'>(incl. MMT Service Fee of {{amount}})"
+  fareBreakUpSubtextPayment: "(incl. MMT Service Fee of ₹100)"
+  priceText: "For {{paxCount}} travellers"
+  priceTextSinglePax: "Per traveler"
+  gstText: "(18% GST included)"
+  subtitle: "<font color='#4a4a4a'>Get compensated incase your baggage is delayed or lost, at just <b>{{amount}}</b>/traveler</font>"
+  addText: "ADD NOW"
+  addTextD: "ADD"
+  removeText: "REMOVE"
+  titleFormat: "{{title}} added!"
+  footer:
+    text1: "By adding baggage protection you agree to the "
+    text2: "Blue Ribbon Bags Terms & Conditions"
+  persuasion:
+    selected: "<font color='#24995'>Great! Your baggage is now protected!</font>"
+    selectedD: "<font color='#24995'>Great! You are protected against baggage loss & delayed</font>"
+  benefitMap1:
+    titleD: "<b>Live Tracking :</b>"
+    subtitleD: "Real time update on Email & SMS about baggage status"
+    title: "<b>Live Tracking :</b> Real time update on Email & SMS about baggage status"
+  benefitMap2:
+    titleD: "<b>No Proof required :</b>"
+    subtitleD: "No need to provide the details of the bag content"
+    title: "<b>No Proof required :</b> No need to provide the details of the bag content"
+  benefitMap3:
+    titleD: "<b>Guaranteed Payment :</b>"
+    subtitleD: "Collect {{amount}} for every bag that doesn't arrive in 96hrs"
+    title: "<b>Guaranteed Payment :</b> Collect {{amount}} for every bag that doesn't arrive in 96hrs"
+  thankyoucard:
+    title: "Lost Baggage Protection Added"
+    subtitle: "You are now protected against delayed & lost baggage"
+  selection:
+    errors:
+      wrongItemCode: "Blue Ribbon Selection Failed: Incorrect itemCode"
+Covid:
+  GDS:
+    adjustmentV2:
+      title: "Extra payable / adult"
+      ctaText: "View Adjustment"
+      adjustmentInfoV2:
+        title: "Fare Difference"
+        footer:
+          text: "Airline does not allow adjustment of base fare against taxes. Airline allows only one time use of previous booking amount. Remaining amount (if any), will be forfeited."
+          otherInfo:
+            text: "<font color='#454545'><b>Amount to be paid:</b></font>"
+            amount: "<font color='#454545'><b>{{amount}}</b></font>"
+          paxWise:
+            header:
+              hdr1: "TYPE"
+              hdr2: "Selected Flight Fare"
+              hdr3: "Amount due"
+            infoItem:
+              baseFare: "Base fare"
+              tax: "Taxes"
+              adult: "Adult"
+              adults: "Adult x ({{count}})"
+              child: "Child"
+              childs: "Child x ({{count}})"
+              infant: "Infant"
+              infants: "Infant x ({{count}})"
+  navitaire:
+    adjustment:
+      footer:
+        text: "<font color='#cf8100'>Since the new flight price is less than your credit voucher value, you still have credits worth {{amount}} left! Use them for your next booking.</font>"
+      info:
+        selectedFlight:
+          text: "<font color='#454545'>Selected flight price:</font>"
+          amount: "<font color='#454545'> {{amount}} </font>"
+        creditFlight:
+          text: "<font color='#454545'>Credit voucher adjustment:</font>"
+          amount: "<font color='#454545'> -{{amount}} </font>"
+        finalAmount:
+          text: "<font color='#454545'>Amount to be paid (per pax):</font>"
+          amount: "<font color='#454545'> {{amount}}</font>"
+        rtDiscount:
+          text: "<font color='#454545'>Return discount applied:</font>"
+    reaminedCreditText: "<font color='#cf8100'>You will have unusable credits worth {{amount}} left after this booking.</font>"
+    fareBreakUp:
+      totalText: "<span style='font-size:20px;text-align: right;line-height: normal;''><span>Total Amount:</span></span>"
+      totalAmountToBePaidText: "<span style='font-size:20px;text-align: right;line-height: normal;''><span>Amount to be paid:</span></span>"
+  selfdecText: "<b>•</b> I/we am/are not residing in any containment zone.<br/><b>•</b> I/we am/are not under quarantine.<br/><b>•</b> I/we am/are not suffering from any fever/cough/respiratory distress.<br/><b>•</b> If I/we develop any of the abovementioned symptoms, I shall contact the concerned health authorities, immediately.<br/><b>•</b> I/we have not tested COVID-19 positive in the last two months.<br/><b>•</b> I/we am/are eligible to travel as per the extant norms.<br/><b>•</b> I/we shall make mobile numbers and contact details available to the airlines whenever required by them.<br/><b>•</b> I/we understand that if I/we undertake the air journey without meeting the eligibility criteria, I/we shall be liable for penal action.<br/><b>•</b> I/we undertake to adhere to the health protocols prescribed by the destination state/UT."
+  consent:
+    title: "<b>Self Declaration</b>"
+    rightCtaText: "CONFIRM"
+covidBanner:
+  name: "COVID BANNER"
+  title: "<font color='#454545'><b>Important Advisories & State Guidelines</b></font>"
+  titleGcc: "<b>Important Travel Updates</b>"
+  subTitle: "<font color='#6d7278'>With travel opening up, govt. advisories and state/UT guidelines are constantly evolving. Please check the latest updates before travelling.</font><br><br><font color='#008cff'>KNOW MORE</font>"
+  subTitleGcc: "Please read the latest health and safety policies set by Airlines before travelling."
+  CTAData:
+    title: "Protective measures"
+stateGuidelinesBanner:
+  name: "SAFETY GUIDELINES"
+  title: "<font color='#454545'><b>Important: State-Wise Travel Guidelines</b></font>"
+  titleGcc: "<font color='#454545'><b>Important: Country-Wise Travel Guidelines</b></font>"
+  subTitle: "<font color='#6d7278'>Select Indian states & UTs have enforced specific entry & exit guidelines. Do check applicable rules of the departure & arrival city/state before travelling.</font><br><br><font color='#008cff'>KNOW MORE</font>"
+  subTitleGcc: "<font color='#6d7278'>Each Country has enforced specific entry & exit guidelines. Do check applicable rules of the departure & arrival port before travelling.</font><br><br><font color='#008cff'>KNOW MORE</font>"
+  CTAData:
+    title: "SAFETY GUIDELINES"
+AEbanner:
+  name: "IN-AE Banner"
+  title: "<font color='#000000'><b>India to UAE Flight Bookings Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>An air transport bubble between India and UAE means that Indians can now fly to UAE. Dubai is open for all visa holders, including tourist visa. Abu Dhabi, Sharjah and other Emirates are open for Resident Visa Holders and Work Permit Holders. Passengers must download the DXB Smart App (for Dubai) or ALHOSN App (for other Emirates), submit a Health Declaration Form and carry a negative PCR test result. Test must have been issued within 96 hours from departure for Dubai, within 48 hours for Abu Dhabi and within 72 hours for Sharjah. "
+  CTAData:
+    title: "KNOW MORE"
+AEINbanner:
+  name: "AE-IN Banner"
+  title: "<font color='#000000'><b>Repatriation Flights from UAE to India</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Returning Indian Nationals must fulfil entry conditions and register with the Embassy of India/Abu Dhabi or Consulate General of India for travel effective 03rd July 2020. "
+  CTAData:
+    title: "KNOW MORE"
+DEbanner:
+  name: "IN-DE Banner"
+  title: "<font color='#000000'><b>India to Germany Flight Bookings Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Apart from citizens of Germany, individuals with resident permits and Category D Visas can enter. Persons travelling for family reunification and education are also allowed. Mandatory quarantine of 14 days is required upon arrival (with a few exceptions). "
+  CTAData:
+    title: "KNOW MORE"
+FRbanner:
+  name: "IN-FR Banner"
+  title: "<font color='#000000'><b>India to France Flight Bookings Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Only French nationals and their spouse/ children, EU nationals (including UK) and EEA nationals are currently permitted to fly to France. Indian nationals with US Green Cards, Permanent Residency (PR) for Canada, and other countries can travel to France only if there is a family connection (child is a citizen of the destination country) and they are travelling together. All passengers travelling from India must undergo a 14-day quarantine."
+  CTAData:
+    title: "KNOW MORE"
+USbanner:
+  name: "IN-US Banner"
+  title: "<font color='#000000'><b>India to US Flight Bookings Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indian Passport holders holding valid visas for the US can travel to the US without any restrictions. However please click here for the detailed guidelines for your travel to the US. "
+  CTAData:
+    title: "KNOW MORE"
+GBbanner:
+  name: "IN-GB Banner"
+  title: "<font color='#000000'><b>India to UK Flight Bookings Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians with a valid visa can now travel unrestricted to UK. They must fill the Passenger Locator Form online before departure, and home quarantine for 14 days on arrival. Anyone travelling beyond UK, will be allowed only if they are a citizen of the destination country or have a Green Card/ PR Status/ OCI status in destination country. "
+  CTAData:
+    title: "KNOW MORE"
+PHbanner:
+  name: "IN-PH Banner"
+  title: "<font color='#000000'><b>India-Cebu/ Manilla Flight Bookings Now Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians can travel to Cebu and Manilla in Philippines on an Air India flight scheduled on 01 August, 2020, provided they have long-term visas. On arrival, they must submit a Covid-19 health clearance certificate, and quarantine for 14 days. "
+  CTAData:
+    title: "KNOW MORE"
+KGbanner:
+  name: "IN-KG Banner"
+  title: "<font color='#000000'><b>Now Open: India-Bishkek Flight Bookings!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians can now travel to Bishkek in Kyrgyzstan on Air India flights scheduled for departure from 01-04 August, 2020. Passengers will be required to quarantine for 14 days at a medical facility upon arrival. "
+  CTAData:
+    title: "KNOW MORE"
+KWbanner:
+  name: "IN-KW Banner"
+  title: "<font color='#000000'><b>Bookings Now Open for India-Kuwait Flights!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians can now travel to Kuwait on Air India flights scheduled between 02-06 August, 2020. Passengers are advised to visit the official website of Embassy of India in Kuwait and read the latest travel advisories. "
+  CTAData:
+    title: "KNOW MORE"
+THbanner:
+  name: "IN-TH Banner"
+  title: "<font color='#000000'><b>India-Bangkok Flight Bookings Now Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians can now travel to Bangkok in Thailand on Air India flights scheduled on 02 and 05 August, 2020. Passengers must carry a negative Covid-19 PCR medical test certificate with them, issued less than 72 hours before departure. "
+  CTAData:
+    title: "KNOW MORE"
+QAbanner:
+  name: "IN-QA Banner"
+  title: "<font color='#000000'><b>Now Open: India-Doha Flight Bookings!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians can now travel to Doha in Qatar on Air India flights scheduled between 03-06 August, 2020. Passengers are advised to download the ‘Ehteraz’ smartphone app for latest Coronavirus updates by Qatar government and undergo quarantine for 14 days on arrival. "
+  CTAData:
+    title: "KNOW MORE"
+BHbanner:
+  name: "IN-BH Banner"
+  title: "<font color='#000000'><b>Bookings Open for India-Bahrain Flights!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians can now travel to Bahrain on Air India flights scheduled on 04 and 06 August, 2020. Individuals with existing e-Visas are allowed to travel. All passengers are required to self-quarantine for 10 days upon arrival. "
+  CTAData:
+    title: "KNOW MORE"
+CNbanner:
+  name: "IN-CN Banner"
+  title: "<font color='#000000'><b>India-Guangzhou Flight Bookings Now Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Indians can now travel to Guangzhou in China on Air India flights scheduled on 06 August, 2020. All passengers are required to provide negative nucleic acid testing results for COVID-19 before boarding, and must quarantine for 14 days on arrival. "
+  CTAData:
+    title: "KNOW MORE"
+CAbanner:
+  name: "IN-CA Banner"
+  title: "<font color='#000000'><b>India-Toronto/Vancouver Flight Bookings Now Open!</b></font>"
+  subTitle: "Get <font color='#e05a65'><b>LIVE</b></font> assistance for international flight bookings! Call us now at <font color='#008cff'>01244628747</font>(10 AM-10 PM IST)<br><font color='#4a4a4a'>Travel to Canada is now open for Canadian citizens, permanent residents, Indian students studying in Canada and those with valid Canadian work permits. All travellers must download the ArriveCan mobile app before arrival and quarantine for 2 weeks at a hotel or residence immediately after exiting the airport. "
+  CTAData:
+    title: "KNOW MORE"
+vandeBharatSnackBar:
+  data:
+    title: "Thank You!"
+    subtitle: "Thank you for submitting your query. We will contact you at the earliest."
+    subTitleD: "Thank you for submitting your query. We will contact you at the earliest."
+    middleCta:
+      text: "Go to Homepage"
+vandeBharat:
+  meta:
+    title: "Air India Vande Bharat Mission Flights"
+  about:
+    title: "Frequently Asked Questions"
+    description: "<ol><li><strong>How can I book my ticket on these flights?</strong><br /><p>We will assist you in booking these evacuation flights. Once you submit a query for a call back, our representative will get in touch with you to understand your requirement. Your booking will be processed once we receive the confirmation from you, to proceed with the booking.</p></li><li><strong>What is the permissible baggage allowance?</strong><br /><p>You can carry one piece of hand baggage weighing not more than 7 kg per traveller. Permissible check-in baggage allowance will be mentioned in your e-ticket.</p></li><li><strong>When will I have to reach the airport?</strong><br /><p>You are required to reach the airport at least 4 hours before the departure of the flight. Check-in process for your flight will close 75 minutes before the departure time of your flight.</p></li><li><strong>Is there any other documentation required specified by Air India for my travel?</strong><br /><p>You will be required to submit a self-declaration/undertaking at the time of check-in. For more details, please refer to the Air India website: <a href='http://www.airindia.in/' target='_blank'>www.airindia.in</a>.</p></li></ol>"
+  importantInfo:
+    title: "Disclaimer:"
+    description: "All passengers are advised to check their eligibility for travelling by referring to the conditions mentioned on the regulatory website of the respective country, before booking your travel."
+vandeBharatErrSnackBar:
+  data:
+    title: "Oops!"
+    subtitle: "Something went wrong."
+    subTitleD: "Something went wrong."
+    middleCta:
+      text: "TRY AGAIN"
+bankEmiOffers:
+  title: "Available No Cost EMI Offers"
+  subTitle: "Save more per month by choosing No Cost EMI as your payment mode."
+  tabTitle:
+    creditCards: "Offers on Credit Cards"
+    debitCards: "Offers on Debit Cards"
+  tableHeaders:
+    hdr1: "Tenure"
+    hdr2: "EMI"
+    hdr3: "Interest"
+    hdr4: "Overall Cost"
+  tag:
+    text: "<font color='#ffffff'>New</font>"
+  paymentOptions:
+    emiValue: "<font color='#249995'><strong> {{amount}} </strong></font>"
+    interest: "<font color='#249995'><strong> {{amount}} </strong></font>"
+    tenure: "{{months}} Months"
+
+fromCityToCityText: "{{fromCity}} to {{toCity}}"

@@ -1,0 +1,27 @@
+##### Below is For CTA only #####
+shareDetail:
+  title: "Send Quote"
+  subtitle: "You can either copy the URL or share this itinerary using the following modes"
+  shareMap:
+    WhatsApp:
+      title: "Whatsapp web"
+    Gmail:
+      title: "Share via Gmail"
+    Facebook:
+      title: "Facebook"
+messages:
+  aFee:
+    invalidAmt: "Invalid amount"
+    applied: "Applied Successfully"
+    min: "You can not add below {{amount}}"
+    max: "You can add upto {{amount}}"
+  quotedItinerary:
+    dtPreText: "Applied "
+    dtTitle: "Preapplied deal"
+    affliateFeeTitle: "Affliate Service Fee"
+    preText: "Applied "
+    applied:
+      insurance:
+        title: "Insurance "
+        subtitle: " Your trip is secured and you are eligible for all the benefits covered under this insurance policy."
+##### Above is For CTA only #####

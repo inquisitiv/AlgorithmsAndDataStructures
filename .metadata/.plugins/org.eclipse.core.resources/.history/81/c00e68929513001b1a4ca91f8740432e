@@ -1,0 +1,172 @@
+
+scheduleChange:
+ airlineMessage: "CB_PREBOOK_00001"
+ errorMessage: "CB_PREBOOK_00002"
+msgs:
+ paymentInfo:
+  mainText: "CB_PREBOOK_00003"
+ fareDesc:
+  baseFareText: "CB_PREBOOK_00004"
+  services:
+   zcSubText: "CB_PREBOOK_00005"
+  subText:
+   suffix: "CB_PREBOOK_00006"
+fareDecrease:
+ popUp:
+  title: "CB_PREBOOK_00007"
+  subtitle: "CB_PREBOOK_00008"
+  body: "CB_PREBOOK_00009"
+fareIncrease:
+ sbData:
+  title: "CB_PREBOOK_00010"
+  body: "CB_PREBOOK_00011"
+  lca:
+   text: "CB_PREBOOK_00012"
+  rca:
+   text: "CB_PREBOOK_00013"
+Corp:
+ msgs:
+  bookingReason: "CB_PREBOOK_00014"
+  requestDetails:
+   title: "CB_PREBOOK_00015"
+   subTitle: "CB_PREBOOK_00016"
+   refundText: "CB_PREBOOK_00017"
+   statusLabel: "CB_PREBOOK_00018"
+   sentOnLabel: "CB_PREBOOK_00019"
+  impInfo:
+   desc: "CB_PREBOOK_00020"
+   descD: "CB_PREBOOK_00021"
+  gst:
+   title: "CB_PREBOOK_00022"
+   subTitle: "CB_PREBOOK_00023"
+   gstNum: "CB_PREBOOK_00024"
+   compName: "CB_PREBOOK_00025"
+   billAdd: "CB_PREBOOK_00026"
+  fareInfo:
+   cardTitle: "CB_PREBOOK_00027"
+   refundDtls:
+    text:
+     nonRef: "CB_PREBOOK_00028"
+     partRef: "CB_PREBOOK_00029"
+     ref: "CB_PREBOOK_00030"
+  footer:
+   recomFooterData:
+    dsText: "CB_PREBOOK_00031"
+   approvalReq:
+    dsText: "CB_PREBOOK_00032"
+    sbDsTitle: "CB_PREBOOK_00033"
+    sbDsHint: "CB_PREBOOK_00034"
+    dsLeftText: "CB_PREBOOK_00035"
+    dsRightText: "CB_PREBOOK_00036"
+    fareChangeTitleD: "CB_PREBOOK_00037"
+    recomReasonTitle: "CB_PREBOOK_00038"
+    recomReasonHint: "CB_PREBOOK_00039"
+   recomTrue:
+    dsText: "CB_PREBOOK_00040"
+   other:
+    dsText: "CB_PREBOOK_00041"
+ images:
+  prebook:
+   meal:
+    persuasionText: "CB_PREBOOK_00042"
+   manager:
+    title: "CB_PREBOOK_00043"
+    alert:
+     text: "CB_PREBOOK_00044"
+   outofpolicy:
+    text: "CB_PREBOOK_00045"
+   expcode:
+    cardtitle: "CB_PREBOOK_00046"
+    cardsubtitle: "CB_PREBOOK_00047"
+    hint: "CB_PREBOOK_00048"
+   ancillary:
+    cardtitle: "CB_PREBOOK_00049"
+    cardsubtitle: "CB_PREBOOK_00050"
+   fare:
+    RefundMsg: "CB_PREBOOK_00051"
+
+scheduleChange:
+ airlineMessage: "CB_PREBOOK_00001"
+ errorMessage: "CB_PREBOOK_00002"
+msgs:
+ paymentInfo:
+  mainText: "CB_PREBOOK_00003"
+ fareDesc:
+  baseFareText: "CB_PREBOOK_00004"
+  services:
+   zcSubText: "CB_PREBOOK_00005"
+  subText:
+   suffix: "CB_PREBOOK_00006"
+fareDecrease:
+ popUp:
+  title: "CB_PREBOOK_00007"
+  subtitle: "CB_PREBOOK_00008"
+  body: "CB_PREBOOK_00009"
+fareIncrease:
+ sbData:
+  title: "CB_PREBOOK_00010"
+  body: "CB_PREBOOK_00011"
+  lca:
+   text: "CB_PREBOOK_00012"
+  rca:
+   text: "CB_PREBOOK_00013"
+Corp:
+ msgs:
+  bookingReason: "CB_PREBOOK_00014"
+  requestDetails:
+   title: "CB_PREBOOK_00015"
+   subTitle: "CB_PREBOOK_00016"
+   refundText: "CB_PREBOOK_00017"
+   statusLabel: "CB_PREBOOK_00018"
+   sentOnLabel: "CB_PREBOOK_00019"
+  impInfo:
+   desc: "CB_PREBOOK_00020"
+   descD: "CB_PREBOOK_00021"
+  gst:
+   title: "CB_PREBOOK_00022"
+   subTitle: "CB_PREBOOK_00023"
+   gstNum: "CB_PREBOOK_00024"
+   compName: "CB_PREBOOK_00025"
+   billAdd: "CB_PREBOOK_00026"
+  fareInfo:
+   cardTitle: "CB_PREBOOK_00027"
+   refundDtls:
+    text:
+     nonRef: "CB_PREBOOK_00028"
+     partRef: "CB_PREBOOK_00029"
+     ref: "CB_PREBOOK_00030"
+  footer:
+   recomFooterData:
+    dsText: "CB_PREBOOK_00031"
+   approvalReq:
+    dsText: "CB_PREBOOK_00032"
+    sbDsTitle: "CB_PREBOOK_00033"
+    sbDsHint: "CB_PREBOOK_00034"
+    dsLeftText: "CB_PREBOOK_00035"
+    dsRightText: "CB_PREBOOK_00036"
+    fareChangeTitleD: "CB_PREBOOK_00037"
+    recomReasonTitle: "CB_PREBOOK_00038"
+    recomReasonHint: "CB_PREBOOK_00039"
+   recomTrue:
+    dsText: "CB_PREBOOK_00040"
+   other:
+    dsText: "CB_PREBOOK_00041"
+ images:
+  prebook:
+   meal:
+    persuasionText: "CB_PREBOOK_00042"
+   manager:
+    title: "CB_PREBOOK_00043"
+    alert:
+     text: "CB_PREBOOK_00044"
+   outofpolicy:
+    text: "CB_PREBOOK_00045"
+   expcode:
+    cardtitle: "CB_PREBOOK_00046"
+    cardsubtitle: "CB_PREBOOK_00047"
+    hint: "CB_PREBOOK_00048"
+   ancillary:
+    cardtitle: "CB_PREBOOK_00049"
+    cardsubtitle: "CB_PREBOOK_00050"
+   fare:
+    RefundMsg: "CB_PREBOOK_00051"

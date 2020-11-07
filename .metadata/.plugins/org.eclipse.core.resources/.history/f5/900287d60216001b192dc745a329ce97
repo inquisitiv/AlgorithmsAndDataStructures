@@ -1,0 +1,192 @@
+ancillary:
+  common:
+    anclryNASectorTabTxt: "Not Available"
+    anclrySelectionPendingSectorTabTxt: "Selection pending"
+    footer:
+      title: "Added to fare"
+      titleD: "(Added to total fare)"
+    nudgeDialog:
+      title: "Review add-ons"
+      subTitle: "It looks like you missed including some add-ons to your itinerary! Please consider adding the same for an enhanced travel experience."
+      rcaTxt: "CONTINUE ANYWAY"
+      suggestion:
+        actionTxt: "ADD"
+  baggage:
+    baggageError: "Baggage are not available for any sector"
+    persuasionTextD: "Airline might levy extra charges for carrying more than 1 check-in bag per traveller."
+    secError: "No baggage is available"
+    subTitle: "You can choose upto"
+    messageCabinBagOnly: "Included Check-in baggage per person - <font color='#eb2026'>0 {{bagUnit}}(Handbag only)"
+    message: "Included Check-in baggage per person - <font color='#249995'>{{bagQty}} {{bagUnit}}</font>"
+    title: "Select your extra baggage"
+    error:
+      title: "Extra baggage selection is not available for the {{sectorId}} sector"
+      subTitle: "You can still buy it onboard or contact the airline for more information"
+    footer:
+      selectText: "Select Baggage(s)"
+      selectedText: "{{bagTotal}} Baggage(s) Selected"
+      selectionText: "{{bagTotal}} of {{maxBags}} selected"
+      subText: "{{bagTotal}} of {{maxBags}} Baggage(s) Selected"
+  meal:
+    blackMeal:
+      text: "<font color='#FFFFFF'>MMTBLACK Meal</font>"
+    coupon:
+      singlePaxText: "{{couponCode}} applied! Enjoy up to {{currSymbol}}{{origCoupAmt}} discount on your preferred seat and/or meal – Available discount: {{currSymbol}}{{remCoupAmt}}."
+      multiPaxText: "{{couponCode}} applied! Enjoy up to {{currSymbol}}{{origCoupAmt}} discount on your preferred seat(s) and/or meal(s) – Available discount: {{currSymbol}}{{remCoupAmt}}"
+    mealError: "Meals are not available for any sector"
+    secError: "No meals are available"
+    subTitle: "You can choose upto"
+    title: "Select your prefered meal(s)"
+    filter:
+      nonVegTxt: "Non Veg"
+      vegTxt: "Veg"
+    error:
+      title: "Meal selection is not available for the {{sectorId}} sector"
+      subTitle: "As a safety measure, airlines are currently not serving any meals on-board"
+    multifare:
+      error:
+        title: "With SpiceMax, you get a complimentary meal on-board. Choose from the available options on the flight."
+        subTitle: ""
+    nudgeToolTip:
+      title: "You might want to select meals for the other legs of the itinerary also."
+      subTitle: "Its always best and cheaper to book your desirable meals in advance."
+      lcaTxt: "Yes, Please"
+      rcaTxt: "No Thanks!"
+    footer:
+      selectText: "Select Meal(s)"
+      selectedText: "{{totalMeal}} Meal(s) Selected"
+      selectionText: "{{totalMeal}} of {{maxMeal}} selected"
+      subText: "{{totalMeal}} of {{maxMeal}} Meal(s) Selected"
+      meals: "Meals(s) "
+    data:
+      popular: "<font color='#FFFFFF'> Popular </font>"
+  seats:
+    freePriceBktText: "Free"
+    coupon:
+      singlePaxText: "{{couponCode}} applied! Seat selection is mandatory for web check-in. Save up to {{currSymbol}}{{origCoupAmt}} on your preferred seat & enjoy a seamless web check-in. Discount balance available: {{currSymbol}}{{remCoupAmt}}."
+      multiPaxText: "{{couponCode}} applied! Seat selection is mandatory for web check-in. Save up to {{currSymbol}}{{origCoupAmt}} on your preferred seat(s) & enjoy a seamless web check-in. Discount balance available: {{currSymbol}}{{remCoupAmt}}."
+    persuasionTextD: "Enjoy a comfortable flight with your favourite seat"
+    error:
+      title: "Seat selection is not available for the {{sectorId}} sector"
+      subTitle: "You may select your seat on your my account page after completing your booking or select it at the airport at the time of check-in"
+    nudgeToolTip:
+      title: "You might want to select seats for the other legs of the itinerary also."
+      subTitle: "Its always best to book your desirable seats in advance."
+      lcaTxt: "Yes, Please"
+      rcaTxt: "No Thanks!"
+    legends:
+      XLSeats:
+        Text: "Extra Legroom"
+      NonReclinerSeats:
+        Text: "Non Reclining"
+      EmergencyExitRowSeats:
+        Text: "Exit Row Seats"
+      BlackSeat:
+        Text: "MMTBLACK Seat"
+        tooltip: "Choose your free seat, as included in your MMTBLACK Privileges. Seat discount will be applied on completing all add-ons selections."
+    footer:
+      selectText: "Select Seat(s)"
+      selectedText: "{{totalSeat}} Seat(s) Selected"
+      selectionText: "{{totalSeat}} of {{maxSeat}} selected"
+      subText: "{{totalSeat}} of {{maxSeat}} Seat(s) Selected"
+      seats: "Seat(s) "
+    exitRowSeat: "Exit row seat"
+  airportMeals:
+    title: "Meals at the airport food court"
+    subTitle: "Grab a bite at <b>{{airportInfo}}</b>"
+    howToRedeem:
+      header: "How To Redeem"
+    viewAllText: "View all {count} airport meals"
+    persuation: "In-flight meals are not being served at present. Pre-book your airport meals at fab rates now!"
+  errorMsgs:
+    generic: "Could not perform action. Please try again__{{ancillaryType}}"
+    wrongCode: "Wrong title/code {{itemCode}} for Ancillary Type: {{ancillaryType}}__{{ancillaryType}}"
+    seatAlreadySelected: "This seat {{itemCode}} is already selected__{{ancillaryType}}"
+    spiceMaxComplMeal: "Can not choose meal(s) as you have chosen spicemax seat which provide complimentary meals__{{ancillaryType}}"
+    maxLimitMeal: "Sorry, you cannot select more than {{totalPax}} meal(s)__{{ancillaryType}}"
+    maxLimitGeneric: "Sorry, you cannot select more than {{totalPax}} {{ancillaryType}}__{{ancillaryType}}"
+    notAddedCantRemove: "Can not remove {{ancillaryType}} as no {{ancillaryType}} is added yet__{{ancillaryType}}"
+  msgs:
+    terminal: "Terminal {{depInfo}}, "
+    data:
+      rTitle:
+        veg: "Vegetarian"
+        nonVeg: "Non Vegetarian"
+        baggage: "Pre-purchased Baggage"
+      title:
+        baggage: "Additional {{bagQty}} {{bagUnit}}"
+loaderPopUp:
+  title: "Please wait"
+  subtitle: "while we recheck fares with the airline"
+  body: "This might take a few seconds. Please do not press the back or refresh button"
+ancillarySelection:
+  pendingText: "<font color='red'>Selection pending</font>"
+  emergencySeatsSelectionMsg: "Emergency row seats are allowed only for travellers between 15 and 65 years of age. These seats are not allowed for guests with reduced mobility, visually/speech impaired guests, expectant mothers."
+  emergencySeatsSelectionText: "Exit row seat"
+  spiceMaxDeSelectedAndMealsRestorMsg: "Since you have changed your seat selection, your earlier added meal has now been added back."
+  spiceMaxDeSelectedAndMealsRestoreText: "Spicemax seat changed"
+  spiceMaxSelectedAfterMealsSelectedMsg: "Your earlier selected meal has been removed as the Spicemax seat you have selected will provide a free meal."
+  spiceMaxSelectedAfterMealsSelectedText: "Spicemax seat selected"
+  seatSelectionSnackBar:
+    title: "Your Seats"
+    rca:
+      txt: "OKAY"
+    subTitleForSpiceMax: " (SpiceMAX seat)"
+    subTitleForSpiceMaxD: "SpiceMAX seat"
+  preAttach:
+    meals:
+      title: "Hey, we have pre-selected your preferred meal for your {{sectorId}} flight as well!"
+      itemTitle: "{{ancDataTitle}} x 1"
+    seats:
+      title: "Hey, we have pre-selected your preferred seat for your {{sectorId}} flight as well!"
+    cta:
+      lcaText: "REMOVE"
+      rcaText: "CONTINUE"
+webcheckin :
+  mysafety :
+    text : "<font color='#4a4a4a'>To enable better social distancing,<b> web check-in</b> is <b>NOW mandatory</b> for domestic air travel</font>"
+  header :
+    title : "Web Check-In"
+    subTitle : "<font color='#249995'>#AllYouNeedToKnow </font>"
+    rightCtaText: "OKAY"
+  messageList :
+    ancillarySeat: "<font color='#4a4a4a'><b>Seat selection</b> is a <b>MUST</b> for web check-in.<br>Avoid the middle seat, pre-book your seat(s) NOW!</font>"
+    doc: "<font color='#4a4a4a'> On <b>booking confirmation</b>, tap on <b>‘Web Check-in Now’</b> & complete your web check-in.</font>"
+    mob: "<font color='4a4a4a'>Upon successful web check-in, your <b>boarding pass will be sent to your WhatsApp & email.</b></font>"
+  seatSelectMsg : "SELECT SEATS"
+  skipSeatMsg : "I’ll do it later"
+blackToastMsg:
+  meal:
+    firstDiscouted: "MMTBLACK discounted meal - discount will be applied after completing add-on selections"
+    first: "MMTBLACK Free meal - discount will be applied after completing add-on selections."
+    second: "Only 1 add-on will be discounted."
+  seat:
+    firstDiscouted: "MMTBLACK discounted seat - discount will be applied after completing add-on selections"
+    first: "MMTBLACK Free seat - discount will be applied after completing add-on selections"
+    second: "Only 1 add-on will be discounted."
+  cab:
+    firstDiscouted: "MMTBLACK discounted cab - discount will be applied after completing add-on selections"
+    first: "MMTBLACK Free cab - discount will be applied after completing add-on selections"
+    second: "Only 1 add-on will be discounted."
+  notify:
+    ctaText: "Got It"
+blackWindow:
+  title: "MMTBLACK <font color='{{tierColor}}'>{{tierName}}</font><font color='#ffffff'> Member </font>"
+  subTitle: "You have {{totalUnusedBenefits}} out of {{totalBenefits}} benefits left to avail!"
+  preSelectedSubTitle: "We have pre-selected a benefit for you in this booking."
+  selectionSubTitle: "We have successfully applied your <b>free add-on in this booking.</b>"
+  data:
+    title: "You can choose only one benefit per booking. Take your pick!"
+  breakUp:
+    totalText: "Total Fare"
+    blackDisText: "MMTBLACK Benefits"
+    payableText: "Total Payable"
+    totalFareStr: "<span style='font-size:16px;text-align: right;line-height: normal;''><span>{{totalFareAmount}}</span></span>"
+  nudgeData:
+    lcaText: "I'll use later"
+    rcaText: "Continue"
+mandatoryValidationWarning:
+  title: "Seat selection is mandatory for this booking"
+  subTitle: "Please select your seat to continue"
+  cta:
+    text: "Select Seats"

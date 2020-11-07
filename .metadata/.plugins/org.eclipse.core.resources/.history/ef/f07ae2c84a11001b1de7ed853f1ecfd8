@@ -1,0 +1,21 @@
+package algorithms.graphs;
+
+public class Edge {
+
+	public int src;
+	public int dest;
+	public int weight;
+	
+	public Edge() {
+		this.src = 0;
+		this.dest = 0;
+		this.weight = 0;
+	}
+	
+	public Edge(int src,int dest,int weight) {
+		this.src = src;
+		this.dest = dest;
+		this.weight = weight;
+	}
+	
+}

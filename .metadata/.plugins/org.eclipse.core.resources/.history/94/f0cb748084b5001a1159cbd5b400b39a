@@ -1,0 +1,60 @@
+package javaproblems.producerConsumer;
+
+import java.util.LinkedList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		
+		LinkedList<Integer> buffer = new LinkedList<Integer>();
+		int bufferSize = 10;
+		Integer lockObj = new Integer(5);
+		
+		ProducerConsumer pcObj = new ProducerConsumer(buffer,bufferSize);
+		
+		
+	    Thread producerThread = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				try {
+					pcObj.produce();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		});
+	    
+	    Thread consumerThread = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				try {
+					pcObj.consume();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		});
+	    
+	    producerThread.start();
+	    consumerThread.start();
+	    
+	    try {
+			producerThread.join();
+		    consumerThread.join();
+	    } catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    
+		
+		
+	}
+	
+}

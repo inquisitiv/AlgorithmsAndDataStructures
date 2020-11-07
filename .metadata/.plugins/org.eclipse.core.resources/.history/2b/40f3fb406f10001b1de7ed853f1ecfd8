@@ -1,0 +1,193 @@
+
+ancillary:
+ common:
+  anclryNASectorTabTxt: "CB_ANCILLARY_00001"
+  anclrySelectionPendingSectorTabTxt: "CB_ANCILLARY_00002"
+  footer:
+   title: "CB_ANCILLARY_00003"
+   titleD: "CB_ANCILLARY_00004"
+  nudgeDialog:
+   title: "CB_ANCILLARY_00005"
+   subTitle: "CB_ANCILLARY_00006"
+   rcaTxt: "CB_ANCILLARY_00007"
+   suggestion:
+    actionTxt: "CB_ANCILLARY_00008"
+ baggage:
+  baggageError: "CB_ANCILLARY_00009"
+  persuasionTextD: "CB_ANCILLARY_00010"
+  secError: "CB_ANCILLARY_00011"
+  subTitle: "CB_ANCILLARY_00012"
+  messageCabinBagOnly: "CB_ANCILLARY_00013"
+  message: "CB_ANCILLARY_00014"
+  title: "CB_ANCILLARY_00015"
+  error:
+   title: "CB_ANCILLARY_00016"
+   subTitle: "CB_ANCILLARY_00017"
+  footer:
+   selectText: "CB_ANCILLARY_00018"
+   selectedText: "CB_ANCILLARY_00019"
+   selectionText: "CB_ANCILLARY_00020"
+   subText: "CB_ANCILLARY_00021"
+ meal:
+  blackMeal:
+   text: "CB_ANCILLARY_00022"
+  coupon:
+   singlePaxText: "CB_ANCILLARY_00023"
+   multiPaxText: "CB_ANCILLARY_00024"
+  mealError: "CB_ANCILLARY_00025"
+  secError: "CB_ANCILLARY_00026"
+  subTitle: "CB_ANCILLARY_00027"
+  title: "CB_ANCILLARY_00028"
+  filter:
+   nonVegTxt: "CB_ANCILLARY_00029"
+   vegTxt: "CB_ANCILLARY_00030"
+  error:
+   title: "CB_ANCILLARY_00031"
+   subTitle: "CB_ANCILLARY_00032"
+  multifare:
+   error:
+    title: "CB_ANCILLARY_00033"
+    subTitle: "CB_ANCILLARY_00034"
+  nudgeToolTip:
+   title: "CB_ANCILLARY_00035"
+   subTitle: "CB_ANCILLARY_00036"
+   lcaTxt: "CB_ANCILLARY_00037"
+   rcaTxt: "CB_ANCILLARY_00038"
+  footer:
+   selectText: "CB_ANCILLARY_00039"
+   selectedText: "CB_ANCILLARY_00040"
+   selectionText: "CB_ANCILLARY_00041"
+   subText: "CB_ANCILLARY_00042"
+   meals: "CB_ANCILLARY_00043"
+  data:
+   popular: "CB_ANCILLARY_00044"
+ seats:
+  freePriceBktText: "CB_ANCILLARY_00045"
+  coupon:
+   singlePaxText: "CB_ANCILLARY_00046"
+   multiPaxText: "CB_ANCILLARY_00047"
+  persuasionTextD: "CB_ANCILLARY_00048"
+  error:
+   title: "CB_ANCILLARY_00049"
+   subTitle: "CB_ANCILLARY_00050"
+  nudgeToolTip:
+   title: "CB_ANCILLARY_00051"
+   subTitle: "CB_ANCILLARY_00052"
+   lcaTxt: "CB_ANCILLARY_00053"
+   rcaTxt: "CB_ANCILLARY_00054"
+  legends:
+   XLSeats:
+    Text: "CB_ANCILLARY_00055"
+   NonReclinerSeats:
+    Text: "CB_ANCILLARY_00056"
+   EmergencyExitRowSeats:
+    Text: "CB_ANCILLARY_00057"
+   BlackSeat:
+    Text: "CB_ANCILLARY_00058"
+    tooltip: "CB_ANCILLARY_00059"
+  footer:
+   selectText: "CB_ANCILLARY_00060"
+   selectedText: "CB_ANCILLARY_00061"
+   selectionText: "CB_ANCILLARY_00062"
+   subText: "CB_ANCILLARY_00063"
+   seats: "CB_ANCILLARY_00064"
+  exitRowSeat: "CB_ANCILLARY_00065"
+ airportMeals:
+  title: "CB_ANCILLARY_00066"
+  subTitle: "CB_ANCILLARY_00067"
+  howToRedeem:
+   header: "CB_ANCILLARY_00068"
+  viewAllText: "CB_ANCILLARY_00069"
+  persuation: "CB_ANCILLARY_00070"
+ errorMsgs:
+  generic: "CB_ANCILLARY_00071"
+  wrongCode: "CB_ANCILLARY_00072"
+  seatAlreadySelected: "CB_ANCILLARY_00073"
+  spiceMaxComplMeal: "CB_ANCILLARY_00074"
+  maxLimitMeal: "CB_ANCILLARY_00075"
+  maxLimitGeneric: "CB_ANCILLARY_00076"
+  notAddedCantRemove: "CB_ANCILLARY_00077"
+ msgs:
+  terminal: "CB_ANCILLARY_00078"
+  data:
+   rTitle:
+    veg: "CB_ANCILLARY_00079"
+    nonVeg: "CB_ANCILLARY_00080"
+    baggage: "CB_ANCILLARY_00081"
+   title:
+    baggage: "CB_ANCILLARY_00082"
+loaderPopUp:
+ title: "CB_ANCILLARY_00083"
+ subtitle: "CB_ANCILLARY_00084"
+ body: "CB_ANCILLARY_00085"
+ancillarySelection:
+ pendingText: "CB_ANCILLARY_00086"
+ emergencySeatsSelectionMsg: "CB_ANCILLARY_00087"
+ emergencySeatsSelectionText: "CB_ANCILLARY_00088"
+ spiceMaxDeSelectedAndMealsRestorMsg: "CB_ANCILLARY_00089"
+ spiceMaxDeSelectedAndMealsRestoreText: "CB_ANCILLARY_00090"
+ spiceMaxSelectedAfterMealsSelectedMsg: "CB_ANCILLARY_00091"
+ spiceMaxSelectedAfterMealsSelectedText: "CB_ANCILLARY_00092"
+ seatSelectionSnackBar:
+  title: "CB_ANCILLARY_00093"
+  rca:
+   txt: "CB_ANCILLARY_00094"
+  subTitleForSpiceMax: "CB_ANCILLARY_00095"
+  subTitleForSpiceMaxD: "CB_ANCILLARY_00096"
+ preAttach:
+  meals:
+   title: "CB_ANCILLARY_00097"
+   itemTitle: "CB_ANCILLARY_00098"
+  seats:
+   title: "CB_ANCILLARY_00099"
+  cta:
+   lcaText: "CB_ANCILLARY_00100"
+   rcaText: "CB_ANCILLARY_00101"
+webcheckin:
+ mysafety:
+  text: "CB_ANCILLARY_00102"
+ header:
+  title: "CB_ANCILLARY_00103"
+  subTitle: "CB_ANCILLARY_00104"
+  rightCtaText: "CB_ANCILLARY_00105"
+ messageList:
+  ancillarySeat: "CB_ANCILLARY_00106"
+  doc: "CB_ANCILLARY_00107"
+  mob: "CB_ANCILLARY_00108"
+ seatSelectMsg: "CB_ANCILLARY_00109"
+ skipSeatMsg: "CB_ANCILLARY_00110"
+blackToastMsg:
+ meal:
+  firstDiscouted: "CB_ANCILLARY_00111"
+  first: "CB_ANCILLARY_00112"
+  second: "CB_ANCILLARY_00113"
+ seat:
+  firstDiscouted: "CB_ANCILLARY_00114"
+  first: "CB_ANCILLARY_00115"
+  second: "CB_ANCILLARY_00116"
+ cab:
+  firstDiscouted: "CB_ANCILLARY_00117"
+  first: "CB_ANCILLARY_00118"
+  second: "CB_ANCILLARY_00119"
+ notify:
+  ctaText: "CB_ANCILLARY_00120"
+blackWindow:
+ title: "CB_ANCILLARY_00121"
+ subTitle: "CB_ANCILLARY_00122"
+ preSelectedSubTitle: "CB_ANCILLARY_00123"
+ selectionSubTitle: "CB_ANCILLARY_00124"
+ data:
+  title: "CB_ANCILLARY_00125"
+ breakUp:
+  totalText: "CB_ANCILLARY_00126"
+  blackDisText: "CB_ANCILLARY_00127"
+  payableText: "CB_ANCILLARY_00128"
+  totalFareStr: "CB_ANCILLARY_00129"
+ nudgeData:
+  lcaText: "CB_ANCILLARY_00130"
+  rcaText: "CB_ANCILLARY_00131"
+mandatoryValidationWarning:
+ title: "CB_ANCILLARY_00132"
+ subTitle: "CB_ANCILLARY_00133"
+ cta:
+  text: "CB_ANCILLARY_00134"

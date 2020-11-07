@@ -1,0 +1,5 @@
+Sorting:
+
+Slow algo	        :  O(n^2)
+Fast algo	        : O(nlogn)
+Non-comparsion algo : O(n)

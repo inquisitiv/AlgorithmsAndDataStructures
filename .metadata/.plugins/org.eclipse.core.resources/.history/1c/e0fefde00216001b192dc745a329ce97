@@ -1,0 +1,569 @@
+
+bookingSummary:
+ btnText: "CB_THANKYOU_00001"
+Anchor:
+ thankyou:
+  text: "CB_THANKYOU_00002"
+whatsapp:
+ whatsAppTitle: "CB_THANKYOU_00003"
+ WhatsAppSubTitle: "CB_THANKYOU_00004"
+ lca:
+  text: "CB_THANKYOU_00005"
+ rca:
+  text: "CB_THANKYOU_00006"
+bdb:
+ optInBDB:
+  optInText: "CB_THANKYOU_00007"
+  text:
+   successtitle: "CB_THANKYOU_00008"
+   failuretitle: "CB_THANKYOU_00009"
+   failuretext: "CB_THANKYOU_00010"
+   successtext: "CB_THANKYOU_00011"
+needHelpFloat:
+ b2c:
+  data:
+   call:
+    title: "CB_THANKYOU_00012"
+   chat:
+    cta:
+     text: "CB_THANKYOU_00013"
+needHelp:
+ b2c:
+  title: "CB_THANKYOU_00014"
+  data:
+   call:
+    title: "CB_THANKYOU_00015"
+   chat:
+    cta:
+     text: "CB_THANKYOU_00016"
+ corp:
+  title: "CB_THANKYOU_00017"
+  data:
+   call:
+    title: "CB_THANKYOU_00018"
+   chat:
+    cta:
+     text: "CB_THANKYOU_00019"
+helpline:
+ card:
+  title: "CB_THANKYOU_00020"
+  subTitle: "CB_THANKYOU_00021"
+  infoData:
+   callTitle: "CB_THANKYOU_00022"
+   emailTitle: "CB_THANKYOU_00023"
+snackbar:
+ lca:
+  text: "CB_THANKYOU_00024"
+ rca:
+  text: "CB_THANKYOU_00025"
+tripCard:
+ title: "CB_THANKYOU_00026"
+ subTitle: "CB_THANKYOU_00027"
+ desc: "CB_THANKYOU_00028"
+ ctaText: "CB_THANKYOU_00029"
+seatFail:
+ cta: "CB_THANKYOU_00030"
+ title: "CB_THANKYOU_00031"
+ text: "CB_THANKYOU_00032"
+ additionalText: "CB_THANKYOU_00033"
+travellerInfo:
+ cardTitle: "CB_THANKYOU_00034"
+ cardTitle2: "CB_THANKYOU_00035"
+ subTitle:
+  adult:
+   one: "CB_THANKYOU_00036"
+   many: "CB_THANKYOU_00037"
+  child:
+   one: "CB_THANKYOU_00038"
+   many: "CB_THANKYOU_00039"
+  infant:
+   one: "CB_THANKYOU_00040"
+   many: "CB_THANKYOU_00041"
+flightSummary:
+ cardTitle: "CB_THANKYOU_00042"
+ subTitle:
+  mc: "CB_THANKYOU_00043"
+ trips:
+  subTitle:
+   dataTiming: "CB_THANKYOU_00044"
+  title:
+   mc: "CB_THANKYOU_00045"
+   other: "CB_THANKYOU_00046"
+   rt: "CB_THANKYOU_00047"
+statusCard:
+ bkngIdSuffix: "CB_THANKYOU_00048"
+ subTitle: "CB_THANKYOU_00049"
+ bookingState:
+  done: "CB_THANKYOU_00050"
+  failed: "CB_THANKYOU_00051"
+  airlineStatus: "CB_THANKYOU_00052"
+ dt:
+  cfmd:
+   data: "CB_THANKYOU_00053"
+   delay:
+    data: "CB_THANKYOU_00054"
+    content: "CB_THANKYOU_00055"
+   content:
+    text1: "CB_THANKYOU_00056"
+    text2: "CB_THANKYOU_00057"
+    text3: "CB_THANKYOU_00058"
+    btnTxt: "CB_THANKYOU_00059"
+  failed:
+   content:
+    text1: "CB_THANKYOU_00060"
+    text2: "CB_THANKYOU_00061"
+    text3: "CB_THANKYOU_00062"
+  failed-holdbook:
+   content:
+    text1: "CB_THANKYOU_00063"
+    text2: "CB_THANKYOU_00064"
+    text3: "CB_THANKYOU_00065"
+    text4: "CB_THANKYOU_00066"
+    text5: "CB_THANKYOU_00067"
+    btnTxt: "CB_THANKYOU_00068"
+  void:
+   content:
+    text1: "CB_THANKYOU_00069"
+    text2: "CB_THANKYOU_00070"
+    text3: "CB_THANKYOU_00071"
+    text4: "CB_THANKYOU_00072"
+    text5: "CB_THANKYOU_00073"
+    text6: "CB_THANKYOU_00074"
+    text7: "CB_THANKYOU_00075"
+    btnTxt: "CB_THANKYOU_00076"
+  partial:
+   content:
+    text1: "CB_THANKYOU_00077"
+    text2: "CB_THANKYOU_00078"
+    text3: "CB_THANKYOU_00079"
+    btnTxt: "CB_THANKYOU_00080"
+  partialRetry:
+   content:
+    text1: "CB_THANKYOU_00081"
+    text2: "CB_THANKYOU_00082"
+    text3: "CB_THANKYOU_00083"
+  partialRetryTimeOut:
+   content:
+    text1: "CB_THANKYOU_00084"
+    text2: "CB_THANKYOU_00085"
+    text3: "CB_THANKYOU_00086"
+    btnTxt: "CB_THANKYOU_00087"
+  inprocess:
+   content:
+    text1: "CB_THANKYOU_00088"
+    text2: "CB_THANKYOU_00089"
+    text3: "CB_THANKYOU_00090"
+  inprocessTimeOut:
+   content:
+    text1: "CB_THANKYOU_00091"
+    text2: "CB_THANKYOU_00092"
+    text3: "CB_THANKYOU_00093"
+    btnTxt: "CB_THANKYOU_00094"
+  error:
+   content:
+    text1: "CB_THANKYOU_00095"
+    text2: "CB_THANKYOU_00096"
+    text3: "CB_THANKYOU_00097"
+    text4: "CB_THANKYOU_00098"
+    btnTxt: "CB_THANKYOU_00099"
+ mob:
+  cfmd:
+   data:
+    email: "CB_THANKYOU_00100"
+    mob: "CB_THANKYOU_00101"
+   delay:
+    data: "CB_THANKYOU_00102"
+    content: "CB_THANKYOU_00103"
+   content:
+    text1: "CB_THANKYOU_00104"
+    text2: "CB_THANKYOU_00105"
+    bookingId: "CB_THANKYOU_00106"
+   cHeaderText: "CB_THANKYOU_00107"
+   cHeaderTextDelay: "CB_THANKYOU_00108"
+  failed:
+   content:
+    text1: "CB_THANKYOU_00109"
+    text2: "CB_THANKYOU_00110"
+   cHeaderText: "CB_THANKYOU_00111"
+  failed-holdbook:
+   content:
+    text1: "CB_THANKYOU_00112"
+    text2: "CB_THANKYOU_00113"
+    text3: "CB_THANKYOU_00114"
+    text4: "CB_THANKYOU_00115"
+    text5: "CB_THANKYOU_00116"
+   cHeaderText: "CB_THANKYOU_00117"
+  void:
+   data: "CB_THANKYOU_00118"
+   content:
+    text1: "CB_THANKYOU_00119"
+    text2: "CB_THANKYOU_00120"
+    text3: "CB_THANKYOU_00121"
+    text4: "CB_THANKYOU_00122"
+    btnText: "CB_THANKYOU_00123"
+   cHeaderText: "CB_THANKYOU_00124"
+  partial:
+   content:
+    text1: "CB_THANKYOU_00125"
+    text2: "CB_THANKYOU_00126"
+    text3: "CB_THANKYOU_00127"
+    text4: "CB_THANKYOU_00128"
+   cHeaderText: "CB_THANKYOU_00129"
+  partialRetry:
+   content:
+    text1: "CB_THANKYOU_00130"
+    text2: "CB_THANKYOU_00131"
+    text3: "CB_THANKYOU_00132"
+   cHeaderText: "CB_THANKYOU_00133"
+  partialRetryTimeOut:
+   content:
+    text1: "CB_THANKYOU_00134"
+    text2: "CB_THANKYOU_00135"
+    text3: "CB_THANKYOU_00136"
+   cHeaderText: "CB_THANKYOU_00137"
+  inprocess:
+   content:
+    text1: "CB_THANKYOU_00138"
+    text2: "CB_THANKYOU_00139"
+    text3: "CB_THANKYOU_00140"
+   cHeaderText: "CB_THANKYOU_00141"
+  inprocessTimeOut:
+   content:
+    text1: "CB_THANKYOU_00142"
+    text2: "CB_THANKYOU_00143"
+    text3: "CB_THANKYOU_00144"
+   cHeaderText: "CB_THANKYOU_00145"
+  failedNew:
+   content:
+    text1: "CB_THANKYOU_00146"
+    text2: "CB_THANKYOU_00147"
+    text3: "CB_THANKYOU_00148"
+   cHeaderText: "CB_THANKYOU_00149"
+  error:
+   content:
+    text1: "CB_THANKYOU_00150"
+    text2: "CB_THANKYOU_00151"
+    text3: "CB_THANKYOU_00152"
+    text4: "CB_THANKYOU_00153"
+fareInfoCard:
+ cardTitle: "CB_THANKYOU_00154"
+ refundMsg: "CB_THANKYOU_00155"
+ convenienceFee: "CB_THANKYOU_00156"
+ text: "CB_THANKYOU_00157"
+ textD: "CB_THANKYOU_00158"
+ fareEntity:
+  disc:
+   title: "CB_THANKYOU_00159"
+ impInfo: "CB_THANKYOU_00160"
+baggageCancellationCard:
+ textList:
+  text1: "CB_THANKYOU_00161"
+  text2: "CB_THANKYOU_00162"
+commonHeader:
+ bookingConfirmed:
+  header: "CB_THANKYOU_00163"
+  subHeader: "CB_THANKYOU_00164"
+ bookingFailed:
+  header: "CB_THANKYOU_00165"
+  subHeader: "CB_THANKYOU_00166"
+ bookingPartial:
+  header: "CB_THANKYOU_00167"
+  subHeader: "CB_THANKYOU_00168"
+ bookingInprocess:
+  pollingReq:
+   header: "CB_THANKYOU_00169"
+   subHeader: "CB_THANKYOU_00170"
+  header: "CB_THANKYOU_00171"
+ bookingPnrPending:
+  pollingReq:
+   header: "CB_THANKYOU_00172"
+   subHeader: "CB_THANKYOU_00173"
+  header: "CB_THANKYOU_00174"
+ bookingRetry:
+  pollingReq:
+   header: "CB_THANKYOU_00175"
+   subHeader: "CB_THANKYOU_00176"
+  header: "CB_THANKYOU_00177"
+summaryCard:
+ title:
+  multiCity: "CB_THANKYOU_00178"
+  roundTrip: "CB_THANKYOU_00179"
+  oneWay: "CB_THANKYOU_00180"
+ text: "CB_THANKYOU_00181"
+refundFareBreakup:
+ cardTitle: "CB_THANKYOU_00182"
+ text: "CB_THANKYOU_00183"
+messages:
+ addOns:
+  card:
+   title: "CB_THANKYOU_00184"
+   subTitle: "CB_THANKYOU_00185"
+  brb:
+   title: "CB_THANKYOU_00186"
+   refundAmtZero:
+    subtitle: "CB_THANKYOU_00187"
+    description: "CB_THANKYOU_00188"
+    learnMoreLink:
+     title: "CB_THANKYOU_00189"
+     text: "CB_THANKYOU_00190"
+   refundAmtNonZero:
+    subtitle: "CB_THANKYOU_00191"
+    description: "CB_THANKYOU_00192"
+    fareBreakupLink:
+     text: "CB_THANKYOU_00193"
+  zcAddon:
+   title: "CB_THANKYOU_00194"
+   refundAmtZero:
+    subtitle: "CB_THANKYOU_00195"
+    description: "CB_THANKYOU_00196"
+    learnMoreLink:
+     title: "CB_THANKYOU_00197"
+     text: "CB_THANKYOU_00198"
+   refundAmtNonZero:
+    subtitle: "CB_THANKYOU_00199"
+    description: "CB_THANKYOU_00200"
+    fareBreakupLink:
+     text: "CB_THANKYOU_00201"
+  insuranceAddon:
+   title: "CB_THANKYOU_00202"
+   refundAmtZero:
+    subtitle: "CB_THANKYOU_00203"
+    description: "CB_THANKYOU_00204"
+    learnMoreLink:
+     title: "CB_THANKYOU_00205"
+     text: "CB_THANKYOU_00206"
+   refundAmtNonZero:
+    subtitle: "CB_THANKYOU_00207"
+    description: "CB_THANKYOU_00208"
+    fareBreakupLink:
+     text: "CB_THANKYOU_00209"
+  insurance:
+   title: "CB_THANKYOU_00210"
+   subTitle: "CB_THANKYOU_00211"
+  zc:
+   title: "CB_THANKYOU_00212"
+   subTitle: "CB_THANKYOU_00213"
+   knowMore: "CB_THANKYOU_00214"
+   fullRefund: "CB_THANKYOU_00215"
+ addOnItemMap:
+  charity: "CB_THANKYOU_00216"
+  zc: "CB_THANKYOU_00217"
+  insurance: "CB_THANKYOU_00218"
+  digit: "CB_THANKYOU_00219"
+  meals: "CB_THANKYOU_00220"
+  seats: "CB_THANKYOU_00221"
+  baggage: "CB_THANKYOU_00222"
+  fastForward: "CB_THANKYOU_00223"
+  cabs: "CB_THANKYOU_00224"
+ importantInfo:
+  cardTitle: "CB_THANKYOU_00225"
+  fraudAlert:
+   b2c:
+    description: "CB_THANKYOU_00226"
+    descriptionD: "CB_THANKYOU_00227"
+    descriptionUSA: "CB_THANKYOU_00228"
+    descriptionDUSA: "CB_THANKYOU_00229"
+    descriptionUAE: "CB_THANKYOU_00230"
+    descriptionDUAE: "CB_THANKYOU_00231"
+    title: "CB_THANKYOU_00232"
+   b2b:
+    description: "CB_THANKYOU_00233"
+    descriptionD: "CB_THANKYOU_00234"
+    title: "CB_THANKYOU_00235"
+   cta:
+    description: "CB_THANKYOU_00236"
+    descriptionD: "CB_THANKYOU_00237"
+    title: "CB_THANKYOU_00238"
+ downloadInfo:
+  title: "CB_THANKYOU_00239"
+ discountSubtitle:
+  subtitle: "CB_THANKYOU_00240"
+WEB_CHECK_IN:
+ cardTitle: "CB_THANKYOU_00241"
+ cardSubTitle: "CB_THANKYOU_00242"
+ cardSubTitleAvl: "CB_THANKYOU_00243"
+ cardData:
+  messages:
+   msg1: "CB_THANKYOU_00244"
+   msg2: "CB_THANKYOU_00245"
+  tag:
+   text: "CB_THANKYOU_00246"
+  nudge:
+   title: "CB_THANKYOU_00247"
+   lca:
+    text: "CB_THANKYOU_00248"
+   data:
+    msg: "CB_THANKYOU_00249"
+  reminder:
+   msg: "CB_THANKYOU_00250"
+ progressBarData:
+  states:
+   state1: "CB_THANKYOU_00251"
+   state2: "CB_THANKYOU_00252"
+ ctaDetail:
+  textAvl: "CB_THANKYOU_00253"
+  text: "CB_THANKYOU_00254"
+flightsInfos:
+ coulmn1: "CB_THANKYOU_00255"
+ coulmn2: "CB_THANKYOU_00256"
+ coulmn3: "CB_THANKYOU_00257"
+ gate:
+  avl: "CB_THANKYOU_00258"
+ tripDetails:
+  ow:
+   title: "CB_THANKYOU_00259"
+   subTitle: "CB_THANKYOU_00260"
+  rt:
+   title: "CB_THANKYOU_00261"
+   subTitle: "CB_THANKYOU_00262"
+  mc:
+   title: "CB_THANKYOU_00263"
+   subTitle: "CB_THANKYOU_00264"
+flightsInfosDT:
+ coulmn1: "CB_THANKYOU_00265"
+ coulmn2: "CB_THANKYOU_00266"
+ coulmn3: "CB_THANKYOU_00267"
+ coulmn4: "CB_THANKYOU_00268"
+ gate:
+  avl: "CB_THANKYOU_00269"
+ tripDetails:
+  ow: "CB_THANKYOU_00270"
+  rt: "CB_THANKYOU_00271"
+  mc: "CB_THANKYOU_00272"
+safetyInfoCard:
+ cardTitle: "CB_THANKYOU_00273"
+ cardSubTitle: "CB_THANKYOU_00274"
+ cardDesc: "CB_THANKYOU_00275"
+safetyInfoBanner:
+ textDT: "CB_THANKYOU_00276"
+ subTitle: "CB_THANKYOU_00277"
+ ctaText: "CB_THANKYOU_00278"
+ ctaMobTitle: "CB_THANKYOU_00279"
+autoRefund:
+ title: "CB_THANKYOU_00280"
+ titlePayMode: "CB_THANKYOU_00281"
+ subTitleWallet: "CB_THANKYOU_00282"
+ subTitleOriginalPayMode: "CB_THANKYOU_00283"
+ refundTextWallet1: "CB_THANKYOU_00284"
+ refundTextWallet2: "CB_THANKYOU_00285"
+ refundTextWallet3: "CB_THANKYOU_00286"
+ refundTextOriginalMode1: "CB_THANKYOU_00287"
+ refundTextViewRefund: "CB_THANKYOU_00288"
+ estimatedAmountText: "CB_THANKYOU_00289"
+ cta:
+  text: "CB_THANKYOU_00290"
+ refundBreakup:
+  title: "CB_THANKYOU_00291"
+  disc:
+   text: "CB_THANKYOU_00292"
+   textD: "CB_THANKYOU_00293"
+ refundFlightFare:
+  Text: "CB_THANKYOU_00294"
+  TextD: "CB_THANKYOU_00295"
+ refundableConvFee:
+  Text: "CB_THANKYOU_00296"
+  TextD: "CB_THANKYOU_00297"
+ refundCTA:
+  Text: "CB_THANKYOU_00298"
+statusTag:
+ confirmed:
+  text: "CB_THANKYOU_00299"
+ failed:
+  text: "CB_THANKYOU_00300"
+ pending:
+  text: "CB_THANKYOU_00301"
+newthankyou:
+ card:
+  fareinfo:
+   youpaid: "CB_THANKYOU_00302"
+   viewfb: "CB_THANKYOU_00303"
+ancillaryList:
+ meal:
+  one: "CB_THANKYOU_00304"
+  many: "CB_THANKYOU_00305"
+ seat:
+  one: "CB_THANKYOU_00306"
+  many: "CB_THANKYOU_00307"
+ baggage:
+  one: "CB_THANKYOU_00308"
+  many: "CB_THANKYOU_00309"
+errV1:
+ commonHeader:
+  header: "CB_THANKYOU_00310"
+  subHeader: "CB_THANKYOU_00311"
+ mima:
+  text: "CB_THANKYOU_00312"
+ failed:
+  text: "CB_THANKYOU_00313"
+d2dBaggage:
+ title: "CB_THANKYOU_00314"
+ subtitle: "CB_THANKYOU_00315"
+addAncillaryFF:
+ title: "CB_THANKYOU_00316"
+addAncillaryFailed:
+ title: "CB_THANKYOU_00317"
+addAncillary:
+ single:
+  title: "CB_THANKYOU_00318"
+ multiple:
+  title: "CB_THANKYOU_00319"
+postSale:
+ title: "CB_THANKYOU_00320"
+ getVoucherCta:
+  text: "CB_THANKYOU_00321"
+ getWebCheckInCTA:
+  text: "CB_THANKYOU_00322"
+ getSeatOrMealCTA:
+  text: "CB_THANKYOU_00323"
+ getModifyCTA:
+  text: "CB_THANKYOU_00324"
+ getCancelAllTcksCTA:
+  text: "CB_THANKYOU_00325"
+ getMoreCTA:
+  text: "CB_THANKYOU_00326"
+status:
+ text: "CB_THANKYOU_00327"
+ text2: "CB_THANKYOU_00328"
+ pnrPendingText:
+  text1: "CB_THANKYOU_00329"
+  text2: "CB_THANKYOU_00330"
+  text3: "CB_THANKYOU_00331"
+  text4: "CB_THANKYOU_00332"
+ addonText:
+  text1: "CB_THANKYOU_00333"
+  text2: "CB_THANKYOU_00334"
+ pendingText:
+  text1: "CB_THANKYOU_00335"
+  text2: "CB_THANKYOU_00336"
+  text3: "CB_THANKYOU_00337"
+  text4: "CB_THANKYOU_00338"
+ failedText:
+  paymentReceived:
+   original:
+    text1: "CB_THANKYOU_00339"
+    text2: "CB_THANKYOU_00340"
+    text3: "CB_THANKYOU_00341"
+    text4: "CB_THANKYOU_00342"
+   wallet:
+    text1: "CB_THANKYOU_00343"
+    text2: "CB_THANKYOU_00344"
+    text3: "CB_THANKYOU_00345"
+  paymentNotReceived:
+   text1: "CB_THANKYOU_00346"
+   text2: "CB_THANKYOU_00347"
+   text3: "CB_THANKYOU_00348"
+ tnc:
+  title: "CB_THANKYOU_00349"
+ partialText: "CB_THANKYOU_00350"
+cabAddon:
+ title: "CB_THANKYOU_00351"
+ subtitle: "CB_THANKYOU_00352"
+ description:
+  title: "CB_THANKYOU_00353"
+extraSeat:
+ placeHolder:
+  double: "CB_THANKYOU_00354"
+  triple: "CB_THANKYOU_00355"
+charters:
+ jrnyLabel:
+  text: "CB_THANKYOU_00356"

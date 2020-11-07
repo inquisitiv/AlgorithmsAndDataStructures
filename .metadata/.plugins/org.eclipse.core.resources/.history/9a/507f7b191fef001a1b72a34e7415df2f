@@ -1,0 +1,47 @@
+package problems.fb;
+
+public class ReverseLinkedList {
+		  
+		  class Node {
+		    int data;
+		    Node next;
+		    Node(int x) {
+		      data = x;
+		      next = null;
+		    }
+		  }
+
+		 Node reverseHelper(Node curr) {
+		      Node start = curr;
+		      Node prev;
+		      Node next;
+		      while(curr == null || curr.data%2!=0) {
+		         next= curr.next;
+		         curr.next= prev;
+		         prev = curr;
+		         curr = next;
+		      }
+		    start.next = curr;
+		    return prev;
+		 } // Add any helper functions you may need here
+		  
+
+		  Node reverse(Node head) {
+		    // Write your code here
+		    Node curr = head;
+		    Node prev;
+		    Node start;
+		    while(curr == null || curr.data%2!=0) {
+		        prev= curr;
+		        curr = curr.next;
+		      }
+		    if (curr == null || curr.data%2==0) {
+		       if(prev != null) {
+		         prev.next = reverse(curr);
+		       } else {
+		    	 return reverse(curr);  
+		       }
+		    }
+		  
+		 
+}

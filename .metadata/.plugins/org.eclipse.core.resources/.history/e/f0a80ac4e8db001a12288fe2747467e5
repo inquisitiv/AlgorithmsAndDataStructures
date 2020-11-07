@@ -1,0 +1,78 @@
+package problems.aditya.recursion;
+
+class WildCards {
+	
+	    public static void main(String[] args) {
+			
+	    	//System.out.println(isMatch("abceb", "*a*b"));
+	    	//System.out.println(isMatch("", "*"));
+	    	//System.out.println(isMatch("abced", "*a*b"));
+	    	//System.out.println(isMatch("abefcdgiescdfimde","ab*cd?i*de"));
+	    	System.out.println(isMatch("aaaa","***a"));
+	    	//System.out.println(isMatch("abceb", "*a*b"));
+	    	
+		}
+	
+	    public static boolean isMatch(String s, String p) {
+	    	
+	        return firstMatch(s, 0, p, 0);
+	    }
+	    
+	     public static boolean firstMatch(String s,int start, String p, int pstart) {
+	    	 if(p == "*") {
+		    		return true;
+		     }
+	    	 if(pstart<p.length() && start>=s.length()) {
+	    		 return false;
+	    		 
+	    	 }
+	         if((pstart>=p.length())){
+
+	        	 if((start>=s.length())){
+	        		 return true;
+	        	 } else {
+	        		 return false;
+	        	 }
+	        	 
+	         }
+	    	 
+	        System.out.println("s :" + s.substring(start));
+	        System.out.println("p :" + p.substring(pstart));
+	        char match = p.charAt(pstart);
+	        if(match=='?' || match==s.charAt(start)){
+	            return firstMatch(s,start+1,p, pstart+1);
+	        } else if(match=='*'){
+	        	 int k = start;
+	        	 while(k<s.length() && s.charAt(k)=='*') {
+		            	k++;
+		            }
+	        	start = k; 
+	            if(pstart+1>=p.length()){
+	                return true;
+	            }
+	            match = p.charAt(pstart+1);
+	            int k = start;
+	            if(s.charAt(k)==match) {
+	            	
+	            	return firstMatch(s,k+1,p,pstart+2) || firstMatch(s,k+1,p,pstart);
+	            	
+	            } else {
+	            while(k<s.length() && s.charAt(k)!=match) {
+	            	k++;
+	            }
+	            if(k>=s.length()) {
+	            	return false;
+	            } else if(s.charAt(k)==match){
+	            	return firstMatch(s,k+1,p,pstart+2) || firstMatch(s,k+1,p,pstart);
+	            } else {
+		            return false;
+		        }
+	        } 
+	        }else {
+	            return false;
+	        }
+	        
+	        
+	    	 }
+}
+

@@ -1,0 +1,85 @@
+package test;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Interview {
+
+	  // Add any helper functions you may need here
+	  static int[][] t;
+
+	  static boolean canGetExactChange(int targetMoney, int[] denominations) {
+	    // Write your code here
+	    t = new int[denominations.length+1][targetMoney+1];
+	    for(int i=0;i<denominations.length+1;i++) {
+	      Arrays.fill(t[i],-1);
+	    }
+	    int result = canGetExchnageHelper(targetMoney,denominations,0,denominations.length-1);
+	    if(result == 1){
+	      return true;
+	    } else {
+	      return false;
+	    }
+	    
+	  }
+	  
+	  static int canGetExchnageHelper(int targetMoney,int[] denominations,int start,int end) {
+	    
+	    /*for(int i=0;i<=denominations.length;i++) {
+	      t[i][0] = false;
+	    }
+	    for(int j=0;j<=targetMoney;j++) {
+	      t[0][j] = false;
+	    }
+	    t[0][0] = true;
+	    
+	    for(int i=1;i<=denominations.length;i++) {
+	      for(int j=1;j<=targetMoney;j++) {
+	        
+	        if(denominations[i-1]>j) {
+	          t[i][j] = t[i-1][j];
+	        } else {
+	          t[i][j] = t[i-1][j] || t[i][j-denominations[i-1]];
+	        }
+	      }
+	    }
+	     return t[denominations.length][targetMoney];
+	    */
+	    if(targetMoney==0&&end<start) {
+	    	System.out.println("start : " + start + "targetMoney : " + targetMoney + "result : " + t[start][targetMoney]);
+	    	t[start][targetMoney] = 1;
+	    	return t[start][targetMoney];
+	    }
+	    if(targetMoney==0||end<start) {
+	    	System.out.println("start : " + start + "targetMoney : " + targetMoney + "result : " + t[start][targetMoney]);
+	    	t[start][targetMoney] = 0;
+	    	return t[start][targetMoney];
+	    }
+	    if(t[start][targetMoney]==-1){
+	    
+		    if(denominations[start]>targetMoney) {
+		      
+		      t[start][targetMoney]  = canGetExchnageHelper(targetMoney,denominations,start+1,end);
+		      
+		    } else {
+		      if(targetMoney%denominations[start]==0) {
+		        t[start][targetMoney]  = 1;
+		      }
+		     
+		      t[start][targetMoney]  =  Math.max(canGetExchnageHelper(targetMoney-denominations[start],denominations,start,end),  canGetExchnageHelper(targetMoney,denominations,start+1,end));
+		      
+		    }
+	    }
+	    System.out.println("start : " + denominations[start] + "targetMoney : " + targetMoney + "result : " + t[start][targetMoney]);
+	    return t[start][targetMoney];
+	  }
+	
+	public static void main(String[] args) {
+		System.out.println(canGetExactChange(75,new int[] {4,17,29}));
+	}
+
+}

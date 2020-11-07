@@ -1,0 +1,76 @@
+package test;
+
+import java.util.Arrays;
+import java.util.Stack;
+
+public class Interview {
+
+	// Add any helper functions you may need here
+	static int[] getLeftNextGreater(int[] arr) {
+		Stack<Integer> stack = new Stack<>();
+		int[] left = new int[arr.length];
+		for (int i = 0; i < arr.length; i++) {
+
+			if (i == 0) {
+				stack.push(i);
+				left[i] = -1;
+			} else {
+				while (!stack.isEmpty() && arr[stack.peek()] <= arr[i]) {
+					stack.pop();
+				}
+				if (stack.isEmpty()) {
+					left[i] = -1;
+				} else {
+					left[i] = stack.peek();
+				}
+				stack.push(i);
+			}
+
+		}
+		return left;
+
+	}
+
+	static int[] getRightNextGreater(int[] arr) {
+		Stack<Integer> stack = new Stack<>();
+		int[] right = new int[arr.length];
+		for (int i = arr.length - 1; i >= 0; i--) {
+
+			if (i == arr.length - 1) {
+				stack.push(i);
+				right[i] = -1;
+			} else {
+				while (!stack.isEmpty() && arr[stack.peek()] <= arr[i]) {
+					stack.pop();
+				}
+				if (stack.isEmpty()) {
+					right[i] = -1;
+				} else {
+					right[i] = stack.peek();
+				}
+				stack.push(i);
+			}
+
+		}
+		return right;
+
+	}
+
+	static int[] countSubarrays(int[] arr) {
+		// Write your code here
+		System.out.println(Arrays.toString(arr));
+		int[] left = getLeftNextGreater(arr);
+		System.out.println(Arrays.toString(left));
+		int[] right = getRightNextGreater(arr);
+		System.out.println(Arrays.toString(right));
+		for (int i = 0; i < arr.length; i++) {
+			left[i] = right[i] + left[i];
+		}
+		return left;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(Arrays.toString(countSubarrays(new int[] {3, 4, 1, 6, 2})));
+	}
+
+}

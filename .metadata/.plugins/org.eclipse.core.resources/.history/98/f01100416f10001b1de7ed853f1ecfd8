@@ -1,0 +1,26 @@
+
+shareDetail:
+ title: "CB_QUOTED_ITINERARY_00001"
+ subtitle: "CB_QUOTED_ITINERARY_00002"
+ shareMap:
+  WhatsApp:
+   title: "CB_QUOTED_ITINERARY_00003"
+  Gmail:
+   title: "CB_QUOTED_ITINERARY_00004"
+  Facebook:
+   title: "CB_QUOTED_ITINERARY_00005"
+messages:
+ aFee:
+  invalidAmt: "CB_QUOTED_ITINERARY_00006"
+  applied: "CB_QUOTED_ITINERARY_00007"
+  min: "CB_QUOTED_ITINERARY_00008"
+  max: "CB_QUOTED_ITINERARY_00009"
+ quotedItinerary:
+  dtPreText: "CB_QUOTED_ITINERARY_00010"
+  dtTitle: "CB_QUOTED_ITINERARY_00011"
+  affliateFeeTitle: "CB_QUOTED_ITINERARY_00012"
+  preText: "CB_QUOTED_ITINERARY_00013"
+  applied:
+   insurance:
+    title: "CB_QUOTED_ITINERARY_00014"
+    subtitle: "CB_QUOTED_ITINERARY_00015"

@@ -1,0 +1,15 @@
+webcheckin :
+  mysafety :
+    text : "<font color='#4a4a4a'>To enable better social distancing,<b> web check-in</b> is <b>NOW mandatory</b> for domestic air travel</font>"
+  header :
+    title : "Web Check-In"
+    subTitle : "<font color = '#249995' >#AllYouNeedToKnow </font>"
+    rightCtaText: "OKAY"
+  messageList : ["<font color='#4a4a4a'><b>Seat selection</b> is a <b>MUST</b> for web check-in.<br>Avoid the middle seat, pre-book your seat(s) NOW!</font>","<font color='#4a4a4a'> On <b>booking confirmation</b>, tap on <b>‘Web Check-in Now’</b> & complete your web check-in.</font>","<font color='4a4a4a'>Upon successful web check-in, your <b>boarding pass will be sent to your WhatsApp & email.</b></font>"]
+  seatSelectMsg : "SELECT SEATS"
+  skipSeatMsg : "I’ll do it later"
+blackToastMsg:
+  first: "Add-on will be included in your MMTBLACK Privileges."
+  second: "Only 1 add-on will be discounted."
+  notify:
+    ctaText: "Got It"

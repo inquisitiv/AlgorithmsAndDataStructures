@@ -1,0 +1,237 @@
+
+Cross-Legal:
+ traveller:
+  desktop:
+   text: "CB_TRAVELLER_00001"
+  primaryTraveller:
+   text: "CB_TRAVELLER_00002"
+  makePrimary:
+   text: "CB_TRAVELLER_00003"
+loginBanner:
+ banner:
+  login:
+   message: "CB_TRAVELLER_00004"
+fieldOrder:
+ header: "CB_TRAVELLER_00005"
+ subHeader: "CB_TRAVELLER_00006"
+needAssistance:
+ title: "CB_TRAVELLER_00007"
+ subtitle: "CB_TRAVELLER_00008"
+messages:
+ itinSelFailure:
+  ctaText: "CB_TRAVELLER_00009"
+  data:
+   msg: "CB_TRAVELLER_00010"
+   title: "CB_TRAVELLER_00011"
+   subTitle: "CB_TRAVELLER_00012"
+ addTravellerNotAllowed:
+  ctaText: "CB_TRAVELLER_00013"
+  data:
+   msg: "CB_TRAVELLER_00014"
+ genderValues:
+  male: "CB_TRAVELLER_00015"
+  female: "CB_TRAVELLER_00016"
+ selection:
+  errors:
+   wrongItemCode: "CB_TRAVELLER_00017"
+ meta:
+  mandatoryError: "CB_TRAVELLER_00018"
+  upfrontText: "CB_TRAVELLER_00019"
+ travellerService:
+  subTitle: "CB_TRAVELLER_00020"
+  title: "CB_TRAVELLER_00021"
+  selectText: "CB_TRAVELLER_00022"
+  deselectText: "CB_TRAVELLER_00023"
+ leg:
+  title: "CB_TRAVELLER_00024"
+  titleD: "CB_TRAVELLER_00025"
+ validation:
+  countryCode:
+   err:
+    country: "CB_TRAVELLER_00026"
+    mobile: "CB_TRAVELLER_00027"
+  dob:
+   placeholder:
+    adult: "CB_TRAVELLER_00028"
+    child: "CB_TRAVELLER_00029"
+    infant: "CB_TRAVELLER_00030"
+   error:
+    adult: "CB_TRAVELLER_00031"
+    child: "CB_TRAVELLER_00032"
+    infant: "CB_TRAVELLER_00033"
+   pwaHolder: "CB_TRAVELLER_00034"
+  gender:
+   error: "CB_TRAVELLER_00035"
+  email:
+   error: "CB_TRAVELLER_00036"
+  fName:
+   error: "CB_TRAVELLER_00037"
+   tooltip:
+    title: "CB_TRAVELLER_00038"
+    subtitle: "CB_TRAVELLER_00039"
+  gstNum:
+   error: "CB_TRAVELLER_00040"
+  issuingCountry:
+   error: "CB_TRAVELLER_00041"
+  lName:
+   error: "CB_TRAVELLER_00042"
+   tooltip:
+    title: "CB_TRAVELLER_00043"
+    subtitle: "CB_TRAVELLER_00044"
+  ffairline:
+   error: "CB_TRAVELLER_00045"
+  ffnumber:
+   error: "CB_TRAVELLER_00046"
+  importantInfo:
+   label1:
+    DOM: "CB_TRAVELLER_00047"
+    INTL: "CB_TRAVELLER_00048"
+   label2: "CB_TRAVELLER_00049"
+   nameChange:
+    DOM: "CB_TRAVELLER_00050"
+    INTL: "CB_TRAVELLER_00051"
+   noNameChange:
+    DOM: "CB_TRAVELLER_00052"
+    INTL: "CB_TRAVELLER_00053"
+  meal:
+   error: "CB_TRAVELLER_00054"
+   warning: "CB_TRAVELLER_00055"
+   warningSectors: "CB_TRAVELLER_00056"
+   label: "CB_TRAVELLER_00057"
+  wheelchair:
+   selected: "CB_TRAVELLER_00058"
+   notselected: "CB_TRAVELLER_00059"
+   error: "CB_TRAVELLER_00060"
+   warning: "CB_TRAVELLER_00061"
+   warningSectors: "CB_TRAVELLER_00062"
+   label: "CB_TRAVELLER_00063"
+  nationality:
+   error: "CB_TRAVELLER_00064"
+  orgName:
+   error: "CB_TRAVELLER_00065"
+  passport:
+   error: "CB_TRAVELLER_00066"
+   tooltip:
+    title: "CB_TRAVELLER_00067"
+    subtitle: "CB_TRAVELLER_00068"
+  passportExpiry:
+   error: "CB_TRAVELLER_00069"
+   date:
+    placeholder: "CB_TRAVELLER_00070"
+  phone:
+   error: "CB_TRAVELLER_00071"
+ card:
+  adult:
+   addPaxText: "CB_TRAVELLER_00072"
+   noPaxText: "CB_TRAVELLER_00073"
+   title: "CB_TRAVELLER_00074"
+   titleD: "CB_TRAVELLER_00075"
+  child:
+   addPaxText: "CB_TRAVELLER_00076"
+   noPaxText: "CB_TRAVELLER_00077"
+   title: "CB_TRAVELLER_00078"
+   titleD: "CB_TRAVELLER_00079"
+  infant:
+   addPaxText: "CB_TRAVELLER_00080"
+   noPaxText: "CB_TRAVELLER_00081"
+   title: "CB_TRAVELLER_00082"
+   titleD: "CB_TRAVELLER_00083"
+ cardTitle: "CB_TRAVELLER_00084"
+ consent:
+  msg: "CB_TRAVELLER_00085"
+  msgD: "CB_TRAVELLER_00086"
+ contact:
+  subTitle: "CB_TRAVELLER_00087"
+  title: "CB_TRAVELLER_00088"
+ genderData:
+  display:
+   male: "CB_TRAVELLER_00089"
+   female: "CB_TRAVELLER_00090"
+ gst:
+  addGst:
+   ctaText: "CB_TRAVELLER_00091"
+   title: "CB_TRAVELLER_00092"
+  title: "CB_TRAVELLER_00093"
+  titleCorp: "CB_TRAVELLER_00094"
+  checkboxText: "CB_TRAVELLER_00095"
+  info:
+   text: "CB_TRAVELLER_00096"
+  srcData:
+   display:
+    withoutState:
+     browser: "CB_TRAVELLER_00097"
+     app: "CB_TRAVELLER_00098"
+    withState:
+     browser: "CB_TRAVELLER_00099"
+     app: "CB_TRAVELLER_00100"
+ login:
+  buttonText: "CB_TRAVELLER_00101"
+  text: "CB_TRAVELLER_00102"
+ tnc:
+  toastMsg: "CB_TRAVELLER_00103"
+  cta:
+   prefix: "CB_TRAVELLER_00104"
+   prefixWhenCheckBoxBotShown: "CB_TRAVELLER_00105"
+   separator: "CB_TRAVELLER_00106"
+   and: "CB_TRAVELLER_00107"
+   suffix: "CB_TRAVELLER_00108"
+   suffixDom: "CB_TRAVELLER_00109"
+   fareRule: "CB_TRAVELLER_00110"
+   visaRule: "CB_TRAVELLER_00111"
+   privacyPolicy:
+    text: "CB_TRAVELLER_00112"
+    title: "CB_TRAVELLER_00113"
+   userAgreement:
+    text: "CB_TRAVELLER_00114"
+    title: "CB_TRAVELLER_00115"
+   termsOfService:
+    text: "CB_TRAVELLER_00116"
+    title: "CB_TRAVELLER_00117"
+ otherInfoAdmin:
+  text: "CB_TRAVELLER_00118"
+ otherInfo:
+  text: "CB_TRAVELLER_00119"
+ jrnyInfo:
+  ow:
+   title: "CB_TRAVELLER_00120"
+   subTitle: "CB_TRAVELLER_00121"
+  rt:
+   title: "CB_TRAVELLER_00122"
+   subTitle: "CB_TRAVELLER_00123"
+  mc:
+   title: "CB_TRAVELLER_00124"
+   subTitle: "CB_TRAVELLER_00125"
+ jrnySummary:
+  terminal: "CB_TRAVELLER_00126"
+ stops:
+  zero: "CB_TRAVELLER_00127"
+  one: "CB_TRAVELLER_00128"
+  many: "CB_TRAVELLER_00129"
+travellerInfo:
+ footer:
+  titleDefault: "CB_TRAVELLER_00130"
+  titleSingle: "CB_TRAVELLER_00131"
+  titleMultiple: "CB_TRAVELLER_00132"
+  titleRnT: "CB_TRAVELLER_00133"
+  ctaText: "CB_TRAVELLER_00134"
+travellerRules:
+ confirmationMessage: "CB_TRAVELLER_00135"
+nudgeTraveller:
+ title: "CB_TRAVELLER_00136"
+ subTitleDOM: "CB_TRAVELLER_00137"
+ subTitleINTL: "CB_TRAVELLER_00138"
+ lca:
+  text: "CB_TRAVELLER_00139"
+ rca:
+  text: "CB_TRAVELLER_00140"
+ dom:
+  fname: "CB_TRAVELLER_00141"
+  lname: "CB_TRAVELLER_00142"
+  gender: "CB_TRAVELLER_00143"
+  DOB: "CB_TRAVELLER_00144"
+ intl:
+  fname: "CB_TRAVELLER_00145"
+  lname: "CB_TRAVELLER_00146"
+  gender: "CB_TRAVELLER_00147"
+  DOB: "CB_TRAVELLER_00148"
+  passportNumber: "CB_TRAVELLER_00149"

@@ -1,0 +1,48 @@
+package test;
+
+public class Interview {
+
+	  // Add any helper functions you may need here
+	  static char rotatedChar(char c, int k) {
+	    int asciiValue = c;
+	    if (asciiValue>=48 && asciiValue<=57) {
+	      k = (k%10);
+	      asciiValue = (asciiValue+k);
+	      if (asciiValue>57) {
+	        asciiValue = 48 + asciiValue-57-1;
+	      }
+	    } else if (asciiValue>=65 && asciiValue<=90) {
+	       k = (k%26);
+	      asciiValue = (asciiValue+k);
+	      if (asciiValue>90) {
+	        asciiValue = 65 + asciiValue-90-1;
+	      }
+	    } else if (asciiValue>=97 && asciiValue<=122) {
+	      k = (k%26);
+	      asciiValue = (asciiValue+k);
+	      if (asciiValue>122) {
+	        asciiValue = 97 + asciiValue-122-1;
+	      }
+	    }
+	    
+	    return (char)asciiValue;
+	  }
+
+	  static String rotationalCipher(String input, int rotationFactor) {
+	    // Write your code here
+	    StringBuilder str = new StringBuilder();
+	    for(int i=0; i<input.length(); i++) {
+	        char c = input.charAt(i); 
+	        str.append(rotatedChar(c,rotationFactor));
+	    }
+	    
+	    return str.toString();
+	  }
+
+      public static void main(String[] args) {
+		
+	}
+
+
+	
+}
